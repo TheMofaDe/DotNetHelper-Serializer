@@ -1,7 +1,6 @@
 ﻿using System.Data;
 using System.Linq;
 using FastMember;
-
 namespace DotNetHelper_Serializer.Extension
 {
    public static class ExtDataTable
