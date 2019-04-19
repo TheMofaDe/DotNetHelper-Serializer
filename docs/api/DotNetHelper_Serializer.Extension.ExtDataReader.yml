@@ -1,0 +1,1283 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader
+  commentId: T:DotNetHelper_Serializer.Extension.ExtDataReader
+  id: ExtDataReader
+  parent: DotNetHelper_Serializer.Extension
+  children:
+  - DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.Common.DbParameter})
+  - DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.IDbDataParameter})
+  - DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes(System.Data.IDataReader,System.Int32)
+  - DotNetHelper_Serializer.Extension.ExtDataReader.HasRows(System.Data.IDataReader)
+  - DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable(System.Data.IDataReader,System.String)
+  - DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable``1(System.Data.IDataReader,System.String)
+  - DotNetHelper_Serializer.Extension.ExtDataReader.MapToList(System.Data.IDataReader,System.Type)
+  - DotNetHelper_Serializer.Extension.ExtDataReader.MapToList``1(System.Data.IDataReader,DotNetHelper_Serializer.Interface.IJsonSerializer,DotNetHelper_Serializer.Interface.IXmlSerializer,DotNetHelper_Serializer.Interface.ICsvSerializer)
+  - DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary(System.Data.IDataReader)
+  langs:
+  - csharp
+  - vb
+  name: ExtDataReader
+  nameWithType: ExtDataReader
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ExtDataReader
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 16
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static class ExtDataReader
+    content.vb: Public Module ExtDataReader
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes(System.Data.IDataReader,System.Int32)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes(System.Data.IDataReader,System.Int32)
+  id: GetBytes(System.Data.IDataReader,System.Int32)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: GetBytes(IDataReader, Int32)
+  nameWithType: ExtDataReader.GetBytes(IDataReader, Int32)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes(System.Data.IDataReader, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetBytes
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 27
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  summary: "\nReads all available bytes from reader\n"
+  example: []
+  syntax:
+    content: public static byte[] GetBytes(this IDataReader reader, int ordinal)
+    parameters:
+    - id: reader
+      type: System.Data.IDataReader
+      description: ''
+    - id: ordinal
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Byte[]
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBytes(reader As IDataReader, ordinal As Integer) As Byte()
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary(System.Data.IDataReader)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary(System.Data.IDataReader)
+  id: ToDictionary(System.Data.IDataReader)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: ToDictionary(IDataReader)
+  nameWithType: ExtDataReader.ToDictionary(IDataReader)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary(System.Data.IDataReader)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ToDictionary
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 48
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static List<Dictionary<string, object>> ToDictionary(this IDataReader datareader)
+    parameters:
+    - id: datareader
+      type: System.Data.IDataReader
+    return:
+      type: System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDictionary(datareader As IDataReader) As List(Of Dictionary(Of String, Object))
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable``1(System.Data.IDataReader,System.String)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable``1(System.Data.IDataReader,System.String)
+  id: MapToDataTable``1(System.Data.IDataReader,System.String)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: MapToDataTable<T>(IDataReader, String)
+  nameWithType: ExtDataReader.MapToDataTable<T>(IDataReader, String)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable<T>(System.Data.IDataReader, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: MapToDataTable
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 83
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      public static DataTable MapToDataTable<T>(this IDataReader reader, string tableName)
+          where T : class
+    parameters:
+    - id: reader
+      type: System.Data.IDataReader
+      description: ''
+    - id: tableName
+      type: System.String
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Data.DataTable
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MapToDataTable(Of T As Class)(reader As IDataReader, tableName As String) As DataTable
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable*
+  nameWithType.vb: ExtDataReader.MapToDataTable(Of T)(IDataReader, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable(Of T)(System.Data.IDataReader, System.String)
+  name.vb: MapToDataTable(Of T)(IDataReader, String)
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable(System.Data.IDataReader,System.String)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable(System.Data.IDataReader,System.String)
+  id: MapToDataTable(System.Data.IDataReader,System.String)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: MapToDataTable(IDataReader, String)
+  nameWithType: ExtDataReader.MapToDataTable(IDataReader, String)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable(System.Data.IDataReader, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: MapToDataTable
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 99
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static DataTable MapToDataTable(this IDataReader reader, string tableName)
+    parameters:
+    - id: reader
+      type: System.Data.IDataReader
+      description: ''
+    - id: tableName
+      type: System.String
+    return:
+      type: System.Data.DataTable
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MapToDataTable(reader As IDataReader, tableName As String) As DataTable
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.HasRows(System.Data.IDataReader)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.HasRows(System.Data.IDataReader)
+  id: HasRows(System.Data.IDataReader)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: HasRows(IDataReader)
+  nameWithType: ExtDataReader.HasRows(IDataReader)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.HasRows(System.Data.IDataReader)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: HasRows
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 109
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool? HasRows(this IDataReader reader)
+    parameters:
+    - id: reader
+      type: System.Data.IDataReader
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasRows(reader As IDataReader) As Boolean?
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.HasRows*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.IDbDataParameter})
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.IDbDataParameter})
+  id: AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.IDbDataParameter})
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: AddParameters(IDbCommand, List<IDbDataParameter>)
+  nameWithType: ExtDataReader.AddParameters(IDbCommand, List<IDbDataParameter>)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand, System.Collections.Generic.List<System.Data.IDbDataParameter>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: AddParameters
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 119
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static void AddParameters(this IDbCommand command, List<IDbDataParameter> parameters)
+    parameters:
+    - id: command
+      type: System.Data.IDbCommand
+    - id: parameters
+      type: System.Collections.Generic.List{System.Data.IDbDataParameter}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddParameters(command As IDbCommand, parameters As List(Of IDbDataParameter))
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters*
+  nameWithType.vb: ExtDataReader.AddParameters(IDbCommand, List(Of IDbDataParameter))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand, System.Collections.Generic.List(Of System.Data.IDbDataParameter))
+  name.vb: AddParameters(IDbCommand, List(Of IDbDataParameter))
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.Common.DbParameter})
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.Common.DbParameter})
+  id: AddParameters(System.Data.IDbCommand,System.Collections.Generic.List{System.Data.Common.DbParameter})
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: AddParameters(IDbCommand, List<DbParameter>)
+  nameWithType: ExtDataReader.AddParameters(IDbCommand, List<DbParameter>)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand, System.Collections.Generic.List<System.Data.Common.DbParameter>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: AddParameters
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 128
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static void AddParameters(this IDbCommand command, List<DbParameter> parameters)
+    parameters:
+    - id: command
+      type: System.Data.IDbCommand
+    - id: parameters
+      type: System.Collections.Generic.List{System.Data.Common.DbParameter}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddParameters(command As IDbCommand, parameters As List(Of DbParameter))
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters*
+  nameWithType.vb: ExtDataReader.AddParameters(IDbCommand, List(Of DbParameter))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters(System.Data.IDbCommand, System.Collections.Generic.List(Of System.Data.Common.DbParameter))
+  name.vb: AddParameters(IDbCommand, List(Of DbParameter))
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList``1(System.Data.IDataReader,DotNetHelper_Serializer.Interface.IJsonSerializer,DotNetHelper_Serializer.Interface.IXmlSerializer,DotNetHelper_Serializer.Interface.ICsvSerializer)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.MapToList``1(System.Data.IDataReader,DotNetHelper_Serializer.Interface.IJsonSerializer,DotNetHelper_Serializer.Interface.IXmlSerializer,DotNetHelper_Serializer.Interface.ICsvSerializer)
+  id: MapToList``1(System.Data.IDataReader,DotNetHelper_Serializer.Interface.IJsonSerializer,DotNetHelper_Serializer.Interface.IXmlSerializer,DotNetHelper_Serializer.Interface.ICsvSerializer)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: MapToList<T>(IDataReader, IJsonSerializer, IXmlSerializer, ICsvSerializer)
+  nameWithType: ExtDataReader.MapToList<T>(IDataReader, IJsonSerializer, IXmlSerializer, ICsvSerializer)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList<T>(System.Data.IDataReader, DotNetHelper_Serializer.Interface.IJsonSerializer, DotNetHelper_Serializer.Interface.IXmlSerializer, DotNetHelper_Serializer.Interface.ICsvSerializer)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: MapToList
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 147
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      public static List<T> MapToList<T>(this IDataReader reader, IJsonSerializer jsonSerializer = null, IXmlSerializer xmlSerializer = null, ICsvSerializer csvSerializer = null)
+          where T : class
+    parameters:
+    - id: reader
+      type: System.Data.IDataReader
+      description: ''
+    - id: jsonSerializer
+      type: DotNetHelper_Serializer.Interface.IJsonSerializer
+    - id: xmlSerializer
+      type: DotNetHelper_Serializer.Interface.IXmlSerializer
+    - id: csvSerializer
+      type: DotNetHelper_Serializer.Interface.ICsvSerializer
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.List{{T}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MapToList(Of T As Class)(reader As IDataReader, jsonSerializer As IJsonSerializer = Nothing, xmlSerializer As IXmlSerializer = Nothing, csvSerializer As ICsvSerializer = Nothing) As List(Of T)
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList*
+  nameWithType.vb: ExtDataReader.MapToList(Of T)(IDataReader, IJsonSerializer, IXmlSerializer, ICsvSerializer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList(Of T)(System.Data.IDataReader, DotNetHelper_Serializer.Interface.IJsonSerializer, DotNetHelper_Serializer.Interface.IXmlSerializer, DotNetHelper_Serializer.Interface.ICsvSerializer)
+  name.vb: MapToList(Of T)(IDataReader, IJsonSerializer, IXmlSerializer, ICsvSerializer)
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList(System.Data.IDataReader,System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtDataReader.MapToList(System.Data.IDataReader,System.Type)
+  id: MapToList(System.Data.IDataReader,System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtDataReader
+  langs:
+  - csharp
+  - vb
+  name: MapToList(IDataReader, Type)
+  nameWithType: ExtDataReader.MapToList(IDataReader, Type)
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList(System.Data.IDataReader, System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: MapToList
+    path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
+    startLine: 206
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static List<object> MapToList(this IDataReader reader, Type mapToType)
+    parameters:
+    - id: reader
+      type: System.Data.IDataReader
+    - id: mapToType
+      type: System.Type
+    return:
+      type: System.Collections.Generic.List{System.Object}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MapToList(reader As IDataReader, mapToType As Type) As List(Of Object)
+  overload: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes
+  name: GetBytes
+  nameWithType: ExtDataReader.GetBytes
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.GetBytes
+- uid: System.Data.IDataReader
+  commentId: T:System.Data.IDataReader
+  parent: System.Data
+  isExternal: true
+  name: IDataReader
+  nameWithType: IDataReader
+  fullName: System.Data.IDataReader
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary
+  name: ToDictionary
+  nameWithType: ExtDataReader.ToDictionary
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.ToDictionary
+- uid: System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Dictionary<String, Object>>
+  nameWithType: List<Dictionary<String, Object>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.Dictionary<System.String, System.Object>>
+  nameWithType.vb: List(Of Dictionary(Of String, Object))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  name.vb: List(Of Dictionary(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable
+  name: MapToDataTable
+  nameWithType: ExtDataReader.MapToDataTable
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.MapToDataTable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Data.DataTable
+  commentId: T:System.Data.DataTable
+  parent: System.Data
+  isExternal: true
+  name: DataTable
+  nameWithType: DataTable
+  fullName: System.Data.DataTable
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.HasRows*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtDataReader.HasRows
+  name: HasRows
+  nameWithType: ExtDataReader.HasRows
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.HasRows
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters
+  name: AddParameters
+  nameWithType: ExtDataReader.AddParameters
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.AddParameters
+- uid: System.Data.IDbCommand
+  commentId: T:System.Data.IDbCommand
+  parent: System.Data
+  isExternal: true
+  name: IDbCommand
+  nameWithType: IDbCommand
+  fullName: System.Data.IDbCommand
+- uid: System.Collections.Generic.List{System.Data.IDbDataParameter}
+  commentId: T:System.Collections.Generic.List{System.Data.IDbDataParameter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IDbDataParameter>
+  nameWithType: List<IDbDataParameter>
+  fullName: System.Collections.Generic.List<System.Data.IDbDataParameter>
+  nameWithType.vb: List(Of IDbDataParameter)
+  fullName.vb: System.Collections.Generic.List(Of System.Data.IDbDataParameter)
+  name.vb: List(Of IDbDataParameter)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.IDbDataParameter
+    name: IDbDataParameter
+    nameWithType: IDbDataParameter
+    fullName: System.Data.IDbDataParameter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.IDbDataParameter
+    name: IDbDataParameter
+    nameWithType: IDbDataParameter
+    fullName: System.Data.IDbDataParameter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{System.Data.Common.DbParameter}
+  commentId: T:System.Collections.Generic.List{System.Data.Common.DbParameter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DbParameter>
+  nameWithType: List<DbParameter>
+  fullName: System.Collections.Generic.List<System.Data.Common.DbParameter>
+  nameWithType.vb: List(Of DbParameter)
+  fullName.vb: System.Collections.Generic.List(Of System.Data.Common.DbParameter)
+  name.vb: List(Of DbParameter)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Data.Common.DbParameter
+    name: DbParameter
+    nameWithType: DbParameter
+    fullName: System.Data.Common.DbParameter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Data.Common.DbParameter
+    name: DbParameter
+    nameWithType: DbParameter
+    fullName: System.Data.Common.DbParameter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtDataReader.MapToList
+  name: MapToList
+  nameWithType: ExtDataReader.MapToList
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader.MapToList
+- uid: DotNetHelper_Serializer.Interface.IJsonSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.IJsonSerializer
+  parent: DotNetHelper_Serializer.Interface
+  name: IJsonSerializer
+  nameWithType: IJsonSerializer
+  fullName: DotNetHelper_Serializer.Interface.IJsonSerializer
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.IXmlSerializer
+  parent: DotNetHelper_Serializer.Interface
+  name: IXmlSerializer
+  nameWithType: IXmlSerializer
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer
+- uid: DotNetHelper_Serializer.Interface.ICsvSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.ICsvSerializer
+  parent: DotNetHelper_Serializer.Interface
+  name: ICsvSerializer
+  nameWithType: ICsvSerializer
+  fullName: DotNetHelper_Serializer.Interface.ICsvSerializer
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Interface
+  commentId: N:DotNetHelper_Serializer.Interface
+  name: DotNetHelper_Serializer.Interface
+  nameWithType: DotNetHelper_Serializer.Interface
+  fullName: DotNetHelper_Serializer.Interface
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Collections.Generic.List{System.Object}
+  commentId: T:System.Collections.Generic.List{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Object>
+  nameWithType: List<Object>
+  fullName: System.Collections.Generic.List<System.Object>
+  nameWithType.vb: List(Of Object)
+  fullName.vb: System.Collections.Generic.List(Of System.Object)
+  name.vb: List(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

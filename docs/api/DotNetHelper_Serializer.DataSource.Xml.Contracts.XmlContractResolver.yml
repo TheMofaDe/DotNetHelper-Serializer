@@ -1,0 +1,1281 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  id: XmlContractResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor(System.Boolean)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor(System.Func{System.String,System.String},System.Boolean)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName(System.Type,System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName(System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type,System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty(System.Reflection.PropertyInfo)
+  langs:
+  - csharp
+  - vb
+  name: XmlContractResolver
+  nameWithType: XmlContractResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlContractResolver
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 10
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: 'public class XmlContractResolver : IXmlContractResolver'
+    content.vb: >-
+      Public Class XmlContractResolver
+          Implements IXmlContractResolver
+  inheritance:
+  - System.Object
+  implements:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor(System.Boolean)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: XmlContractResolver(Boolean)
+  nameWithType: XmlContractResolver.XmlContractResolver(Boolean)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.XmlContractResolver(System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 15
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public XmlContractResolver(bool ignoreSystemAttributes = false)
+    parameters:
+    - id: ignoreSystemAttributes
+      type: System.Boolean
+    content.vb: Public Sub New(ignoreSystemAttributes As Boolean = False)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor(System.Func{System.String,System.String},System.Boolean)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor(System.Func{System.String,System.String},System.Boolean)
+  id: '#ctor(System.Func{System.String,System.String},System.Boolean)'
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: XmlContractResolver(Func<String, String>, Boolean)
+  nameWithType: XmlContractResolver.XmlContractResolver(Func<String, String>, Boolean)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.XmlContractResolver(System.Func<System.String, System.String>, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 20
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public XmlContractResolver(Func<string, string> nameResolver, bool ignoreSystemAttributes = false)
+    parameters:
+    - id: nameResolver
+      type: System.Func{System.String,System.String}
+    - id: ignoreSystemAttributes
+      type: System.Boolean
+    content.vb: Public Sub New(nameResolver As Func(Of String, String), ignoreSystemAttributes As Boolean = False)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor*
+  nameWithType.vb: XmlContractResolver.XmlContractResolver(Func(Of String, String), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.XmlContractResolver(System.Func(Of System.String, System.String), System.Boolean)
+  name.vb: XmlContractResolver(Func(Of String, String), Boolean)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract(System.Type)
+  id: ResolveContract(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveContract(Type)
+  nameWithType: XmlContractResolver.ResolveContract(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveContract
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 26
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public virtual XmlContract ResolveContract(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+    content.vb: Public Overridable Function ResolveContract(valueType As Type) As XmlContract
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract*
+  implements:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type)
+  id: ResolveName(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveName(Type)
+  nameWithType: XmlContractResolver.ResolveName(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 51
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual XmlName ResolveName(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    content.vb: Protected Overridable Function ResolveName(valueType As Type) As XmlName
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type,System.String)
+  id: ResolveName(System.Type,System.String)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveName(Type, String)
+  nameWithType: XmlContractResolver.ResolveName(Type, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName(System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 56
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual XmlName ResolveName(Type valueType, string name)
+    parameters:
+    - id: valueType
+      type: System.Type
+    - id: name
+      type: System.String
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    content.vb: Protected Overridable Function ResolveName(valueType As Type, name As String) As XmlName
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName(System.Type)
+  id: ResolveContractName(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveContractName(Type)
+  nameWithType: XmlContractResolver.ResolveContractName(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveContractName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 71
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual XmlName ResolveContractName(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    content.vb: Protected Overridable Function ResolveContractName(valueType As Type) As XmlName
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName(System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName(System.String)
+  id: GetLocalName(System.String)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: GetLocalName(String)
+  nameWithType: XmlContractResolver.GetLocalName(String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetLocalName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 88
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual string GetLocalName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function GetLocalName(name As String) As String
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName(System.Type,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName(System.Type,System.String)
+  id: GetEnumItemName(System.Type,System.String)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: GetEnumItemName(Type, String)
+  nameWithType: XmlContractResolver.GetEnumItemName(Type, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName(System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetEnumItemName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 93
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual string GetEnumItemName(Type valueType, string name)
+    parameters:
+    - id: valueType
+      type: System.Type
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function GetEnumItemName(valueType As Type, name As String) As String
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties(System.Type)
+  id: GetProperties(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: GetProperties(Type)
+  nameWithType: XmlContractResolver.GetProperties(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetProperties
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 98
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual IEnumerable<PropertyInfo> GetProperties(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+    content.vb: Protected Overridable Function GetProperties(valueType As Type) As IEnumerable(Of PropertyInfo)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem(System.Type)
+  id: ResolveItem(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveItem(Type)
+  nameWithType: XmlContractResolver.ResolveItem(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveItem
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 105
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual XmlItem ResolveItem(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlItem
+    content.vb: Protected Overridable Function ResolveItem(valueType As Type) As XmlItem
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems(System.Type)
+  id: ResolveEnumItems(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveEnumItems(Type)
+  nameWithType: XmlContractResolver.ResolveEnumItems(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveEnumItems
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 122
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual IEnumerable<XmlEnumItem> ResolveEnumItems(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+    content.vb: Protected Overridable Function ResolveEnumItems(valueType As Type) As IEnumerable(Of XmlEnumItem)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty(System.Reflection.PropertyInfo)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty(System.Reflection.PropertyInfo)
+  id: ResolveProperty(System.Reflection.PropertyInfo)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveProperty(PropertyInfo)
+  nameWithType: XmlContractResolver.ResolveProperty(PropertyInfo)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty(System.Reflection.PropertyInfo)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveProperty
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
+    startLine: 153
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: protected virtual XmlProperty ResolveProperty(PropertyInfo propertyInfo)
+    parameters:
+    - id: propertyInfo
+      type: System.Reflection.PropertyInfo
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlProperty
+    content.vb: Protected Overridable Function ResolveProperty(propertyInfo As PropertyInfo) As XmlProperty
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: IXmlContractResolver
+  nameWithType: IXmlContractResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlContractResolver>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlContractResolver>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlContractResolver)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver)()
+  name.vb: CanHaveNullValue(Of XmlContractResolver)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlContractResolver>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlContractResolver>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlContractResolver)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlContractResolver)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.#ctor
+  name: XmlContractResolver
+  nameWithType: XmlContractResolver.XmlContractResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.XmlContractResolver
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Func{System.String,System.String}
+  commentId: T:System.Func{System.String,System.String}
+  parent: System
+  definition: System.Func`2
+  name: Func<String, String>
+  nameWithType: Func<String, String>
+  fullName: System.Func<System.String, System.String>
+  nameWithType.vb: Func(Of String, String)
+  fullName.vb: System.Func(Of System.String, System.String)
+  name.vb: Func(Of String, String)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract
+  name: ResolveContract
+  nameWithType: XmlContractResolver.ResolveContract
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContract
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  isExternal: true
+  name: ResolveContract(Type)
+  nameWithType: IXmlContractResolver.ResolveContract(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+    name: ResolveContract
+    nameWithType: IXmlContractResolver.ResolveContract
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+    name: ResolveContract
+    nameWithType: IXmlContractResolver.ResolveContract
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlContract
+  nameWithType: XmlContract
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName
+  name: ResolveName
+  nameWithType: XmlContractResolver.ResolveName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveName
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlName
+  nameWithType: XmlName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName
+  name: ResolveContractName
+  nameWithType: XmlContractResolver.ResolveContractName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveContractName
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName
+  name: GetLocalName
+  nameWithType: XmlContractResolver.GetLocalName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetLocalName
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName
+  name: GetEnumItemName
+  nameWithType: XmlContractResolver.GetEnumItemName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetEnumItemName
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties
+  name: GetProperties
+  nameWithType: XmlContractResolver.GetProperties
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.GetProperties
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PropertyInfo>
+  nameWithType: IEnumerable<PropertyInfo>
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.PropertyInfo>
+  nameWithType.vb: IEnumerable(Of PropertyInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.PropertyInfo)
+  name.vb: IEnumerable(Of PropertyInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem
+  name: ResolveItem
+  nameWithType: XmlContractResolver.ResolveItem
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveItem
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlItem
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlItem
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlItem
+  nameWithType: XmlItem
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlItem
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems
+  name: ResolveEnumItems
+  nameWithType: XmlContractResolver.ResolveEnumItems
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveEnumItems
+- uid: System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  commentId: T:System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<XmlEnumItem>
+  nameWithType: IEnumerable<XmlEnumItem>
+  fullName: System.Collections.Generic.IEnumerable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem>
+  nameWithType.vb: IEnumerable(Of XmlEnumItem)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  name.vb: IEnumerable(Of XmlEnumItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    name: XmlEnumItem
+    nameWithType: XmlEnumItem
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    name: XmlEnumItem
+    nameWithType: XmlEnumItem
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty
+  name: ResolveProperty
+  nameWithType: XmlContractResolver.ResolveProperty
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.ResolveProperty
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlProperty
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlProperty
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlProperty
+  nameWithType: XmlProperty
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlProperty
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection

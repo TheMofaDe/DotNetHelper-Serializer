@@ -1,0 +1,733 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  commentId: T:DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  id: SqlSyntaxHelper
+  parent: DotNetHelper_Serializer.Helper
+  children:
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.#ctor(DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement(System.String,System.String,System.String)
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar(System.Type)
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SqlSyntaxHelper
+  nameWithType: SqlSyntaxHelper
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SqlSyntaxHelper
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 7
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public class SqlSyntaxHelper
+    content.vb: Public Class SqlSyntaxHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType
+  commentId: P:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType
+  id: DataBaseType
+  parent: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: DataBaseType
+  nameWithType: SqlSyntaxHelper.DataBaseType
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DataBaseType
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 11
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public DataBaseType DataBaseType { get; }
+    parameters: []
+    return:
+      type: DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+    content.vb: Public ReadOnly Property DataBaseType As DataBaseType
+  overload: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.#ctor(DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  commentId: M:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.#ctor(DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  id: '#ctor(DotNetHelper_Contracts.Enum.DataSource.DataBaseType)'
+  parent: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: SqlSyntaxHelper(DataBaseType)
+  nameWithType: SqlSyntaxHelper.SqlSyntaxHelper(DataBaseType)
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.SqlSyntaxHelper(DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 12
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public SqlSyntaxHelper(DataBaseType type)
+    parameters:
+    - id: type
+      type: DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+    content.vb: Public Sub New(type As DataBaseType)
+  overload: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar
+  commentId: M:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar
+  id: GetTableOpenChar
+  parent: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTableOpenChar()
+  nameWithType: SqlSyntaxHelper.GetTableOpenChar()
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetTableOpenChar
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 20
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public string GetTableOpenChar()
+    return:
+      type: System.String
+    content.vb: Public Function GetTableOpenChar As String
+  overload: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar
+  commentId: M:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar
+  id: GetTableClosedChar
+  parent: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTableClosedChar()
+  nameWithType: SqlSyntaxHelper.GetTableClosedChar()
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetTableClosedChar
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 44
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public string GetTableClosedChar()
+    return:
+      type: System.String
+    content.vb: Public Function GetTableClosedChar As String
+  overload: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar(System.String)
+  commentId: M:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar(System.String)
+  id: RemoveBracketsChar(System.String)
+  parent: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveBracketsChar(String)
+  nameWithType: SqlSyntaxHelper.RemoveBracketsChar(String)
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: RemoveBracketsChar
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 67
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public string RemoveBracketsChar(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function RemoveBracketsChar(value As String) As String
+  overload: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar(System.Type)
+  commentId: M:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar(System.Type)
+  id: GetEnclosedValueChar(System.Type)
+  parent: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: GetEnclosedValueChar(Type)
+  nameWithType: SqlSyntaxHelper.GetEnclosedValueChar(Type)
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetEnclosedValueChar
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 75
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public string GetEnclosedValueChar(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.String
+    content.vb: Public Function GetEnclosedValueChar(type As Type) As String
+  overload: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement(System.String,System.String,System.String)
+  commentId: M:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement(System.String,System.String,System.String)
+  id: BuildIfExistStatement(System.String,System.String,System.String)
+  parent: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: BuildIfExistStatement(String, String, String)
+  nameWithType: SqlSyntaxHelper.BuildIfExistStatement(String, String, String)
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: BuildIfExistStatement
+    path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
+    startLine: 170
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public string BuildIfExistStatement(string selectStatement, string onTrueSql, string onFalseSql)
+    parameters:
+    - id: selectStatement
+      type: System.String
+    - id: onTrueSql
+      type: System.String
+    - id: onFalseSql
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function BuildIfExistStatement(selectStatement As String, onTrueSql As String, onFalseSql As String) As String
+  overload: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Serializer.Helper
+  commentId: N:DotNetHelper_Serializer.Helper
+  name: DotNetHelper_Serializer.Helper
+  nameWithType: DotNetHelper_Serializer.Helper
+  fullName: DotNetHelper_Serializer.Helper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<SqlSyntaxHelper>()
+  nameWithType: TypeExtension.CanHaveNullValue<SqlSyntaxHelper>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Helper.SqlSyntaxHelper>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of SqlSyntaxHelper)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Helper.SqlSyntaxHelper)()
+  name.vb: CanHaveNullValue(Of SqlSyntaxHelper)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<SqlSyntaxHelper>
+    nameWithType: TypeExtension.CanHaveNullValue<SqlSyntaxHelper>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Helper.SqlSyntaxHelper>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of SqlSyntaxHelper)
+    nameWithType: TypeExtension.CanHaveNullValue(Of SqlSyntaxHelper)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Helper.SqlSyntaxHelper)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType*
+  commentId: Overload:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType
+  name: DataBaseType
+  nameWithType: SqlSyntaxHelper.DataBaseType
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.DataBaseType
+- uid: DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+  commentId: T:DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+  parent: DotNetHelper_Contracts.Enum.DataSource
+  isExternal: true
+  name: DataBaseType
+  nameWithType: DataBaseType
+  fullName: DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+- uid: DotNetHelper_Contracts.Enum.DataSource
+  commentId: N:DotNetHelper_Contracts.Enum.DataSource
+  isExternal: true
+  name: DotNetHelper_Contracts.Enum.DataSource
+  nameWithType: DotNetHelper_Contracts.Enum.DataSource
+  fullName: DotNetHelper_Contracts.Enum.DataSource
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.#ctor*
+  commentId: Overload:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.#ctor
+  name: SqlSyntaxHelper
+  nameWithType: SqlSyntaxHelper.SqlSyntaxHelper
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.SqlSyntaxHelper
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar*
+  commentId: Overload:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar
+  name: GetTableOpenChar
+  nameWithType: SqlSyntaxHelper.GetTableOpenChar
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableOpenChar
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar*
+  commentId: Overload:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar
+  name: GetTableClosedChar
+  nameWithType: SqlSyntaxHelper.GetTableClosedChar
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetTableClosedChar
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar*
+  commentId: Overload:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar
+  name: RemoveBracketsChar
+  nameWithType: SqlSyntaxHelper.RemoveBracketsChar
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.RemoveBracketsChar
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar*
+  commentId: Overload:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar
+  name: GetEnclosedValueChar
+  nameWithType: SqlSyntaxHelper.GetEnclosedValueChar
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.GetEnclosedValueChar
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement*
+  commentId: Overload:DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement
+  name: BuildIfExistStatement
+  nameWithType: SqlSyntaxHelper.BuildIfExistStatement
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper.BuildIfExistStatement

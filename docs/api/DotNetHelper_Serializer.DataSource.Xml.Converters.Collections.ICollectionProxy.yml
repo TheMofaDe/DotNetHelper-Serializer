@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy
+  id: ICollectionProxy
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add(System.Object)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult
+  langs:
+  - csharp
+  - vb
+  name: ICollectionProxy
+  nameWithType: ICollectionProxy
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy
+  type: Interface
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ICollectionProxy
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
+    startLine: 2
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  syntax:
+    content: public interface ICollectionProxy
+    content.vb: Public Interface ICollectionProxy
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add(System.Object)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add(System.Object)
+  id: Add(System.Object)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy
+  langs:
+  - csharp
+  - vb
+  name: Add(Object)
+  nameWithType: ICollectionProxy.Add(Object)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Add
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  syntax:
+    content: void Add(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Sub Add(value As Object)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add*
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult
+  id: GetResult
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy
+  langs:
+  - csharp
+  - vb
+  name: GetResult()
+  nameWithType: ICollectionProxy.GetResult()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetResult
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  syntax:
+    content: object GetResult()
+    return:
+      type: System.Object
+    content.vb: Function GetResult As Object
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult*
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<ICollectionProxy>()
+  nameWithType: TypeExtension.CanHaveNullValue<ICollectionProxy>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of ICollectionProxy)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy)()
+  name.vb: CanHaveNullValue(Of ICollectionProxy)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<ICollectionProxy>
+    nameWithType: TypeExtension.CanHaveNullValue<ICollectionProxy>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of ICollectionProxy)
+    nameWithType: TypeExtension.CanHaveNullValue(Of ICollectionProxy)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add
+  name: Add
+  nameWithType: ICollectionProxy.Add
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.Add
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult
+  name: GetResult
+  nameWithType: ICollectionProxy.GetResult
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.GetResult

@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml
+  id: DotNetHelper_Serializer.DataSource.Xml
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializationException
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  - DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.DataSource.Xml
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml
+  fullName: DotNetHelper_Serializer.DataSource.Xml
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlSerializationContext
+  nameWithType: XmlSerializationContext
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationException
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlSerializationException
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlSerializationException
+  nameWithType: XmlSerializationException
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationException
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlSerializerSettings
+  nameWithType: XmlSerializerSettings
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlTypeContext
+  nameWithType: XmlTypeContext
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+- uid: DotNetHelper_Serializer.DataSource.Xml
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml
+  name: DotNetHelper_Serializer.DataSource.Xml
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml
+  fullName: DotNetHelper_Serializer.DataSource.Xml

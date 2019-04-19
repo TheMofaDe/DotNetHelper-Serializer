@@ -1,0 +1,611 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  commentId: T:DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  id: FullQueryBucketEventArgs
+  parent: DotNetHelper_Serializer.Model
+  children:
+  - DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.#ctor(System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket})
+  - DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries
+  langs:
+  - csharp
+  - vb
+  name: FullQueryBucketEventArgs
+  nameWithType: FullQueryBucketEventArgs
+  fullName: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: FullQueryBucketEventArgs
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 79
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: 'public class FullQueryBucketEventArgs : EventArgs'
+    content.vb: >-
+      Public Class FullQueryBucketEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries
+  commentId: P:DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries
+  id: BucketOfQueries
+  parent: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  langs:
+  - csharp
+  - vb
+  name: BucketOfQueries
+  nameWithType: FullQueryBucketEventArgs.BucketOfQueries
+  fullName: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: BucketOfQueries
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 81
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public List<QueryBucket> BucketOfQueries { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket}
+    content.vb: Public ReadOnly Property BucketOfQueries As List(Of QueryBucket)
+  overload: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.#ctor(System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket})
+  commentId: M:DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.#ctor(System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket})
+  id: '#ctor(System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket})'
+  parent: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  langs:
+  - csharp
+  - vb
+  name: FullQueryBucketEventArgs(List<QueryBucket>)
+  nameWithType: FullQueryBucketEventArgs.FullQueryBucketEventArgs(List<QueryBucket>)
+  fullName: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.FullQueryBucketEventArgs(System.Collections.Generic.List<DotNetHelper_Serializer.Model.QueryBucket>)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 83
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public FullQueryBucketEventArgs(List<QueryBucket> buckets)
+    parameters:
+    - id: buckets
+      type: System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket}
+    content.vb: Public Sub New(buckets As List(Of QueryBucket))
+  overload: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.#ctor*
+  nameWithType.vb: FullQueryBucketEventArgs.FullQueryBucketEventArgs(List(Of QueryBucket))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.FullQueryBucketEventArgs(System.Collections.Generic.List(Of DotNetHelper_Serializer.Model.QueryBucket))
+  name.vb: FullQueryBucketEventArgs(List(Of QueryBucket))
+references:
+- uid: DotNetHelper_Serializer.Model
+  commentId: N:DotNetHelper_Serializer.Model
+  name: DotNetHelper_Serializer.Model
+  nameWithType: DotNetHelper_Serializer.Model
+  fullName: DotNetHelper_Serializer.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<FullQueryBucketEventArgs>()
+  nameWithType: TypeExtension.CanHaveNullValue<FullQueryBucketEventArgs>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.FullQueryBucketEventArgs>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of FullQueryBucketEventArgs)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.FullQueryBucketEventArgs)()
+  name.vb: CanHaveNullValue(Of FullQueryBucketEventArgs)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<FullQueryBucketEventArgs>
+    nameWithType: TypeExtension.CanHaveNullValue<FullQueryBucketEventArgs>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.FullQueryBucketEventArgs>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of FullQueryBucketEventArgs)
+    nameWithType: TypeExtension.CanHaveNullValue(Of FullQueryBucketEventArgs)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.FullQueryBucketEventArgs)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries*
+  commentId: Overload:DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries
+  name: BucketOfQueries
+  nameWithType: FullQueryBucketEventArgs.BucketOfQueries
+  fullName: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.BucketOfQueries
+- uid: System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket}
+  commentId: T:System.Collections.Generic.List{DotNetHelper_Serializer.Model.QueryBucket}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<QueryBucket>
+  nameWithType: List<QueryBucket>
+  fullName: System.Collections.Generic.List<DotNetHelper_Serializer.Model.QueryBucket>
+  nameWithType.vb: List(Of QueryBucket)
+  fullName.vb: System.Collections.Generic.List(Of DotNetHelper_Serializer.Model.QueryBucket)
+  name.vb: List(Of QueryBucket)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.Model.QueryBucket
+    name: QueryBucket
+    nameWithType: QueryBucket
+    fullName: DotNetHelper_Serializer.Model.QueryBucket
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.Model.QueryBucket
+    name: QueryBucket
+    nameWithType: QueryBucket
+    fullName: DotNetHelper_Serializer.Model.QueryBucket
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.#ctor*
+  commentId: Overload:DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.#ctor
+  name: FullQueryBucketEventArgs
+  nameWithType: FullQueryBucketEventArgs.FullQueryBucketEventArgs
+  fullName: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.FullQueryBucketEventArgs

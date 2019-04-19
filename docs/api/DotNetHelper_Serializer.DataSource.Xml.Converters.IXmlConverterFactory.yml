@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+  id: IXmlConverterFactory
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract)
+  langs:
+  - csharp
+  - vb
+  name: IXmlConverterFactory
+  nameWithType: IXmlConverterFactory
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+  type: Interface
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IXmlConverterFactory
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters
+  syntax:
+    content: public interface IXmlConverterFactory
+    content.vb: Public Interface IXmlConverterFactory
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract)
+  id: CreateConverter(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateConverter(XmlContract)
+  nameWithType: IXmlConverterFactory.CreateConverter(XmlContract)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CreateConverter
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters
+  syntax:
+    content: IXmlConverter CreateConverter(XmlContract contract)
+    parameters:
+    - id: contract
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+    content.vb: Function CreateConverter(contract As XmlContract) As IXmlConverter
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter*
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<IXmlConverterFactory>()
+  nameWithType: TypeExtension.CanHaveNullValue<IXmlConverterFactory>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of IXmlConverterFactory)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory)()
+  name.vb: CanHaveNullValue(Of IXmlConverterFactory)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<IXmlConverterFactory>
+    nameWithType: TypeExtension.CanHaveNullValue<IXmlConverterFactory>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of IXmlConverterFactory)
+    nameWithType: TypeExtension.CanHaveNullValue(Of IXmlConverterFactory)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter
+  name: CreateConverter
+  nameWithType: IXmlConverterFactory.CreateConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.CreateConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlContract
+  nameWithType: XmlContract
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: IXmlConverter
+  nameWithType: IXmlConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts

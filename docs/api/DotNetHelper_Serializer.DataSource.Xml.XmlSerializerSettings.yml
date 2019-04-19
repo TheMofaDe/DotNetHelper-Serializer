@@ -1,0 +1,1400 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  id: XmlSerializerSettings
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.#ctor
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver
+  langs:
+  - csharp
+  - vb
+  name: XmlSerializerSettings
+  nameWithType: XmlSerializerSettings
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlSerializerSettings
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 17
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public sealed class XmlSerializerSettings
+    content.vb: Public NotInheritable Class XmlSerializerSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.#ctor
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.#ctor
+  id: '#ctor'
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: XmlSerializerSettings()
+  nameWithType: XmlSerializerSettings.XmlSerializerSettings()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.XmlSerializerSettings()
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 69
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlSerializerSettings()
+    content.vb: Public Sub New
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling
+  id: TypeHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: TypeHandling
+  nameWithType: XmlSerializerSettings.TypeHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TypeHandling
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 92
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlTypeHandling TypeHandling { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+    content.vb: Public Property TypeHandling As XmlTypeHandling
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling
+  id: NullValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: NullValueHandling
+  nameWithType: XmlSerializerSettings.NullValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: NullValueHandling
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 94
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlNullValueHandling NullValueHandling { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+    content.vb: Public Property NullValueHandling As XmlNullValueHandling
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling
+  id: DefaultValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: DefaultValueHandling
+  nameWithType: XmlSerializerSettings.DefaultValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DefaultValueHandling
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 96
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlDefaultValueHandling DefaultValueHandling { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+    content.vb: Public Property DefaultValueHandling As XmlDefaultValueHandling
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration
+  id: OmitXmlDeclaration
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: OmitXmlDeclaration
+  nameWithType: XmlSerializerSettings.OmitXmlDeclaration
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: OmitXmlDeclaration
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 98
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public bool OmitXmlDeclaration { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OmitXmlDeclaration As Boolean
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent
+  id: Indent
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: Indent
+  nameWithType: XmlSerializerSettings.Indent
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Indent
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 109
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public bool Indent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Indent As Boolean
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars
+  id: IndentChars
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: IndentChars
+  nameWithType: XmlSerializerSettings.IndentChars
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IndentChars
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 120
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public string IndentChars { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IndentChars As String
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName
+  id: TypeAttributeName
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: TypeAttributeName
+  nameWithType: XmlSerializerSettings.TypeAttributeName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TypeAttributeName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 131
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlName TypeAttributeName { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    content.vb: Public Property TypeAttributeName As XmlName
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName
+  id: NullAttributeName
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: NullAttributeName
+  nameWithType: XmlSerializerSettings.NullAttributeName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: NullAttributeName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 138
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlName NullAttributeName { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    content.vb: Public Property NullAttributeName As XmlName
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture
+  id: Culture
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: XmlSerializerSettings.Culture
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Culture
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 145
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public CultureInfo Culture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Property Culture As CultureInfo
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver
+  id: TypeResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: TypeResolver
+  nameWithType: XmlSerializerSettings.TypeResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TypeResolver
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 152
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public IXmlTypeResolver TypeResolver { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+    content.vb: Public Property TypeResolver As IXmlTypeResolver
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver
+  id: ContractResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: ContractResolver
+  nameWithType: XmlSerializerSettings.ContractResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ContractResolver
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 163
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public IXmlContractResolver ContractResolver { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+    content.vb: Public Property ContractResolver As IXmlContractResolver
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding
+  id: Encoding
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: XmlSerializerSettings.Encoding
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Encoding
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 174
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public Encoding Encoding { get; set; }
+    parameters: []
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Property Encoding As Encoding
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces
+  id: Namespaces
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: Namespaces
+  nameWithType: XmlSerializerSettings.Namespaces
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Namespaces
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 185
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public ICollection<XmlNamespace> Namespaces { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace}
+    content.vb: Public ReadOnly Property Namespaces As ICollection(Of XmlNamespace)
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters
+  id: Converters
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: Converters
+  nameWithType: XmlSerializerSettings.Converters
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Converters
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 187
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public ICollection<IXmlConverter> Converters { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter}
+    content.vb: Public ReadOnly Property Converters As ICollection(Of IXmlConverter)
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings
+  id: GetWriterSettings
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: GetWriterSettings()
+  nameWithType: XmlSerializerSettings.GetWriterSettings()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetWriterSettings
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 189
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlWriterSettings GetWriterSettings()
+    return:
+      type: System.Xml.XmlWriterSettings
+    content.vb: Public Function GetWriterSettings As XmlWriterSettings
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings
+  id: GetReaderSettings
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: GetReaderSettings()
+  nameWithType: XmlSerializerSettings.GetReaderSettings()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetReaderSettings
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 210
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlReaderSettings GetReaderSettings()
+    return:
+      type: System.Xml.XmlReaderSettings
+    content.vb: Public Function GetReaderSettings As XmlReaderSettings
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext(System.Type)
+  id: GetTypeContext(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  langs:
+  - csharp
+  - vb
+  name: GetTypeContext(Type)
+  nameWithType: XmlSerializerSettings.GetTypeContext(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetTypeContext
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
+    startLine: 230
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml
+  syntax:
+    content: public XmlTypeContext GetTypeContext(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+    content.vb: Public Function GetTypeContext(valueType As Type) As XmlTypeContext
+  overload: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml
+  name: DotNetHelper_Serializer.DataSource.Xml
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml
+  fullName: DotNetHelper_Serializer.DataSource.Xml
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlSerializerSettings>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlSerializerSettings>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlSerializerSettings)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings)()
+  name.vb: CanHaveNullValue(Of XmlSerializerSettings)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlSerializerSettings>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlSerializerSettings>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlSerializerSettings)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlSerializerSettings)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.#ctor*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.#ctor
+  name: XmlSerializerSettings
+  nameWithType: XmlSerializerSettings.XmlSerializerSettings
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.XmlSerializerSettings
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling
+  name: TypeHandling
+  nameWithType: XmlSerializerSettings.TypeHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeHandling
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlTypeHandling
+  nameWithType: XmlTypeHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling
+  name: NullValueHandling
+  nameWithType: XmlSerializerSettings.NullValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullValueHandling
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlNullValueHandling
+  nameWithType: XmlNullValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling
+  name: DefaultValueHandling
+  nameWithType: XmlSerializerSettings.DefaultValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.DefaultValueHandling
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlDefaultValueHandling
+  nameWithType: XmlDefaultValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration
+  name: OmitXmlDeclaration
+  nameWithType: XmlSerializerSettings.OmitXmlDeclaration
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.OmitXmlDeclaration
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent
+  name: Indent
+  nameWithType: XmlSerializerSettings.Indent
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Indent
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars
+  name: IndentChars
+  nameWithType: XmlSerializerSettings.IndentChars
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.IndentChars
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName
+  name: TypeAttributeName
+  nameWithType: XmlSerializerSettings.TypeAttributeName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeAttributeName
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlName
+  nameWithType: XmlName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName
+  name: NullAttributeName
+  nameWithType: XmlSerializerSettings.NullAttributeName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.NullAttributeName
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture
+  name: Culture
+  nameWithType: XmlSerializerSettings.Culture
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Culture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver
+  name: TypeResolver
+  nameWithType: XmlSerializerSettings.TypeResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.TypeResolver
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  name: IXmlTypeResolver
+  nameWithType: IXmlTypeResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  name: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver
+  name: ContractResolver
+  nameWithType: XmlSerializerSettings.ContractResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.ContractResolver
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: IXmlContractResolver
+  nameWithType: IXmlContractResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding
+  name: Encoding
+  nameWithType: XmlSerializerSettings.Encoding
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Encoding
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces
+  name: Namespaces
+  nameWithType: XmlSerializerSettings.Namespaces
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Namespaces
+- uid: System.Collections.Generic.ICollection{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace}
+  commentId: T:System.Collections.Generic.ICollection{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<XmlNamespace>
+  nameWithType: ICollection<XmlNamespace>
+  fullName: System.Collections.Generic.ICollection<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace>
+  nameWithType.vb: ICollection(Of XmlNamespace)
+  fullName.vb: System.Collections.Generic.ICollection(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace)
+  name.vb: ICollection(Of XmlNamespace)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace
+    name: XmlNamespace
+    nameWithType: XmlNamespace
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace
+    name: XmlNamespace
+    nameWithType: XmlNamespace
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters
+  name: Converters
+  nameWithType: XmlSerializerSettings.Converters
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.Converters
+- uid: System.Collections.Generic.ICollection{DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter}
+  commentId: T:System.Collections.Generic.ICollection{DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<IXmlConverter>
+  nameWithType: ICollection<IXmlConverter>
+  fullName: System.Collections.Generic.ICollection<DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter>
+  nameWithType.vb: ICollection(Of IXmlConverter)
+  fullName.vb: System.Collections.Generic.ICollection(Of DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter)
+  name.vb: ICollection(Of IXmlConverter)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+    name: IXmlConverter
+    nameWithType: IXmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+    name: IXmlConverter
+    nameWithType: IXmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings
+  name: GetWriterSettings
+  nameWithType: XmlSerializerSettings.GetWriterSettings
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetWriterSettings
+- uid: System.Xml.XmlWriterSettings
+  commentId: T:System.Xml.XmlWriterSettings
+  parent: System.Xml
+  isExternal: true
+  name: XmlWriterSettings
+  nameWithType: XmlWriterSettings
+  fullName: System.Xml.XmlWriterSettings
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings
+  name: GetReaderSettings
+  nameWithType: XmlSerializerSettings.GetReaderSettings
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetReaderSettings
+- uid: System.Xml.XmlReaderSettings
+  commentId: T:System.Xml.XmlReaderSettings
+  parent: System.Xml
+  isExternal: true
+  name: XmlReaderSettings
+  nameWithType: XmlReaderSettings
+  fullName: System.Xml.XmlReaderSettings
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext
+  name: GetTypeContext
+  nameWithType: XmlSerializerSettings.GetTypeContext
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.GetTypeContext
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlTypeContext
+  nameWithType: XmlTypeContext
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext

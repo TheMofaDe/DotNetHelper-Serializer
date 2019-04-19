@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Attribute.SQLJoinType
+  commentId: T:DotNetHelper_Serializer.Attribute.SQLJoinType
+  id: SQLJoinType
+  parent: DotNetHelper_Serializer.Attribute
+  children:
+  - DotNetHelper_Serializer.Attribute.SQLJoinType.INNER
+  - DotNetHelper_Serializer.Attribute.SQLJoinType.LEFT
+  langs:
+  - csharp
+  - vb
+  name: SQLJoinType
+  nameWithType: SQLJoinType
+  fullName: DotNetHelper_Serializer.Attribute.SQLJoinType
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SQLJoinType
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 11
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: public enum SQLJoinType
+    content.vb: Public Enum SQLJoinType
+  extensionMethods:
+  - DotNetHelper_Serializer.Attribute.SQLJoinType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.Attribute.SQLJoinType.LEFT
+  commentId: F:DotNetHelper_Serializer.Attribute.SQLJoinType.LEFT
+  id: LEFT
+  parent: DotNetHelper_Serializer.Attribute.SQLJoinType
+  langs:
+  - csharp
+  - vb
+  name: LEFT
+  nameWithType: SQLJoinType.LEFT
+  fullName: DotNetHelper_Serializer.Attribute.SQLJoinType.LEFT
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: LEFT
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 17
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  summary: "\nSQL-style LEFT OUTER JOIN semantics: All records of the left table are returned. If the right table holds no matching records, the right \nside&apos;s columns contain NULL. \n"
+  example: []
+  syntax:
+    content: LEFT = 1
+    return:
+      type: DotNetHelper_Serializer.Attribute.SQLJoinType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.SQLJoinType.INNER
+  commentId: F:DotNetHelper_Serializer.Attribute.SQLJoinType.INNER
+  id: INNER
+  parent: DotNetHelper_Serializer.Attribute.SQLJoinType
+  langs:
+  - csharp
+  - vb
+  name: INNER
+  nameWithType: SQLJoinType.INNER
+  fullName: DotNetHelper_Serializer.Attribute.SQLJoinType.INNER
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: INNER
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 21
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  summary: "\nSQL-style INNER JOIN semantics: Only records that produce a match are returned.\n"
+  example: []
+  syntax:
+    content: INNER = 2
+    return:
+      type: DotNetHelper_Serializer.Attribute.SQLJoinType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.Attribute
+  commentId: N:DotNetHelper_Serializer.Attribute
+  name: DotNetHelper_Serializer.Attribute
+  nameWithType: DotNetHelper_Serializer.Attribute
+  fullName: DotNetHelper_Serializer.Attribute
+- uid: DotNetHelper_Serializer.Attribute.SQLJoinType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<SQLJoinType>()
+  nameWithType: TypeExtension.CanHaveNullValue<SQLJoinType>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Attribute.SQLJoinType>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of SQLJoinType)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Attribute.SQLJoinType)()
+  name.vb: CanHaveNullValue(Of SQLJoinType)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<SQLJoinType>
+    nameWithType: TypeExtension.CanHaveNullValue<SQLJoinType>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Attribute.SQLJoinType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of SQLJoinType)
+    nameWithType: TypeExtension.CanHaveNullValue(Of SQLJoinType)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Attribute.SQLJoinType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Attribute.SQLJoinType
+  commentId: T:DotNetHelper_Serializer.Attribute.SQLJoinType
+  parent: DotNetHelper_Serializer.Attribute
+  name: SQLJoinType
+  nameWithType: SQLJoinType
+  fullName: DotNetHelper_Serializer.Attribute.SQLJoinType

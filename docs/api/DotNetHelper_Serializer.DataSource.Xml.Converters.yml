@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters
+  id: DotNetHelper_Serializer.DataSource.Xml.Converters
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverterFactory
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlEnumConverter
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: IXmlConverter
+  nameWithType: IXmlConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: IXmlConverterFactory
+  nameWithType: IXmlConverterFactory
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+  name: XmlBasicConverter<T>
+  nameWithType: XmlBasicConverter<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>
+  nameWithType.vb: XmlBasicConverter(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T)
+  name.vb: XmlBasicConverter(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+    name: XmlBasicConverter
+    nameWithType: XmlBasicConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+    name: XmlBasicConverter
+    nameWithType: XmlBasicConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+  name: XmlBasicRawConverter<T>
+  nameWithType: XmlBasicRawConverter<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter<T>
+  nameWithType.vb: XmlBasicRawConverter(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter(Of T)
+  name.vb: XmlBasicRawConverter(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+    name: XmlBasicRawConverter
+    nameWithType: XmlBasicRawConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+    name: XmlBasicRawConverter
+    nameWithType: XmlBasicRawConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+  name: XmlConverter<T>
+  nameWithType: XmlConverter<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<T>
+  nameWithType.vb: XmlConverter(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of T)
+  name.vb: XmlConverter(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+    name: XmlConverter
+    nameWithType: XmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+    name: XmlConverter
+    nameWithType: XmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverterFactory
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverterFactory
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: XmlConverterFactory
+  nameWithType: XmlConverterFactory
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverterFactory
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlEnumConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlEnumConverter
+  name: XmlEnumConverter
+  nameWithType: XmlEnumConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlEnumConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters

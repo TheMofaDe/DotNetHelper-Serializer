@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Attribute
+  commentId: N:DotNetHelper_Serializer.Attribute
+  id: DotNetHelper_Serializer.Attribute
+  children:
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritube
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  - DotNetHelper_Serializer.Attribute.SqlColumnAttritube
+  - DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers
+  - DotNetHelper_Serializer.Attribute.SQLJoinType
+  - DotNetHelper_Serializer.Attribute.SqlTableAttritube
+  - DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.Attribute
+  nameWithType: DotNetHelper_Serializer.Attribute
+  fullName: DotNetHelper_Serializer.Attribute
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.Attribute.SQLJoinType
+  commentId: T:DotNetHelper_Serializer.Attribute.SQLJoinType
+  parent: DotNetHelper_Serializer.Attribute
+  name: SQLJoinType
+  nameWithType: SQLJoinType
+  fullName: DotNetHelper_Serializer.Attribute.SQLJoinType
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritube
+  commentId: T:DotNetHelper_Serializer.Attribute.SqlTableAttritube
+  parent: DotNetHelper_Serializer.Attribute
+  name: SqlTableAttritube
+  nameWithType: SqlTableAttritube
+  fullName: DotNetHelper_Serializer.Attribute.SqlTableAttritube
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  commentId: T:DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  parent: DotNetHelper_Serializer.Attribute
+  name: SqlTableAttritubeMembers
+  nameWithType: SqlTableAttritubeMembers
+  fullName: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+- uid: DotNetHelper_Serializer.Attribute.SqlColumnAttritube
+  commentId: T:DotNetHelper_Serializer.Attribute.SqlColumnAttritube
+  parent: DotNetHelper_Serializer.Attribute
+  name: SqlColumnAttritube
+  nameWithType: SqlColumnAttritube
+  fullName: DotNetHelper_Serializer.Attribute.SqlColumnAttritube
+- uid: DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers
+  commentId: T:DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers
+  parent: DotNetHelper_Serializer.Attribute
+  name: SqlColumnAttritubeMembers
+  nameWithType: SqlColumnAttritubeMembers
+  fullName: DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritube
+  commentId: T:DotNetHelper_Serializer.Attribute.DataValidationAttritube
+  parent: DotNetHelper_Serializer.Attribute
+  name: DataValidationAttritube
+  nameWithType: DataValidationAttritube
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritube
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  commentId: T:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  parent: DotNetHelper_Serializer.Attribute
+  name: DataValidationAttritubeMembers
+  nameWithType: DataValidationAttritubeMembers
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+- uid: DotNetHelper_Serializer.Attribute
+  commentId: N:DotNetHelper_Serializer.Attribute
+  name: DotNetHelper_Serializer.Attribute
+  nameWithType: DotNetHelper_Serializer.Attribute
+  fullName: DotNetHelper_Serializer.Attribute

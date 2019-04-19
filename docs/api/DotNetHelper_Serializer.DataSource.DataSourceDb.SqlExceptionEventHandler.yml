@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+  id: DataSourceDb.SqlExceptionEventHandler
+  parent: DotNetHelper_Serializer.DataSource
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DataSourceDb.SqlExceptionEventHandler
+  nameWithType: DataSourceDb.SqlExceptionEventHandler
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SqlExceptionEventHandler
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
+    startLine: 181
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  syntax:
+    content: public delegate void SqlExceptionEventHandler(object sender, SqlExceptionEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
+    content.vb: Public Delegate Sub SqlExceptionEventHandler(sender As Object, e As SqlExceptionEventArgs)
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  - DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: DotNetHelper_Serializer.DataSource
+  commentId: N:DotNetHelper_Serializer.DataSource
+  name: DotNetHelper_Serializer.DataSource
+  nameWithType: DotNetHelper_Serializer.DataSource
+  fullName: DotNetHelper_Serializer.DataSource
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<DataSourceDb.SqlExceptionEventHandler>()
+  nameWithType: TypeExtension.CanHaveNullValue<DataSourceDb.SqlExceptionEventHandler>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of DataSourceDb.SqlExceptionEventHandler)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler)()
+  name.vb: CanHaveNullValue(Of DataSourceDb.SqlExceptionEventHandler)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<DataSourceDb.SqlExceptionEventHandler>
+    nameWithType: TypeExtension.CanHaveNullValue<DataSourceDb.SqlExceptionEventHandler>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of DataSourceDb.SqlExceptionEventHandler)
+    nameWithType: TypeExtension.CanHaveNullValue(Of DataSourceDb.SqlExceptionEventHandler)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  name: CopyObject<DataSourceDb.SqlExceptionEventHandler>()
+  nameWithType: TypeExtension.CopyObject<DataSourceDb.SqlExceptionEventHandler>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler>()
+  nameWithType.vb: TypeExtension.CopyObject(Of DataSourceDb.SqlExceptionEventHandler)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler)()
+  name.vb: CopyObject(Of DataSourceDb.SqlExceptionEventHandler)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+    name: CopyObject<DataSourceDb.SqlExceptionEventHandler>
+    nameWithType: TypeExtension.CopyObject<DataSourceDb.SqlExceptionEventHandler>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+    name: CopyObject(Of DataSourceDb.SqlExceptionEventHandler)
+    nameWithType: TypeExtension.CopyObject(Of DataSourceDb.SqlExceptionEventHandler)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
+  commentId: T:DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
+  parent: DotNetHelper_Contracts.EventHandler
+  isExternal: true
+  name: SqlExceptionEventArgs
+  nameWithType: SqlExceptionEventArgs
+  fullName: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  name: CopyObject<T>(T)
+  nameWithType: TypeExtension.CopyObject<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<T>(T)
+  nameWithType.vb: TypeExtension.CopyObject(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of T)(T)
+  name.vb: CopyObject(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+    name: CopyObject<T>
+    nameWithType: TypeExtension.CopyObject<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+    name: CopyObject(Of T)
+    nameWithType: TypeExtension.CopyObject(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Contracts.EventHandler
+  commentId: N:DotNetHelper_Contracts.EventHandler
+  isExternal: true
+  name: DotNetHelper_Contracts.EventHandler
+  nameWithType: DotNetHelper_Contracts.EventHandler
+  fullName: DotNetHelper_Contracts.EventHandler
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension

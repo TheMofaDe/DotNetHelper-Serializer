@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+  commentId: T:DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+  id: QueryBucketManager.FullQueryBucketEventHandler
+  parent: DotNetHelper_Serializer.Model
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: QueryBucketManager.FullQueryBucketEventHandler
+  nameWithType: QueryBucketManager.FullQueryBucketEventHandler
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: FullQueryBucketEventHandler
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 22
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public delegate void FullQueryBucketEventHandler(object sender, FullQueryBucketEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+    content.vb: Public Delegate Sub FullQueryBucketEventHandler(sender As Object, e As FullQueryBucketEventArgs)
+  extensionMethods:
+  - DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  - DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: DotNetHelper_Serializer.Model
+  commentId: N:DotNetHelper_Serializer.Model
+  name: DotNetHelper_Serializer.Model
+  nameWithType: DotNetHelper_Serializer.Model
+  fullName: DotNetHelper_Serializer.Model
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<QueryBucketManager.FullQueryBucketEventHandler>()
+  nameWithType: TypeExtension.CanHaveNullValue<QueryBucketManager.FullQueryBucketEventHandler>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of QueryBucketManager.FullQueryBucketEventHandler)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler)()
+  name.vb: CanHaveNullValue(Of QueryBucketManager.FullQueryBucketEventHandler)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<QueryBucketManager.FullQueryBucketEventHandler>
+    nameWithType: TypeExtension.CanHaveNullValue<QueryBucketManager.FullQueryBucketEventHandler>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of QueryBucketManager.FullQueryBucketEventHandler)
+    nameWithType: TypeExtension.CanHaveNullValue(Of QueryBucketManager.FullQueryBucketEventHandler)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  name: CopyObject<QueryBucketManager.FullQueryBucketEventHandler>()
+  nameWithType: TypeExtension.CopyObject<QueryBucketManager.FullQueryBucketEventHandler>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler>()
+  nameWithType.vb: TypeExtension.CopyObject(Of QueryBucketManager.FullQueryBucketEventHandler)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler)()
+  name.vb: CopyObject(Of QueryBucketManager.FullQueryBucketEventHandler)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+    name: CopyObject<QueryBucketManager.FullQueryBucketEventHandler>
+    nameWithType: TypeExtension.CopyObject<QueryBucketManager.FullQueryBucketEventHandler>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1
+    name: CopyObject(Of QueryBucketManager.FullQueryBucketEventHandler)
+    nameWithType: TypeExtension.CopyObject(Of QueryBucketManager.FullQueryBucketEventHandler)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  commentId: T:DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  parent: DotNetHelper_Serializer.Model
+  name: FullQueryBucketEventArgs
+  nameWithType: FullQueryBucketEventArgs
+  fullName: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  name: CopyObject<T>(T)
+  nameWithType: TypeExtension.CopyObject<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<T>(T)
+  nameWithType.vb: TypeExtension.CopyObject(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of T)(T)
+  name.vb: CopyObject(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+    name: CopyObject<T>
+    nameWithType: TypeExtension.CopyObject<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+    name: CopyObject(Of T)
+    nameWithType: TypeExtension.CopyObject(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension

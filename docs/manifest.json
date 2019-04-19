@@ -1,0 +1,1860 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Business/TheMoFaDe/Code/DotNetHelper-Serializer/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.DataValidationAttritube.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.DataValidationAttritube.html",
+          "hash": "uBQFhB/TYK/PxdxpwAFBGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.html",
+          "hash": "UkXwPhEjqLx7eXhjdOCA5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.SQLJoinType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.SQLJoinType.html",
+          "hash": "fdsDdZ7XYdG0aI3bqOkRLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.SqlColumnAttritube.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.SqlColumnAttritube.html",
+          "hash": "bC0it1CIxLzNMnvHhAvSIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers.html",
+          "hash": "ZQnY2grmwAT9n3urR4lu9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.SqlTableAttritube.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.SqlTableAttritube.html",
+          "hash": "5tK2Vc2kym9bSHSGwd0t1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.html",
+          "hash": "4KryckJO1uUQIfBvRTpSGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Attribute.html",
+          "hash": "v8/O+KaXgDKBGvbWcCzP5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceBinary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html",
+          "hash": "XwUH2XyjzwrDUkR5kXLGNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceCsv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html",
+          "hash": "XicL1+bsd8OMVm+uxqEt6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler.html",
+          "hash": "kJL3C6HEB06VZmaewdGPfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceDb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceDb.html",
+          "hash": "G4ggQhe/w6B9pNHeNcTM7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceJson.html",
+          "hash": "5+ZbMGSyBLGG64d6WedFRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.html",
+          "hash": "YpOiR8Jv5SH50VEakZz92Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.html",
+          "hash": "LVnhGFAVWi40V/sf2MFspw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceXml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.DataSourceXml.html",
+          "hash": "IWki1pFkWlghYc3HxXhDAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.html",
+          "hash": "jfsDEZCPePLZZr5qIsRITQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.html",
+          "hash": "8k74HGBCQvL6ktWwLt8Mow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlObjectBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlObjectBuilder.html",
+          "hash": "2Mx2Vhn81zOl0JwmTjTG4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.html",
+          "hash": "1PcJtfvFRo+8YXq+ziOjKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilder.html",
+          "hash": "P+HGEVjjCIGziWKSWjcrdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.html",
+          "hash": "Qxj4Y+TMqR9vldN0OxICng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder-1.html",
+          "hash": "Qzgq9S/pNiWMEtg/2I8HEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder.html",
+          "hash": "V0uieKExBA0bLEchekj+0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.html",
+          "hash": "Kjww7SWjbYJmVjM3n9hcpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder.html",
+          "hash": "gO1BKHsRoymMTpC8duhvlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlKnownTypeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlKnownTypeBuilder.html",
+          "hash": "pBt3UYYtzCPMJS/h9pOrsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlKnownTypeBuilderCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlKnownTypeBuilderCollection.html",
+          "hash": "uPbIVZHxIYbWXQKeOmqYxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlMemberBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlMemberBuilder.html",
+          "hash": "Jgp/bOh2t7BeZWdi2diXAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder-1.html",
+          "hash": "2YZcBe/XRuPzbeSXM+vexg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder.html",
+          "hash": "iUB6qZF4ZejeZ8Foa8obVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder.html",
+          "hash": "eyTSPE7OjPYg3YS/i25u6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilderCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilderCollection.html",
+          "hash": "M5VZnKVTK5+Q/r/KPZ/i3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.html",
+          "hash": "b2s2IGPnU1PvEMogM/MINQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.html",
+          "hash": "VypUxehHk2l2VfN00Ru+cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.NamingConventions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.NamingConventions.html",
+          "hash": "Q9e/P2xOw5Gq93BM/mLbHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract.html",
+          "hash": "e9DQl0mwg1HVFP+uAPnYEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractException.html",
+          "hash": "MP10IPFpFf+9UHcVigKhIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver.html",
+          "hash": "RXgFxpLI67W3j8/1d634Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlCustomContractResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlCustomContractResolver.html",
+          "hash": "Gibcnllhv4ywCoRjEiQEng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.html",
+          "hash": "19YuQpHpfRfqZTgiiS9J8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumContract.html",
+          "hash": "s9CBk2O1O0o0bkceCTE7cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem.html",
+          "hash": "wLcXF4rurW/vHfVmtcEEQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlItem.html",
+          "hash": "4aQMvbstODPBnqA1Qi+47g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlKnownType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlKnownType.html",
+          "hash": "5GBhJTSDoR0YoTRqZcMlZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.html",
+          "hash": "N6anRbkAGBm7MDJldVHAaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMember.html",
+          "hash": "1nCc8T0/AGQy+tmQdHqcOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.html",
+          "hash": "X9KBmjQfEKBO1i4Qvp41Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace.html",
+          "hash": "NLifVilVjLGnLHqvGNm0sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.html",
+          "hash": "diGZa8ianfKEZRkOUH3epg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlObjectContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlObjectContract.html",
+          "hash": "r6G/ezhbxZGlfP5tJncK6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlProperty.html",
+          "hash": "mZvup7Tv2mx/kvf4Zmqn2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling.html",
+          "hash": "BOWLYqBJHn6OAesBThF+FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Contracts.html",
+          "hash": "1JFVw5iuY1bnJlwbeZVjWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlBooleanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlBooleanConverter.html",
+          "hash": "94bEUOJiPRAOy/9r4bYoEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlByteConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlByteConverter.html",
+          "hash": "R7QcXOUY7v4LFliiUKL/0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlCharConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlCharConverter.html",
+          "hash": "fIiUS5jRvnfHCEzLJZw7/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlCustomDateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlCustomDateTimeConverter.html",
+          "hash": "MKMaRLW/qT+aOzEPFIytIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDateTimeConverter.html",
+          "hash": "++qLa4jGsdUXHOfhZWeLfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDateTimeOffsetConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDateTimeOffsetConverter.html",
+          "hash": "6QBfSJF+cWuxj7YxHHrPvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDecimalConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDecimalConverter.html",
+          "hash": "Qxt6WhQpGdwsRtUs0y/TDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.html",
+          "hash": "zJYsjJf/3msjTmljcz8bQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlGuidConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlGuidConverter.html",
+          "hash": "jZoHuy8sUZem+7FRUzPAcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt16Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt16Converter.html",
+          "hash": "UfGJcGigrjGnF/D5OS3F+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt32Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt32Converter.html",
+          "hash": "pMFvsOjWwKY/wam2YXqrJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt64Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt64Converter.html",
+          "hash": "15n8i4h7oZPhawxSZIZW8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlSByteConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlSByteConverter.html",
+          "hash": "RPe5MOLKVibDKu02dpFW8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlSingleConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlSingleConverter.html",
+          "hash": "z9YR7n4NCyOJbKJXTy9V/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlStringConverter.html",
+          "hash": "QIXbSvW8M4JlaxNd9L6Jew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlTimeSpanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlTimeSpanConverter.html",
+          "hash": "8sBvL17vYUF4Mp1ic6HZmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt16Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt16Converter.html",
+          "hash": "QMytKaado8vSAPIEUQwT8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt32Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt32Converter.html",
+          "hash": "EeyEKd7q3lZArXmVbgqWBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt64Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt64Converter.html",
+          "hash": "2NgrYrmD1XXrpHsSHBRpDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.html",
+          "hash": "3V6Nw/tyi1W5LXbNeCBaKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy.html",
+          "hash": "bnfVGp+GeZyQw3+x0OOx/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlArrayConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlArrayConverter.html",
+          "hash": "e9oyIWue049ERJ1uX2gmJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlCollectionConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlCollectionConverter.html",
+          "hash": "b/fc3JvrghzLGCqmZA37iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlDictionaryConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlDictionaryConverter.html",
+          "hash": "5EWt1YyEI6xeBcIVyPatoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlListConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlListConverter.html",
+          "hash": "vYhMVWGjaWZ4vIVmwtHzsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.html",
+          "hash": "/sJhZMxpXWFKBcAxU1qavg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.html",
+          "hash": "2i9Euj4lt5fL4HWaHkDAyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory.html",
+          "hash": "3H+x1ULMrm/3kbshHcdVlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.XmlObjectConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.XmlObjectConverter.html",
+          "hash": "juHQDzRe77h1rBzNDal22g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.html",
+          "hash": "xNZ29UgJs++c/M9sy+krYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlByteArrayConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlByteArrayConverter.html",
+          "hash": "mAW6nUXjKksPKrkQS0Nang=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlKeyValuePairConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlKeyValuePairConverter.html",
+          "hash": "DjxgZupa5yJZ3hB7cmZ5wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlNullableConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlNullableConverter.html",
+          "hash": "AJneLAhoz1g3s1R629n9KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlSerializableConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlSerializableConverter.html",
+          "hash": "h+K5e59JvE+N2Mfq9buHxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlTypeConverter.html",
+          "hash": "tyYHZkAoM55hiT7+CwhiDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlUriConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlUriConverter.html",
+          "hash": "8h0k7T7VRJFoyX2OOCCUcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.html",
+          "hash": "Zv+ek6PRB/uwlNrf3se5xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter-1.html",
+          "hash": "s8ACnysTbSn85ROTJKPp5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter-1.html",
+          "hash": "FhD9t52aWO4slg/h1Nua/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter-1.html",
+          "hash": "XMWynfHCrjTip1i/EP+QFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverterFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverterFactory.html",
+          "hash": "AwHSeSxiAEwjIyEGN+tvtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlEnumConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.XmlEnumConverter.html",
+          "hash": "YVRrw/okdtFkOxxhqyZd9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.Converters.html",
+          "hash": "0K3XFor5Rhe97JM1JNYWPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.html",
+          "hash": "9pp4X/vV8QMkS07Wu94Ryw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolveException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolveException.html",
+          "hash": "E6TzTupOjyb0vXcFOheXaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver.html",
+          "hash": "fkYMAWLE/C7UXfkt84BSsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.html",
+          "hash": "f5kkxb1a8+S4wUHL33AKmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext.html",
+          "hash": "YROY0imOSyla4DE7p5Y9Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlSerializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlSerializationException.html",
+          "hash": "edEXoDntWjQl8/m1DGEg8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings.html",
+          "hash": "w2aCSA6Ft/sK2WemdI1NWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext.html",
+          "hash": "vuKq8gzGKutmStRsjBUnYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.Xml.html",
+          "hash": "hWqDBopJIgnoxL6AIcLyeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.DataSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.DataSource.html",
+          "hash": "cbkz6ib3R8ybJ8H/mAm4OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.AdvanceMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.AdvanceMember.html",
+          "hash": "cXcX54eJKpOxFZSjYHsf/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.DataTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.DataTypes.html",
+          "hash": "fPFPxOW7pCMTbCDKoBl/9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.DynamicMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.DynamicMember.html",
+          "hash": "31oubS6dlBpO6RzHYuxQOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.ExtDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.ExtDataReader.html",
+          "hash": "teZEdcoYWuGUe16wrHN3FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.ExtDataTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.ExtDataTable.html",
+          "hash": "0FIvaOR+F2Fr0SFrN4keiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.ExtDictonary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.ExtDictonary.html",
+          "hash": "ZlYh87L0ioaGi9Zp0T/zWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.ExtFastMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.ExtFastMember.html",
+          "hash": "m5kCkWYt98hUbuBCvmiGiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.ExtString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.ExtString.html",
+          "hash": "jrQgdOCNoVS0WBzUqs0bvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.IDataSourceDBExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.IDataSourceDBExtension.html",
+          "hash": "yfsRYOaIbWam5wUPAr/qZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.TypeExtension.New-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.TypeExtension.New-1.html",
+          "hash": "8bUW1oHJmBTK/Yy4FWb4VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.TypeExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.TypeExtension.html",
+          "hash": "kzbLMGBn5Lu4GgwcxwdmZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Extension.html",
+          "hash": "BxTwlCVcObiVe4xsmFwmyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Helper.DBHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Helper.DBHelper.html",
+          "hash": "zdxLJaeQ89XmSUnNl6NE9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Helper.DataValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Helper.DataValidation.html",
+          "hash": "sugFNg7IgwTnK1NRSh874w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Helper.ObjectMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Helper.ObjectMapper.html",
+          "hash": "MhG8QJVqR/X+U//x1x7+7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Helper.ObjectToSqlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Helper.ObjectToSqlHelper.html",
+          "hash": "cXEwfV4erHOiMNHREReq5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Helper.SqlSyntaxHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Helper.SqlSyntaxHelper.html",
+          "hash": "bd9NpwIcHSSRxT3psTgM8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Helper.html",
+          "hash": "VER+fXvwSGC7Gzb+rfysxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Interface.ICsvSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Interface.ICsvSerializer.html",
+          "hash": "VJ3ZxlM4kCNSn2JNVuwUNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Interface.IDataSourceDb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Interface.IDataSourceDb.html",
+          "hash": "kO+mYk5bvRZKHUbHL4NUUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Interface.IJsonSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Interface.IJsonSerializer.html",
+          "hash": "MDELuXpl7APKoh66Wv2n0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Interface.IXmlSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Interface.IXmlSerializer.html",
+          "hash": "qNBKdVz72hQMZtMtDhg09g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Interface.html",
+          "hash": "auJhVPuqefcIZed9aK3ZEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.DataSourceProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.DataSourceProperties.html",
+          "hash": "xW8iaEUjdEuX0zFuBKoasA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.Db.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.Db.html",
+          "hash": "1ptWyAHdRHXUZ3No91ZIqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.DbSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.DbSchema.html",
+          "hash": "J/w6onnmLDRUdWJQ/G0dKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.DbTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.DbTable.html",
+          "hash": "ZXdI2uR6QMVLCKybXkIYdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.ErrorObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.ErrorObject.html",
+          "hash": "P7ceCbgFHv37SxYltR1VzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.FullQueryBucketEventArgs.html",
+          "hash": "ilxgRbZDIB8wvs6pzmV2Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.LogObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.LogObject.html",
+          "hash": "c4e/IYjA4XRLTLvcd+88PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.QueryBucket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.QueryBucket.html",
+          "hash": "OdEodzpUQRY5z3KMaLD9Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketEventArgs.html",
+          "hash": "D/LYux000cZcCaJLJrkgqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler.html",
+          "hash": "76D1n4eTaJJVZw9ApaEnOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAddToBucketEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAddToBucketEventHandler.html",
+          "hash": "U2SRC7bzuIuRoOsZmfUy/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.QueryBucketManager.html",
+          "hash": "YC6rc4mbv2UBNVhkjdbI1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.TableDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.TableDefinition.html",
+          "hash": "H3SKtvrq65ECSwYpq1cKgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.TableNameParseObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.TableNameParseObject.html",
+          "hash": "SlWdf5pAeKo8fBQfjzFf7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Model.html",
+          "hash": "SLiEg6BmOTmn53tZAXekkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Tools.DevelopersTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Tools.DevelopersTools.html",
+          "hash": "amilTwPplrqhNL7QCGMv1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DotNetHelper_Serializer.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DotNetHelper_Serializer.Tools.html",
+          "hash": "2CrlktDC7nOA6XIalhfPJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Wmtj5qReBXukuPAyz6g+cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "langwordmapping/langwordMapping.yml",
+      "output": {
+        "resource": {
+          "relative_path": "langwordmapping/langwordMapping.yml",
+          "link_to_path": "C:\\Business\\TheMoFaDe\\Code\\DotNetHelper-Serializer\\docs/langwordmapping/langwordMapping.yml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 147,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

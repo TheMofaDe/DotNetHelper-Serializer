@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  id: IXmlConverter
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  langs:
+  - csharp
+  - vb
+  name: IXmlConverter
+  nameWithType: IXmlConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  type: Interface
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IXmlConverter
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters
+  syntax:
+    content: public interface IXmlConverter
+    content.vb: Public Interface IXmlConverter
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead(System.Type)
+  id: CanRead(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  langs:
+  - csharp
+  - vb
+  name: CanRead(Type)
+  nameWithType: IXmlConverter.CanRead(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CanRead
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+    startLine: 7
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters
+  syntax:
+    content: bool CanRead(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Function CanRead(valueType As Type) As Boolean
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead*
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite(System.Type)
+  id: CanWrite(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  langs:
+  - csharp
+  - vb
+  name: CanWrite(Type)
+  nameWithType: IXmlConverter.CanWrite(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CanWrite
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+    startLine: 9
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters
+  syntax:
+    content: bool CanWrite(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Function CanWrite(valueType As Type) As Boolean
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite*
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  id: WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  langs:
+  - csharp
+  - vb
+  name: WriteXml(XmlWriter, Object, XmlSerializationContext)
+  nameWithType: IXmlConverter.WriteXml(XmlWriter, Object, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml(System.Xml.XmlWriter, System.Object, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: WriteXml
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+    startLine: 11
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters
+  syntax:
+    content: void WriteXml(XmlWriter writer, object value, XmlSerializationContext context)
+    parameters:
+    - id: writer
+      type: System.Xml.XmlWriter
+    - id: value
+      type: System.Object
+    - id: context
+      type: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    content.vb: Sub WriteXml(writer As XmlWriter, value As Object, context As XmlSerializationContext)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml*
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  id: ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  langs:
+  - csharp
+  - vb
+  name: ReadXml(XmlReader, XmlSerializationContext)
+  nameWithType: IXmlConverter.ReadXml(XmlReader, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml(System.Xml.XmlReader, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ReadXml
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverter.cs
+    startLine: 13
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters
+  syntax:
+    content: object ReadXml(XmlReader reader, XmlSerializationContext context)
+    parameters:
+    - id: reader
+      type: System.Xml.XmlReader
+    - id: context
+      type: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    return:
+      type: System.Object
+    content.vb: Function ReadXml(reader As XmlReader, context As XmlSerializationContext) As Object
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml*
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<IXmlConverter>()
+  nameWithType: TypeExtension.CanHaveNullValue<IXmlConverter>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of IXmlConverter)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter)()
+  name.vb: CanHaveNullValue(Of IXmlConverter)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<IXmlConverter>
+    nameWithType: TypeExtension.CanHaveNullValue<IXmlConverter>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of IXmlConverter)
+    nameWithType: TypeExtension.CanHaveNullValue(Of IXmlConverter)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead
+  name: CanRead
+  nameWithType: IXmlConverter.CanRead
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanRead
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite
+  name: CanWrite
+  nameWithType: IXmlConverter.CanWrite
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.CanWrite
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml
+  name: WriteXml
+  nameWithType: IXmlConverter.WriteXml
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.WriteXml
+- uid: System.Xml.XmlWriter
+  commentId: T:System.Xml.XmlWriter
+  parent: System.Xml
+  isExternal: true
+  name: XmlWriter
+  nameWithType: XmlWriter
+  fullName: System.Xml.XmlWriter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlSerializationContext
+  nameWithType: XmlSerializationContext
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+- uid: DotNetHelper_Serializer.DataSource.Xml
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml
+  name: DotNetHelper_Serializer.DataSource.Xml
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml
+  fullName: DotNetHelper_Serializer.DataSource.Xml
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml
+  name: ReadXml
+  nameWithType: IXmlConverter.ReadXml
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter.ReadXml
+- uid: System.Xml.XmlReader
+  commentId: T:System.Xml.XmlReader
+  parent: System.Xml
+  isExternal: true
+  name: XmlReader
+  nameWithType: XmlReader
+  fullName: System.Xml.XmlReader

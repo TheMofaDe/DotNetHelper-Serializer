@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  id: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.XmlObjectConverter
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.XmlObjectConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.XmlObjectConverter
+  name: XmlObjectConverter
+  nameWithType: XmlObjectConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.XmlObjectConverter

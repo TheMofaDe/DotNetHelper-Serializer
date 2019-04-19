@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Interface
+  commentId: N:DotNetHelper_Serializer.Interface
+  id: DotNetHelper_Serializer.Interface
+  children:
+  - DotNetHelper_Serializer.Interface.ICsvSerializer
+  - DotNetHelper_Serializer.Interface.IDataSourceDb
+  - DotNetHelper_Serializer.Interface.IJsonSerializer
+  - DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.Interface
+  nameWithType: DotNetHelper_Serializer.Interface
+  fullName: DotNetHelper_Serializer.Interface
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.Interface.ICsvSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.ICsvSerializer
+  parent: DotNetHelper_Serializer.Interface
+  name: ICsvSerializer
+  nameWithType: ICsvSerializer
+  fullName: DotNetHelper_Serializer.Interface.ICsvSerializer
+- uid: DotNetHelper_Serializer.Interface.IDataSourceDb
+  commentId: T:DotNetHelper_Serializer.Interface.IDataSourceDb
+  parent: DotNetHelper_Serializer.Interface
+  name: IDataSourceDb
+  nameWithType: IDataSourceDb
+  fullName: DotNetHelper_Serializer.Interface.IDataSourceDb
+- uid: DotNetHelper_Serializer.Interface.IJsonSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.IJsonSerializer
+  parent: DotNetHelper_Serializer.Interface
+  name: IJsonSerializer
+  nameWithType: IJsonSerializer
+  fullName: DotNetHelper_Serializer.Interface.IJsonSerializer
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.IXmlSerializer
+  parent: DotNetHelper_Serializer.Interface
+  name: IXmlSerializer
+  nameWithType: IXmlSerializer
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer
+- uid: DotNetHelper_Serializer.Interface
+  commentId: N:DotNetHelper_Serializer.Interface
+  name: DotNetHelper_Serializer.Interface
+  nameWithType: DotNetHelper_Serializer.Interface
+  fullName: DotNetHelper_Serializer.Interface

@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  id: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlByteArrayConverter
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlKeyValuePairConverter
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlNullableConverter
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlSerializableConverter
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlTypeConverter
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlUriConverter
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlByteArrayConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlByteArrayConverter
+  name: XmlByteArrayConverter
+  nameWithType: XmlByteArrayConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlByteArrayConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlKeyValuePairConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlKeyValuePairConverter
+  name: XmlKeyValuePairConverter
+  nameWithType: XmlKeyValuePairConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlKeyValuePairConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlNullableConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlNullableConverter
+  name: XmlNullableConverter
+  nameWithType: XmlNullableConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlNullableConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlSerializableConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlSerializableConverter
+  name: XmlSerializableConverter
+  nameWithType: XmlSerializableConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlSerializableConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlTypeConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlTypeConverter
+  name: XmlTypeConverter
+  nameWithType: XmlTypeConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlTypeConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlUriConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlUriConverter
+  name: XmlUriConverter
+  nameWithType: XmlUriConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlUriConverter

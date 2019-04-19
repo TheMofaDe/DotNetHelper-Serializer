@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  id: IXmlContractResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: IXmlContractResolver
+  nameWithType: IXmlContractResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  type: Interface
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IXmlContractResolver
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public interface IXmlContractResolver
+    content.vb: Public Interface IXmlContractResolver
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  id: ResolveContract(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveContract(Type)
+  nameWithType: IXmlContractResolver.ResolveContract(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveContract
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: XmlContract ResolveContract(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+    content.vb: Function ResolveContract(valueType As Type) As XmlContract
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract*
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<IXmlContractResolver>()
+  nameWithType: TypeExtension.CanHaveNullValue<IXmlContractResolver>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of IXmlContractResolver)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver)()
+  name.vb: CanHaveNullValue(Of IXmlContractResolver)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<IXmlContractResolver>
+    nameWithType: TypeExtension.CanHaveNullValue<IXmlContractResolver>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of IXmlContractResolver)
+    nameWithType: TypeExtension.CanHaveNullValue(Of IXmlContractResolver)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract
+  name: ResolveContract
+  nameWithType: IXmlContractResolver.ResolveContract
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver.ResolveContract
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlContract
+  nameWithType: XmlContract
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

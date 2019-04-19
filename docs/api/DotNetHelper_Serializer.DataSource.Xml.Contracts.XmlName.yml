@@ -1,0 +1,983 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  id: XmlName
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor(System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor(System.String,System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(System.Object)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.op_Implicit(System.String)~DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString
+  langs:
+  - csharp
+  - vb
+  name: XmlName
+  nameWithType: XmlName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: 'public sealed class XmlName : IEquatable<XmlName>'
+    content.vb: >-
+      Public NotInheritable Class XmlName
+          Implements IEquatable(Of XmlName)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor(System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: XmlName(String)
+  nameWithType: XmlName.XmlName(String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.XmlName(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 7
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public XmlName(string localName)
+    parameters:
+    - id: localName
+      type: System.String
+    content.vb: Public Sub New(localName As String)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor(System.String,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: XmlName(String, String)
+  nameWithType: XmlName.XmlName(String, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.XmlName(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 12
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public XmlName(string localName, string namespaceUri)
+    parameters:
+    - id: localName
+      type: System.String
+    - id: namespaceUri
+      type: System.String
+    content.vb: Public Sub New(localName As String, namespaceUri As String)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName
+  id: LocalName
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: LocalName
+  nameWithType: XmlName.LocalName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: LocalName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 30
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public string LocalName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LocalName As String
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri
+  id: NamespaceUri
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: NamespaceUri
+  nameWithType: XmlName.NamespaceUri
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: NamespaceUri
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 32
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public string NamespaceUri { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property NamespaceUri As String
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.op_Implicit(System.String)~DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.op_Implicit(System.String)~DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  id: op_Implicit(System.String)~DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: Implicit(String to XmlName)
+  nameWithType: XmlName.Implicit(String to XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Implicit(System.String to DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  type: Operator
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: op_Implicit
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 34
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public static implicit operator XmlName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    content.vb: Public Shared Widening Operator CType(name As String) As XmlName
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.op_Implicit*
+  nameWithType.vb: XmlName.Widening(String to XmlName)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Widening(System.String to DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: Widening(String to XmlName)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString
+  id: ToString
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: XmlName.ToString()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ToString
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 39
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(System.Object)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: XmlName.Equals(Object)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Equals
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 49
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode
+  id: GetHashCode
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: XmlName.GetHashCode()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetHashCode
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 54
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  id: Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  langs:
+  - csharp
+  - vb
+  name: Equals(XmlName)
+  nameWithType: XmlName.Equals(XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Equals
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlName.cs
+    startLine: 71
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public bool Equals(XmlName other)
+    parameters:
+    - id: other
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As XmlName) As Boolean
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals*
+  implements:
+  - System.IEquatable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName}.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IEquatable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName}
+  commentId: T:System.IEquatable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<XmlName>
+  nameWithType: IEquatable<XmlName>
+  fullName: System.IEquatable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName>
+  nameWithType.vb: IEquatable(Of XmlName)
+  fullName.vb: System.IEquatable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: IEquatable(Of XmlName)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlName>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlName>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlName)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)()
+  name.vb: CanHaveNullValue(Of XmlName)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlName>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlName>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlName)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlName)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.#ctor
+  name: XmlName
+  nameWithType: XmlName.XmlName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.XmlName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName
+  name: LocalName
+  nameWithType: XmlName.LocalName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.LocalName
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri
+  name: NamespaceUri
+  nameWithType: XmlName.NamespaceUri
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.NamespaceUri
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.op_Implicit*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.op_Implicit
+  name: Implicit
+  nameWithType: XmlName.Implicit
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Implicit
+  nameWithType.vb: XmlName.Widening
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Widening
+  name.vb: Widening
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlName
+  nameWithType: XmlName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString
+  name: ToString
+  nameWithType: XmlName.ToString
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.ToString
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals
+  name: Equals
+  nameWithType: XmlName.Equals
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode
+  name: GetHashCode
+  nameWithType: XmlName.GetHashCode
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.IEquatable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName}.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:System.IEquatable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName}.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  parent: System.IEquatable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(XmlName)
+  nameWithType: IEquatable<XmlName>.Equals(XmlName)
+  fullName: System.IEquatable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName>.Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  nameWithType.vb: IEquatable(Of XmlName).Equals(XmlName)
+  fullName.vb: System.IEquatable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName).Equals(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<XmlName>.Equals
+    fullName: System.IEquatable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of XmlName).Equals
+    fullName: System.IEquatable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

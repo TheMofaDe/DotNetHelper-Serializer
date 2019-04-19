@@ -1,0 +1,317 @@
+### YamlMime:TableOfContent
+- uid: DotNetHelper_Serializer.Attribute
+  name: DotNetHelper_Serializer.Attribute
+  items:
+  - uid: DotNetHelper_Serializer.Attribute.DataValidationAttritube
+    name: DataValidationAttritube
+  - uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+    name: DataValidationAttritubeMembers
+  - uid: DotNetHelper_Serializer.Attribute.SqlColumnAttritube
+    name: SqlColumnAttritube
+  - uid: DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers
+    name: SqlColumnAttritubeMembers
+  - uid: DotNetHelper_Serializer.Attribute.SQLJoinType
+    name: SQLJoinType
+  - uid: DotNetHelper_Serializer.Attribute.SqlTableAttritube
+    name: SqlTableAttritube
+  - uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+    name: SqlTableAttritubeMembers
+- uid: DotNetHelper_Serializer.DataSource
+  name: DotNetHelper_Serializer.DataSource
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceBinary
+    name: DataSourceBinary
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceCsv
+    name: DataSourceCsv
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceDb
+    name: DataSourceDb
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+    name: DataSourceDb.SqlExceptionEventHandler
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceJson
+    name: DataSourceJson
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceXml
+    name: DataSourceXml
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+    name: DataSourceXml.SettingsType
+  - uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+    name: DataSourceXml.XmlOptions
+- uid: DotNetHelper_Serializer.DataSource.Xml
+  name: DotNetHelper_Serializer.DataSource.Xml
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationException
+    name: XmlSerializationException
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+    name: XmlSerializerSettings
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext
+    name: XmlTypeContext
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.IXmlContractResolver
+    name: IXmlContractResolver
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.NamingConventions
+    name: NamingConventions
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContract
+    name: XmlContract
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractException
+    name: XmlContractException
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlContractResolver
+    name: XmlContractResolver
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlCustomContractResolver
+    name: XmlCustomContractResolver
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+    name: XmlDefaultValueHandling
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumContract
+    name: XmlEnumContract
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    name: XmlEnumItem
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlItem
+    name: XmlItem
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlKnownType
+    name: XmlKnownType
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+    name: XmlMappingType
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMember
+    name: XmlMember
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNamespace
+    name: XmlNamespace
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+    name: XmlNullValueHandling
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlObjectContract
+    name: XmlObjectContract
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlProperty
+    name: XmlProperty
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+    name: XmlTypeHandling
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder
+    name: IXmlBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder
+    name: IXmlCollectionBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlObjectBuilder
+    name: IXmlObjectBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+    name: XmlBuilderExtensions
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilder
+    name: XmlContractBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+    name: XmlContractBuilderExtensions
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder
+    name: XmlEnumContractBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+    name: XmlEnumContractBuilder<T>
+    name.vb: XmlEnumContractBuilder(Of T)
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+    name: XmlEnumItemCollection
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlKnownTypeBuilder
+    name: XmlKnownTypeBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlKnownTypeBuilderCollection
+    name: XmlKnownTypeBuilderCollection
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlMemberBuilder
+    name: XmlMemberBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder
+    name: XmlObjectContractBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+    name: XmlObjectContractBuilder<T>
+    name.vb: XmlObjectContractBuilder(Of T)
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder
+    name: XmlPropertyBuilder
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilderCollection
+    name: XmlPropertyBuilderCollection
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+    name: IXmlConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverterFactory
+    name: IXmlConverterFactory
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+    name: XmlBasicConverter<T>
+    name.vb: XmlBasicConverter(Of T)
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+    name: XmlBasicRawConverter<T>
+    name.vb: XmlBasicRawConverter(Of T)
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+    name: XmlConverter<T>
+    name.vb: XmlConverter(Of T)
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverterFactory
+    name: XmlConverterFactory
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlEnumConverter
+    name: XmlEnumConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlBooleanConverter
+    name: XmlBooleanConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlByteConverter
+    name: XmlByteConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlCharConverter
+    name: XmlCharConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlCustomDateTimeConverter
+    name: XmlCustomDateTimeConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDateTimeConverter
+    name: XmlDateTimeConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDateTimeOffsetConverter
+    name: XmlDateTimeOffsetConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDecimalConverter
+    name: XmlDecimalConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter
+    name: XmlDoubleConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlGuidConverter
+    name: XmlGuidConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt16Converter
+    name: XmlInt16Converter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt32Converter
+    name: XmlInt32Converter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlInt64Converter
+    name: XmlInt64Converter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlSByteConverter
+    name: XmlSByteConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlSingleConverter
+    name: XmlSingleConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlStringConverter
+    name: XmlStringConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlTimeSpanConverter
+    name: XmlTimeSpanConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt16Converter
+    name: XmlUInt16Converter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt32Converter
+    name: XmlUInt32Converter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlUInt64Converter
+    name: XmlUInt64Converter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.ICollectionProxy
+    name: ICollectionProxy
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlArrayConverter
+    name: XmlArrayConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlCollectionConverter
+    name: XmlCollectionConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlDictionaryConverter
+    name: XmlDictionaryConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Collections.XmlListConverter
+    name: XmlListConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.XmlObjectConverter
+    name: XmlObjectConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlByteArrayConverter
+    name: XmlByteArrayConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlKeyValuePairConverter
+    name: XmlKeyValuePairConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlNullableConverter
+    name: XmlNullableConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlSerializableConverter
+    name: XmlSerializableConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlTypeConverter
+    name: XmlTypeConverter
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized.XmlUriConverter
+    name: XmlUriConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  name: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  items:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+    name: IXmlTypeResolver
+  - uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolveException
+    name: XmlTypeResolveException
+  - uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver
+    name: XmlTypeResolver
+- uid: DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  items:
+  - uid: DotNetHelper_Serializer.Extension.AdvanceMember
+    name: AdvanceMember
+  - uid: DotNetHelper_Serializer.Extension.DataTypes
+    name: DataTypes
+  - uid: DotNetHelper_Serializer.Extension.DynamicMember
+    name: DynamicMember
+  - uid: DotNetHelper_Serializer.Extension.ExtDataReader
+    name: ExtDataReader
+  - uid: DotNetHelper_Serializer.Extension.ExtDataTable
+    name: ExtDataTable
+  - uid: DotNetHelper_Serializer.Extension.ExtDictonary
+    name: ExtDictonary
+  - uid: DotNetHelper_Serializer.Extension.ExtFastMember
+    name: ExtFastMember
+  - uid: DotNetHelper_Serializer.Extension.ExtString
+    name: ExtString
+  - uid: DotNetHelper_Serializer.Extension.IDataSourceDBExtension
+    name: IDataSourceDBExtension
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension
+    name: TypeExtension
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.New`1
+    name: TypeExtension.New<T>
+    name.vb: TypeExtension.New(Of T)
+- uid: DotNetHelper_Serializer.Helper
+  name: DotNetHelper_Serializer.Helper
+  items:
+  - uid: DotNetHelper_Serializer.Helper.DataValidation
+    name: DataValidation
+  - uid: DotNetHelper_Serializer.Helper.DBHelper
+    name: DBHelper
+  - uid: DotNetHelper_Serializer.Helper.ObjectMapper
+    name: ObjectMapper
+  - uid: DotNetHelper_Serializer.Helper.ObjectToSqlHelper
+    name: ObjectToSqlHelper
+  - uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+    name: SqlSyntaxHelper
+- uid: DotNetHelper_Serializer.Interface
+  name: DotNetHelper_Serializer.Interface
+  items:
+  - uid: DotNetHelper_Serializer.Interface.ICsvSerializer
+    name: ICsvSerializer
+  - uid: DotNetHelper_Serializer.Interface.IDataSourceDb
+    name: IDataSourceDb
+  - uid: DotNetHelper_Serializer.Interface.IJsonSerializer
+    name: IJsonSerializer
+  - uid: DotNetHelper_Serializer.Interface.IXmlSerializer
+    name: IXmlSerializer
+- uid: DotNetHelper_Serializer.Model
+  name: DotNetHelper_Serializer.Model
+  items:
+  - uid: DotNetHelper_Serializer.Model.DataSourceProperties
+    name: DataSourceProperties
+  - uid: DotNetHelper_Serializer.Model.Db
+    name: Db
+  - uid: DotNetHelper_Serializer.Model.DbSchema
+    name: DbSchema
+  - uid: DotNetHelper_Serializer.Model.DbTable
+    name: DbTable
+  - uid: DotNetHelper_Serializer.Model.ErrorObject
+    name: ErrorObject
+  - uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+    name: FullQueryBucketEventArgs
+  - uid: DotNetHelper_Serializer.Model.LogObject
+    name: LogObject
+  - uid: DotNetHelper_Serializer.Model.QueryBucket
+    name: QueryBucket
+  - uid: DotNetHelper_Serializer.Model.QueryBucketEventArgs
+    name: QueryBucketEventArgs
+  - uid: DotNetHelper_Serializer.Model.QueryBucketManager
+    name: QueryBucketManager
+  - uid: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+    name: QueryBucketManager.FullQueryBucketEventHandler
+  - uid: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAddToBucketEventHandler
+    name: QueryBucketManager.OnBeforeAddToBucketEventHandler
+  - uid: DotNetHelper_Serializer.Model.TableDefinition
+    name: TableDefinition
+  - uid: DotNetHelper_Serializer.Model.TableNameParseObject
+    name: TableNameParseObject
+- uid: DotNetHelper_Serializer.Tools
+  name: DotNetHelper_Serializer.Tools
+  items:
+  - uid: DotNetHelper_Serializer.Tools.DevelopersTools
+    name: DevelopersTools

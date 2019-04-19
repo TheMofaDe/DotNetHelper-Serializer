@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  id: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  - DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolveException
+  - DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  name: IXmlTypeResolver
+  nameWithType: IXmlTypeResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolveException
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolveException
+  name: XmlTypeResolveException
+  nameWithType: XmlTypeResolveException
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolveException
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver
+  name: XmlTypeResolver
+  nameWithType: XmlTypeResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  name: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers

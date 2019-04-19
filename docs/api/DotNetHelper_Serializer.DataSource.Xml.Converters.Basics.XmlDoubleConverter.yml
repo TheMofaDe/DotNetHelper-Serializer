@@ -1,0 +1,1424 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter
+  id: XmlDoubleConverter
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString(System.Double,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  langs:
+  - csharp
+  - vb
+  name: XmlDoubleConverter
+  nameWithType: XmlDoubleConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDoubleConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlDoubleConverter
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDoubleConverter.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  syntax:
+    content: 'public sealed class XmlDoubleConverter : XmlBasicRawConverter<double>, IXmlConverter'
+    content.vb: >-
+      Public NotInheritable Class XmlDoubleConverter
+          Inherits XmlBasicRawConverter(Of Double)
+          Implements IXmlConverter
+  inheritance:
+  - System.Object
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter{System.Double}
+  implements:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  inheritedMembers:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter{System.Double}.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}.CanRead(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}.CanWrite(System.Type)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  id: Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter
+  langs:
+  - csharp
+  - vb
+  name: Parse(String, XmlSerializationContext)
+  nameWithType: XmlDoubleConverter.Parse(String, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse(System.String, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDoubleConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Parse
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDoubleConverter.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  syntax:
+    content: protected override double Parse(string value, XmlSerializationContext context)
+    parameters:
+    - id: value
+      type: System.String
+    - id: context
+      type: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    return:
+      type: System.Double
+    content.vb: Protected Overrides Function Parse(value As String, context As XmlSerializationContext) As Double
+  overridden: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString(System.Double,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString(System.Double,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  id: ToString(System.Double,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter
+  langs:
+  - csharp
+  - vb
+  name: ToString(Double, XmlSerializationContext)
+  nameWithType: XmlDoubleConverter.ToString(Double, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString(System.Double, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDoubleConverter.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ToString
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDoubleConverter.cs
+    startLine: 11
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  syntax:
+    content: protected override string ToString(double value, XmlSerializationContext context)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: context
+      type: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function ToString(value As Double, context As XmlSerializationContext) As String
+  overridden: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.ToString(System.Double,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+  name: XmlConverter<Double>
+  nameWithType: XmlConverter<Double>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<System.Double>
+  nameWithType.vb: XmlConverter(Of Double)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of System.Double)
+  name.vb: XmlConverter(Of Double)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+    name: XmlConverter
+    nameWithType: XmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+    name: XmlConverter
+    nameWithType: XmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+  name: XmlBasicConverter<Double>
+  nameWithType: XmlBasicConverter<Double>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<System.Double>
+  nameWithType.vb: XmlBasicConverter(Of Double)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of System.Double)
+  name.vb: XmlBasicConverter(Of Double)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+    name: XmlBasicConverter
+    nameWithType: XmlBasicConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+    name: XmlBasicConverter
+    nameWithType: XmlBasicConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter{System.Double}
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter{System.Double}
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+  name: XmlBasicRawConverter<Double>
+  nameWithType: XmlBasicRawConverter<Double>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter<System.Double>
+  nameWithType.vb: XmlBasicRawConverter(Of Double)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter(Of System.Double)
+  name.vb: XmlBasicRawConverter(Of Double)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+    name: XmlBasicRawConverter
+    nameWithType: XmlBasicRawConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+    name: XmlBasicRawConverter
+    nameWithType: XmlBasicRawConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: IXmlConverter
+  nameWithType: IXmlConverter
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.IXmlConverter
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter{System.Double}.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter{System.Double}.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter{System.Double}
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  name: WriteXml(XmlWriter, Object, XmlSerializationContext)
+  nameWithType: XmlBasicRawConverter<Double>.WriteXml(XmlWriter, Object, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter<System.Double>.WriteXml(System.Xml.XmlWriter, System.Object, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicRawConverter(Of Double).WriteXml(XmlWriter, Object, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter(Of System.Double).WriteXml(System.Xml.XmlWriter, System.Object, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: WriteXml
+    nameWithType: XmlBasicRawConverter<Double>.WriteXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter<System.Double>.WriteXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: WriteXml
+    nameWithType: XmlBasicRawConverter(Of Double).WriteXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter(Of System.Double).WriteXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  name: ReadXml(XmlReader, XmlSerializationContext)
+  nameWithType: XmlBasicConverter<Double>.ReadXml(XmlReader, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<System.Double>.ReadXml(System.Xml.XmlReader, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicConverter(Of Double).ReadXml(XmlReader, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of System.Double).ReadXml(System.Xml.XmlReader, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ReadXml
+    nameWithType: XmlBasicConverter<Double>.ReadXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<System.Double>.ReadXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ReadXml
+    nameWithType: XmlBasicConverter(Of Double).ReadXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of System.Double).ReadXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}.CanRead(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}.CanRead(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanRead(System.Type)
+  name: CanRead(Type)
+  nameWithType: XmlConverter<Double>.CanRead(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<System.Double>.CanRead(System.Type)
+  nameWithType.vb: XmlConverter(Of Double).CanRead(Type)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of System.Double).CanRead(System.Type)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanRead(System.Type)
+    name: CanRead
+    nameWithType: XmlConverter<Double>.CanRead
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<System.Double>.CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanRead(System.Type)
+    name: CanRead
+    nameWithType: XmlConverter(Of Double).CanRead
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of System.Double).CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}.CanWrite(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}.CanWrite(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter{System.Double}
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanWrite(System.Type)
+  name: CanWrite(Type)
+  nameWithType: XmlConverter<Double>.CanWrite(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<System.Double>.CanWrite(System.Type)
+  nameWithType.vb: XmlConverter(Of Double).CanWrite(Type)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of System.Double).CanWrite(System.Type)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanWrite(System.Type)
+    name: CanWrite
+    nameWithType: XmlConverter<Double>.CanWrite
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<System.Double>.CanWrite
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanWrite(System.Type)
+    name: CanWrite
+    nameWithType: XmlConverter(Of Double).CanWrite
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of System.Double).CanWrite
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlDoubleConverter>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlDoubleConverter>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlDoubleConverter)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter)()
+  name.vb: CanHaveNullValue(Of XmlDoubleConverter)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlDoubleConverter>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlDoubleConverter>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlDoubleConverter)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlDoubleConverter)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+  name: XmlConverter<T>
+  nameWithType: XmlConverter<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<T>
+  nameWithType.vb: XmlConverter(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of T)
+  name.vb: XmlConverter(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+    name: XmlConverter
+    nameWithType: XmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1
+    name: XmlConverter
+    nameWithType: XmlConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Converters
+  name: DotNetHelper_Serializer.DataSource.Xml.Converters
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Converters
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+  name: XmlBasicConverter<T>
+  nameWithType: XmlBasicConverter<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>
+  nameWithType.vb: XmlBasicConverter(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T)
+  name.vb: XmlBasicConverter(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+    name: XmlBasicConverter
+    nameWithType: XmlBasicConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1
+    name: XmlBasicConverter
+    nameWithType: XmlBasicConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+  name: XmlBasicRawConverter<T>
+  nameWithType: XmlBasicRawConverter<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter<T>
+  nameWithType.vb: XmlBasicRawConverter(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter(Of T)
+  name.vb: XmlBasicRawConverter(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+    name: XmlBasicRawConverter
+    nameWithType: XmlBasicRawConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1
+    name: XmlBasicRawConverter
+    nameWithType: XmlBasicRawConverter
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  isExternal: true
+  name: WriteXml(XmlWriter, Object, XmlSerializationContext)
+  nameWithType: XmlBasicRawConverter<T>.WriteXml(XmlWriter, Object, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter<T>.WriteXml(System.Xml.XmlWriter, System.Object, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicRawConverter(Of T).WriteXml(XmlWriter, Object, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter(Of T).WriteXml(System.Xml.XmlWriter, System.Object, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: WriteXml
+    nameWithType: XmlBasicRawConverter<T>.WriteXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter<T>.WriteXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter`1.WriteXml(System.Xml.XmlWriter,System.Object,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: WriteXml
+    nameWithType: XmlBasicRawConverter(Of T).WriteXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicRawConverter(Of T).WriteXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  isExternal: true
+  name: ReadXml(XmlReader, XmlSerializationContext)
+  nameWithType: XmlBasicConverter<T>.ReadXml(XmlReader, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>.ReadXml(System.Xml.XmlReader, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicConverter(Of T).ReadXml(XmlReader, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T).ReadXml(System.Xml.XmlReader, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ReadXml
+    nameWithType: XmlBasicConverter<T>.ReadXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>.ReadXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ReadXml(System.Xml.XmlReader,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ReadXml
+    nameWithType: XmlBasicConverter(Of T).ReadXml
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T).ReadXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanRead(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanRead(System.Type)
+  isExternal: true
+  name: CanRead(Type)
+  nameWithType: XmlConverter<T>.CanRead(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<T>.CanRead(System.Type)
+  nameWithType.vb: XmlConverter(Of T).CanRead(Type)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of T).CanRead(System.Type)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanRead(System.Type)
+    name: CanRead
+    nameWithType: XmlConverter<T>.CanRead
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<T>.CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanRead(System.Type)
+    name: CanRead
+    nameWithType: XmlConverter(Of T).CanRead
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of T).CanRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanWrite(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanWrite(System.Type)
+  isExternal: true
+  name: CanWrite(Type)
+  nameWithType: XmlConverter<T>.CanWrite(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<T>.CanWrite(System.Type)
+  nameWithType.vb: XmlConverter(Of T).CanWrite(Type)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of T).CanWrite(System.Type)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanWrite(System.Type)
+    name: CanWrite
+    nameWithType: XmlConverter<T>.CanWrite
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter<T>.CanWrite
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter`1.CanWrite(System.Type)
+    name: CanWrite
+    nameWithType: XmlConverter(Of T).CanWrite
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlConverter(Of T).CanWrite
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  name: Parse(String, XmlSerializationContext)
+  nameWithType: XmlBasicConverter<Double>.Parse(String, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<System.Double>.Parse(System.String, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicConverter(Of Double).Parse(String, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of System.Double).Parse(System.String, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: Parse
+    nameWithType: XmlBasicConverter<Double>.Parse
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<System.Double>.Parse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: Parse
+    nameWithType: XmlBasicConverter(Of Double).Parse
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of System.Double).Parse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse
+  name: Parse
+  nameWithType: XmlDoubleConverter.Parse
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.Parse
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlSerializationContext
+  nameWithType: XmlSerializationContext
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  isExternal: true
+  name: Parse(String, XmlSerializationContext)
+  nameWithType: XmlBasicConverter<T>.Parse(String, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>.Parse(System.String, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicConverter(Of T).Parse(String, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T).Parse(System.String, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: Parse
+    nameWithType: XmlBasicConverter<T>.Parse
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>.Parse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.Parse(System.String,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: Parse
+    nameWithType: XmlBasicConverter(Of T).Parse
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T).Parse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml
+  name: DotNetHelper_Serializer.DataSource.Xml
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml
+  fullName: DotNetHelper_Serializer.DataSource.Xml
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.ToString(System.Double,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}.ToString(System.Double,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter{System.Double}
+  definition: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ToString(`0,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  name: ToString(Double, XmlSerializationContext)
+  nameWithType: XmlBasicConverter<Double>.ToString(Double, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<System.Double>.ToString(System.Double, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicConverter(Of Double).ToString(Double, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of System.Double).ToString(System.Double, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ToString(`0,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ToString
+    nameWithType: XmlBasicConverter<Double>.ToString
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<System.Double>.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ToString(`0,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ToString
+    nameWithType: XmlBasicConverter(Of Double).ToString
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of System.Double).ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString
+  name: ToString
+  nameWithType: XmlDoubleConverter.ToString
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.Basics.XmlDoubleConverter.ToString
+- uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ToString(`0,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ToString(`0,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  name: ToString(T, XmlSerializationContext)
+  nameWithType: XmlBasicConverter<T>.ToString(T, XmlSerializationContext)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>.ToString(T, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  nameWithType.vb: XmlBasicConverter(Of T).ToString(T, XmlSerializationContext)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T).ToString(T, DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ToString(`0,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ToString
+    nameWithType: XmlBasicConverter<T>.ToString
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter<T>.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter`1.ToString(`0,DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext)
+    name: ToString
+    nameWithType: XmlBasicConverter(Of T).ToString
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Converters.XmlBasicConverter(Of T).ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+    name: XmlSerializationContext
+    nameWithType: XmlSerializationContext
+    fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializationContext
+  - name: )
+    nameWithType: )
+    fullName: )

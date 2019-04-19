@@ -1,0 +1,804 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder
+  id: IXmlCollectionBuilder
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item
+  langs:
+  - csharp
+  - vb
+  name: IXmlCollectionBuilder
+  nameWithType: IXmlCollectionBuilder
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder
+  type: Interface
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IXmlCollectionBuilder
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
+    startLine: 2
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: 'public interface IXmlCollectionBuilder : IXmlBuilder'
+    content.vb: >-
+      Public Interface IXmlCollectionBuilder
+          Inherits IXmlBuilder
+  inheritedMembers:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.ValueType
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.Name
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item
+  id: Item
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: IXmlCollectionBuilder.Item
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Item
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: XmlItemBuilder Item { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    content.vb: Property Item As XmlItemBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.ValueType
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.ValueType
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder
+  name: ValueType
+  nameWithType: IXmlBuilder.ValueType
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.ValueType
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.Name
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.Name
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder
+  name: Name
+  nameWithType: IXmlBuilder.Name
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder.Name
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<IXmlCollectionBuilder>()
+  nameWithType: TypeExtension.CanHaveNullValue<IXmlCollectionBuilder>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of IXmlCollectionBuilder)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)()
+  name.vb: CanHaveNullValue(Of IXmlCollectionBuilder)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<IXmlCollectionBuilder>
+    nameWithType: TypeExtension.CanHaveNullValue<IXmlCollectionBuilder>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of IXmlCollectionBuilder)
+    nameWithType: TypeExtension.CanHaveNullValue(Of IXmlCollectionBuilder)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+  definition: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name: SetName<IXmlCollectionBuilder>(XmlName)
+  nameWithType: XmlBuilderExtensions.SetName<IXmlCollectionBuilder>(XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  nameWithType.vb: XmlBuilderExtensions.SetName(Of IXmlCollectionBuilder)(XmlName)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: SetName(Of IXmlCollectionBuilder)(XmlName)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetName<IXmlCollectionBuilder>
+    nameWithType: XmlBuilderExtensions.SetName<IXmlCollectionBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetName(Of IXmlCollectionBuilder)
+    nameWithType: XmlBuilderExtensions.SetName(Of IXmlCollectionBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+  definition: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name: SetItem<IXmlCollectionBuilder>(XmlName)
+  nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>(XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)(XmlName)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: SetItem(Of IXmlCollectionBuilder)(XmlName)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem<IXmlCollectionBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem(Of IXmlCollectionBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+  definition: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name: SetItem<IXmlCollectionBuilder>(Type, XmlName)
+  nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>(Type, XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>(System.Type, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)(Type, XmlName)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)(System.Type, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: SetItem(Of IXmlCollectionBuilder)(Type, XmlName)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem<IXmlCollectionBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem(Of IXmlCollectionBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+  definition: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  name: SetItem<IXmlCollectionBuilder>(Action<XmlItemBuilder>)
+  nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>(Action<XmlItemBuilder>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>(System.Action<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder>)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)(Action(Of XmlItemBuilder))
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)(System.Action(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder))
+  name.vb: SetItem(Of IXmlCollectionBuilder)(Action(Of XmlItemBuilder))
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem<IXmlCollectionBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem(Of IXmlCollectionBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+  definition: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  name: SetItem<IXmlCollectionBuilder>(Type, Action<XmlItemBuilder>)
+  nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>(Type, Action<XmlItemBuilder>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>(System.Type, System.Action<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder>)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)(Type, Action(Of XmlItemBuilder))
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)(System.Type, System.Action(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder))
+  name.vb: SetItem(Of IXmlCollectionBuilder)(Type, Action(Of XmlItemBuilder))
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem<IXmlCollectionBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<IXmlCollectionBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem(Of IXmlCollectionBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of IXmlCollectionBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  name: IXmlBuilder
+  nameWithType: IXmlBuilder
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlBuilder
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name: SetName<TBuilder>(TBuilder, XmlName)
+  nameWithType: XmlBuilderExtensions.SetName<TBuilder>(TBuilder, XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName<TBuilder>(TBuilder, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  nameWithType.vb: XmlBuilderExtensions.SetName(Of TBuilder)(TBuilder, XmlName)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName(Of TBuilder)(TBuilder, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: SetName(Of TBuilder)(TBuilder, XmlName)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetName<TBuilder>
+    nameWithType: XmlBuilderExtensions.SetName<TBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName<TBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetName(Of TBuilder)
+    nameWithType: XmlBuilderExtensions.SetName(Of TBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetName(Of TBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  name: XmlBuilderExtensions
+  nameWithType: XmlBuilderExtensions
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name: SetItem<TBuilder>(TBuilder, XmlName)
+  nameWithType: XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, XmlName)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: SetItem(Of TBuilder)(TBuilder, XmlName)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem<TBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<TBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem(Of TBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of TBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  isExternal: true
+  name: SetItem<TBuilder>(TBuilder, Type, XmlName)
+  nameWithType: XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, Type, XmlName)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, System.Type, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, Type, XmlName)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, System.Type, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+  name.vb: SetItem(Of TBuilder)(TBuilder, Type, XmlName)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem<TBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<TBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName)
+    name: SetItem(Of TBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of TBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    name: XmlName
+    nameWithType: XmlName
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  isExternal: true
+  name: SetItem<TBuilder>(TBuilder, Action<XmlItemBuilder>)
+  nameWithType: XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, Action<XmlItemBuilder>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, System.Action<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder>)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, Action(Of XmlItemBuilder))
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, System.Action(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder))
+  name.vb: SetItem(Of TBuilder)(TBuilder, Action(Of XmlItemBuilder))
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem<TBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<TBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem(Of TBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of TBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+  isExternal: true
+  name: SetItem<TBuilder>(TBuilder, Type, Action<XmlItemBuilder>)
+  nameWithType: XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, Type, Action<XmlItemBuilder>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>(TBuilder, System.Type, System.Action<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder>)
+  nameWithType.vb: XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, Type, Action(Of XmlItemBuilder))
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)(TBuilder, System.Type, System.Action(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder))
+  name.vb: SetItem(Of TBuilder)(TBuilder, Type, Action(Of XmlItemBuilder))
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem<TBuilder>
+    nameWithType: XmlBuilderExtensions.SetItem<TBuilder>
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem<TBuilder>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem``1(``0,System.Type,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder})
+    name: SetItem(Of TBuilder)
+    nameWithType: XmlBuilderExtensions.SetItem(Of TBuilder)
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlBuilderExtensions.SetItem(Of TBuilder)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TBuilder
+    nameWithType: TBuilder
+    fullName: TBuilder
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+    name: XmlItemBuilder
+    nameWithType: XmlItemBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item
+  name: Item
+  nameWithType: IXmlCollectionBuilder.Item
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.IXmlCollectionBuilder.Item
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  name: XmlItemBuilder
+  nameWithType: XmlItemBuilder
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlItemBuilder

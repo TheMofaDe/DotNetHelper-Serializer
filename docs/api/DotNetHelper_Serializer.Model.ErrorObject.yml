@@ -1,0 +1,1187 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Model.ErrorObject
+  commentId: T:DotNetHelper_Serializer.Model.ErrorObject
+  id: ErrorObject
+  parent: DotNetHelper_Serializer.Model
+  children:
+  - DotNetHelper_Serializer.Model.ErrorObject.#ctor(System.Exception)
+  - DotNetHelper_Serializer.Model.ErrorObject.ApplicationName
+  - DotNetHelper_Serializer.Model.ErrorObject.Architecture
+  - DotNetHelper_Serializer.Model.ErrorObject.DeviceId
+  - DotNetHelper_Serializer.Model.ErrorObject.DeviceModel
+  - DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace
+  - DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage
+  - DotNetHelper_Serializer.Model.ErrorObject.ExceptionType
+  - DotNetHelper_Serializer.Model.ErrorObject.HelpLink
+  - DotNetHelper_Serializer.Model.ErrorObject.Id
+  - DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage
+  - DotNetHelper_Serializer.Model.ErrorObject.LogTime
+  - DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc
+  - DotNetHelper_Serializer.Model.ErrorObject.Manufacturer
+  - DotNetHelper_Serializer.Model.ErrorObject.OsDescription
+  - DotNetHelper_Serializer.Model.ErrorObject.Platform
+  - DotNetHelper_Serializer.Model.ErrorObject.StackTrace
+  - DotNetHelper_Serializer.Model.ErrorObject.Version
+  langs:
+  - csharp
+  - vb
+  name: ErrorObject
+  nameWithType: ErrorObject
+  fullName: DotNetHelper_Serializer.Model.ErrorObject
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ErrorObject
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public class ErrorObject
+    content.vb: Public Class ErrorObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.Model.ErrorObject.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Id
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.Id
+  id: Id
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ErrorObject.Id
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Id
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Id
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 9
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: DotNetHelper_Serializer.Model.ErrorObject.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ApplicationName
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.ApplicationName
+  id: ApplicationName
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ErrorObject.ApplicationName
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ApplicationName
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ApplicationName
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 11
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationName As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.LogTime
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.LogTime
+  id: LogTime
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: LogTime
+  nameWithType: ErrorObject.LogTime
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.LogTime
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: LogTime
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 13
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public DateTime LogTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LogTime As Date
+  overload: DotNetHelper_Serializer.Model.ErrorObject.LogTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ExceptionType
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.ExceptionType
+  id: ExceptionType
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: ExceptionType
+  nameWithType: ErrorObject.ExceptionType
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ExceptionType
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ExceptionType
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 14
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string ExceptionType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExceptionType As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.ExceptionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc
+  id: LogTimeUtc
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: LogTimeUtc
+  nameWithType: ErrorObject.LogTimeUtc
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: LogTimeUtc
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 15
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public DateTime LogTimeUtc { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LogTimeUtc As Date
+  overload: DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.DeviceModel
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.DeviceModel
+  id: DeviceModel
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: DeviceModel
+  nameWithType: ErrorObject.DeviceModel
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.DeviceModel
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DeviceModel
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 17
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string DeviceModel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceModel As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.DeviceModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Platform
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.Platform
+  id: Platform
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: Platform
+  nameWithType: ErrorObject.Platform
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Platform
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Platform
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 19
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string Platform { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Platform As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.Platform*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Version
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.Version
+  id: Version
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: ErrorObject.Version
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Version
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Version
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 21
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.OsDescription
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.OsDescription
+  id: OsDescription
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: OsDescription
+  nameWithType: ErrorObject.OsDescription
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.OsDescription
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: OsDescription
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 23
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string OsDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OsDescription As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.OsDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Architecture
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.Architecture
+  id: Architecture
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: Architecture
+  nameWithType: ErrorObject.Architecture
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Architecture
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Architecture
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 24
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string Architecture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Architecture As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.Architecture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Manufacturer
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.Manufacturer
+  id: Manufacturer
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: Manufacturer
+  nameWithType: ErrorObject.Manufacturer
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Manufacturer
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Manufacturer
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 26
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string Manufacturer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Manufacturer As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.Manufacturer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage
+  id: InnerExceptionMessage
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: InnerExceptionMessage
+  nameWithType: ErrorObject.InnerExceptionMessage
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: InnerExceptionMessage
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 28
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string InnerExceptionMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InnerExceptionMessage As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.StackTrace
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.StackTrace
+  id: StackTrace
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: StackTrace
+  nameWithType: ErrorObject.StackTrace
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.StackTrace
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: StackTrace
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 29
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string StackTrace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StackTrace As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.StackTrace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace
+  id: ExactStackTrace
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: ExactStackTrace
+  nameWithType: ErrorObject.ExactStackTrace
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ExactStackTrace
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 30
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string ExactStackTrace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExactStackTrace As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.DeviceId
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.DeviceId
+  id: DeviceId
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: DeviceId
+  nameWithType: ErrorObject.DeviceId
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.DeviceId
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DeviceId
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 31
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string DeviceId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceId As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.DeviceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage
+  id: ExceptionMessage
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: ExceptionMessage
+  nameWithType: ErrorObject.ExceptionMessage
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ExceptionMessage
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 33
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string ExceptionMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExceptionMessage As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.HelpLink
+  commentId: P:DotNetHelper_Serializer.Model.ErrorObject.HelpLink
+  id: HelpLink
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: HelpLink
+  nameWithType: ErrorObject.HelpLink
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.HelpLink
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: HelpLink
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 34
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string HelpLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HelpLink As String
+  overload: DotNetHelper_Serializer.Model.ErrorObject.HelpLink*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.ErrorObject.#ctor(System.Exception)
+  commentId: M:DotNetHelper_Serializer.Model.ErrorObject.#ctor(System.Exception)
+  id: '#ctor(System.Exception)'
+  parent: DotNetHelper_Serializer.Model.ErrorObject
+  langs:
+  - csharp
+  - vb
+  name: ErrorObject(Exception)
+  nameWithType: ErrorObject.ErrorObject(Exception)
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ErrorObject(System.Exception)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
+    startLine: 38
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public ErrorObject(Exception e)
+    parameters:
+    - id: e
+      type: System.Exception
+    content.vb: Public Sub New(e As Exception)
+  overload: DotNetHelper_Serializer.Model.ErrorObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Serializer.Model
+  commentId: N:DotNetHelper_Serializer.Model
+  name: DotNetHelper_Serializer.Model
+  nameWithType: DotNetHelper_Serializer.Model
+  fullName: DotNetHelper_Serializer.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.ErrorObject.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<ErrorObject>()
+  nameWithType: TypeExtension.CanHaveNullValue<ErrorObject>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.ErrorObject>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of ErrorObject)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.ErrorObject)()
+  name.vb: CanHaveNullValue(Of ErrorObject)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<ErrorObject>
+    nameWithType: TypeExtension.CanHaveNullValue<ErrorObject>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.ErrorObject>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of ErrorObject)
+    nameWithType: TypeExtension.CanHaveNullValue(Of ErrorObject)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.ErrorObject)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Id*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.Id
+  name: Id
+  nameWithType: ErrorObject.Id
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ApplicationName*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.ApplicationName
+  name: ApplicationName
+  nameWithType: ErrorObject.ApplicationName
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.Model.ErrorObject.LogTime*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.LogTime
+  name: LogTime
+  nameWithType: ErrorObject.LogTime
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.LogTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ExceptionType*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.ExceptionType
+  name: ExceptionType
+  nameWithType: ErrorObject.ExceptionType
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ExceptionType
+- uid: DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc
+  name: LogTimeUtc
+  nameWithType: ErrorObject.LogTimeUtc
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.LogTimeUtc
+- uid: DotNetHelper_Serializer.Model.ErrorObject.DeviceModel*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.DeviceModel
+  name: DeviceModel
+  nameWithType: ErrorObject.DeviceModel
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.DeviceModel
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Platform*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.Platform
+  name: Platform
+  nameWithType: ErrorObject.Platform
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Platform
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Version*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.Version
+  name: Version
+  nameWithType: ErrorObject.Version
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Version
+- uid: DotNetHelper_Serializer.Model.ErrorObject.OsDescription*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.OsDescription
+  name: OsDescription
+  nameWithType: ErrorObject.OsDescription
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.OsDescription
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Architecture*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.Architecture
+  name: Architecture
+  nameWithType: ErrorObject.Architecture
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Architecture
+- uid: DotNetHelper_Serializer.Model.ErrorObject.Manufacturer*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.Manufacturer
+  name: Manufacturer
+  nameWithType: ErrorObject.Manufacturer
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.Manufacturer
+- uid: DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage
+  name: InnerExceptionMessage
+  nameWithType: ErrorObject.InnerExceptionMessage
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.InnerExceptionMessage
+- uid: DotNetHelper_Serializer.Model.ErrorObject.StackTrace*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.StackTrace
+  name: StackTrace
+  nameWithType: ErrorObject.StackTrace
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.StackTrace
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace
+  name: ExactStackTrace
+  nameWithType: ErrorObject.ExactStackTrace
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ExactStackTrace
+- uid: DotNetHelper_Serializer.Model.ErrorObject.DeviceId*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.DeviceId
+  name: DeviceId
+  nameWithType: ErrorObject.DeviceId
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.DeviceId
+- uid: DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage
+  name: ExceptionMessage
+  nameWithType: ErrorObject.ExceptionMessage
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ExceptionMessage
+- uid: DotNetHelper_Serializer.Model.ErrorObject.HelpLink*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.HelpLink
+  name: HelpLink
+  nameWithType: ErrorObject.HelpLink
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.HelpLink
+- uid: DotNetHelper_Serializer.Model.ErrorObject.#ctor*
+  commentId: Overload:DotNetHelper_Serializer.Model.ErrorObject.#ctor
+  name: ErrorObject
+  nameWithType: ErrorObject.ErrorObject
+  fullName: DotNetHelper_Serializer.Model.ErrorObject.ErrorObject
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Tools
+  commentId: N:DotNetHelper_Serializer.Tools
+  id: DotNetHelper_Serializer.Tools
+  children:
+  - DotNetHelper_Serializer.Tools.DevelopersTools
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.Tools
+  nameWithType: DotNetHelper_Serializer.Tools
+  fullName: DotNetHelper_Serializer.Tools
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.Tools.DevelopersTools
+  commentId: T:DotNetHelper_Serializer.Tools.DevelopersTools
+  name: DevelopersTools
+  nameWithType: DevelopersTools
+  fullName: DotNetHelper_Serializer.Tools.DevelopersTools

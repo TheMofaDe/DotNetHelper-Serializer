@@ -1,0 +1,1144 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  id: XmlEnumItemCollection
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor(System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem})
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(System.Int64,System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains(System.Int64)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove(System.Int64)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System#Collections#IEnumerable#GetEnumerator
+  langs:
+  - csharp
+  - vb
+  name: XmlEnumItemCollection
+  nameWithType: XmlEnumItemCollection
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlEnumItemCollection
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: 'public sealed class XmlEnumItemCollection : IEnumerable<XmlEnumItem>, IEnumerable'
+    content.vb: >-
+      Public NotInheritable Class XmlEnumItemCollection
+          Implements IEnumerable(Of XmlEnumItem), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor
+  id: '#ctor'
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: XmlEnumItemCollection()
+  nameWithType: XmlEnumItemCollection.XmlEnumItemCollection()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.XmlEnumItemCollection()
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 9
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public XmlEnumItemCollection()
+    content.vb: Public Sub New
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor(System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor(System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem})
+  id: '#ctor(System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem})'
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: XmlEnumItemCollection(IEnumerable<XmlEnumItem>)
+  nameWithType: XmlEnumItemCollection.XmlEnumItemCollection(IEnumerable<XmlEnumItem>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.XmlEnumItemCollection(System.Collections.Generic.IEnumerable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem>)
+  type: Constructor
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: .ctor
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 14
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public XmlEnumItemCollection(IEnumerable<XmlEnumItem> items)
+    parameters:
+    - id: items
+      type: System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+    content.vb: Public Sub New(items As IEnumerable(Of XmlEnumItem))
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor*
+  nameWithType.vb: XmlEnumItemCollection.XmlEnumItemCollection(IEnumerable(Of XmlEnumItem))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.XmlEnumItemCollection(System.Collections.Generic.IEnumerable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem))
+  name.vb: XmlEnumItemCollection(IEnumerable(Of XmlEnumItem))
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count
+  commentId: P:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count
+  id: Count
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: XmlEnumItemCollection.Count
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Count
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 24
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(System.Int64,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(System.Int64,System.String)
+  id: Add(System.Int64,System.String)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(Int64, String)
+  nameWithType: XmlEnumItemCollection.Add(Int64, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(System.Int64, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Add
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 26
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public void Add(long value, string name)
+    parameters:
+    - id: value
+      type: System.Int64
+    - id: name
+      type: System.String
+    content.vb: Public Sub Add(value As Long, name As String)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  id: Add(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(XmlEnumItem)
+  nameWithType: XmlEnumItemCollection.Add(XmlEnumItem)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Add
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 32
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public void Add(XmlEnumItem item)
+    parameters:
+    - id: item
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    content.vb: Public Sub Add(item As XmlEnumItem)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  id: Set(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: Set(XmlEnumItem)
+  nameWithType: XmlEnumItemCollection.Set(XmlEnumItem)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set(DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Set
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 49
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public void Set(XmlEnumItem item)
+    parameters:
+    - id: item
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    content.vb: Public Sub Set(item As XmlEnumItem)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains(System.Int64)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains(System.Int64)
+  id: Contains(System.Int64)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: Contains(Int64)
+  nameWithType: XmlEnumItemCollection.Contains(Int64)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Contains
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 68
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public bool Contains(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(value As Long) As Boolean
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove(System.Int64)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove(System.Int64)
+  id: Remove(System.Int64)
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: Remove(Int64)
+  nameWithType: XmlEnumItemCollection.Remove(Int64)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove(System.Int64)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Remove
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 73
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public bool Remove(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    return:
+      type: System.Boolean
+    content.vb: Public Function Remove(value As Long) As Boolean
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator
+  id: GetEnumerator
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: XmlEnumItemCollection.GetEnumerator()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetEnumerator
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 86
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public IEnumerator<XmlEnumItem> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+    content.vb: Public Function GetEnumerator As IEnumerator(Of XmlEnumItem)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}.GetEnumerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  isEii: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection
+  langs:
+  - csharp
+  - vb
+  name: IEnumerable.GetEnumerator()
+  nameWithType: XmlEnumItemCollection.IEnumerable.GetEnumerator()
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: System.Collections.IEnumerable.GetEnumerator
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
+    startLine: 91
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System#Collections#IEnumerable#GetEnumerator*
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: XmlEnumItemCollection.System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  commentId: T:System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<XmlEnumItem>
+  nameWithType: IEnumerable<XmlEnumItem>
+  fullName: System.Collections.Generic.IEnumerable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem>
+  nameWithType.vb: IEnumerable(Of XmlEnumItem)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  name.vb: IEnumerable(Of XmlEnumItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    name: XmlEnumItem
+    nameWithType: XmlEnumItem
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    name: XmlEnumItem
+    nameWithType: XmlEnumItem
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlEnumItemCollection>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlEnumItemCollection>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlEnumItemCollection)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection)()
+  name.vb: CanHaveNullValue(Of XmlEnumItemCollection)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlEnumItemCollection>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlEnumItemCollection>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlEnumItemCollection)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlEnumItemCollection)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.#ctor
+  name: XmlEnumItemCollection
+  nameWithType: XmlEnumItemCollection.XmlEnumItemCollection
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.XmlEnumItemCollection
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count
+  name: Count
+  nameWithType: XmlEnumItemCollection.Count
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add
+  name: Add
+  nameWithType: XmlEnumItemCollection.Add
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Add
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlEnumItem
+  nameWithType: XmlEnumItem
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set
+  name: Set
+  nameWithType: XmlEnumItemCollection.Set
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Set
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains
+  name: Contains
+  nameWithType: XmlEnumItemCollection.Contains
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Contains
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove
+  name: Remove
+  nameWithType: XmlEnumItemCollection.Remove
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.Remove
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator
+  name: GetEnumerator
+  nameWithType: XmlEnumItemCollection.GetEnumerator
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<XmlEnumItem>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of XmlEnumItem).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable<XmlEnumItem>.GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable(Of XmlEnumItem).GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  commentId: T:System.Collections.Generic.IEnumerator{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  name: IEnumerator<XmlEnumItem>
+  nameWithType: IEnumerator<XmlEnumItem>
+  fullName: System.Collections.Generic.IEnumerator<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem>
+  nameWithType.vb: IEnumerator(Of XmlEnumItem)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  name.vb: IEnumerator(Of XmlEnumItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    name: XmlEnumItem
+    nameWithType: XmlEnumItem
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    name: XmlEnumItem
+    nameWithType: XmlEnumItem
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable<T>.GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable(Of T).GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System#Collections#IEnumerable#GetEnumerator*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator
+  nameWithType: XmlEnumItemCollection.IEnumerable.GetEnumerator
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumItemCollection.System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: XmlEnumItemCollection.System.Collections.IEnumerable.GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator

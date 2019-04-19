@@ -1,0 +1,2988 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.IXmlSerializer
+  id: IXmlSerializer
+  parent: DotNetHelper_Serializer.Interface
+  children:
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize(System.Type,System.Boolean)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize(System.Type,System.Boolean)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.Linq.XDocument)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.XmlDocument)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson(System.String,DotNetHelper_Serializer.Interface.IJsonSerializer)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter(System.IO.TextWriter,System.Type,System.Object)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter``1(System.IO.TextWriter,``0)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter(System.Xml.XmlWriter,System.Type,System.Object)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter``1(System.Xml.XmlWriter,``0)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.Settings
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument(System.String)
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IXmlSerializer
+  nameWithType: IXmlSerializer
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer
+  type: Interface
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IXmlSerializer
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 9
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: 'public interface IXmlSerializer : ISerializer, IConvertible'
+    content.vb: >-
+      Public Interface IXmlSerializer
+          Inherits ISerializer
+  inheritedMembers:
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1({T},System.IO.Stream,System.Int32,System.Boolean)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToString(System.Object)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToString``1({T})
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.Type,System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile``1(System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeToList(System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile``1(System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream``1(System.IO.Stream)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(System.IO.Stream,System.Type)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeFromString``1(System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeToList``1(System.String)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(System.String,System.Type)
+  - DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass(System.String,System.String)
+  - System.IConvertible.GetTypeCode
+  - System.IConvertible.ToBoolean(System.IFormatProvider)
+  - System.IConvertible.ToChar(System.IFormatProvider)
+  - System.IConvertible.ToSByte(System.IFormatProvider)
+  - System.IConvertible.ToByte(System.IFormatProvider)
+  - System.IConvertible.ToInt16(System.IFormatProvider)
+  - System.IConvertible.ToUInt16(System.IFormatProvider)
+  - System.IConvertible.ToInt32(System.IFormatProvider)
+  - System.IConvertible.ToUInt32(System.IFormatProvider)
+  - System.IConvertible.ToInt64(System.IFormatProvider)
+  - System.IConvertible.ToUInt64(System.IFormatProvider)
+  - System.IConvertible.ToSingle(System.IFormatProvider)
+  - System.IConvertible.ToDouble(System.IFormatProvider)
+  - System.IConvertible.ToDecimal(System.IFormatProvider)
+  - System.IConvertible.ToDateTime(System.IFormatProvider)
+  - System.IConvertible.ToString(System.IFormatProvider)
+  - System.IConvertible.ToType(System.Type,System.IFormatProvider)
+  extensionMethods:
+  - DotNetHelper_Serializer.Interface.IXmlSerializer.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.Settings
+  commentId: P:DotNetHelper_Serializer.Interface.IXmlSerializer.Settings
+  id: Settings
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: IXmlSerializer.Settings
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.Settings
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Settings
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 12
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: XmlSerializerSettings Settings { get; set; }
+    parameters: []
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+    content.vb: Property Settings As XmlSerializerSettings
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.Settings*
+  modifiers.csharp:
+  - get
+  - set
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize(System.Type,System.Boolean)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize(System.Type,System.Boolean)
+  id: CanSerialize(System.Type,System.Boolean)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: CanSerialize(Type, Boolean)
+  nameWithType: IXmlSerializer.CanSerialize(Type, Boolean)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CanSerialize
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 14
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: bool? CanSerialize(Type valueType, bool throwOnCant = false)
+    parameters:
+    - id: valueType
+      type: System.Type
+    - id: throwOnCant
+      type: System.Boolean
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Function CanSerialize(valueType As Type, throwOnCant As Boolean = False) As Boolean?
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize(System.Type,System.Boolean)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize(System.Type,System.Boolean)
+  id: CanDeserialize(System.Type,System.Boolean)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: CanDeserialize(Type, Boolean)
+  nameWithType: IXmlSerializer.CanDeserialize(Type, Boolean)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CanDeserialize
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 15
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: bool CanDeserialize(Type valueType, bool throwOnCant = false)
+    parameters:
+    - id: valueType
+      type: System.Type
+    - id: throwOnCant
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Function CanDeserialize(valueType As Type, throwOnCant As Boolean = False) As Boolean
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter(System.Xml.XmlWriter,System.Type,System.Object)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter(System.Xml.XmlWriter,System.Type,System.Object)
+  id: SerializeToXmlWriter(System.Xml.XmlWriter,System.Type,System.Object)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeToXmlWriter(XmlWriter, Type, Object)
+  nameWithType: IXmlSerializer.SerializeToXmlWriter(XmlWriter, Type, Object)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter(System.Xml.XmlWriter, System.Type, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SerializeToXmlWriter
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 16
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: void SerializeToXmlWriter(XmlWriter writer, Type valueType, object value)
+    parameters:
+    - id: writer
+      type: System.Xml.XmlWriter
+    - id: valueType
+      type: System.Type
+    - id: value
+      type: System.Object
+    content.vb: Sub SerializeToXmlWriter(writer As XmlWriter, valueType As Type, value As Object)
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter``1(System.Xml.XmlWriter,``0)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter``1(System.Xml.XmlWriter,``0)
+  id: SerializeToXmlWriter``1(System.Xml.XmlWriter,``0)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeToXmlWriter<T>(XmlWriter, T)
+  nameWithType: IXmlSerializer.SerializeToXmlWriter<T>(XmlWriter, T)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter<T>(System.Xml.XmlWriter, T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SerializeToXmlWriter
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 17
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: >-
+      void SerializeToXmlWriter<T>(XmlWriter writer, T value)
+          where T : class
+    parameters:
+    - id: writer
+      type: System.Xml.XmlWriter
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Sub SerializeToXmlWriter(Of T As Class)(writer As XmlWriter, value As T)
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter*
+  nameWithType.vb: IXmlSerializer.SerializeToXmlWriter(Of T)(XmlWriter, T)
+  fullName.vb: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter(Of T)(System.Xml.XmlWriter, T)
+  name.vb: SerializeToXmlWriter(Of T)(XmlWriter, T)
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter(System.IO.TextWriter,System.Type,System.Object)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter(System.IO.TextWriter,System.Type,System.Object)
+  id: SerializeToTextWriter(System.IO.TextWriter,System.Type,System.Object)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeToTextWriter(TextWriter, Type, Object)
+  nameWithType: IXmlSerializer.SerializeToTextWriter(TextWriter, Type, Object)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter(System.IO.TextWriter, System.Type, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SerializeToTextWriter
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 18
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: void SerializeToTextWriter(TextWriter output, Type valueType, object value)
+    parameters:
+    - id: output
+      type: System.IO.TextWriter
+    - id: valueType
+      type: System.Type
+    - id: value
+      type: System.Object
+    content.vb: Sub SerializeToTextWriter(output As TextWriter, valueType As Type, value As Object)
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter``1(System.IO.TextWriter,``0)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter``1(System.IO.TextWriter,``0)
+  id: SerializeToTextWriter``1(System.IO.TextWriter,``0)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeToTextWriter<T>(TextWriter, T)
+  nameWithType: IXmlSerializer.SerializeToTextWriter<T>(TextWriter, T)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter<T>(System.IO.TextWriter, T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SerializeToTextWriter
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 19
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: >-
+      void SerializeToTextWriter<T>(TextWriter output, T value)
+          where T : class
+    parameters:
+    - id: output
+      type: System.IO.TextWriter
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Sub SerializeToTextWriter(Of T As Class)(output As TextWriter, value As T)
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter*
+  nameWithType.vb: IXmlSerializer.SerializeToTextWriter(Of T)(TextWriter, T)
+  fullName.vb: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter(Of T)(System.IO.TextWriter, T)
+  name.vb: SerializeToTextWriter(Of T)(TextWriter, T)
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson(System.String,DotNetHelper_Serializer.Interface.IJsonSerializer)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson(System.String,DotNetHelper_Serializer.Interface.IJsonSerializer)
+  id: SerializeToJson(System.String,DotNetHelper_Serializer.Interface.IJsonSerializer)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeToJson(String, IJsonSerializer)
+  nameWithType: IXmlSerializer.SerializeToJson(String, IJsonSerializer)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson(System.String, DotNetHelper_Serializer.Interface.IJsonSerializer)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SerializeToJson
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 20
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: string SerializeToJson(string xml, IJsonSerializer jsonSerializer)
+    parameters:
+    - id: xml
+      type: System.String
+    - id: jsonSerializer
+      type: DotNetHelper_Serializer.Interface.IJsonSerializer
+    return:
+      type: System.String
+    content.vb: Function SerializeToJson(xml As String, jsonSerializer As IJsonSerializer) As String
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument(System.String)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument(System.String)
+  id: XmlStringToXDocument(System.String)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: XmlStringToXDocument(String)
+  nameWithType: IXmlSerializer.XmlStringToXDocument(String)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlStringToXDocument
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 21
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: XDocument XmlStringToXDocument(string xml)
+    parameters:
+    - id: xml
+      type: System.String
+    return:
+      type: System.Xml.Linq.XDocument
+    content.vb: Function XmlStringToXDocument(xml As String) As XDocument
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument(System.String)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument(System.String)
+  id: XmlStringToXmlDocument(System.String)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: XmlStringToXmlDocument(String)
+  nameWithType: IXmlSerializer.XmlStringToXmlDocument(String)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlStringToXmlDocument
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 22
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: XmlDocument XmlStringToXmlDocument(string xml)
+    parameters:
+    - id: xml
+      type: System.String
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Function XmlStringToXmlDocument(xml As String) As XmlDocument
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.XmlDocument)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.XmlDocument)
+  id: GetXmlFromDocument(System.Xml.XmlDocument)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: GetXmlFromDocument(XmlDocument)
+  nameWithType: IXmlSerializer.GetXmlFromDocument(XmlDocument)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.XmlDocument)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetXmlFromDocument
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 23
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: string GetXmlFromDocument(XmlDocument document)
+    parameters:
+    - id: document
+      type: System.Xml.XmlDocument
+    return:
+      type: System.String
+    content.vb: Function GetXmlFromDocument(document As XmlDocument) As String
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument*
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.Linq.XDocument)
+  commentId: M:DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.Linq.XDocument)
+  id: GetXmlFromDocument(System.Xml.Linq.XDocument)
+  parent: DotNetHelper_Serializer.Interface.IXmlSerializer
+  langs:
+  - csharp
+  - vb
+  name: GetXmlFromDocument(XDocument)
+  nameWithType: IXmlSerializer.GetXmlFromDocument(XDocument)
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument(System.Xml.Linq.XDocument)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetXmlFromDocument
+    path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
+    startLine: 24
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Interface
+  syntax:
+    content: string GetXmlFromDocument(XDocument document)
+    parameters:
+    - id: document
+      type: System.Xml.Linq.XDocument
+    return:
+      type: System.String
+    content.vb: Function GetXmlFromDocument(document As XDocument) As String
+  overload: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument*
+references:
+- uid: DotNetHelper_Serializer.Interface
+  commentId: N:DotNetHelper_Serializer.Interface
+  name: DotNetHelper_Serializer.Interface
+  nameWithType: DotNetHelper_Serializer.Interface
+  fullName: DotNetHelper_Serializer.Interface
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1({T},System.IO.Stream,System.Int32,System.Boolean)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+  name: SerializeToStream<T>(T, Stream, Int32, Boolean)
+  nameWithType: ISerializer.SerializeToStream<T>(T, Stream, Int32, Boolean)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream<T>(T, System.IO.Stream, System.Int32, System.Boolean)
+  nameWithType.vb: ISerializer.SerializeToStream(Of T)(T, Stream, Int32, Boolean)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(Of T)(T, System.IO.Stream, System.Int32, System.Boolean)
+  name.vb: SerializeToStream(Of T)(T, Stream, Int32, Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+    name: SerializeToStream<T>
+    nameWithType: ISerializer.SerializeToStream<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+    name: SerializeToStream(Of T)
+    nameWithType: ISerializer.SerializeToStream(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: SerializeToStream(Object, Type, Stream, Int32, Boolean)
+  nameWithType: ISerializer.SerializeToStream(Object, Type, Stream, Int32, Boolean)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(System.Object, System.Type, System.IO.Stream, System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
+    name: SerializeToStream
+    nameWithType: ISerializer.SerializeToStream
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
+    name: SerializeToStream
+    nameWithType: ISerializer.SerializeToStream
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  name: SerializeToFile<T>(T, String, FileOption)
+  nameWithType: ISerializer.SerializeToFile<T>(T, String, FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  nameWithType.vb: ISerializer.SerializeToFile(Of T)(T, String, FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  name.vb: SerializeToFile(Of T)(T, String, FileOption)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile<T>
+    nameWithType: ISerializer.SerializeToFile<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile(Of T)
+    nameWithType: ISerializer.SerializeToFile(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
+  nameWithType: ISerializer.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  nameWithType.vb: ISerializer.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile<T>
+    nameWithType: ISerializer.SerializeToFile<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile(Of T)
+    nameWithType: ISerializer.SerializeToFile(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: SerializeToFile(Object, Type, String, FileOption)
+  nameWithType: ISerializer.SerializeToFile(Object, Type, String, FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile
+    nameWithType: ISerializer.SerializeToFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile
+    nameWithType: ISerializer.SerializeToFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: SerializeToFile(Object, String, FileOption)
+  nameWithType: ISerializer.SerializeToFile(Object, String, FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  nameWithType.vb: ISerializer.SerializeToFile(, String, FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  name.vb: SerializeToFile(, String, FileOption)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile
+    nameWithType: ISerializer.SerializeToFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile
+    nameWithType: ISerializer.SerializeToFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString(System.Object)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToString(System.Object)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: SerializeToString(Object)
+  nameWithType: ISerializer.SerializeToString(Object)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString(System.Object)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString(System.Object)
+    name: SerializeToString
+    nameWithType: ISerializer.SerializeToString
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString(System.Object)
+    name: SerializeToString
+    nameWithType: ISerializer.SerializeToString
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString``1({T})
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+  name: SerializeToString<T>(T)
+  nameWithType: ISerializer.SerializeToString<T>(T)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString<T>(T)
+  nameWithType.vb: ISerializer.SerializeToString(Of T)(T)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToString(Of T)(T)
+  name.vb: SerializeToString(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+    name: SerializeToString<T>
+    nameWithType: ISerializer.SerializeToString<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+    name: SerializeToString(Of T)
+    nameWithType: ISerializer.SerializeToString(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.Type,System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.Type,System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeFromFile(Type, String)
+  nameWithType: ISerializer.DeserializeFromFile(Type, String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.Type, System.String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.Type,System.String)
+    name: DeserializeFromFile
+    nameWithType: ISerializer.DeserializeFromFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.Type,System.String)
+    name: DeserializeFromFile
+    nameWithType: ISerializer.DeserializeFromFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile``1(System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile``1(System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeFromFile<T>(String)
+  nameWithType: ISerializer.DeserializeFromFile<T>(String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile<T>(System.String)
+  nameWithType.vb: ISerializer.DeserializeFromFile(Of T)(String)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(Of T)(System.String)
+  name.vb: DeserializeFromFile(Of T)(String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile``1(System.String)
+    name: DeserializeFromFile<T>
+    nameWithType: ISerializer.DeserializeFromFile<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile``1(System.String)
+    name: DeserializeFromFile(Of T)
+    nameWithType: ISerializer.DeserializeFromFile(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeFromFile(String)
+  nameWithType: ISerializer.DeserializeFromFile(String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.String)
+    name: DeserializeFromFile
+    nameWithType: ISerializer.DeserializeFromFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.String)
+    name: DeserializeFromFile
+    nameWithType: ISerializer.DeserializeFromFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeListFromFile(String)
+  nameWithType: ISerializer.DeserializeListFromFile(String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(System.String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(System.String)
+    name: DeserializeListFromFile
+    nameWithType: ISerializer.DeserializeListFromFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(System.String)
+    name: DeserializeListFromFile
+    nameWithType: ISerializer.DeserializeListFromFile
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToList(System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeToList(System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeToList(String)
+  nameWithType: ISerializer.DeserializeToList(String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToList(System.String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToList(System.String)
+    name: DeserializeToList
+    nameWithType: ISerializer.DeserializeToList
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToList(System.String)
+    name: DeserializeToList
+    nameWithType: ISerializer.DeserializeToList
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile``1(System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile``1(System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeListFromFile<T>(String)
+  nameWithType: ISerializer.DeserializeListFromFile<T>(String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile<T>(System.String)
+  nameWithType.vb: ISerializer.DeserializeListFromFile(Of T)(String)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(Of T)(System.String)
+  name.vb: DeserializeListFromFile(Of T)(String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile``1(System.String)
+    name: DeserializeListFromFile<T>
+    nameWithType: ISerializer.DeserializeListFromFile<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile``1(System.String)
+    name: DeserializeListFromFile(Of T)
+    nameWithType: ISerializer.DeserializeListFromFile(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeListFromFile(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream``1(System.IO.Stream)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream``1(System.IO.Stream)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeFromStream<T>(Stream)
+  nameWithType: ISerializer.DeserializeFromStream<T>(Stream)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream<T>(System.IO.Stream)
+  nameWithType.vb: ISerializer.DeserializeFromStream(Of T)(Stream)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(Of T)(System.IO.Stream)
+  name.vb: DeserializeFromStream(Of T)(Stream)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream``1(System.IO.Stream)
+    name: DeserializeFromStream<T>
+    nameWithType: ISerializer.DeserializeFromStream<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream``1(System.IO.Stream)
+    name: DeserializeFromStream(Of T)
+    nameWithType: ISerializer.DeserializeFromStream(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(System.IO.Stream,System.Type)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(System.IO.Stream,System.Type)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeFromStream(Stream, Type)
+  nameWithType: ISerializer.DeserializeFromStream(Stream, Type)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(System.IO.Stream, System.Type)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(System.IO.Stream,System.Type)
+    name: DeserializeFromStream
+    nameWithType: ISerializer.DeserializeFromStream
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream(System.IO.Stream,System.Type)
+    name: DeserializeFromStream
+    nameWithType: ISerializer.DeserializeFromStream
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString``1(System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeFromString``1(System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeFromString<T>(String)
+  nameWithType: ISerializer.DeserializeFromString<T>(String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString<T>(System.String)
+  nameWithType.vb: ISerializer.DeserializeFromString(Of T)(String)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(Of T)(System.String)
+  name.vb: DeserializeFromString(Of T)(String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString``1(System.String)
+    name: DeserializeFromString<T>
+    nameWithType: ISerializer.DeserializeFromString<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString``1(System.String)
+    name: DeserializeFromString(Of T)
+    nameWithType: ISerializer.DeserializeFromString(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToList``1(System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeToList``1(System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeToList<T>(String)
+  nameWithType: ISerializer.DeserializeToList<T>(String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToList<T>(System.String)
+  nameWithType.vb: ISerializer.DeserializeToList(Of T)(String)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.DeserializeToList(Of T)(System.String)
+  name.vb: DeserializeToList(Of T)(String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToList``1(System.String)
+    name: DeserializeToList<T>
+    nameWithType: ISerializer.DeserializeToList<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToList<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToList``1(System.String)
+    name: DeserializeToList(Of T)
+    nameWithType: ISerializer.DeserializeToList(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToList(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(System.String,System.Type)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(System.String,System.Type)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeFromString(String, Type)
+  nameWithType: ISerializer.DeserializeFromString(String, Type)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(System.String, System.Type)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(System.String,System.Type)
+    name: DeserializeFromString
+    nameWithType: ISerializer.DeserializeFromString
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString(System.String,System.Type)
+    name: DeserializeFromString
+    nameWithType: ISerializer.DeserializeFromString
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeFromString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass(System.String,System.String)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass(System.String,System.String)
+  parent: DotNetHelper_IO.Interface.ISerializer
+  isExternal: true
+  name: DeserializeToCSharpClass(String, String)
+  nameWithType: ISerializer.DeserializeToCSharpClass(String, String)
+  fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass(System.String, System.String)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass(System.String,System.String)
+    name: DeserializeToCSharpClass
+    nameWithType: ISerializer.DeserializeToCSharpClass
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass(System.String,System.String)
+    name: DeserializeToCSharpClass
+    nameWithType: ISerializer.DeserializeToCSharpClass
+    fullName: DotNetHelper_IO.Interface.ISerializer.DeserializeToCSharpClass
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.GetTypeCode
+  commentId: M:System.IConvertible.GetTypeCode
+  parent: System.IConvertible
+  isExternal: true
+  name: GetTypeCode()
+  nameWithType: IConvertible.GetTypeCode()
+  fullName: System.IConvertible.GetTypeCode()
+  spec.csharp:
+  - uid: System.IConvertible.GetTypeCode
+    name: GetTypeCode
+    nameWithType: IConvertible.GetTypeCode
+    fullName: System.IConvertible.GetTypeCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.GetTypeCode
+    name: GetTypeCode
+    nameWithType: IConvertible.GetTypeCode
+    fullName: System.IConvertible.GetTypeCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToBoolean(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToBoolean(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToBoolean(IFormatProvider)
+  nameWithType: IConvertible.ToBoolean(IFormatProvider)
+  fullName: System.IConvertible.ToBoolean(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToBoolean(System.IFormatProvider)
+    name: ToBoolean
+    nameWithType: IConvertible.ToBoolean
+    fullName: System.IConvertible.ToBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToBoolean(System.IFormatProvider)
+    name: ToBoolean
+    nameWithType: IConvertible.ToBoolean
+    fullName: System.IConvertible.ToBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToChar(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToChar(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToChar(IFormatProvider)
+  nameWithType: IConvertible.ToChar(IFormatProvider)
+  fullName: System.IConvertible.ToChar(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToChar(System.IFormatProvider)
+    name: ToChar
+    nameWithType: IConvertible.ToChar
+    fullName: System.IConvertible.ToChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToChar(System.IFormatProvider)
+    name: ToChar
+    nameWithType: IConvertible.ToChar
+    fullName: System.IConvertible.ToChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToSByte(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToSByte(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToSByte(IFormatProvider)
+  nameWithType: IConvertible.ToSByte(IFormatProvider)
+  fullName: System.IConvertible.ToSByte(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToSByte(System.IFormatProvider)
+    name: ToSByte
+    nameWithType: IConvertible.ToSByte
+    fullName: System.IConvertible.ToSByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToSByte(System.IFormatProvider)
+    name: ToSByte
+    nameWithType: IConvertible.ToSByte
+    fullName: System.IConvertible.ToSByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToByte(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToByte(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToByte(IFormatProvider)
+  nameWithType: IConvertible.ToByte(IFormatProvider)
+  fullName: System.IConvertible.ToByte(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToByte(System.IFormatProvider)
+    name: ToByte
+    nameWithType: IConvertible.ToByte
+    fullName: System.IConvertible.ToByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToByte(System.IFormatProvider)
+    name: ToByte
+    nameWithType: IConvertible.ToByte
+    fullName: System.IConvertible.ToByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToInt16(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToInt16(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToInt16(IFormatProvider)
+  nameWithType: IConvertible.ToInt16(IFormatProvider)
+  fullName: System.IConvertible.ToInt16(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToInt16(System.IFormatProvider)
+    name: ToInt16
+    nameWithType: IConvertible.ToInt16
+    fullName: System.IConvertible.ToInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToInt16(System.IFormatProvider)
+    name: ToInt16
+    nameWithType: IConvertible.ToInt16
+    fullName: System.IConvertible.ToInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToUInt16(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToUInt16(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToUInt16(IFormatProvider)
+  nameWithType: IConvertible.ToUInt16(IFormatProvider)
+  fullName: System.IConvertible.ToUInt16(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToUInt16(System.IFormatProvider)
+    name: ToUInt16
+    nameWithType: IConvertible.ToUInt16
+    fullName: System.IConvertible.ToUInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToUInt16(System.IFormatProvider)
+    name: ToUInt16
+    nameWithType: IConvertible.ToUInt16
+    fullName: System.IConvertible.ToUInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToInt32(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToInt32(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToInt32(IFormatProvider)
+  nameWithType: IConvertible.ToInt32(IFormatProvider)
+  fullName: System.IConvertible.ToInt32(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToInt32(System.IFormatProvider)
+    name: ToInt32
+    nameWithType: IConvertible.ToInt32
+    fullName: System.IConvertible.ToInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToInt32(System.IFormatProvider)
+    name: ToInt32
+    nameWithType: IConvertible.ToInt32
+    fullName: System.IConvertible.ToInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToUInt32(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToUInt32(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToUInt32(IFormatProvider)
+  nameWithType: IConvertible.ToUInt32(IFormatProvider)
+  fullName: System.IConvertible.ToUInt32(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToUInt32(System.IFormatProvider)
+    name: ToUInt32
+    nameWithType: IConvertible.ToUInt32
+    fullName: System.IConvertible.ToUInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToUInt32(System.IFormatProvider)
+    name: ToUInt32
+    nameWithType: IConvertible.ToUInt32
+    fullName: System.IConvertible.ToUInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToInt64(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToInt64(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToInt64(IFormatProvider)
+  nameWithType: IConvertible.ToInt64(IFormatProvider)
+  fullName: System.IConvertible.ToInt64(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToInt64(System.IFormatProvider)
+    name: ToInt64
+    nameWithType: IConvertible.ToInt64
+    fullName: System.IConvertible.ToInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToInt64(System.IFormatProvider)
+    name: ToInt64
+    nameWithType: IConvertible.ToInt64
+    fullName: System.IConvertible.ToInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToUInt64(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToUInt64(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToUInt64(IFormatProvider)
+  nameWithType: IConvertible.ToUInt64(IFormatProvider)
+  fullName: System.IConvertible.ToUInt64(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToUInt64(System.IFormatProvider)
+    name: ToUInt64
+    nameWithType: IConvertible.ToUInt64
+    fullName: System.IConvertible.ToUInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToUInt64(System.IFormatProvider)
+    name: ToUInt64
+    nameWithType: IConvertible.ToUInt64
+    fullName: System.IConvertible.ToUInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToSingle(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToSingle(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToSingle(IFormatProvider)
+  nameWithType: IConvertible.ToSingle(IFormatProvider)
+  fullName: System.IConvertible.ToSingle(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToSingle(System.IFormatProvider)
+    name: ToSingle
+    nameWithType: IConvertible.ToSingle
+    fullName: System.IConvertible.ToSingle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToSingle(System.IFormatProvider)
+    name: ToSingle
+    nameWithType: IConvertible.ToSingle
+    fullName: System.IConvertible.ToSingle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToDouble(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToDouble(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToDouble(IFormatProvider)
+  nameWithType: IConvertible.ToDouble(IFormatProvider)
+  fullName: System.IConvertible.ToDouble(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToDouble(System.IFormatProvider)
+    name: ToDouble
+    nameWithType: IConvertible.ToDouble
+    fullName: System.IConvertible.ToDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToDouble(System.IFormatProvider)
+    name: ToDouble
+    nameWithType: IConvertible.ToDouble
+    fullName: System.IConvertible.ToDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToDecimal(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToDecimal(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToDecimal(IFormatProvider)
+  nameWithType: IConvertible.ToDecimal(IFormatProvider)
+  fullName: System.IConvertible.ToDecimal(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToDecimal(System.IFormatProvider)
+    name: ToDecimal
+    nameWithType: IConvertible.ToDecimal
+    fullName: System.IConvertible.ToDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToDecimal(System.IFormatProvider)
+    name: ToDecimal
+    nameWithType: IConvertible.ToDecimal
+    fullName: System.IConvertible.ToDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToDateTime(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToDateTime(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToDateTime(IFormatProvider)
+  nameWithType: IConvertible.ToDateTime(IFormatProvider)
+  fullName: System.IConvertible.ToDateTime(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToDateTime(System.IFormatProvider)
+    name: ToDateTime
+    nameWithType: IConvertible.ToDateTime
+    fullName: System.IConvertible.ToDateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToDateTime(System.IFormatProvider)
+    name: ToDateTime
+    nameWithType: IConvertible.ToDateTime
+    fullName: System.IConvertible.ToDateTime
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToString(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToString(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToString(IFormatProvider)
+  nameWithType: IConvertible.ToString(IFormatProvider)
+  fullName: System.IConvertible.ToString(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToString(System.IFormatProvider)
+    name: ToString
+    nameWithType: IConvertible.ToString
+    fullName: System.IConvertible.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToString(System.IFormatProvider)
+    name: ToString
+    nameWithType: IConvertible.ToString
+    fullName: System.IConvertible.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
+  commentId: M:System.IConvertible.ToType(System.Type,System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  name: ToType(Type, IFormatProvider)
+  nameWithType: IConvertible.ToType(Type, IFormatProvider)
+  fullName: System.IConvertible.ToType(System.Type, System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
+    name: ToType
+    nameWithType: IConvertible.ToType
+    fullName: System.IConvertible.ToType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
+    name: ToType
+    nameWithType: IConvertible.ToType
+    fullName: System.IConvertible.ToType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    nameWithType: IFormatProvider
+    fullName: System.IFormatProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<IXmlSerializer>()
+  nameWithType: TypeExtension.CanHaveNullValue<IXmlSerializer>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Interface.IXmlSerializer>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of IXmlSerializer)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Interface.IXmlSerializer)()
+  name.vb: CanHaveNullValue(Of IXmlSerializer)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<IXmlSerializer>
+    nameWithType: TypeExtension.CanHaveNullValue<IXmlSerializer>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Interface.IXmlSerializer>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of IXmlSerializer)
+    nameWithType: TypeExtension.CanHaveNullValue(Of IXmlSerializer)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Interface.IXmlSerializer)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+  isExternal: true
+  name: SerializeToStream<T>(T, Stream, Int32, Boolean)
+  nameWithType: ISerializer.SerializeToStream<T>(T, Stream, Int32, Boolean)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream<T>(T, System.IO.Stream, System.Int32, System.Boolean)
+  nameWithType.vb: ISerializer.SerializeToStream(Of T)(T, Stream, Int32, Boolean)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(Of T)(T, System.IO.Stream, System.Int32, System.Boolean)
+  name.vb: SerializeToStream(Of T)(T, Stream, Int32, Boolean)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+    name: SerializeToStream<T>
+    nameWithType: ISerializer.SerializeToStream<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
+    name: SerializeToStream(Of T)
+    nameWithType: ISerializer.SerializeToStream(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToStream(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer
+  commentId: T:DotNetHelper_IO.Interface.ISerializer
+  parent: DotNetHelper_IO.Interface
+  isExternal: true
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: DotNetHelper_IO.Interface.ISerializer
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  isExternal: true
+  name: SerializeToFile<T>(T, String, FileOption)
+  nameWithType: ISerializer.SerializeToFile<T>(T, String, FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  nameWithType.vb: ISerializer.SerializeToFile(Of T)(T, String, FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  name.vb: SerializeToFile(Of T)(T, String, FileOption)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile<T>
+    nameWithType: ISerializer.SerializeToFile<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile(Of T)
+    nameWithType: ISerializer.SerializeToFile(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  isExternal: true
+  name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
+  nameWithType: ISerializer.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  nameWithType.vb: ISerializer.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile<T>
+    nameWithType: ISerializer.SerializeToFile<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+    name: SerializeToFile(Of T)
+    nameWithType: ISerializer.SerializeToFile(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+    name: FileOption
+    nameWithType: FileOption
+    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+  isExternal: true
+  name: SerializeToString<T>(T)
+  nameWithType: ISerializer.SerializeToString<T>(T)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString<T>(T)
+  nameWithType.vb: ISerializer.SerializeToString(Of T)(T)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToString(Of T)(T)
+  name.vb: SerializeToString(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+    name: SerializeToString<T>
+    nameWithType: ISerializer.SerializeToString<T>
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToString``1(``0)
+    name: SerializeToString(Of T)
+    nameWithType: ISerializer.SerializeToString(Of T)
+    fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToString(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IConvertible
+  commentId: T:System.IConvertible
+  parent: System
+  isExternal: true
+  name: IConvertible
+  nameWithType: IConvertible
+  fullName: System.IConvertible
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_IO.Interface
+  commentId: N:DotNetHelper_IO.Interface
+  isExternal: true
+  name: DotNetHelper_IO.Interface
+  nameWithType: DotNetHelper_IO.Interface
+  fullName: DotNetHelper_IO.Interface
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.Settings*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.Settings
+  name: Settings
+  nameWithType: IXmlSerializer.Settings
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.Settings
+- uid: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+  parent: DotNetHelper_Serializer.DataSource.Xml
+  name: XmlSerializerSettings
+  nameWithType: XmlSerializerSettings
+  fullName: DotNetHelper_Serializer.DataSource.Xml.XmlSerializerSettings
+- uid: DotNetHelper_Serializer.DataSource.Xml
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml
+  name: DotNetHelper_Serializer.DataSource.Xml
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml
+  fullName: DotNetHelper_Serializer.DataSource.Xml
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize
+  name: CanSerialize
+  nameWithType: IXmlSerializer.CanSerialize
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.CanSerialize
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize
+  name: CanDeserialize
+  nameWithType: IXmlSerializer.CanDeserialize
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.CanDeserialize
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter
+  name: SerializeToXmlWriter
+  nameWithType: IXmlSerializer.SerializeToXmlWriter
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToXmlWriter
+- uid: System.Xml.XmlWriter
+  commentId: T:System.Xml.XmlWriter
+  parent: System.Xml
+  isExternal: true
+  name: XmlWriter
+  nameWithType: XmlWriter
+  fullName: System.Xml.XmlWriter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter
+  name: SerializeToTextWriter
+  nameWithType: IXmlSerializer.SerializeToTextWriter
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToTextWriter
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson
+  name: SerializeToJson
+  nameWithType: IXmlSerializer.SerializeToJson
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.SerializeToJson
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.Interface.IJsonSerializer
+  commentId: T:DotNetHelper_Serializer.Interface.IJsonSerializer
+  parent: DotNetHelper_Serializer.Interface
+  name: IJsonSerializer
+  nameWithType: IJsonSerializer
+  fullName: DotNetHelper_Serializer.Interface.IJsonSerializer
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument
+  name: XmlStringToXDocument
+  nameWithType: IXmlSerializer.XmlStringToXDocument
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXDocument
+- uid: System.Xml.Linq.XDocument
+  commentId: T:System.Xml.Linq.XDocument
+  parent: System.Xml.Linq
+  isExternal: true
+  name: XDocument
+  nameWithType: XDocument
+  fullName: System.Xml.Linq.XDocument
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument
+  name: XmlStringToXmlDocument
+  nameWithType: IXmlSerializer.XmlStringToXmlDocument
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.XmlStringToXmlDocument
+- uid: System.Xml.XmlDocument
+  commentId: T:System.Xml.XmlDocument
+  parent: System.Xml
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument*
+  commentId: Overload:DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument
+  name: GetXmlFromDocument
+  nameWithType: IXmlSerializer.GetXmlFromDocument
+  fullName: DotNetHelper_Serializer.Interface.IXmlSerializer.GetXmlFromDocument

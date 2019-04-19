@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Helper
+  commentId: N:DotNetHelper_Serializer.Helper
+  id: DotNetHelper_Serializer.Helper
+  children:
+  - DotNetHelper_Serializer.Helper.DataValidation
+  - DotNetHelper_Serializer.Helper.DBHelper
+  - DotNetHelper_Serializer.Helper.ObjectMapper
+  - DotNetHelper_Serializer.Helper.ObjectToSqlHelper
+  - DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.Helper
+  nameWithType: DotNetHelper_Serializer.Helper
+  fullName: DotNetHelper_Serializer.Helper
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.Helper.DataValidation
+  commentId: T:DotNetHelper_Serializer.Helper.DataValidation
+  name: DataValidation
+  nameWithType: DataValidation
+  fullName: DotNetHelper_Serializer.Helper.DataValidation
+- uid: DotNetHelper_Serializer.Helper.DBHelper
+  commentId: T:DotNetHelper_Serializer.Helper.DBHelper
+  name: DBHelper
+  nameWithType: DBHelper
+  fullName: DotNetHelper_Serializer.Helper.DBHelper
+- uid: DotNetHelper_Serializer.Helper.ObjectMapper
+  commentId: T:DotNetHelper_Serializer.Helper.ObjectMapper
+  name: ObjectMapper
+  nameWithType: ObjectMapper
+  fullName: DotNetHelper_Serializer.Helper.ObjectMapper
+- uid: DotNetHelper_Serializer.Helper.ObjectToSqlHelper
+  commentId: T:DotNetHelper_Serializer.Helper.ObjectToSqlHelper
+  parent: DotNetHelper_Serializer.Helper
+  name: ObjectToSqlHelper
+  nameWithType: ObjectToSqlHelper
+  fullName: DotNetHelper_Serializer.Helper.ObjectToSqlHelper
+- uid: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  commentId: T:DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+  parent: DotNetHelper_Serializer.Helper
+  name: SqlSyntaxHelper
+  nameWithType: SqlSyntaxHelper
+  fullName: DotNetHelper_Serializer.Helper.SqlSyntaxHelper
+- uid: DotNetHelper_Serializer.Helper
+  commentId: N:DotNetHelper_Serializer.Helper
+  name: DotNetHelper_Serializer.Helper
+  nameWithType: DotNetHelper_Serializer.Helper
+  fullName: DotNetHelper_Serializer.Helper

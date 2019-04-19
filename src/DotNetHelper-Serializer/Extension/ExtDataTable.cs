@@ -7,12 +7,6 @@ namespace DotNetHelper_Serializer.Extension
    public static class ExtDataTable
     {
 
-
-
-
-
-
-
         /// <summary>
         /// SetOrdinal of DataTable columns based on the index of the columnNames array. Removes invalid column names first.
         /// </summary>
@@ -55,11 +49,6 @@ namespace DotNetHelper_Serializer.Extension
             return true;
         }
        
-
-
-      
-
-
 
 
 

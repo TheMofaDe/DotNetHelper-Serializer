@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  commentId: T:DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  id: SqlTableAttritubeMembers
+  parent: DotNetHelper_Serializer.Attribute
+  children:
+  - DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.JoinType
+  - DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.TableName
+  - DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.XReferenceTable
+  langs:
+  - csharp
+  - vb
+  name: SqlTableAttritubeMembers
+  nameWithType: SqlTableAttritubeMembers
+  fullName: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SqlTableAttritubeMembers
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 67
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  summary: "\nEnum SqlColumnAttritubeMembers\n"
+  example: []
+  syntax:
+    content: public enum SqlTableAttritubeMembers
+    content.vb: Public Enum SqlTableAttritubeMembers
+  extensionMethods:
+  - DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.JoinType
+  commentId: F:DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.JoinType
+  id: JoinType
+  parent: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: JoinType
+  nameWithType: SqlTableAttritubeMembers.JoinType
+  fullName: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.JoinType
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: JoinType
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 70
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: JoinType = 0
+    return:
+      type: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.TableName
+  commentId: F:DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.TableName
+  id: TableName
+  parent: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: SqlTableAttritubeMembers.TableName
+  fullName: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.TableName
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TableName
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 71
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: TableName = 1
+    return:
+      type: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.XReferenceTable
+  commentId: F:DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.XReferenceTable
+  id: XReferenceTable
+  parent: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: XReferenceTable
+  nameWithType: SqlTableAttritubeMembers.XReferenceTable
+  fullName: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.XReferenceTable
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XReferenceTable
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 72
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: XReferenceTable = 2
+    return:
+      type: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.Attribute
+  commentId: N:DotNetHelper_Serializer.Attribute
+  name: DotNetHelper_Serializer.Attribute
+  nameWithType: DotNetHelper_Serializer.Attribute
+  fullName: DotNetHelper_Serializer.Attribute
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<SqlTableAttritubeMembers>()
+  nameWithType: TypeExtension.CanHaveNullValue<SqlTableAttritubeMembers>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of SqlTableAttritubeMembers)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers)()
+  name.vb: CanHaveNullValue(Of SqlTableAttritubeMembers)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<SqlTableAttritubeMembers>
+    nameWithType: TypeExtension.CanHaveNullValue<SqlTableAttritubeMembers>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of SqlTableAttritubeMembers)
+    nameWithType: TypeExtension.CanHaveNullValue(Of SqlTableAttritubeMembers)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  commentId: T:DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers
+  parent: DotNetHelper_Serializer.Attribute
+  name: SqlTableAttritubeMembers
+  nameWithType: SqlTableAttritubeMembers
+  fullName: DotNetHelper_Serializer.Attribute.SqlTableAttritubeMembers

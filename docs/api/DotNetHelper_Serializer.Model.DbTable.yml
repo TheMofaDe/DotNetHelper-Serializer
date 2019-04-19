@@ -1,0 +1,1435 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Model.DbTable
+  commentId: T:DotNetHelper_Serializer.Model.DbTable
+  id: DbTable
+  parent: DotNetHelper_Serializer.Model
+  children:
+  - DotNetHelper_Serializer.Model.DbTable.CreatedDate
+  - DotNetHelper_Serializer.Model.DbTable.Description
+  - DotNetHelper_Serializer.Model.DbTable.ModifiedDate
+  - DotNetHelper_Serializer.Model.DbTable.Objtype
+  - DotNetHelper_Serializer.Model.DbTable.Owner
+  - DotNetHelper_Serializer.Model.DbTable.ParentObjectId
+  - DotNetHelper_Serializer.Model.DbTable.Rootpage
+  - DotNetHelper_Serializer.Model.DbTable.Rows
+  - DotNetHelper_Serializer.Model.DbTable.SchemaId
+  - DotNetHelper_Serializer.Model.DbTable.Sql
+  - DotNetHelper_Serializer.Model.DbTable.TableCatalog
+  - DotNetHelper_Serializer.Model.DbTable.TableGuid
+  - DotNetHelper_Serializer.Model.DbTable.TableName
+  - DotNetHelper_Serializer.Model.DbTable.TablePropid
+  - DotNetHelper_Serializer.Model.DbTable.TableSchema
+  - DotNetHelper_Serializer.Model.DbTable.TableType
+  - DotNetHelper_Serializer.Model.DbTable.TypeDesc
+  - DotNetHelper_Serializer.Model.DbTable.UsedBytes
+  - DotNetHelper_Serializer.Model.DbTable.UsedGb
+  langs:
+  - csharp
+  - vb
+  name: DbTable
+  nameWithType: DbTable
+  fullName: DotNetHelper_Serializer.Model.DbTable
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DbTable
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 135
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public class DbTable
+    content.vb: Public Class DbTable
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.Model.DbTable.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Serializer.Model.DbTable.TableName
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.TableName
+  id: TableName
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: DbTable.TableName
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableName
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TableName
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 137
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: DotNetHelper_Serializer.Model.DbTable.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.SchemaId
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.SchemaId
+  id: SchemaId
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: SchemaId
+  nameWithType: DbTable.SchemaId
+  fullName: DotNetHelper_Serializer.Model.DbTable.SchemaId
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SchemaId
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 138
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public int? SchemaId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property SchemaId As Integer?
+  overload: DotNetHelper_Serializer.Model.DbTable.SchemaId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.ParentObjectId
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.ParentObjectId
+  id: ParentObjectId
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: ParentObjectId
+  nameWithType: DbTable.ParentObjectId
+  fullName: DotNetHelper_Serializer.Model.DbTable.ParentObjectId
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ParentObjectId
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 139
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public int? ParentObjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property ParentObjectId As Integer?
+  overload: DotNetHelper_Serializer.Model.DbTable.ParentObjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.TableType
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.TableType
+  id: TableType
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: TableType
+  nameWithType: DbTable.TableType
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableType
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TableType
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 140
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string TableType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableType As String
+  overload: DotNetHelper_Serializer.Model.DbTable.TableType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.TypeDesc
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.TypeDesc
+  id: TypeDesc
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: TypeDesc
+  nameWithType: DbTable.TypeDesc
+  fullName: DotNetHelper_Serializer.Model.DbTable.TypeDesc
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TypeDesc
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 141
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string TypeDesc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TypeDesc As String
+  overload: DotNetHelper_Serializer.Model.DbTable.TypeDesc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.CreatedDate
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.CreatedDate
+  id: CreatedDate
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: DbTable.CreatedDate
+  fullName: DotNetHelper_Serializer.Model.DbTable.CreatedDate
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CreatedDate
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 142
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public DateTime? CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property CreatedDate As Date?
+  overload: DotNetHelper_Serializer.Model.DbTable.CreatedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.ModifiedDate
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.ModifiedDate
+  id: ModifiedDate
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: ModifiedDate
+  nameWithType: DbTable.ModifiedDate
+  fullName: DotNetHelper_Serializer.Model.DbTable.ModifiedDate
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ModifiedDate
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 143
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public DateTime? ModifiedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property ModifiedDate As Date?
+  overload: DotNetHelper_Serializer.Model.DbTable.ModifiedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.Owner
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.Owner
+  id: Owner
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: DbTable.Owner
+  fullName: DotNetHelper_Serializer.Model.DbTable.Owner
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Owner
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 144
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string Owner { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Owner As String
+  overload: DotNetHelper_Serializer.Model.DbTable.Owner*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.UsedBytes
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.UsedBytes
+  id: UsedBytes
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: UsedBytes
+  nameWithType: DbTable.UsedBytes
+  fullName: DotNetHelper_Serializer.Model.DbTable.UsedBytes
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: UsedBytes
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 145
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public decimal? UsedBytes { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Decimal}
+    content.vb: Public Property UsedBytes As Decimal?
+  overload: DotNetHelper_Serializer.Model.DbTable.UsedBytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.UsedGb
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.UsedGb
+  id: UsedGb
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: UsedGb
+  nameWithType: DbTable.UsedGb
+  fullName: DotNetHelper_Serializer.Model.DbTable.UsedGb
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: UsedGb
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 146
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public decimal? UsedGb { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Decimal}
+    content.vb: Public Property UsedGb As Decimal?
+  overload: DotNetHelper_Serializer.Model.DbTable.UsedGb*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.Objtype
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.Objtype
+  id: Objtype
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: Objtype
+  nameWithType: DbTable.Objtype
+  fullName: DotNetHelper_Serializer.Model.DbTable.Objtype
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Objtype
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 147
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string Objtype { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Objtype As String
+  overload: DotNetHelper_Serializer.Model.DbTable.Objtype*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.Rows
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.Rows
+  id: Rows
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: DbTable.Rows
+  fullName: DotNetHelper_Serializer.Model.DbTable.Rows
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Rows
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 148
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public long? Rows { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property Rows As Long?
+  overload: DotNetHelper_Serializer.Model.DbTable.Rows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.TableCatalog
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.TableCatalog
+  id: TableCatalog
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: TableCatalog
+  nameWithType: DbTable.TableCatalog
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableCatalog
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TableCatalog
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 149
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string TableCatalog { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableCatalog As String
+  overload: DotNetHelper_Serializer.Model.DbTable.TableCatalog*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.TableSchema
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.TableSchema
+  id: TableSchema
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: TableSchema
+  nameWithType: DbTable.TableSchema
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableSchema
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TableSchema
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 150
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string TableSchema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableSchema As String
+  overload: DotNetHelper_Serializer.Model.DbTable.TableSchema*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.TableGuid
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.TableGuid
+  id: TableGuid
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: TableGuid
+  nameWithType: DbTable.TableGuid
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableGuid
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TableGuid
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 151
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string TableGuid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableGuid As String
+  overload: DotNetHelper_Serializer.Model.DbTable.TableGuid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.Description
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.Description
+  id: Description
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DbTable.Description
+  fullName: DotNetHelper_Serializer.Model.DbTable.Description
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Description
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 152
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: DotNetHelper_Serializer.Model.DbTable.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.TablePropid
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.TablePropid
+  id: TablePropid
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: TablePropid
+  nameWithType: DbTable.TablePropid
+  fullName: DotNetHelper_Serializer.Model.DbTable.TablePropid
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TablePropid
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 153
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public string TablePropid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TablePropid As String
+  overload: DotNetHelper_Serializer.Model.DbTable.TablePropid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.Rootpage
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.Rootpage
+  id: Rootpage
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: Rootpage
+  nameWithType: DbTable.Rootpage
+  fullName: DotNetHelper_Serializer.Model.DbTable.Rootpage
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Rootpage
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 157
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  summary: "\nSQLITE ONLY\n"
+  example: []
+  syntax:
+    content: public long Rootpage { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Rootpage As Long
+  overload: DotNetHelper_Serializer.Model.DbTable.Rootpage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.DbTable.Sql
+  commentId: P:DotNetHelper_Serializer.Model.DbTable.Sql
+  id: Sql
+  parent: DotNetHelper_Serializer.Model.DbTable
+  langs:
+  - csharp
+  - vb
+  name: Sql
+  nameWithType: DbTable.Sql
+  fullName: DotNetHelper_Serializer.Model.DbTable.Sql
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Sql
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 161
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  summary: "\nSQLITE ONLY\n"
+  example: []
+  syntax:
+    content: public string Sql { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Sql As String
+  overload: DotNetHelper_Serializer.Model.DbTable.Sql*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Serializer.Model
+  commentId: N:DotNetHelper_Serializer.Model
+  name: DotNetHelper_Serializer.Model
+  nameWithType: DotNetHelper_Serializer.Model
+  fullName: DotNetHelper_Serializer.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.DbTable.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<DbTable>()
+  nameWithType: TypeExtension.CanHaveNullValue<DbTable>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.DbTable>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of DbTable)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.DbTable)()
+  name.vb: CanHaveNullValue(Of DbTable)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<DbTable>
+    nameWithType: TypeExtension.CanHaveNullValue<DbTable>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.DbTable>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of DbTable)
+    nameWithType: TypeExtension.CanHaveNullValue(Of DbTable)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.DbTable)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Model.DbTable.TableName*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.TableName
+  name: TableName
+  nameWithType: DbTable.TableName
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.Model.DbTable.SchemaId*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.SchemaId
+  name: SchemaId
+  nameWithType: DbTable.SchemaId
+  fullName: DotNetHelper_Serializer.Model.DbTable.SchemaId
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.DbTable.ParentObjectId*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.ParentObjectId
+  name: ParentObjectId
+  nameWithType: DbTable.ParentObjectId
+  fullName: DotNetHelper_Serializer.Model.DbTable.ParentObjectId
+- uid: DotNetHelper_Serializer.Model.DbTable.TableType*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.TableType
+  name: TableType
+  nameWithType: DbTable.TableType
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableType
+- uid: DotNetHelper_Serializer.Model.DbTable.TypeDesc*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.TypeDesc
+  name: TypeDesc
+  nameWithType: DbTable.TypeDesc
+  fullName: DotNetHelper_Serializer.Model.DbTable.TypeDesc
+- uid: DotNetHelper_Serializer.Model.DbTable.CreatedDate*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.CreatedDate
+  name: CreatedDate
+  nameWithType: DbTable.CreatedDate
+  fullName: DotNetHelper_Serializer.Model.DbTable.CreatedDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.DbTable.ModifiedDate*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.ModifiedDate
+  name: ModifiedDate
+  nameWithType: DbTable.ModifiedDate
+  fullName: DotNetHelper_Serializer.Model.DbTable.ModifiedDate
+- uid: DotNetHelper_Serializer.Model.DbTable.Owner*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.Owner
+  name: Owner
+  nameWithType: DbTable.Owner
+  fullName: DotNetHelper_Serializer.Model.DbTable.Owner
+- uid: DotNetHelper_Serializer.Model.DbTable.UsedBytes*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.UsedBytes
+  name: UsedBytes
+  nameWithType: DbTable.UsedBytes
+  fullName: DotNetHelper_Serializer.Model.DbTable.UsedBytes
+- uid: System.Nullable{System.Decimal}
+  commentId: T:System.Nullable{System.Decimal}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Decimal>
+  nameWithType: Nullable<Decimal>
+  fullName: System.Nullable<System.Decimal>
+  nameWithType.vb: Nullable(Of Decimal)
+  fullName.vb: System.Nullable(Of System.Decimal)
+  name.vb: Nullable(Of Decimal)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.DbTable.UsedGb*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.UsedGb
+  name: UsedGb
+  nameWithType: DbTable.UsedGb
+  fullName: DotNetHelper_Serializer.Model.DbTable.UsedGb
+- uid: DotNetHelper_Serializer.Model.DbTable.Objtype*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.Objtype
+  name: Objtype
+  nameWithType: DbTable.Objtype
+  fullName: DotNetHelper_Serializer.Model.DbTable.Objtype
+- uid: DotNetHelper_Serializer.Model.DbTable.Rows*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.Rows
+  name: Rows
+  nameWithType: DbTable.Rows
+  fullName: DotNetHelper_Serializer.Model.DbTable.Rows
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullName.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.DbTable.TableCatalog*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.TableCatalog
+  name: TableCatalog
+  nameWithType: DbTable.TableCatalog
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableCatalog
+- uid: DotNetHelper_Serializer.Model.DbTable.TableSchema*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.TableSchema
+  name: TableSchema
+  nameWithType: DbTable.TableSchema
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableSchema
+- uid: DotNetHelper_Serializer.Model.DbTable.TableGuid*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.TableGuid
+  name: TableGuid
+  nameWithType: DbTable.TableGuid
+  fullName: DotNetHelper_Serializer.Model.DbTable.TableGuid
+- uid: DotNetHelper_Serializer.Model.DbTable.Description*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.Description
+  name: Description
+  nameWithType: DbTable.Description
+  fullName: DotNetHelper_Serializer.Model.DbTable.Description
+- uid: DotNetHelper_Serializer.Model.DbTable.TablePropid*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.TablePropid
+  name: TablePropid
+  nameWithType: DbTable.TablePropid
+  fullName: DotNetHelper_Serializer.Model.DbTable.TablePropid
+- uid: DotNetHelper_Serializer.Model.DbTable.Rootpage*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.Rootpage
+  name: Rootpage
+  nameWithType: DbTable.Rootpage
+  fullName: DotNetHelper_Serializer.Model.DbTable.Rootpage
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: DotNetHelper_Serializer.Model.DbTable.Sql*
+  commentId: Overload:DotNetHelper_Serializer.Model.DbTable.Sql
+  name: Sql
+  nameWithType: DbTable.Sql
+  fullName: DotNetHelper_Serializer.Model.DbTable.Sql

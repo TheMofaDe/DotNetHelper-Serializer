@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  id: XmlNullValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Ignore
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Include
+  langs:
+  - csharp
+  - vb
+  name: XmlNullValueHandling
+  nameWithType: XmlNullValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlNullValueHandling
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
+    startLine: 2
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public enum XmlNullValueHandling
+    content.vb: Public Enum XmlNullValueHandling
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Ignore
+  commentId: F:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Ignore
+  id: Ignore
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  langs:
+  - csharp
+  - vb
+  name: Ignore
+  nameWithType: XmlNullValueHandling.Ignore
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Ignore
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Ignore
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: Ignore = 0
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Include
+  commentId: F:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Include
+  id: Include
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  langs:
+  - csharp
+  - vb
+  name: Include
+  nameWithType: XmlNullValueHandling.Include
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.Include
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Include
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: Include = 1
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlNullValueHandling>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlNullValueHandling>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlNullValueHandling)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling)()
+  name.vb: CanHaveNullValue(Of XmlNullValueHandling)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlNullValueHandling>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlNullValueHandling>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlNullValueHandling)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlNullValueHandling)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlNullValueHandling
+  nameWithType: XmlNullValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlNullValueHandling

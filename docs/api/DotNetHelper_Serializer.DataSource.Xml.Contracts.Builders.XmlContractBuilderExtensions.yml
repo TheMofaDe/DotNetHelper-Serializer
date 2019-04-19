@@ -1,0 +1,1479 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  id: XmlContractBuilderExtensions
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem``1(``0,System.Int64)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty``1(``0,System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(``0,System.Int64,System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0,System.String)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``1(``0,System.String,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``1(``0,System.String,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling``1(``0,System.Nullable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling})
+  langs:
+  - csharp
+  - vb
+  name: XmlContractBuilderExtensions
+  nameWithType: XmlContractBuilderExtensions
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlContractBuilderExtensions
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public static class XmlContractBuilderExtensions
+    content.vb: Public Module XmlContractBuilderExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling``1(``0,System.Nullable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling``1(``0,System.Nullable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling})
+  id: SetTypeHandling``1(``0,System.Nullable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling})
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetTypeHandling<TBuilder>(TBuilder, Nullable<XmlTypeHandling>)
+  nameWithType: XmlContractBuilderExtensions.SetTypeHandling<TBuilder>(TBuilder, Nullable<XmlTypeHandling>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling<TBuilder>(TBuilder, System.Nullable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetTypeHandling
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 8
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static TBuilder SetTypeHandling<TBuilder>(this TBuilder builder, XmlTypeHandling? typeHandling)
+          where TBuilder : XmlObjectContractBuilder
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+    - id: typeHandling
+      type: System.Nullable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling}
+    typeParameters:
+    - id: TBuilder
+    return:
+      type: '{TBuilder}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetTypeHandling(Of TBuilder As XmlObjectContractBuilder)(builder As TBuilder, typeHandling As XmlTypeHandling?) As TBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling*
+  nameWithType.vb: XmlContractBuilderExtensions.SetTypeHandling(Of TBuilder)(TBuilder, Nullable(Of XmlTypeHandling))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling(Of TBuilder)(TBuilder, System.Nullable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling))
+  name.vb: SetTypeHandling(Of TBuilder)(TBuilder, Nullable(Of XmlTypeHandling))
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``1(``0,System.String,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``1(``0,System.String,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  id: SetProperty``1(``0,System.String,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetProperty<TBuilder>(TBuilder, String, XmlName, XmlMappingType)
+  nameWithType: XmlContractBuilderExtensions.SetProperty<TBuilder>(TBuilder, String, XmlName, XmlMappingType)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty<TBuilder>(TBuilder, System.String, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetProperty
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 15
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static TBuilder SetProperty<TBuilder>(this TBuilder builder, string propertyName, XmlName name = null, XmlMappingType mappingType = XmlMappingType.Element)
+          where TBuilder : XmlObjectContractBuilder
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+    - id: propertyName
+      type: System.String
+    - id: name
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    - id: mappingType
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+    typeParameters:
+    - id: TBuilder
+    return:
+      type: '{TBuilder}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetProperty(Of TBuilder As XmlObjectContractBuilder)(builder As TBuilder, propertyName As String, name As XmlName = Nothing, mappingType As XmlMappingType = XmlMappingType.Element) As TBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty*
+  nameWithType.vb: XmlContractBuilderExtensions.SetProperty(Of TBuilder)(TBuilder, String, XmlName, XmlMappingType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty(Of TBuilder)(TBuilder, System.String, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  name.vb: SetProperty(Of TBuilder)(TBuilder, String, XmlName, XmlMappingType)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``1(``0,System.String,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``1(``0,System.String,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  id: SetProperty``1(``0,System.String,System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetProperty<TBuilder>(TBuilder, String, Action<XmlPropertyBuilder>)
+  nameWithType: XmlContractBuilderExtensions.SetProperty<TBuilder>(TBuilder, String, Action<XmlPropertyBuilder>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty<TBuilder>(TBuilder, System.String, System.Action<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetProperty
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 25
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static TBuilder SetProperty<TBuilder>(this TBuilder builder, string propertyName, Action<XmlPropertyBuilder> build)
+          where TBuilder : XmlObjectContractBuilder
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+    - id: propertyName
+      type: System.String
+    - id: build
+      type: System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder}
+    typeParameters:
+    - id: TBuilder
+    return:
+      type: '{TBuilder}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetProperty(Of TBuilder As XmlObjectContractBuilder)(builder As TBuilder, propertyName As String, build As Action(Of XmlPropertyBuilder)) As TBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty*
+  nameWithType.vb: XmlContractBuilderExtensions.SetProperty(Of TBuilder)(TBuilder, String, Action(Of XmlPropertyBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty(Of TBuilder)(TBuilder, System.String, System.Action(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder))
+  name.vb: SetProperty(Of TBuilder)(TBuilder, String, Action(Of XmlPropertyBuilder))
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty``1(``0,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty``1(``0,System.String)
+  id: RemoveProperty``1(``0,System.String)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveProperty<TBuilder>(TBuilder, String)
+  nameWithType: XmlContractBuilderExtensions.RemoveProperty<TBuilder>(TBuilder, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty<TBuilder>(TBuilder, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: RemoveProperty
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 50
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static TBuilder RemoveProperty<TBuilder>(this TBuilder builder, string propertyName)
+          where TBuilder : XmlObjectContractBuilder
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+    - id: propertyName
+      type: System.String
+    typeParameters:
+    - id: TBuilder
+    return:
+      type: '{TBuilder}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveProperty(Of TBuilder As XmlObjectContractBuilder)(builder As TBuilder, propertyName As String) As TBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty*
+  nameWithType.vb: XmlContractBuilderExtensions.RemoveProperty(Of TBuilder)(TBuilder, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty(Of TBuilder)(TBuilder, System.String)
+  name.vb: RemoveProperty(Of TBuilder)(TBuilder, String)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  id: SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetProperty<T, TProperty>(XmlObjectContractBuilder<T>, Expression<Func<T, TProperty>>, XmlName, XmlMappingType)
+  nameWithType: XmlContractBuilderExtensions.SetProperty<T, TProperty>(XmlObjectContractBuilder<T>, Expression<Func<T, TProperty>>, XmlName, XmlMappingType)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty<T, TProperty>(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder<T>, System.Linq.Expressions.Expression<System.Func<T, TProperty>>, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetProperty
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 62
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public static XmlObjectContractBuilder<T> SetProperty<T, TProperty>(this XmlObjectContractBuilder<T> builder, Expression<Func<T, TProperty>> expression, XmlName name = null, XmlMappingType mappingType = XmlMappingType.Element)
+    parameters:
+    - id: builder
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{{T}}
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+    - id: name
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+    - id: mappingType
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetProperty(Of T, TProperty)(builder As XmlObjectContractBuilder(Of T), expression As Expression(Of Func(Of T, TProperty)), name As XmlName = Nothing, mappingType As XmlMappingType = XmlMappingType.Element) As XmlObjectContractBuilder(Of T)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty*
+  nameWithType.vb: XmlContractBuilderExtensions.SetProperty(Of T, TProperty)(XmlObjectContractBuilder(Of T), Expression(Of Func(Of T, TProperty)), XmlName, XmlMappingType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty(Of T, TProperty)(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder(Of T), System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  name.vb: SetProperty(Of T, TProperty)(XmlObjectContractBuilder(Of T), Expression(Of Func(Of T, TProperty)), XmlName, XmlMappingType)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  id: SetProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder})
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetProperty<T, TProperty>(XmlObjectContractBuilder<T>, Expression<Func<T, TProperty>>, Action<XmlPropertyBuilder>)
+  nameWithType: XmlContractBuilderExtensions.SetProperty<T, TProperty>(XmlObjectContractBuilder<T>, Expression<Func<T, TProperty>>, Action<XmlPropertyBuilder>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty<T, TProperty>(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder<T>, System.Linq.Expressions.Expression<System.Func<T, TProperty>>, System.Action<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetProperty
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 71
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public static XmlObjectContractBuilder<T> SetProperty<T, TProperty>(this XmlObjectContractBuilder<T> builder, Expression<Func<T, TProperty>> expression, Action<XmlPropertyBuilder> build)
+    parameters:
+    - id: builder
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{{T}}
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+    - id: build
+      type: System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder}
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetProperty(Of T, TProperty)(builder As XmlObjectContractBuilder(Of T), expression As Expression(Of Func(Of T, TProperty)), build As Action(Of XmlPropertyBuilder)) As XmlObjectContractBuilder(Of T)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty*
+  nameWithType.vb: XmlContractBuilderExtensions.SetProperty(Of T, TProperty)(XmlObjectContractBuilder(Of T), Expression(Of Func(Of T, TProperty)), Action(Of XmlPropertyBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty(Of T, TProperty)(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder(Of T), System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), System.Action(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder))
+  name.vb: SetProperty(Of T, TProperty)(XmlObjectContractBuilder(Of T), Expression(Of Func(Of T, TProperty)), Action(Of XmlPropertyBuilder))
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  id: RemoveProperty``2(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveProperty<T, TProperty>(XmlObjectContractBuilder<T>, Expression<Func<T, TProperty>>)
+  nameWithType: XmlContractBuilderExtensions.RemoveProperty<T, TProperty>(XmlObjectContractBuilder<T>, Expression<Func<T, TProperty>>)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty<T, TProperty>(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder<T>, System.Linq.Expressions.Expression<System.Func<T, TProperty>>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: RemoveProperty
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 95
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: public static XmlObjectContractBuilder<T> RemoveProperty<T, TProperty>(this XmlObjectContractBuilder<T> builder, Expression<Func<T, TProperty>> expression)
+    parameters:
+    - id: builder
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{{T}}
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveProperty(Of T, TProperty)(builder As XmlObjectContractBuilder(Of T), expression As Expression(Of Func(Of T, TProperty))) As XmlObjectContractBuilder(Of T)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty*
+  nameWithType.vb: XmlContractBuilderExtensions.RemoveProperty(Of T, TProperty)(XmlObjectContractBuilder(Of T), Expression(Of Func(Of T, TProperty)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty(Of T, TProperty)(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder(Of T), System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)))
+  name.vb: RemoveProperty(Of T, TProperty)(XmlObjectContractBuilder(Of T), Expression(Of Func(Of T, TProperty)))
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(``0,System.Int64,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(``0,System.Int64,System.String)
+  id: SetItem``1(``0,System.Int64,System.String)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetItem<TBuilder>(TBuilder, Int64, String)
+  nameWithType: XmlContractBuilderExtensions.SetItem<TBuilder>(TBuilder, Int64, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem<TBuilder>(TBuilder, System.Int64, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetItem
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 108
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static TBuilder SetItem<TBuilder>(this TBuilder builder, long value, string name)
+          where TBuilder : XmlEnumContractBuilder
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+    - id: value
+      type: System.Int64
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: TBuilder
+    return:
+      type: '{TBuilder}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetItem(Of TBuilder As XmlEnumContractBuilder)(builder As TBuilder, value As Long, name As String) As TBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem*
+  nameWithType.vb: XmlContractBuilderExtensions.SetItem(Of TBuilder)(TBuilder, Int64, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem(Of TBuilder)(TBuilder, System.Int64, System.String)
+  name.vb: SetItem(Of TBuilder)(TBuilder, Int64, String)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  id: SetItem``1(``0,DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetItem<TBuilder>(TBuilder, XmlEnumItem)
+  nameWithType: XmlContractBuilderExtensions.SetItem<TBuilder>(TBuilder, XmlEnumItem)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem<TBuilder>(TBuilder, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetItem
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 114
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static TBuilder SetItem<TBuilder>(this TBuilder builder, XmlEnumItem item)
+          where TBuilder : XmlEnumContractBuilder
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+    - id: item
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+    typeParameters:
+    - id: TBuilder
+    return:
+      type: '{TBuilder}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetItem(Of TBuilder As XmlEnumContractBuilder)(builder As TBuilder, item As XmlEnumItem) As TBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem*
+  nameWithType.vb: XmlContractBuilderExtensions.SetItem(Of TBuilder)(TBuilder, XmlEnumItem)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem(Of TBuilder)(TBuilder, DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem)
+  name.vb: SetItem(Of TBuilder)(TBuilder, XmlEnumItem)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem``1(``0,System.Int64)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem``1(``0,System.Int64)
+  id: RemoveItem``1(``0,System.Int64)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveItem<TBuilder>(TBuilder, Int64)
+  nameWithType: XmlContractBuilderExtensions.RemoveItem<TBuilder>(TBuilder, Int64)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem<TBuilder>(TBuilder, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: RemoveItem
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 126
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static TBuilder RemoveItem<TBuilder>(this TBuilder builder, long value)
+          where TBuilder : XmlEnumContractBuilder
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+    - id: value
+      type: System.Int64
+    typeParameters:
+    - id: TBuilder
+    return:
+      type: '{TBuilder}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveItem(Of TBuilder As XmlEnumContractBuilder)(builder As TBuilder, value As Long) As TBuilder
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem*
+  nameWithType.vb: XmlContractBuilderExtensions.RemoveItem(Of TBuilder)(TBuilder, Int64)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem(Of TBuilder)(TBuilder, System.Int64)
+  name.vb: RemoveItem(Of TBuilder)(TBuilder, Int64)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0,System.String)
+  id: SetItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0,System.String)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetItem<T>(XmlEnumContractBuilder<T>, T, String)
+  nameWithType: XmlContractBuilderExtensions.SetItem<T>(XmlEnumContractBuilder<T>, T, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem<T>(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder<T>, T, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetItem
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 137
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static XmlEnumContractBuilder<T> SetItem<T>(this XmlEnumContractBuilder<T> builder, T value, string name)
+          where T : struct, IConvertible
+    parameters:
+    - id: builder
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{{T}}
+    - id: value
+      type: '{T}'
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetItem(Of T As {Structure, IConvertible})(builder As XmlEnumContractBuilder(Of T), value As T, name As String) As XmlEnumContractBuilder(Of T)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem*
+  nameWithType.vb: XmlContractBuilderExtensions.SetItem(Of T)(XmlEnumContractBuilder(Of T), T, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem(Of T)(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder(Of T), T, System.String)
+  name.vb: SetItem(Of T)(XmlEnumContractBuilder(Of T), T, String)
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0)
+  id: RemoveItem``1(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0},``0)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveItem<T>(XmlEnumContractBuilder<T>, T)
+  nameWithType: XmlContractBuilderExtensions.RemoveItem<T>(XmlEnumContractBuilder<T>, T)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem<T>(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder<T>, T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: RemoveItem
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlContractBuilderExtensions.cs
+    startLine: 144
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  syntax:
+    content: >-
+      public static XmlEnumContractBuilder<T> RemoveItem<T>(this XmlEnumContractBuilder<T> builder, T value)
+          where T : struct, IConvertible
+    parameters:
+    - id: builder
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{{T}}
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveItem(Of T As {Structure, IConvertible})(builder As XmlEnumContractBuilder(Of T), value As T) As XmlEnumContractBuilder(Of T)
+  overload: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem*
+  nameWithType.vb: XmlContractBuilderExtensions.RemoveItem(Of T)(XmlEnumContractBuilder(Of T), T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem(Of T)(DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder(Of T), T)
+  name.vb: RemoveItem(Of T)(XmlEnumContractBuilder(Of T), T)
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling
+  name: SetTypeHandling
+  nameWithType: XmlContractBuilderExtensions.SetTypeHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetTypeHandling
+- uid: '{TBuilder}'
+  commentId: '!:TBuilder'
+  definition: TBuilder
+  name: TBuilder
+  nameWithType: TBuilder
+  fullName: TBuilder
+- uid: System.Nullable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling}
+  commentId: T:System.Nullable{DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<XmlTypeHandling>
+  nameWithType: Nullable<XmlTypeHandling>
+  fullName: System.Nullable<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling>
+  nameWithType.vb: Nullable(Of XmlTypeHandling)
+  fullName.vb: System.Nullable(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling)
+  name.vb: Nullable(Of XmlTypeHandling)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+    name: XmlTypeHandling
+    nameWithType: XmlTypeHandling
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+    name: XmlTypeHandling
+    nameWithType: XmlTypeHandling
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlTypeHandling
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TBuilder
+  name: TBuilder
+  nameWithType: TBuilder
+  fullName: TBuilder
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty
+  name: SetProperty
+  nameWithType: XmlContractBuilderExtensions.SetProperty
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetProperty
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlName
+  nameWithType: XmlName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlName
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlMappingType
+  nameWithType: XmlMappingType
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder}
+  commentId: T:System.Action{DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder}
+  parent: System
+  definition: System.Action`1
+  name: Action<XmlPropertyBuilder>
+  nameWithType: Action<XmlPropertyBuilder>
+  fullName: System.Action<DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder>
+  nameWithType.vb: Action(Of XmlPropertyBuilder)
+  fullName.vb: System.Action(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder)
+  name.vb: Action(Of XmlPropertyBuilder)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder
+    name: XmlPropertyBuilder
+    nameWithType: XmlPropertyBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder
+    name: XmlPropertyBuilder
+    nameWithType: XmlPropertyBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlPropertyBuilder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty
+  name: RemoveProperty
+  nameWithType: XmlContractBuilderExtensions.RemoveProperty
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveProperty
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{{T}}
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder{``0}
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  definition: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+  name: XmlObjectContractBuilder<T>
+  nameWithType: XmlObjectContractBuilder<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder<T>
+  nameWithType.vb: XmlObjectContractBuilder(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder(Of T)
+  name.vb: XmlObjectContractBuilder(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+    name: XmlObjectContractBuilder
+    nameWithType: XmlObjectContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+    name: XmlObjectContractBuilder
+    nameWithType: XmlObjectContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,``1}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<T, TProperty>>
+  nameWithType: Expression<Func<T, TProperty>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T, TProperty>>
+  nameWithType.vb: Expression(Of Func(Of T, TProperty))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty))
+  name.vb: Expression(Of Func(Of T, TProperty))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProperty
+    nameWithType: TProperty
+    fullName: TProperty
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProperty
+    nameWithType: TProperty
+    fullName: TProperty
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+  name: XmlObjectContractBuilder<T>
+  nameWithType: XmlObjectContractBuilder<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder<T>
+  nameWithType.vb: XmlObjectContractBuilder(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder(Of T)
+  name.vb: XmlObjectContractBuilder(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+    name: XmlObjectContractBuilder
+    nameWithType: XmlObjectContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder`1
+    name: XmlObjectContractBuilder
+    nameWithType: XmlObjectContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlObjectContractBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem
+  name: SetItem
+  nameWithType: XmlContractBuilderExtensions.SetItem
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.SetItem
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlEnumItem
+  nameWithType: XmlEnumItem
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlEnumItem
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem
+  name: RemoveItem
+  nameWithType: XmlContractBuilderExtensions.RemoveItem
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlContractBuilderExtensions.RemoveItem
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{{T}}
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder{``0}
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
+  definition: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+  name: XmlEnumContractBuilder<T>
+  nameWithType: XmlEnumContractBuilder<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder<T>
+  nameWithType.vb: XmlEnumContractBuilder(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder(Of T)
+  name.vb: XmlEnumContractBuilder(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+    name: XmlEnumContractBuilder
+    nameWithType: XmlEnumContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+    name: XmlEnumContractBuilder
+    nameWithType: XmlEnumContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+  name: XmlEnumContractBuilder<T>
+  nameWithType: XmlEnumContractBuilder<T>
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder<T>
+  nameWithType.vb: XmlEnumContractBuilder(Of T)
+  fullName.vb: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder(Of T)
+  name.vb: XmlEnumContractBuilder(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+    name: XmlEnumContractBuilder
+    nameWithType: XmlEnumContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder`1
+    name: XmlEnumContractBuilder
+    nameWithType: XmlEnumContractBuilder
+    fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders.XmlEnumContractBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

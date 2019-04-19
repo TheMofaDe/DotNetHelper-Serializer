@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  id: DotNetHelper_Serializer.Extension
+  children:
+  - DotNetHelper_Serializer.Extension.AdvanceMember
+  - DotNetHelper_Serializer.Extension.DataTypes
+  - DotNetHelper_Serializer.Extension.DynamicMember
+  - DotNetHelper_Serializer.Extension.ExtDataReader
+  - DotNetHelper_Serializer.Extension.ExtDataTable
+  - DotNetHelper_Serializer.Extension.ExtDictonary
+  - DotNetHelper_Serializer.Extension.ExtFastMember
+  - DotNetHelper_Serializer.Extension.ExtString
+  - DotNetHelper_Serializer.Extension.IDataSourceDBExtension
+  - DotNetHelper_Serializer.Extension.TypeExtension
+  - DotNetHelper_Serializer.Extension.TypeExtension.New`1
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.Extension.ExtDataReader
+  commentId: T:DotNetHelper_Serializer.Extension.ExtDataReader
+  name: ExtDataReader
+  nameWithType: ExtDataReader
+  fullName: DotNetHelper_Serializer.Extension.ExtDataReader
+- uid: DotNetHelper_Serializer.Extension.ExtDataTable
+  commentId: T:DotNetHelper_Serializer.Extension.ExtDataTable
+  name: ExtDataTable
+  nameWithType: ExtDataTable
+  fullName: DotNetHelper_Serializer.Extension.ExtDataTable
+- uid: DotNetHelper_Serializer.Extension.ExtDictonary
+  commentId: T:DotNetHelper_Serializer.Extension.ExtDictonary
+  name: ExtDictonary
+  nameWithType: ExtDictonary
+  fullName: DotNetHelper_Serializer.Extension.ExtDictonary
+- uid: DotNetHelper_Serializer.Extension.DynamicMember
+  commentId: T:DotNetHelper_Serializer.Extension.DynamicMember
+  parent: DotNetHelper_Serializer.Extension
+  name: DynamicMember
+  nameWithType: DynamicMember
+  fullName: DotNetHelper_Serializer.Extension.DynamicMember
+- uid: DotNetHelper_Serializer.Extension.AdvanceMember
+  commentId: T:DotNetHelper_Serializer.Extension.AdvanceMember
+  parent: DotNetHelper_Serializer.Extension
+  name: AdvanceMember
+  nameWithType: AdvanceMember
+  fullName: DotNetHelper_Serializer.Extension.AdvanceMember
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember
+  commentId: T:DotNetHelper_Serializer.Extension.ExtFastMember
+  parent: DotNetHelper_Serializer.Extension
+  name: ExtFastMember
+  nameWithType: ExtFastMember
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember
+- uid: DotNetHelper_Serializer.Extension.ExtString
+  commentId: T:DotNetHelper_Serializer.Extension.ExtString
+  name: ExtString
+  nameWithType: ExtString
+  fullName: DotNetHelper_Serializer.Extension.ExtString
+- uid: DotNetHelper_Serializer.Extension.IDataSourceDBExtension
+  commentId: T:DotNetHelper_Serializer.Extension.IDataSourceDBExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: IDataSourceDBExtension
+  nameWithType: IDataSourceDBExtension
+  fullName: DotNetHelper_Serializer.Extension.IDataSourceDBExtension
+- uid: DotNetHelper_Serializer.Extension.DataTypes
+  commentId: T:DotNetHelper_Serializer.Extension.DataTypes
+  name: DataTypes
+  nameWithType: DataTypes
+  fullName: DotNetHelper_Serializer.Extension.DataTypes
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.New`1
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension.New`1
+  name: TypeExtension.New<T>
+  nameWithType: TypeExtension.New<T>
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.New<T>
+  nameWithType.vb: TypeExtension.New(Of T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.New(Of T)
+  name.vb: TypeExtension.New(Of T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.New`1
+    name: TypeExtension.New
+    nameWithType: TypeExtension.New
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.New
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.New`1
+    name: TypeExtension.New
+    nameWithType: TypeExtension.New
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.New
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension

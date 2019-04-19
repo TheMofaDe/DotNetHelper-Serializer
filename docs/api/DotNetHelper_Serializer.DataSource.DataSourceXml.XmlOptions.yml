@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  id: DataSourceXml.XmlOptions
+  parent: DotNetHelper_Serializer.DataSource
+  children:
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.AttributeName
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.Namespaces
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.XmlDeclaration
+  langs:
+  - csharp
+  - vb
+  name: DataSourceXml.XmlOptions
+  nameWithType: DataSourceXml.XmlOptions
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlOptions
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 29
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nEnum XmlOptions\n"
+  example: []
+  syntax:
+    content: public enum XmlOptions
+    content.vb: Public Enum XmlOptions
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.XmlDeclaration
+  commentId: F:DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.XmlDeclaration
+  id: XmlDeclaration
+  parent: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  langs:
+  - csharp
+  - vb
+  name: XmlDeclaration
+  nameWithType: DataSourceXml.XmlOptions.XmlDeclaration
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.XmlDeclaration
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlDeclaration
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 34
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nThe XML declaration\n"
+  example: []
+  syntax:
+    content: XmlDeclaration = 0
+    return:
+      type: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.Namespaces
+  commentId: F:DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.Namespaces
+  id: Namespaces
+  parent: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  langs:
+  - csharp
+  - vb
+  name: Namespaces
+  nameWithType: DataSourceXml.XmlOptions.Namespaces
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.Namespaces
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Namespaces
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 38
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nThe namespaces\n"
+  example: []
+  syntax:
+    content: Namespaces = 1
+    return:
+      type: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.AttributeName
+  commentId: F:DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.AttributeName
+  id: AttributeName
+  parent: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  langs:
+  - csharp
+  - vb
+  name: AttributeName
+  nameWithType: DataSourceXml.XmlOptions.AttributeName
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.AttributeName
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: AttributeName
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 42
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nThe attribute name\n"
+  example: []
+  syntax:
+    content: AttributeName = 2
+    return:
+      type: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.DataSource
+  commentId: N:DotNetHelper_Serializer.DataSource
+  name: DotNetHelper_Serializer.DataSource
+  nameWithType: DotNetHelper_Serializer.DataSource
+  fullName: DotNetHelper_Serializer.DataSource
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<DataSourceXml.XmlOptions>()
+  nameWithType: TypeExtension.CanHaveNullValue<DataSourceXml.XmlOptions>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of DataSourceXml.XmlOptions)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions)()
+  name.vb: CanHaveNullValue(Of DataSourceXml.XmlOptions)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<DataSourceXml.XmlOptions>
+    nameWithType: TypeExtension.CanHaveNullValue<DataSourceXml.XmlOptions>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of DataSourceXml.XmlOptions)
+    nameWithType: TypeExtension.CanHaveNullValue(Of DataSourceXml.XmlOptions)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  parent: DotNetHelper_Serializer.DataSource
+  name: DataSourceXml.XmlOptions
+  nameWithType: DataSourceXml.XmlOptions
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions

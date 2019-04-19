@@ -1,0 +1,2404 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  id: TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  children:
+  - DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  - DotNetHelper_Serializer.Extension.TypeExtension.CommonTypeDictionary
+  - DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  - DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.EnumToList``1
+  - DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod(System.Type,System.String,System.Type[])
+  - DotNetHelper_Serializer.Extension.TypeExtension.GetShortName(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod(System.Type,System.String,System.Type[])
+  - DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsActivable(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type,System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type,System.Type[])
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsInteger(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsNullable(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsStruct(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable(System.Type)
+  - DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange``1(System.IProgress{``0},System.Action{``0},``0)
+  - DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList``1(System.Int32)
+  - DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TypeExtension
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 24
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static class TypeExtension
+    content.vb: Public Module TypeExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor(System.Type)
+  id: CreateDefaultConstructor(System.Type)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultConstructor(Type)
+  nameWithType: TypeExtension.CreateDefaultConstructor(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CreateDefaultConstructor
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 84
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static Func<object> CreateDefaultConstructor(Type t)
+    parameters:
+    - id: t
+      type: System.Type
+    return:
+      type: System.Func{System.Object}
+    content.vb: Public Shared Function CreateDefaultConstructor(t As Type) As Func(Of Object)
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor(System.Type)
+  id: HasDefaultConstructor(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: HasDefaultConstructor(Type)
+  nameWithType: TypeExtension.HasDefaultConstructor(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: HasDefaultConstructor
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 117
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool HasDefaultConstructor(this Type t)
+    parameters:
+    - id: t
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasDefaultConstructor(t As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange``1(System.IProgress{``0},System.Action{``0},``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange``1(System.IProgress{``0},System.Action{``0},``0)
+  id: OnProgressChange``1(System.IProgress{``0},System.Action{``0},``0)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: OnProgressChange<T>(IProgress<T>, Action<T>, T)
+  nameWithType: TypeExtension.OnProgressChange<T>(IProgress<T>, Action<T>, T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange<T>(System.IProgress<T>, System.Action<T>, T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: OnProgressChange
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 129
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static void OnProgressChange<T>(this IProgress<T> progress, Action<T> action, T value)
+    parameters:
+    - id: progress
+      type: System.IProgress{{T}}
+    - id: action
+      type: System.Action{{T}}
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OnProgressChange(Of T)(progress As IProgress(Of T), action As Action(Of T), value As T)
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange*
+  nameWithType.vb: TypeExtension.OnProgressChange(Of T)(IProgress(Of T), Action(Of T), T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange(Of T)(System.IProgress(Of T), System.Action(Of T), T)
+  name.vb: OnProgressChange(Of T)(IProgress(Of T), Action(Of T), T)
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  id: CanHaveNullValue``1(``0)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CanHaveNullValue
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 135
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool CanHaveNullValue<T>(this T obj)
+    parameters:
+    - id: obj
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CanHaveNullValue(Of T)(obj As T) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue*
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsNullable(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsNullable(System.Type)
+  id: IsNullable(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsNullable(Type)
+  nameWithType: TypeExtension.IsNullable(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsNullable(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsNullable
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 149
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static Tuple<bool, Type> IsNullable(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Tuple{System.Boolean,System.Type}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNullable(type As Type) As Tuple(Of Boolean, Type)
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsNullable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass(System.Type)
+  id: IsCSharpClass(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsCSharpClass(Type)
+  nameWithType: TypeExtension.IsCSharpClass(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsCSharpClass
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 160
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsCSharpClass(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsCSharpClass(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList``1(System.Int32)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList``1(System.Int32)
+  id: ToDefaultList``1(System.Int32)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: ToDefaultList<T>(Int32)
+  nameWithType: TypeExtension.ToDefaultList<T>(Int32)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList<T>(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ToDefaultList
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 187
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static List<T> ToDefaultList<T>(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Shared Function ToDefaultList(Of T)(count As Integer) As List(Of T)
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList*
+  nameWithType.vb: TypeExtension.ToDefaultList(Of T)(Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList(Of T)(System.Int32)
+  name.vb: ToDefaultList(Of T)(Int32)
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.EnumToList``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.EnumToList``1
+  id: EnumToList``1
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: EnumToList<T>()
+  nameWithType: TypeExtension.EnumToList<T>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.EnumToList<T>()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: EnumToList
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 201
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static List<T> EnumToList<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Shared Function EnumToList(Of T) As List(Of T)
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.EnumToList*
+  nameWithType.vb: TypeExtension.EnumToList(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.EnumToList(Of T)()
+  name.vb: EnumToList(Of T)()
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CommonTypeDictionary
+  commentId: F:DotNetHelper_Serializer.Extension.TypeExtension.CommonTypeDictionary
+  id: CommonTypeDictionary
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: CommonTypeDictionary
+  nameWithType: TypeExtension.CommonTypeDictionary
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CommonTypeDictionary
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CommonTypeDictionary
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 210
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static readonly Dictionary<Type, object> CommonTypeDictionary
+    return:
+      type: System.Collections.Generic.Dictionary{System.Type,System.Object}
+    content.vb: Public Shared ReadOnly CommonTypeDictionary As Dictionary(Of Type, Object)
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue(System.Type)
+  id: GetDefaultValue(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultValue(Type)
+  nameWithType: TypeExtension.GetDefaultValue(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetDefaultValue
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 231
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static object GetDefaultValue(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDefaultValue(type As Type) As Object
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType(System.Type)
+  id: UnwrapNullableType(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: UnwrapNullableType(Type)
+  nameWithType: TypeExtension.UnwrapNullableType(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: UnwrapNullableType
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 244
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static Type UnwrapNullableType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UnwrapNullableType(type As Type) As Type
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType(System.Type)
+  id: IsNullableType(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsNullableType(Type)
+  nameWithType: TypeExtension.IsNullableType(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsNullableType
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 246
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsNullableType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNullableType(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable(System.Type)
+  id: IsUnderlyingTypeNullable(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsUnderlyingTypeNullable(Type)
+  nameWithType: TypeExtension.IsUnderlyingTypeNullable(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsUnderlyingTypeNullable
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 255
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsUnderlyingTypeNullable(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsUnderlyingTypeNullable(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable(System.Type)
+  id: MakeNullable(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: MakeNullable(Type)
+  nameWithType: TypeExtension.MakeNullable(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: MakeNullable
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 261
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static Type MakeNullable(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MakeNullable(type As Type) As Type
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsInteger(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsInteger(System.Type)
+  id: IsInteger(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsInteger(Type)
+  nameWithType: TypeExtension.IsInteger(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsInteger(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsInteger
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 266
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsInteger(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsInteger(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsInteger*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsStruct(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsStruct(System.Type)
+  id: IsStruct(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsStruct(Type)
+  nameWithType: TypeExtension.IsStruct(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsStruct(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsStruct
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 281
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsStruct(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsStruct(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsStruct*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable(System.Type)
+  id: IsInstantiable(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsInstantiable(Type)
+  nameWithType: TypeExtension.IsInstantiable(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsInstantiable
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 286
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsInstantiable(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsInstantiable(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable(System.Type)
+  id: IsTypeIEnumerable(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsTypeIEnumerable(Type)
+  nameWithType: TypeExtension.IsTypeIEnumerable(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsTypeIEnumerable
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 295
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsTypeIEnumerable(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsTypeIEnumerable(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CopyObject``1(``0)
+  id: CopyObject``1(``0)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: CopyObject<T>(T)
+  nameWithType: TypeExtension.CopyObject<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject<T>(T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: CopyObject
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 325
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: >-
+      public static T CopyObject<T>(this T obj)
+          where T : class, ICloneable
+    parameters:
+    - id: obj
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CopyObject(Of T As {Class, ICloneable})(obj As T) As T
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject*
+  nameWithType.vb: TypeExtension.CopyObject(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject(Of T)(T)
+  name.vb: CopyObject(Of T)(T)
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType(System.Type)
+  id: IsBasicType(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsBasicType(Type)
+  nameWithType: TypeExtension.IsBasicType(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsBasicType
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 347
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsBasicType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsBasicType(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType(System.Type)
+  id: IsFinalType(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsFinalType(Type)
+  nameWithType: TypeExtension.IsFinalType(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsFinalType
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 357
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsFinalType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsFinalType(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsActivable(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsActivable(System.Type)
+  id: IsActivable(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsActivable(Type)
+  nameWithType: TypeExtension.IsActivable(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsActivable(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsActivable
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 362
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsActivable(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsActivable(type As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsActivable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor(System.Type)
+  id: GetDefaultConstructor(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultConstructor(Type)
+  nameWithType: TypeExtension.GetDefaultConstructor(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetDefaultConstructor
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 367
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static ConstructorInfo GetDefaultConstructor(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Reflection.ConstructorInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDefaultConstructor(type As Type) As ConstructorInfo
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType(System.Type)
+  id: GetEnumerableItemType(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerableItemType(Type)
+  nameWithType: TypeExtension.GetEnumerableItemType(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetEnumerableItemType
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 378
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static Type GetEnumerableItemType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetEnumerableItemType(type As Type) As Type
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType(System.Type)
+  id: GetUnderlyingNullableType(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetUnderlyingNullableType(Type)
+  nameWithType: TypeExtension.GetUnderlyingNullableType(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetUnderlyingNullableType
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 421
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static Type GetUnderlyingNullableType(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUnderlyingNullableType(type As Type) As Type
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type,System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type,System.Type)
+  id: IsGenericTypeOf(System.Type,System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsGenericTypeOf(Type, Type)
+  nameWithType: TypeExtension.IsGenericTypeOf(Type, Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsGenericTypeOf
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 431
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsGenericTypeOf(this Type type, Type definitionType)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: definitionType
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsGenericTypeOf(type As Type, definitionType As Type) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type,System.Type[])
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type,System.Type[])
+  id: IsGenericTypeOf(System.Type,System.Type[])
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: IsGenericTypeOf(Type, Type[])
+  nameWithType: TypeExtension.IsGenericTypeOf(Type, Type[])
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type, System.Type[])
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IsGenericTypeOf
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 438
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static bool IsGenericTypeOf(this Type type, params Type[] definitionTypes)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: definitionTypes
+      type: System.Type[]
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsGenericTypeOf(type As Type, ParamArray definitionTypes As Type()) As Boolean
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf*
+  nameWithType.vb: TypeExtension.IsGenericTypeOf(Type, Type())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf(System.Type, System.Type())
+  name.vb: IsGenericTypeOf(Type, Type())
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetShortName(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.GetShortName(System.Type)
+  id: GetShortName(System.Type)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetShortName(Type)
+  nameWithType: TypeExtension.GetShortName(Type)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetShortName(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetShortName
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 456
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static string GetShortName(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetShortName(type As Type) As String
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.GetShortName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod(System.Type,System.String,System.Type[])
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod(System.Type,System.String,System.Type[])
+  id: GetStaticMethod(System.Type,System.String,System.Type[])
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetStaticMethod(Type, String, Type[])
+  nameWithType: TypeExtension.GetStaticMethod(Type, String, Type[])
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod(System.Type, System.String, System.Type[])
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetStaticMethod
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 484
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static MethodInfo GetStaticMethod(this Type type, string methodName, params Type[] parameters)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: methodName
+      type: System.String
+    - id: parameters
+      type: System.Type[]
+    return:
+      type: System.Reflection.MethodInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStaticMethod(type As Type, methodName As String, ParamArray parameters As Type()) As MethodInfo
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod*
+  nameWithType.vb: TypeExtension.GetStaticMethod(Type, String, Type())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod(System.Type, System.String, System.Type())
+  name.vb: GetStaticMethod(Type, String, Type())
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod(System.Type,System.String,System.Type[])
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod(System.Type,System.String,System.Type[])
+  id: GetInstanceMethod(System.Type,System.String,System.Type[])
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetInstanceMethod(Type, String, Type[])
+  nameWithType: TypeExtension.GetInstanceMethod(Type, String, Type[])
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod(System.Type, System.String, System.Type[])
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetInstanceMethod
+    path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
+    startLine: 490
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static MethodInfo GetInstanceMethod(this Type type, string methodName, params Type[] parameters)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: methodName
+      type: System.String
+    - id: parameters
+      type: System.Type[]
+    return:
+      type: System.Reflection.MethodInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetInstanceMethod(type As Type, methodName As String, ParamArray parameters As Type()) As MethodInfo
+  overload: DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod*
+  nameWithType.vb: TypeExtension.GetInstanceMethod(Type, String, Type())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod(System.Type, System.String, System.Type())
+  name.vb: GetInstanceMethod(Type, String, Type())
+references:
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor
+  name: CreateDefaultConstructor
+  nameWithType: TypeExtension.CreateDefaultConstructor
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CreateDefaultConstructor
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Func{System.Object}
+  commentId: T:System.Func{System.Object}
+  parent: System
+  definition: System.Func`1
+  name: Func<Object>
+  nameWithType: Func<Object>
+  fullName: System.Func<System.Object>
+  nameWithType.vb: Func(Of Object)
+  fullName.vb: System.Func(Of System.Object)
+  name.vb: Func(Of Object)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor
+  name: HasDefaultConstructor
+  nameWithType: TypeExtension.HasDefaultConstructor
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.HasDefaultConstructor
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange
+  name: OnProgressChange
+  nameWithType: TypeExtension.OnProgressChange
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.OnProgressChange
+- uid: System.IProgress{{T}}
+  commentId: T:System.IProgress{``0}
+  parent: System
+  definition: System.IProgress`1
+  name: IProgress<T>
+  nameWithType: IProgress<T>
+  fullName: System.IProgress<T>
+  nameWithType.vb: IProgress(Of T)
+  fullName.vb: System.IProgress(Of T)
+  name.vb: IProgress(Of T)
+  spec.csharp:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.IProgress`1
+  commentId: T:System.IProgress`1
+  isExternal: true
+  name: IProgress<T>
+  nameWithType: IProgress<T>
+  fullName: System.IProgress<T>
+  nameWithType.vb: IProgress(Of T)
+  fullName.vb: System.IProgress(Of T)
+  name.vb: IProgress(Of T)
+  spec.csharp:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IProgress`1
+    name: IProgress
+    nameWithType: IProgress
+    fullName: System.IProgress
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue
+  name: CanHaveNullValue
+  nameWithType: TypeExtension.CanHaveNullValue
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsNullable*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsNullable
+  name: IsNullable
+  nameWithType: TypeExtension.IsNullable
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsNullable
+- uid: System.Tuple{System.Boolean,System.Type}
+  commentId: T:System.Tuple{System.Boolean,System.Type}
+  parent: System
+  definition: System.Tuple`2
+  name: Tuple<Boolean, Type>
+  nameWithType: Tuple<Boolean, Type>
+  fullName: System.Tuple<System.Boolean, System.Type>
+  nameWithType.vb: Tuple(Of Boolean, Type)
+  fullName.vb: System.Tuple(Of System.Boolean, System.Type)
+  name.vb: Tuple(Of Boolean, Type)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Tuple`2
+  commentId: T:System.Tuple`2
+  isExternal: true
+  name: Tuple<T1, T2>
+  nameWithType: Tuple<T1, T2>
+  fullName: System.Tuple<T1, T2>
+  nameWithType.vb: Tuple(Of T1, T2)
+  fullName.vb: System.Tuple(Of T1, T2)
+  name.vb: Tuple(Of T1, T2)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass
+  name: IsCSharpClass
+  nameWithType: TypeExtension.IsCSharpClass
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsCSharpClass
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList
+  name: ToDefaultList
+  nameWithType: TypeExtension.ToDefaultList
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.ToDefaultList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.EnumToList*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.EnumToList
+  name: EnumToList
+  nameWithType: TypeExtension.EnumToList
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.EnumToList
+- uid: System.Collections.Generic.Dictionary{System.Type,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.Type,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Type, Object>
+  nameWithType: Dictionary<Type, Object>
+  fullName: System.Collections.Generic.Dictionary<System.Type, System.Object>
+  nameWithType.vb: Dictionary(Of Type, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Type, System.Object)
+  name.vb: Dictionary(Of Type, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue
+  name: GetDefaultValue
+  nameWithType: TypeExtension.GetDefaultValue
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultValue
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType
+  name: UnwrapNullableType
+  nameWithType: TypeExtension.UnwrapNullableType
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.UnwrapNullableType
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType
+  name: IsNullableType
+  nameWithType: TypeExtension.IsNullableType
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsNullableType
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable
+  name: IsUnderlyingTypeNullable
+  nameWithType: TypeExtension.IsUnderlyingTypeNullable
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsUnderlyingTypeNullable
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable
+  name: MakeNullable
+  nameWithType: TypeExtension.MakeNullable
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.MakeNullable
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsInteger*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsInteger
+  name: IsInteger
+  nameWithType: TypeExtension.IsInteger
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsInteger
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsStruct*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsStruct
+  name: IsStruct
+  nameWithType: TypeExtension.IsStruct
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsStruct
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable
+  name: IsInstantiable
+  nameWithType: TypeExtension.IsInstantiable
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsInstantiable
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable
+  name: IsTypeIEnumerable
+  nameWithType: TypeExtension.IsTypeIEnumerable
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsTypeIEnumerable
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.CopyObject
+  name: CopyObject
+  nameWithType: TypeExtension.CopyObject
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CopyObject
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType
+  name: IsBasicType
+  nameWithType: TypeExtension.IsBasicType
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsBasicType
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType
+  name: IsFinalType
+  nameWithType: TypeExtension.IsFinalType
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsFinalType
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsActivable*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsActivable
+  name: IsActivable
+  nameWithType: TypeExtension.IsActivable
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsActivable
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor
+  name: GetDefaultConstructor
+  nameWithType: TypeExtension.GetDefaultConstructor
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetDefaultConstructor
+- uid: System.Reflection.ConstructorInfo
+  commentId: T:System.Reflection.ConstructorInfo
+  parent: System.Reflection
+  isExternal: true
+  name: ConstructorInfo
+  nameWithType: ConstructorInfo
+  fullName: System.Reflection.ConstructorInfo
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType
+  name: GetEnumerableItemType
+  nameWithType: TypeExtension.GetEnumerableItemType
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetEnumerableItemType
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType
+  name: GetUnderlyingNullableType
+  nameWithType: TypeExtension.GetUnderlyingNullableType
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetUnderlyingNullableType
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf
+  name: IsGenericTypeOf
+  nameWithType: TypeExtension.IsGenericTypeOf
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.IsGenericTypeOf
+- uid: System.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetShortName*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.GetShortName
+  name: GetShortName
+  nameWithType: TypeExtension.GetShortName
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetShortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod
+  name: GetStaticMethod
+  nameWithType: TypeExtension.GetStaticMethod
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetStaticMethod
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod*
+  commentId: Overload:DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod
+  name: GetInstanceMethod
+  nameWithType: TypeExtension.GetInstanceMethod
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.GetInstanceMethod

@@ -1,0 +1,780 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember
+  commentId: T:DotNetHelper_Serializer.Extension.ExtFastMember
+  id: ExtFastMember
+  parent: DotNetHelper_Serializer.Extension
+  children:
+  - DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName(DotNetHelper_Serializer.Extension.AdvanceMember)
+  - DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers(System.Type)
+  - DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers``1(``0)
+  - DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic``1(``0)
+  - DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue``1(FastMember.Member,``0,FastMember.TypeAccessor)
+  - DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue``1(``0,System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ExtFastMember
+  nameWithType: ExtFastMember
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ExtFastMember
+    path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+    startLine: 70
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static class ExtFastMember
+    content.vb: Public Module ExtFastMember
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName(DotNetHelper_Serializer.Extension.AdvanceMember)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName(DotNetHelper_Serializer.Extension.AdvanceMember)
+  id: GetActualMemberName(DotNetHelper_Serializer.Extension.AdvanceMember)
+  isExtensionMethod: true
+  parent: DotNetHelper_Serializer.Extension.ExtFastMember
+  langs:
+  - csharp
+  - vb
+  name: GetActualMemberName(AdvanceMember)
+  nameWithType: ExtFastMember.GetActualMemberName(AdvanceMember)
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName(DotNetHelper_Serializer.Extension.AdvanceMember)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetActualMemberName
+    path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+    startLine: 78
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static string GetActualMemberName(this AdvanceMember av)
+    parameters:
+    - id: av
+      type: DotNetHelper_Serializer.Extension.AdvanceMember
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetActualMemberName(av As AdvanceMember) As String
+  overload: DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers(System.Type)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers(System.Type)
+  id: GetAdvanceMembers(System.Type)
+  parent: DotNetHelper_Serializer.Extension.ExtFastMember
+  langs:
+  - csharp
+  - vb
+  name: GetAdvanceMembers(Type)
+  nameWithType: ExtFastMember.GetAdvanceMembers(Type)
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetAdvanceMembers
+    path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+    startLine: 90
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static List<AdvanceMember> GetAdvanceMembers(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Collections.Generic.List{DotNetHelper_Serializer.Extension.AdvanceMember}
+      description: A List Of Advance Members Of T
+    content.vb: Public Shared Function GetAdvanceMembers(type As Type) As List(Of AdvanceMember)
+  overload: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic``1(``0)
+  id: GetAdvanceMembersForDynamic``1(``0)
+  parent: DotNetHelper_Serializer.Extension.ExtFastMember
+  langs:
+  - csharp
+  - vb
+  name: GetAdvanceMembersForDynamic<T>(T)
+  nameWithType: ExtFastMember.GetAdvanceMembersForDynamic<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic<T>(T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetAdvanceMembersForDynamic
+    path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+    startLine: 311
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      public static List<AdvanceMember> GetAdvanceMembersForDynamic<T>(T poco = null)
+          where T : class
+    parameters:
+    - id: poco
+      type: '{T}'
+      description: If Null Default Value Will Be Used For Members
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.List{DotNetHelper_Serializer.Extension.AdvanceMember}
+      description: A List Of Advance Members Of T
+    content.vb: Public Shared Function GetAdvanceMembersForDynamic(Of T As Class)(poco As T = Nothing) As List(Of AdvanceMember)
+  overload: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic*
+  nameWithType.vb: ExtFastMember.GetAdvanceMembersForDynamic(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic(Of T)(T)
+  name.vb: GetAdvanceMembersForDynamic(Of T)(T)
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers``1(``0)
+  id: GetAdvanceMembers``1(``0)
+  parent: DotNetHelper_Serializer.Extension.ExtFastMember
+  langs:
+  - csharp
+  - vb
+  name: GetAdvanceMembers<T>(T)
+  nameWithType: ExtFastMember.GetAdvanceMembers<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers<T>(T)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetAdvanceMembers
+    path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+    startLine: 353
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      public static List<AdvanceMember> GetAdvanceMembers<T>(T poco = null)
+          where T : class
+    parameters:
+    - id: poco
+      type: '{T}'
+      description: If Null Default Value Will Be Used For Members
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.List{DotNetHelper_Serializer.Extension.AdvanceMember}
+      description: A List Of Advance Members Of T
+    content.vb: Public Shared Function GetAdvanceMembers(Of T As Class)(poco As T = Nothing) As List(Of AdvanceMember)
+  overload: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers*
+  nameWithType.vb: ExtFastMember.GetAdvanceMembers(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers(Of T)(T)
+  name.vb: GetAdvanceMembers(Of T)(T)
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue``1(FastMember.Member,``0,FastMember.TypeAccessor)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue``1(FastMember.Member,``0,FastMember.TypeAccessor)
+  id: GetMemberValue``1(FastMember.Member,``0,FastMember.TypeAccessor)
+  parent: DotNetHelper_Serializer.Extension.ExtFastMember
+  langs:
+  - csharp
+  - vb
+  name: GetMemberValue<T>(Member, T, TypeAccessor)
+  nameWithType: ExtFastMember.GetMemberValue<T>(Member, T, TypeAccessor)
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue<T>(FastMember.Member, T, FastMember.TypeAccessor)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetMemberValue
+    path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+    startLine: 601
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static object GetMemberValue<T>(Member p, T poco, TypeAccessor accessor)
+    parameters:
+    - id: p
+      type: FastMember.Member
+    - id: poco
+      type: '{T}'
+    - id: accessor
+      type: FastMember.TypeAccessor
+    typeParameters:
+    - id: T
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetMemberValue(Of T)(p As Member, poco As T, accessor As TypeAccessor) As Object
+  overload: DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue*
+  nameWithType.vb: ExtFastMember.GetMemberValue(Of T)(Member, T, TypeAccessor)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue(Of T)(FastMember.Member, T, FastMember.TypeAccessor)
+  name.vb: GetMemberValue(Of T)(Member, T, TypeAccessor)
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue``1(``0,System.String,System.Object)
+  commentId: M:DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue``1(``0,System.String,System.Object)
+  id: SetMemberValue``1(``0,System.String,System.Object)
+  parent: DotNetHelper_Serializer.Extension.ExtFastMember
+  langs:
+  - csharp
+  - vb
+  name: SetMemberValue<T>(T, String, Object)
+  nameWithType: ExtFastMember.SetMemberValue<T>(T, String, Object)
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue<T>(T, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetMemberValue
+    path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
+    startLine: 614
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Extension
+  syntax:
+    content: public static void SetMemberValue<T>(T poco, string propertyName, object value)
+    parameters:
+    - id: poco
+      type: '{T}'
+    - id: propertyName
+      type: System.String
+    - id: value
+      type: System.Object
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub SetMemberValue(Of T)(poco As T, propertyName As String, value As Object)
+  overload: DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue*
+  nameWithType.vb: ExtFastMember.SetMemberValue(Of T)(T, String, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue(Of T)(T, System.String, System.Object)
+  name.vb: SetMemberValue(Of T)(T, String, Object)
+references:
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName
+  name: GetActualMemberName
+  nameWithType: ExtFastMember.GetActualMemberName
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetActualMemberName
+- uid: DotNetHelper_Serializer.Extension.AdvanceMember
+  commentId: T:DotNetHelper_Serializer.Extension.AdvanceMember
+  parent: DotNetHelper_Serializer.Extension
+  name: AdvanceMember
+  nameWithType: AdvanceMember
+  fullName: DotNetHelper_Serializer.Extension.AdvanceMember
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers
+  name: GetAdvanceMembers
+  nameWithType: ExtFastMember.GetAdvanceMembers
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembers
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Collections.Generic.List{DotNetHelper_Serializer.Extension.AdvanceMember}
+  commentId: T:System.Collections.Generic.List{DotNetHelper_Serializer.Extension.AdvanceMember}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<AdvanceMember>
+  nameWithType: List<AdvanceMember>
+  fullName: System.Collections.Generic.List<DotNetHelper_Serializer.Extension.AdvanceMember>
+  nameWithType.vb: List(Of AdvanceMember)
+  fullName.vb: System.Collections.Generic.List(Of DotNetHelper_Serializer.Extension.AdvanceMember)
+  name.vb: List(Of AdvanceMember)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DotNetHelper_Serializer.Extension.AdvanceMember
+    name: AdvanceMember
+    nameWithType: AdvanceMember
+    fullName: DotNetHelper_Serializer.Extension.AdvanceMember
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DotNetHelper_Serializer.Extension.AdvanceMember
+    name: AdvanceMember
+    nameWithType: AdvanceMember
+    fullName: DotNetHelper_Serializer.Extension.AdvanceMember
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic
+  name: GetAdvanceMembersForDynamic
+  nameWithType: ExtFastMember.GetAdvanceMembersForDynamic
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetAdvanceMembersForDynamic
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue
+  name: GetMemberValue
+  nameWithType: ExtFastMember.GetMemberValue
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.GetMemberValue
+- uid: FastMember.Member
+  commentId: T:FastMember.Member
+  parent: FastMember
+  isExternal: true
+  name: Member
+  nameWithType: Member
+  fullName: FastMember.Member
+- uid: FastMember.TypeAccessor
+  commentId: T:FastMember.TypeAccessor
+  parent: FastMember
+  isExternal: true
+  name: TypeAccessor
+  nameWithType: TypeAccessor
+  fullName: FastMember.TypeAccessor
+- uid: FastMember
+  commentId: N:FastMember
+  isExternal: true
+  name: FastMember
+  nameWithType: FastMember
+  fullName: FastMember
+- uid: DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue*
+  commentId: Overload:DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue
+  name: SetMemberValue
+  nameWithType: ExtFastMember.SetMemberValue
+  fullName: DotNetHelper_Serializer.Extension.ExtFastMember.SetMemberValue

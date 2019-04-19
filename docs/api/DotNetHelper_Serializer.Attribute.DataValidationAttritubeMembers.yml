@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  commentId: T:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  id: DataValidationAttritubeMembers
+  parent: DotNetHelper_Serializer.Attribute
+  children:
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainLetter
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainNumbers
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetDataType
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetIgnore
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetMaxLengthSize
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetRequireValue
+  langs:
+  - csharp
+  - vb
+  name: DataValidationAttritubeMembers
+  nameWithType: DataValidationAttritubeMembers
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DataValidationAttritubeMembers
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 596
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  summary: "\nEnum DataValidationAttritubeMembers\n"
+  example: []
+  syntax:
+    content: public enum DataValidationAttritubeMembers
+    content.vb: Public Enum DataValidationAttritubeMembers
+  extensionMethods:
+  - DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetMaxLengthSize
+  commentId: F:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetMaxLengthSize
+  id: SetMaxLengthSize
+  parent: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetMaxLengthSize
+  nameWithType: DataValidationAttritubeMembers.SetMaxLengthSize
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetMaxLengthSize
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetMaxLengthSize
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 601
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  summary: "\nThe set maximum length size\n"
+  example: []
+  syntax:
+    content: SetMaxLengthSize = 0
+    return:
+      type: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetRequireValue
+  commentId: F:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetRequireValue
+  id: SetRequireValue
+  parent: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetRequireValue
+  nameWithType: DataValidationAttritubeMembers.SetRequireValue
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetRequireValue
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetRequireValue
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 605
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: SetRequireValue = 1
+    return:
+      type: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetDataType
+  commentId: F:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetDataType
+  id: SetDataType
+  parent: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetDataType
+  nameWithType: DataValidationAttritubeMembers.SetDataType
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetDataType
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetDataType
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 609
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: SetDataType = 2
+    return:
+      type: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainNumbers
+  commentId: F:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainNumbers
+  id: SetCanContainNumbers
+  parent: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetCanContainNumbers
+  nameWithType: DataValidationAttritubeMembers.SetCanContainNumbers
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainNumbers
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetCanContainNumbers
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 613
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: SetCanContainNumbers = 3
+    return:
+      type: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainLetter
+  commentId: F:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainLetter
+  id: SetCanContainLetter
+  parent: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetCanContainLetter
+  nameWithType: DataValidationAttritubeMembers.SetCanContainLetter
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetCanContainLetter
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetCanContainLetter
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 617
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: SetCanContainLetter = 4
+    return:
+      type: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetIgnore
+  commentId: F:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetIgnore
+  id: SetIgnore
+  parent: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  langs:
+  - csharp
+  - vb
+  name: SetIgnore
+  nameWithType: DataValidationAttritubeMembers.SetIgnore
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.SetIgnore
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SetIgnore
+    path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
+    startLine: 621
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Attribute
+  syntax:
+    content: SetIgnore = 5
+    return:
+      type: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.Attribute
+  commentId: N:DotNetHelper_Serializer.Attribute
+  name: DotNetHelper_Serializer.Attribute
+  nameWithType: DotNetHelper_Serializer.Attribute
+  fullName: DotNetHelper_Serializer.Attribute
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<DataValidationAttritubeMembers>()
+  nameWithType: TypeExtension.CanHaveNullValue<DataValidationAttritubeMembers>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of DataValidationAttritubeMembers)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers)()
+  name.vb: CanHaveNullValue(Of DataValidationAttritubeMembers)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<DataValidationAttritubeMembers>
+    nameWithType: TypeExtension.CanHaveNullValue<DataValidationAttritubeMembers>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of DataValidationAttritubeMembers)
+    nameWithType: TypeExtension.CanHaveNullValue(Of DataValidationAttritubeMembers)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  commentId: T:DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers
+  parent: DotNetHelper_Serializer.Attribute
+  name: DataValidationAttritubeMembers
+  nameWithType: DataValidationAttritubeMembers
+  fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers

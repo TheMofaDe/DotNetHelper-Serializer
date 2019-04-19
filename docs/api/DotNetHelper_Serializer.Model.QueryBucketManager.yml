@@ -1,0 +1,814 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager
+  commentId: T:DotNetHelper_Serializer.Model.QueryBucketManager
+  id: QueryBucketManager
+  parent: DotNetHelper_Serializer.Model
+  children:
+  - DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket(DotNetHelper_Serializer.Model.QueryBucket)
+  - DotNetHelper_Serializer.Model.QueryBucketManager.BeforeAddToBucket
+  - DotNetHelper_Serializer.Model.QueryBucketManager.Dispose
+  - DotNetHelper_Serializer.Model.QueryBucketManager.FullBucketReached
+  - DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery
+  - DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize
+  - DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd(DotNetHelper_Serializer.Model.QueryBucketEventArgs)
+  - DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket(DotNetHelper_Serializer.Model.FullQueryBucketEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: QueryBucketManager
+  nameWithType: QueryBucketManager
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: QueryBucketManager
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 17
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: 'public class QueryBucketManager : IDisposable'
+    content.vb: >-
+      Public Class QueryBucketManager
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - DotNetHelper_Serializer.Model.QueryBucketManager.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize
+  commentId: P:DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize
+  id: MaxBucketSize
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: MaxBucketSize
+  nameWithType: QueryBucketManager.MaxBucketSize
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: MaxBucketSize
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 19
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public int MaxBucketSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxBucketSize As Integer
+  overload: DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery
+  commentId: P:DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery
+  id: IncludeReadableQuery
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: IncludeReadableQuery
+  nameWithType: QueryBucketManager.IncludeReadableQuery
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery
+  type: Property
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IncludeReadableQuery
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 20
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public bool IncludeReadableQuery { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeReadableQuery As Boolean
+  overload: DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.FullBucketReached
+  commentId: E:DotNetHelper_Serializer.Model.QueryBucketManager.FullBucketReached
+  id: FullBucketReached
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: FullBucketReached
+  nameWithType: QueryBucketManager.FullBucketReached
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.FullBucketReached
+  type: Event
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: FullBucketReached
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 23
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public event QueryBucketManager.FullQueryBucketEventHandler FullBucketReached
+    return:
+      type: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+    content.vb: Public Event FullBucketReached As QueryBucketManager.FullQueryBucketEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.BeforeAddToBucket
+  commentId: E:DotNetHelper_Serializer.Model.QueryBucketManager.BeforeAddToBucket
+  id: BeforeAddToBucket
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: BeforeAddToBucket
+  nameWithType: QueryBucketManager.BeforeAddToBucket
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.BeforeAddToBucket
+  type: Event
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: BeforeAddToBucket
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 27
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public event QueryBucketManager.OnBeforeAddToBucketEventHandler BeforeAddToBucket
+    return:
+      type: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAddToBucketEventHandler
+    content.vb: Public Event BeforeAddToBucket As QueryBucketManager.OnBeforeAddToBucketEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket(DotNetHelper_Serializer.Model.QueryBucket)
+  commentId: M:DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket(DotNetHelper_Serializer.Model.QueryBucket)
+  id: AddBucket(DotNetHelper_Serializer.Model.QueryBucket)
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: AddBucket(QueryBucket)
+  nameWithType: QueryBucketManager.AddBucket(QueryBucket)
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket(DotNetHelper_Serializer.Model.QueryBucket)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: AddBucket
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 30
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public void AddBucket(QueryBucket bucket)
+    parameters:
+    - id: bucket
+      type: DotNetHelper_Serializer.Model.QueryBucket
+    content.vb: Public Sub AddBucket(bucket As QueryBucket)
+  overload: DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket(DotNetHelper_Serializer.Model.FullQueryBucketEventArgs)
+  commentId: M:DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket(DotNetHelper_Serializer.Model.FullQueryBucketEventArgs)
+  id: OnFullBucket(DotNetHelper_Serializer.Model.FullQueryBucketEventArgs)
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: OnFullBucket(FullQueryBucketEventArgs)
+  nameWithType: QueryBucketManager.OnFullBucket(FullQueryBucketEventArgs)
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket(DotNetHelper_Serializer.Model.FullQueryBucketEventArgs)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: OnFullBucket
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 48
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: protected virtual void OnFullBucket(FullQueryBucketEventArgs e)
+    parameters:
+    - id: e
+      type: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+    content.vb: Protected Overridable Sub OnFullBucket(e As FullQueryBucketEventArgs)
+  overload: DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd(DotNetHelper_Serializer.Model.QueryBucketEventArgs)
+  commentId: M:DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd(DotNetHelper_Serializer.Model.QueryBucketEventArgs)
+  id: OnBeforeAdd(DotNetHelper_Serializer.Model.QueryBucketEventArgs)
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeAdd(QueryBucketEventArgs)
+  nameWithType: QueryBucketManager.OnBeforeAdd(QueryBucketEventArgs)
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd(DotNetHelper_Serializer.Model.QueryBucketEventArgs)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: OnBeforeAdd
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 54
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: protected virtual void OnBeforeAdd(QueryBucketEventArgs e)
+    parameters:
+    - id: e
+      type: DotNetHelper_Serializer.Model.QueryBucketEventArgs
+    content.vb: Protected Overridable Sub OnBeforeAdd(e As QueryBucketEventArgs)
+  overload: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.Dispose
+  commentId: M:DotNetHelper_Serializer.Model.QueryBucketManager.Dispose
+  id: Dispose
+  parent: DotNetHelper_Serializer.Model.QueryBucketManager
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: QueryBucketManager.Dispose()
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Model/Database.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Dispose
+    path: ../src/DotNetHelper-Serializer/Model/Database.cs
+    startLine: 61
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Model
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: DotNetHelper_Serializer.Model.QueryBucketManager.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DotNetHelper_Serializer.Model
+  commentId: N:DotNetHelper_Serializer.Model
+  name: DotNetHelper_Serializer.Model
+  nameWithType: DotNetHelper_Serializer.Model
+  fullName: DotNetHelper_Serializer.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<QueryBucketManager>()
+  nameWithType: TypeExtension.CanHaveNullValue<QueryBucketManager>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.QueryBucketManager>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of QueryBucketManager)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.QueryBucketManager)()
+  name.vb: CanHaveNullValue(Of QueryBucketManager)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<QueryBucketManager>
+    nameWithType: TypeExtension.CanHaveNullValue<QueryBucketManager>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Model.QueryBucketManager>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of QueryBucketManager)
+    nameWithType: TypeExtension.CanHaveNullValue(Of QueryBucketManager)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Model.QueryBucketManager)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize*
+  commentId: Overload:DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize
+  name: MaxBucketSize
+  nameWithType: QueryBucketManager.MaxBucketSize
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.MaxBucketSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery*
+  commentId: Overload:DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery
+  name: IncludeReadableQuery
+  nameWithType: QueryBucketManager.IncludeReadableQuery
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.IncludeReadableQuery
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+  commentId: T:DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+  parent: DotNetHelper_Serializer.Model
+  name: QueryBucketManager.FullQueryBucketEventHandler
+  nameWithType: QueryBucketManager.FullQueryBucketEventHandler
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.FullQueryBucketEventHandler
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAddToBucketEventHandler
+  commentId: T:DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAddToBucketEventHandler
+  parent: DotNetHelper_Serializer.Model
+  name: QueryBucketManager.OnBeforeAddToBucketEventHandler
+  nameWithType: QueryBucketManager.OnBeforeAddToBucketEventHandler
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAddToBucketEventHandler
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket*
+  commentId: Overload:DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket
+  name: AddBucket
+  nameWithType: QueryBucketManager.AddBucket
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.AddBucket
+- uid: DotNetHelper_Serializer.Model.QueryBucket
+  commentId: T:DotNetHelper_Serializer.Model.QueryBucket
+  parent: DotNetHelper_Serializer.Model
+  name: QueryBucket
+  nameWithType: QueryBucket
+  fullName: DotNetHelper_Serializer.Model.QueryBucket
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket*
+  commentId: Overload:DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket
+  name: OnFullBucket
+  nameWithType: QueryBucketManager.OnFullBucket
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.OnFullBucket
+- uid: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  commentId: T:DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+  parent: DotNetHelper_Serializer.Model
+  name: FullQueryBucketEventArgs
+  nameWithType: FullQueryBucketEventArgs
+  fullName: DotNetHelper_Serializer.Model.FullQueryBucketEventArgs
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd*
+  commentId: Overload:DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd
+  name: OnBeforeAdd
+  nameWithType: QueryBucketManager.OnBeforeAdd
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.OnBeforeAdd
+- uid: DotNetHelper_Serializer.Model.QueryBucketEventArgs
+  commentId: T:DotNetHelper_Serializer.Model.QueryBucketEventArgs
+  parent: DotNetHelper_Serializer.Model
+  name: QueryBucketEventArgs
+  nameWithType: QueryBucketEventArgs
+  fullName: DotNetHelper_Serializer.Model.QueryBucketEventArgs
+- uid: DotNetHelper_Serializer.Model.QueryBucketManager.Dispose*
+  commentId: Overload:DotNetHelper_Serializer.Model.QueryBucketManager.Dispose
+  name: Dispose
+  nameWithType: QueryBucketManager.Dispose
+  fullName: DotNetHelper_Serializer.Model.QueryBucketManager.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

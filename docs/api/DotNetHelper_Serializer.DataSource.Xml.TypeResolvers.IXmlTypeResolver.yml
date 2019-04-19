@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  id: IXmlTypeResolver
+  parent: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName(System.Type)
+  - DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName(System.Type,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IXmlTypeResolver
+  nameWithType: IXmlTypeResolver
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  type: Interface
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: IXmlTypeResolver
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  syntax:
+    content: public interface IXmlTypeResolver
+    content.vb: Public Interface IXmlTypeResolver
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName(System.Type)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName(System.Type)
+  id: GetTypeName(System.Type)
+  parent: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  langs:
+  - csharp
+  - vb
+  name: GetTypeName(Type)
+  nameWithType: IXmlTypeResolver.GetTypeName(Type)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetTypeName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  syntax:
+    content: string GetTypeName(Type valueType)
+    parameters:
+    - id: valueType
+      type: System.Type
+    return:
+      type: System.String
+    content.vb: Function GetTypeName(valueType As Type) As String
+  overload: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName*
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName(System.Type,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName(System.Type,System.String)
+  id: ResolveTypeName(System.Type,System.String)
+  parent: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveTypeName(Type, String)
+  nameWithType: IXmlTypeResolver.ResolveTypeName(Type, String)
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName(System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ResolveTypeName
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
+    startLine: 8
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  syntax:
+    content: Type ResolveTypeName(Type rootType, string typeName)
+    parameters:
+    - id: rootType
+      type: System.Type
+    - id: typeName
+      type: System.String
+    return:
+      type: System.Type
+    content.vb: Function ResolveTypeName(rootType As Type, typeName As String) As Type
+  overload: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName*
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  name: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<IXmlTypeResolver>()
+  nameWithType: TypeExtension.CanHaveNullValue<IXmlTypeResolver>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of IXmlTypeResolver)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver)()
+  name.vb: CanHaveNullValue(Of IXmlTypeResolver)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<IXmlTypeResolver>
+    nameWithType: TypeExtension.CanHaveNullValue<IXmlTypeResolver>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of IXmlTypeResolver)
+    nameWithType: TypeExtension.CanHaveNullValue(Of IXmlTypeResolver)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName
+  name: GetTypeName
+  nameWithType: IXmlTypeResolver.GetTypeName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.GetTypeName
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName*
+  commentId: Overload:DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName
+  name: ResolveTypeName
+  nameWithType: IXmlTypeResolver.ResolveTypeName
+  fullName: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.IXmlTypeResolver.ResolveTypeName

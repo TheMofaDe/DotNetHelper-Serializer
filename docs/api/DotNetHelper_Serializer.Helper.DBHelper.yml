@@ -1,0 +1,1452 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Helper.DBHelper
+  commentId: T:DotNetHelper_Serializer.Helper.DBHelper
+  id: DBHelper
+  parent: DotNetHelper_Serializer.Helper
+  children:
+  - DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  - DotNetHelper_Serializer.Helper.DBHelper.BulkInsert``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Collections.Generic.IEnumerable{``0},System.String)
+  - DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Collections.Generic.IEnumerable{``0},System.Action{System.Text.StringBuilder,System.String,``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  - DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
+  - DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  - DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction(System.Data.IDbConnection,System.Data.IsolationLevel)
+  - DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Object)
+  - DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue(System.Object,DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  - DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Data.IDbConnection,System.String)
+  - DotNetHelper_Serializer.Helper.DBHelper.TypeToSqlTypeMap
+  langs:
+  - csharp
+  - vb
+  name: DBHelper
+  nameWithType: DBHelper
+  fullName: DotNetHelper_Serializer.Helper.DBHelper
+  type: Class
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DBHelper
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 21
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static class DBHelper
+    content.vb: Public Module DBHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DotNetHelper_Serializer.Helper.DBHelper.TypeToSqlTypeMap
+  commentId: F:DotNetHelper_Serializer.Helper.DBHelper.TypeToSqlTypeMap
+  id: TypeToSqlTypeMap
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: TypeToSqlTypeMap
+  nameWithType: DBHelper.TypeToSqlTypeMap
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.TypeToSqlTypeMap
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: TypeToSqlTypeMap
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 24
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static Dictionary<Type, DbType> TypeToSqlTypeMap
+    return:
+      type: System.Collections.Generic.Dictionary{System.Type,System.Data.DbType}
+    content.vb: Public Shared TypeToSqlTypeMap As Dictionary(Of Type, DbType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue(System.Object,DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue(System.Object,DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  id: GetQuotedValue(System.Object,DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: GetQuotedValue(Object, DataBaseType)
+  nameWithType: DBHelper.GetQuotedValue(Object, DataBaseType)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue(System.Object, DotNetHelper_Contracts.Enum.DataSource.DataBaseType)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetQuotedValue
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 69
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static string GetQuotedValue(object value, DataBaseType type)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: type
+      type: DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetQuotedValue(value As Object, type As DataBaseType) As String
+  overload: DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  id: GetDbConnection(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDbConnection(IDataSourceDb)
+  nameWithType: DBHelper.GetDbConnection(IDataSourceDb)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetDbConnection
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 82
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static IDbConnection GetDbConnection(IDataSourceDb databse)
+    parameters:
+    - id: databse
+      type: DotNetHelper_Serializer.Interface.IDataSourceDb
+    return:
+      type: System.Data.IDbConnection
+    content.vb: Public Shared Function GetDbConnection(databse As IDataSourceDb) As IDbConnection
+  overload: DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Object)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Object)
+  id: GetNewParameter(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Object)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNewParameter(IDataSourceDb, String, Object)
+  nameWithType: DBHelper.GetNewParameter(IDataSourceDb, String, Object)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter(DotNetHelper_Serializer.Interface.IDataSourceDb, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetNewParameter
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 131
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static DbParameter GetNewParameter(IDataSourceDb database, string name, object value)
+    parameters:
+    - id: database
+      type: DotNetHelper_Serializer.Interface.IDataSourceDb
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Object
+    return:
+      type: System.Data.Common.DbParameter
+    content.vb: Public Shared Function GetNewParameter(database As IDataSourceDb, name As String, value As Object) As DbParameter
+  overload: DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
+  id: GetDbCommand(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDbCommand(IDataSourceDb, String, IDbConnection, IDbTransaction)
+  nameWithType: DBHelper.GetDbCommand(IDataSourceDb, String, IDbConnection, IDbTransaction)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand(DotNetHelper_Serializer.Interface.IDataSourceDb, System.String, System.Data.IDbConnection, System.Data.IDbTransaction)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetDbCommand
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 169
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static IDbCommand GetDbCommand(IDataSourceDb database, string commandText = null, IDbConnection connection = null, IDbTransaction dbTransaction = null)
+    parameters:
+    - id: database
+      type: DotNetHelper_Serializer.Interface.IDataSourceDb
+    - id: commandText
+      type: System.String
+    - id: connection
+      type: System.Data.IDbConnection
+    - id: dbTransaction
+      type: System.Data.IDbTransaction
+    return:
+      type: System.Data.IDbCommand
+    content.vb: Public Shared Function GetDbCommand(database As IDataSourceDb, commandText As String = Nothing, connection As IDbConnection = Nothing, dbTransaction As IDbTransaction = Nothing) As IDbCommand
+  overload: DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction(System.Data.IDbConnection,System.Data.IsolationLevel)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction(System.Data.IDbConnection,System.Data.IsolationLevel)
+  id: GetDbTransaction(System.Data.IDbConnection,System.Data.IsolationLevel)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDbTransaction(IDbConnection, IsolationLevel)
+  nameWithType: DBHelper.GetDbTransaction(IDbConnection, IsolationLevel)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction(System.Data.IDbConnection, System.Data.IsolationLevel)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: GetDbTransaction
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 226
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static IDbTransaction GetDbTransaction(IDbConnection connection, IsolationLevel level = IsolationLevel.ReadCommitted)
+    parameters:
+    - id: connection
+      type: System.Data.IDbConnection
+    - id: level
+      type: System.Data.IsolationLevel
+    return:
+      type: System.Data.IDbTransaction
+    content.vb: Public Shared Function GetDbTransaction(connection As IDbConnection, level As IsolationLevel = IsolationLevel.ReadCommitted) As IDbTransaction
+  overload: DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  id: BuildConnectionString(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: BuildConnectionString(IDataSourceDb)
+  nameWithType: DBHelper.BuildConnectionString(IDataSourceDb)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString(DotNetHelper_Serializer.Interface.IDataSourceDb)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: BuildConnectionString
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 241
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  summary: "\nBuild a SqlConnection String Based On DataSource Properties Will AutoBuild A Connection String If An Connection String Is Not Already Defined\n"
+  example: []
+  syntax:
+    content: public static string BuildConnectionString(IDataSourceDb datasource)
+    parameters:
+    - id: datasource
+      type: DotNetHelper_Serializer.Interface.IDataSourceDb
+    return:
+      type: System.String
+      description: connection string
+    content.vb: Public Shared Function BuildConnectionString(datasource As IDataSourceDb) As String
+  overload: DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DotNetHelper_Serializer.Helper.DBHelper.BulkInsert``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Collections.Generic.IEnumerable{``0},System.String)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.BulkInsert``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Collections.Generic.IEnumerable{``0},System.String)
+  id: BulkInsert``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Collections.Generic.IEnumerable{``0},System.String)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: BulkInsert<T>(IDataSourceDb, IEnumerable<T>, String)
+  nameWithType: DBHelper.BulkInsert<T>(IDataSourceDb, IEnumerable<T>, String)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.BulkInsert<T>(DotNetHelper_Serializer.Interface.IDataSourceDb, System.Collections.Generic.IEnumerable<T>, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: BulkInsert
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 458
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: >-
+      public static int BulkInsert<T>(IDataSourceDb database, IEnumerable<T> listPoco, string tableName)
+          where T : class
+    parameters:
+    - id: database
+      type: DotNetHelper_Serializer.Interface.IDataSourceDb
+    - id: listPoco
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: tableName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function BulkInsert(Of T As Class)(database As IDataSourceDb, listPoco As IEnumerable(Of T), tableName As String) As Integer
+  overload: DotNetHelper_Serializer.Helper.DBHelper.BulkInsert*
+  nameWithType.vb: DBHelper.BulkInsert(Of T)(IDataSourceDb, IEnumerable(Of T), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Helper.DBHelper.BulkInsert(Of T)(DotNetHelper_Serializer.Interface.IDataSourceDb, System.Collections.Generic.IEnumerable(Of T), System.String)
+  name.vb: BulkInsert(Of T)(IDataSourceDb, IEnumerable(Of T), String)
+- uid: DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Collections.Generic.IEnumerable{``0},System.Action{System.Text.StringBuilder,System.String,``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Collections.Generic.IEnumerable{``0},System.Action{System.Text.StringBuilder,System.String,``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  id: ExecuteNonQueryOnList``1(DotNetHelper_Serializer.Interface.IDataSourceDb,System.String,System.Collections.Generic.IEnumerable{``0},System.Action{System.Text.StringBuilder,System.String,``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQueryOnList<T>(IDataSourceDb, String, IEnumerable<T>, Action<StringBuilder, String, T, Expression<Func<T, Object>>>, Expression<Func<T, Object>>)
+  nameWithType: DBHelper.ExecuteNonQueryOnList<T>(IDataSourceDb, String, IEnumerable<T>, Action<StringBuilder, String, T, Expression<Func<T, Object>>>, Expression<Func<T, Object>>)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList<T>(DotNetHelper_Serializer.Interface.IDataSourceDb, System.String, System.Collections.Generic.IEnumerable<T>, System.Action<System.Text.StringBuilder, System.String, T, System.Linq.Expressions.Expression<System.Func<T, System.Object>>>, System.Linq.Expressions.Expression<System.Func<T, System.Object>>)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ExecuteNonQueryOnList
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 545
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  summary: "\nExecutes the non query on list.\n"
+  example: []
+  syntax:
+    content: >-
+      public static int ExecuteNonQueryOnList<T>(IDataSourceDb database, string tableName, IEnumerable<T> listPoco, Action<StringBuilder, string, T, Expression<Func<T, object>>> buildSqlString, Expression<Func<T, object>> overrideKeys)
+          where T : class
+    parameters:
+    - id: database
+      type: DotNetHelper_Serializer.Interface.IDataSourceDb
+    - id: tableName
+      type: System.String
+      description: Name of the table.
+    - id: listPoco
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The list poco.
+    - id: buildSqlString
+      type: System.Action{System.Text.StringBuilder,System.String,{T},System.Linq.Expressions.Expression{System.Func{{T},System.Object}}}
+      description: The build SQL string.
+    - id: overrideKeys
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Int32
+      description: Numbers Of Rows Affected
+    content.vb: Public Shared Function ExecuteNonQueryOnList(Of T As Class)(database As IDataSourceDb, tableName As String, listPoco As IEnumerable(Of T), buildSqlString As Action(Of StringBuilder, String, T, Expression(Of Func(Of T, Object))), overrideKeys As Expression(Of Func(Of T, Object))) As Integer
+  overload: DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList*
+  nameWithType.vb: DBHelper.ExecuteNonQueryOnList(Of T)(IDataSourceDb, String, IEnumerable(Of T), Action(Of StringBuilder, String, T, Expression(Of Func(Of T, Object))), Expression(Of Func(Of T, Object)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList(Of T)(DotNetHelper_Serializer.Interface.IDataSourceDb, System.String, System.Collections.Generic.IEnumerable(Of T), System.Action(Of System.Text.StringBuilder, System.String, T, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))), System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object)))
+  name.vb: ExecuteNonQueryOnList(Of T)(IDataSourceDb, String, IEnumerable(Of T), Action(Of StringBuilder, String, T, Expression(Of Func(Of T, Object))), Expression(Of Func(Of T, Object)))
+- uid: DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Data.IDbConnection,System.String)
+  commentId: M:DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Data.IDbConnection,System.String)
+  id: LogConnectionTime(DotNetHelper_Serializer.Interface.IDataSourceDb,System.Data.IDbConnection,System.String)
+  parent: DotNetHelper_Serializer.Helper.DBHelper
+  langs:
+  - csharp
+  - vb
+  name: LogConnectionTime(IDataSourceDb, IDbConnection, String)
+  nameWithType: DBHelper.LogConnectionTime(IDataSourceDb, IDbConnection, String)
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime(DotNetHelper_Serializer.Interface.IDataSourceDb, System.Data.IDbConnection, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: LogConnectionTime
+    path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
+    startLine: 726
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Helper
+  syntax:
+    content: public static QueryBucket LogConnectionTime(IDataSourceDb database, IDbConnection connection, string query)
+    parameters:
+    - id: database
+      type: DotNetHelper_Serializer.Interface.IDataSourceDb
+    - id: connection
+      type: System.Data.IDbConnection
+    - id: query
+      type: System.String
+    return:
+      type: DotNetHelper_Serializer.Model.QueryBucket
+    content.vb: Public Shared Function LogConnectionTime(database As IDataSourceDb, connection As IDbConnection, query As String) As QueryBucket
+  overload: DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DotNetHelper_Serializer.Helper
+  commentId: N:DotNetHelper_Serializer.Helper
+  name: DotNetHelper_Serializer.Helper
+  nameWithType: DotNetHelper_Serializer.Helper
+  fullName: DotNetHelper_Serializer.Helper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.Type,System.Data.DbType}
+  commentId: T:System.Collections.Generic.Dictionary{System.Type,System.Data.DbType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Type, DbType>
+  nameWithType: Dictionary<Type, DbType>
+  fullName: System.Collections.Generic.Dictionary<System.Type, System.Data.DbType>
+  nameWithType.vb: Dictionary(Of Type, DbType)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Type, System.Data.DbType)
+  name.vb: Dictionary(Of Type, DbType)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.DbType
+    name: DbType
+    nameWithType: DbType
+    fullName: System.Data.DbType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Data.DbType
+    name: DbType
+    nameWithType: DbType
+    fullName: System.Data.DbType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue
+  name: GetQuotedValue
+  nameWithType: DBHelper.GetQuotedValue
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetQuotedValue
+- uid: DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+  commentId: T:DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+  parent: DotNetHelper_Contracts.Enum.DataSource
+  isExternal: true
+  name: DataBaseType
+  nameWithType: DataBaseType
+  fullName: DotNetHelper_Contracts.Enum.DataSource.DataBaseType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DotNetHelper_Contracts.Enum.DataSource
+  commentId: N:DotNetHelper_Contracts.Enum.DataSource
+  isExternal: true
+  name: DotNetHelper_Contracts.Enum.DataSource
+  nameWithType: DotNetHelper_Contracts.Enum.DataSource
+  fullName: DotNetHelper_Contracts.Enum.DataSource
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection
+  name: GetDbConnection
+  nameWithType: DBHelper.GetDbConnection
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetDbConnection
+- uid: DotNetHelper_Serializer.Interface.IDataSourceDb
+  commentId: T:DotNetHelper_Serializer.Interface.IDataSourceDb
+  parent: DotNetHelper_Serializer.Interface
+  name: IDataSourceDb
+  nameWithType: IDataSourceDb
+  fullName: DotNetHelper_Serializer.Interface.IDataSourceDb
+- uid: System.Data.IDbConnection
+  commentId: T:System.Data.IDbConnection
+  parent: System.Data
+  isExternal: true
+  name: IDbConnection
+  nameWithType: IDbConnection
+  fullName: System.Data.IDbConnection
+- uid: DotNetHelper_Serializer.Interface
+  commentId: N:DotNetHelper_Serializer.Interface
+  name: DotNetHelper_Serializer.Interface
+  nameWithType: DotNetHelper_Serializer.Interface
+  fullName: DotNetHelper_Serializer.Interface
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter
+  name: GetNewParameter
+  nameWithType: DBHelper.GetNewParameter
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetNewParameter
+- uid: System.Data.Common.DbParameter
+  commentId: T:System.Data.Common.DbParameter
+  parent: System.Data.Common
+  isExternal: true
+  name: DbParameter
+  nameWithType: DbParameter
+  fullName: System.Data.Common.DbParameter
+- uid: System.Data.Common
+  commentId: N:System.Data.Common
+  isExternal: true
+  name: System.Data.Common
+  nameWithType: System.Data.Common
+  fullName: System.Data.Common
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand
+  name: GetDbCommand
+  nameWithType: DBHelper.GetDbCommand
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetDbCommand
+- uid: System.Data.IDbTransaction
+  commentId: T:System.Data.IDbTransaction
+  parent: System.Data
+  isExternal: true
+  name: IDbTransaction
+  nameWithType: IDbTransaction
+  fullName: System.Data.IDbTransaction
+- uid: System.Data.IDbCommand
+  commentId: T:System.Data.IDbCommand
+  parent: System.Data
+  isExternal: true
+  name: IDbCommand
+  nameWithType: IDbCommand
+  fullName: System.Data.IDbCommand
+- uid: DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction
+  name: GetDbTransaction
+  nameWithType: DBHelper.GetDbTransaction
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.GetDbTransaction
+- uid: System.Data.IsolationLevel
+  commentId: T:System.Data.IsolationLevel
+  parent: System.Data
+  isExternal: true
+  name: IsolationLevel
+  nameWithType: IsolationLevel
+  fullName: System.Data.IsolationLevel
+- uid: DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString
+  name: BuildConnectionString
+  nameWithType: DBHelper.BuildConnectionString
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.BuildConnectionString
+- uid: DotNetHelper_Serializer.Helper.DBHelper.BulkInsert*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.BulkInsert
+  name: BulkInsert
+  nameWithType: DBHelper.BulkInsert
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.BulkInsert
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList
+  name: ExecuteNonQueryOnList
+  nameWithType: DBHelper.ExecuteNonQueryOnList
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.ExecuteNonQueryOnList
+- uid: System.Action{System.Text.StringBuilder,System.String,{T},System.Linq.Expressions.Expression{System.Func{{T},System.Object}}}
+  commentId: T:System.Action{System.Text.StringBuilder,System.String,``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}}
+  parent: System
+  definition: System.Action`4
+  name: Action<StringBuilder, String, T, Expression<Func<T, Object>>>
+  nameWithType: Action<StringBuilder, String, T, Expression<Func<T, Object>>>
+  fullName: System.Action<System.Text.StringBuilder, System.String, T, System.Linq.Expressions.Expression<System.Func<T, System.Object>>>
+  nameWithType.vb: Action(Of StringBuilder, String, T, Expression(Of Func(Of T, Object)))
+  fullName.vb: System.Action(Of System.Text.StringBuilder, System.String, T, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object)))
+  name.vb: Action(Of StringBuilder, String, T, Expression(Of Func(Of T, Object)))
+  spec.csharp:
+  - uid: System.Action`4
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Text.StringBuilder
+    name: StringBuilder
+    nameWithType: StringBuilder
+    fullName: System.Text.StringBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`4
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Text.StringBuilder
+    name: StringBuilder
+    nameWithType: StringBuilder
+    fullName: System.Text.StringBuilder
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,System.Object}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<T, Object>>
+  nameWithType: Expression<Func<T, Object>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T, System.Object>>
+  nameWithType.vb: Expression(Of Func(Of T, Object))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))
+  name.vb: Expression(Of Func(Of T, Object))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`4
+  commentId: T:System.Action`4
+  isExternal: true
+  name: Action<T1, T2, T3, T4>
+  nameWithType: Action<T1, T2, T3, T4>
+  fullName: System.Action<T1, T2, T3, T4>
+  nameWithType.vb: Action(Of T1, T2, T3, T4)
+  fullName.vb: System.Action(Of T1, T2, T3, T4)
+  name.vb: Action(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: System.Action`4
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`4
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDelegate
+    nameWithType: TDelegate
+    fullName: TDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+- uid: DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime*
+  commentId: Overload:DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime
+  name: LogConnectionTime
+  nameWithType: DBHelper.LogConnectionTime
+  fullName: DotNetHelper_Serializer.Helper.DBHelper.LogConnectionTime
+- uid: DotNetHelper_Serializer.Model.QueryBucket
+  commentId: T:DotNetHelper_Serializer.Model.QueryBucket
+  parent: DotNetHelper_Serializer.Model
+  name: QueryBucket
+  nameWithType: QueryBucket
+  fullName: DotNetHelper_Serializer.Model.QueryBucket
+- uid: DotNetHelper_Serializer.Model
+  commentId: N:DotNetHelper_Serializer.Model
+  name: DotNetHelper_Serializer.Model
+  nameWithType: DotNetHelper_Serializer.Model
+  fullName: DotNetHelper_Serializer.Model

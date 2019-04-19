@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  id: XmlMappingType
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Attribute
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Element
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.InnerText
+  langs:
+  - csharp
+  - vb
+  name: XmlMappingType
+  nameWithType: XmlMappingType
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlMappingType
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+    startLine: 2
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public enum XmlMappingType
+    content.vb: Public Enum XmlMappingType
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Element
+  commentId: F:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Element
+  id: Element
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  langs:
+  - csharp
+  - vb
+  name: Element
+  nameWithType: XmlMappingType.Element
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Element
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Element
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: Element = 0
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Attribute
+  commentId: F:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Attribute
+  id: Attribute
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  langs:
+  - csharp
+  - vb
+  name: Attribute
+  nameWithType: XmlMappingType.Attribute
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.Attribute
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Attribute
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: Attribute = 1
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.InnerText
+  commentId: F:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.InnerText
+  id: InnerText
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  langs:
+  - csharp
+  - vb
+  name: InnerText
+  nameWithType: XmlMappingType.InnerText
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.InnerText
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: InnerText
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: InnerText = 2
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlMappingType>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlMappingType>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlMappingType)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)()
+  name.vb: CanHaveNullValue(Of XmlMappingType)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlMappingType>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlMappingType>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlMappingType)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlMappingType)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlMappingType
+  nameWithType: XmlMappingType
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlMappingType

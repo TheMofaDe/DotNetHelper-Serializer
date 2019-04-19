@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  id: DataSourceXml.SettingsType
+  parent: DotNetHelper_Serializer.DataSource
+  children:
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.Both
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.DataTransfer
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.ManualEditing
+  langs:
+  - csharp
+  - vb
+  name: DataSourceXml.SettingsType
+  nameWithType: DataSourceXml.SettingsType
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: SettingsType
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 48
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nEnum SettingsType\n"
+  example: []
+  syntax:
+    content: public enum SettingsType
+    content.vb: Public Enum SettingsType
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.DataTransfer
+  commentId: F:DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.DataTransfer
+  id: DataTransfer
+  parent: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  langs:
+  - csharp
+  - vb
+  name: DataTransfer
+  nameWithType: DataSourceXml.SettingsType.DataTransfer
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.DataTransfer
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: DataTransfer
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 53
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nThe data transfer\n"
+  example: []
+  syntax:
+    content: DataTransfer = 1
+    return:
+      type: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.ManualEditing
+  commentId: F:DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.ManualEditing
+  id: ManualEditing
+  parent: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  langs:
+  - csharp
+  - vb
+  name: ManualEditing
+  nameWithType: DataSourceXml.SettingsType.ManualEditing
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.ManualEditing
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: ManualEditing
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 57
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nWhen Serializing A PreDefine Settings Will Be Used To Make The Xml Human Editable Friendly\n"
+  example: []
+  syntax:
+    content: ManualEditing = 2
+    return:
+      type: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.Both
+  commentId: F:DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.Both
+  id: Both
+  parent: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: DataSourceXml.SettingsType.Both
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.Both
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Both
+    path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
+    startLine: 61
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource
+  summary: "\nWhen Performance Matters But Their Are Times When You Have To Open This Sucker Up\n"
+  example: []
+  syntax:
+    content: Both = 3
+    return:
+      type: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.DataSource
+  commentId: N:DotNetHelper_Serializer.DataSource
+  name: DotNetHelper_Serializer.DataSource
+  nameWithType: DotNetHelper_Serializer.DataSource
+  fullName: DotNetHelper_Serializer.DataSource
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<DataSourceXml.SettingsType>()
+  nameWithType: TypeExtension.CanHaveNullValue<DataSourceXml.SettingsType>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of DataSourceXml.SettingsType)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType)()
+  name.vb: CanHaveNullValue(Of DataSourceXml.SettingsType)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<DataSourceXml.SettingsType>
+    nameWithType: TypeExtension.CanHaveNullValue<DataSourceXml.SettingsType>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of DataSourceXml.SettingsType)
+    nameWithType: TypeExtension.CanHaveNullValue(Of DataSourceXml.SettingsType)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  parent: DotNetHelper_Serializer.DataSource
+  name: DataSourceXml.SettingsType
+  nameWithType: DataSourceXml.SettingsType
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType

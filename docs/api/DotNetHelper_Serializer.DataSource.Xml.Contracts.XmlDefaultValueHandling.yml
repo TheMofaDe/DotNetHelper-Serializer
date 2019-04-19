@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  id: XmlDefaultValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  children:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Ignore
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Include
+  langs:
+  - csharp
+  - vb
+  name: XmlDefaultValueHandling
+  nameWithType: XmlDefaultValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlDefaultValueHandling.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: XmlDefaultValueHandling
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlDefaultValueHandling.cs
+    startLine: 2
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: public enum XmlDefaultValueHandling
+    content.vb: Public Enum XmlDefaultValueHandling
+  extensionMethods:
+  - DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Ignore
+  commentId: F:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Ignore
+  id: Ignore
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  langs:
+  - csharp
+  - vb
+  name: Ignore
+  nameWithType: XmlDefaultValueHandling.Ignore
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Ignore
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlDefaultValueHandling.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Ignore
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlDefaultValueHandling.cs
+    startLine: 4
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: Ignore = 0
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Include
+  commentId: F:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Include
+  id: Include
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  langs:
+  - csharp
+  - vb
+  name: Include
+  nameWithType: XmlDefaultValueHandling.Include
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.Include
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlDefaultValueHandling.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+    id: Include
+    path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlDefaultValueHandling.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  syntax:
+    content: Include = 1
+    return:
+      type: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  commentId: N:DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  nameWithType: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<XmlDefaultValueHandling>()
+  nameWithType: TypeExtension.CanHaveNullValue<XmlDefaultValueHandling>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of XmlDefaultValueHandling)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling)()
+  name.vb: CanHaveNullValue(Of XmlDefaultValueHandling)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<XmlDefaultValueHandling>
+    nameWithType: TypeExtension.CanHaveNullValue<XmlDefaultValueHandling>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of XmlDefaultValueHandling)
+    nameWithType: TypeExtension.CanHaveNullValue(Of XmlDefaultValueHandling)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  commentId: T:DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling
+  parent: DotNetHelper_Serializer.DataSource.Xml.Contracts
+  name: XmlDefaultValueHandling
+  nameWithType: XmlDefaultValueHandling
+  fullName: DotNetHelper_Serializer.DataSource.Xml.Contracts.XmlDefaultValueHandling

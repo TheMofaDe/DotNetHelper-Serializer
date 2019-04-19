@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.DataSource
+  commentId: N:DotNetHelper_Serializer.DataSource
+  id: DotNetHelper_Serializer.DataSource
+  children:
+  - DotNetHelper_Serializer.DataSource.DataSourceBinary
+  - DotNetHelper_Serializer.DataSource.DataSourceCsv
+  - DotNetHelper_Serializer.DataSource.DataSourceDb
+  - DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+  - DotNetHelper_Serializer.DataSource.DataSourceJson
+  - DotNetHelper_Serializer.DataSource.DataSourceXml
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  - DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.DataSource
+  nameWithType: DotNetHelper_Serializer.DataSource
+  fullName: DotNetHelper_Serializer.DataSource
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceBinary
+  name: DataSourceBinary
+  nameWithType: DataSourceBinary
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceCsv
+  name: DataSourceCsv
+  nameWithType: DataSourceCsv
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceDb
+  name: DataSourceDb
+  nameWithType: DataSourceDb
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+  name: DataSourceDb.SqlExceptionEventHandler
+  nameWithType: DataSourceDb.SqlExceptionEventHandler
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler
+- uid: DotNetHelper_Serializer.DataSource.DataSourceJson
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceJson
+  name: DataSourceJson
+  nameWithType: DataSourceJson
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceXml
+  name: DataSourceXml
+  nameWithType: DataSourceXml
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+  parent: DotNetHelper_Serializer.DataSource
+  name: DataSourceXml.XmlOptions
+  nameWithType: DataSourceXml.XmlOptions
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.XmlOptions
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  commentId: T:DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+  parent: DotNetHelper_Serializer.DataSource
+  name: DataSourceXml.SettingsType
+  nameWithType: DataSourceXml.SettingsType
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SettingsType
+- uid: DotNetHelper_Serializer.DataSource
+  commentId: N:DotNetHelper_Serializer.DataSource
+  name: DotNetHelper_Serializer.DataSource
+  nameWithType: DotNetHelper_Serializer.DataSource
+  fullName: DotNetHelper_Serializer.DataSource
