@@ -1,0 +1,7 @@
+- name: Home
+  href: index.md
+- name: Articles
+  href: articles/
+  homepage: articles/gettingstarted.md
+- name: API Documentation
+  href: api/DotNetHelper_IO.html

@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;net452;netstandard2.0</TargetFrameworks>
+    <LangVersion>7.3</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <FileVersion>2019.1.30.2</FileVersion>
+    <Description>Deserializer  &amp; Serializer against Anomnyous, Strongly Type, Dynamic Objectsfix  supports
+JSON,XML,CSV,BINARY, also work with files</Description>
+    <Copyright>Copyright © Joseph McNeal Jr 2017-2018</Copyright>
+    <AssemblyTitle>$(AssemblyName)</AssemblyTitle>
+    <Version>$(FileVersion)</Version>
+    <Authors>Joseph McNeal Jr</Authors>
+    <PackageTags>Dotnethelper</PackageTags>
+    <PackageReleaseNotes>added functionality to perform dynamic upsert,update &amp; delete without attritubes by allow manually specification</PackageReleaseNotes>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageId>DotNetHelper-Serializer</PackageId>
+    <Product>DotNetHelper-Serializer</Product>
+    <RootNamespace>DotNetHelper_Serializer</RootNamespace>
+    <AssemblyName>DotNetHelper-Serializer</AssemblyName>
+  </PropertyGroup>
+
+
+  
+    <PropertyGroup Condition="'$(TargetFramework)' == 'net45' OR '$(TargetFramework)' == 'net452'  ">
+    <DefineConstants>$(DefineConstants);NETFRAMEWORK</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <DefineConstants>$(DefineConstants);NETSTANDARD</DefineConstants>
+  </PropertyGroup>
+
+
+  <PropertyGroup>
+    <ShouldCreateLogs>True</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>True</AdvancedSettingsExpanded>
+    <UpdateAssemblyVersion>False</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>False</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+    <UpdatePackageVersion>False</UpdatePackageVersion>
+    <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+    <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="11.0.1" />
+    <PackageReference Include="DotNetHelper-IO" Version="2018.8.12.1" />
+    <PackageReference Include="FastMember" Version="1.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
