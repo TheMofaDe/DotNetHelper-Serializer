@@ -22,59 +22,59 @@ namespace DotNetHelper_Serializer.Helper
     public static class DBHelper
     {
 
-        public static Dictionary<Type,DbType> TypeToSqlTypeMap = new Dictionary<Type, DbType>
-            {
-                [typeof(byte)] = DbType.Byte,
-                [typeof(sbyte)] = DbType.SByte,
-                [typeof(short)] = DbType.Int16,
-                [typeof(ushort)] = DbType.UInt16,
-                [typeof(int)] = DbType.Int32,
-                [typeof(uint)] = DbType.UInt32,
-                [typeof(long)] = DbType.Int64,
-                [typeof(ulong)] = DbType.UInt64,
-                [typeof(float)] = DbType.Single,
-                [typeof(double)] = DbType.Double,
-                [typeof(decimal)] = DbType.Decimal,
-                [typeof(bool)] = DbType.Boolean,
-                [typeof(string)] = DbType.String,
-                [typeof(char)] = DbType.StringFixedLength,
-                [typeof(Guid)] = DbType.Guid,
-                [typeof(DateTime)] = DbType.DateTime,
-                [typeof(DateTimeOffset)] = DbType.DateTimeOffset,
-                [typeof(TimeSpan)] = DbType.Time,
-                [typeof(byte[])] = DbType.Binary,
-                [typeof(byte?)] = DbType.Byte,
-                [typeof(sbyte?)] = DbType.SByte,
-                [typeof(short?)] = DbType.Int16,
-                [typeof(ushort?)] = DbType.UInt16,
-                [typeof(int?)] = DbType.Int32,
-                [typeof(uint?)] = DbType.UInt32,
-                [typeof(long?)] = DbType.Int64,
-                [typeof(ulong?)] = DbType.UInt64,
-                [typeof(float?)] = DbType.Single,
-                [typeof(double?)] = DbType.Double,
-                [typeof(decimal?)] = DbType.Decimal,
-                [typeof(bool?)] = DbType.Boolean,
-                [typeof(char?)] = DbType.StringFixedLength,
-                [typeof(Guid?)] = DbType.Guid,
-                [typeof(DateTime?)] = DbType.DateTime,
-                [typeof(DateTimeOffset?)] = DbType.DateTimeOffset,
-                [typeof(TimeSpan?)] = DbType.Time,
-                [typeof(object)] = DbType.Object
-    };
+        public static Dictionary<Type, DbType> TypeToSqlTypeMap = new Dictionary<Type, DbType>
+        {
+            [typeof(byte)] = DbType.Byte,
+            [typeof(sbyte)] = DbType.SByte,
+            [typeof(short)] = DbType.Int16,
+            [typeof(ushort)] = DbType.UInt16,
+            [typeof(int)] = DbType.Int32,
+            [typeof(uint)] = DbType.UInt32,
+            [typeof(long)] = DbType.Int64,
+            [typeof(ulong)] = DbType.UInt64,
+            [typeof(float)] = DbType.Single,
+            [typeof(double)] = DbType.Double,
+            [typeof(decimal)] = DbType.Decimal,
+            [typeof(bool)] = DbType.Boolean,
+            [typeof(string)] = DbType.String,
+            [typeof(char)] = DbType.StringFixedLength,
+            [typeof(Guid)] = DbType.Guid,
+            [typeof(DateTime)] = DbType.DateTime,
+            [typeof(DateTimeOffset)] = DbType.DateTimeOffset,
+            [typeof(TimeSpan)] = DbType.Time,
+            [typeof(byte[])] = DbType.Binary,
+            [typeof(byte?)] = DbType.Byte,
+            [typeof(sbyte?)] = DbType.SByte,
+            [typeof(short?)] = DbType.Int16,
+            [typeof(ushort?)] = DbType.UInt16,
+            [typeof(int?)] = DbType.Int32,
+            [typeof(uint?)] = DbType.UInt32,
+            [typeof(long?)] = DbType.Int64,
+            [typeof(ulong?)] = DbType.UInt64,
+            [typeof(float?)] = DbType.Single,
+            [typeof(double?)] = DbType.Double,
+            [typeof(decimal?)] = DbType.Decimal,
+            [typeof(bool?)] = DbType.Boolean,
+            [typeof(char?)] = DbType.StringFixedLength,
+            [typeof(Guid?)] = DbType.Guid,
+            [typeof(DateTime?)] = DbType.DateTime,
+            [typeof(DateTimeOffset?)] = DbType.DateTimeOffset,
+            [typeof(TimeSpan?)] = DbType.Time,
+            [typeof(object)] = DbType.Object
+        };
 
 
 
 
 
-public static string GetQuotedValue(object value, DataBaseType type)
+        public static string GetQuotedValue(object value, DataBaseType type)
         {
 
             var syntax = new SqlSyntaxHelper(type);
             return syntax.GetEnclosedValueChar(value.GetType());
         }
 
-   
+
 
 
 
@@ -99,7 +99,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
                     connection = new OleDbConnection();
                     break;
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
 
                 case DataBaseType.Access95:
@@ -107,7 +107,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
                     connection = new OleDbConnection();
                     break;
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
 
                 case DataBaseType.Odbc:
@@ -115,9 +115,9 @@ public static string GetQuotedValue(object value, DataBaseType type)
                     connection = new OdbcConnection();
                     break;
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
-                  
+
                 default:
                     throw new ArgumentOutOfRangeException();
             }
@@ -135,7 +135,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
             switch (database.DBTYPE)
             {
                 case DataBaseType.SqlServer:
-                    var param =  new SqlParameter(name, value);
+                    var param = new SqlParameter(name, value);
                     //if (value.GetType() == typeof(byte[]))
                     //{
                     //    param.SqlDbType = SqlDbType.VarBinary;
@@ -152,14 +152,14 @@ public static string GetQuotedValue(object value, DataBaseType type)
 #if NETFRAMEWORK
                     return new OleDbParameter(name, value);
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
                 // return new SqlParameter(name, value);
                 case DataBaseType.Odbc:
 #if NETFRAMEWORK
                     return new OdbcParameter(name, value);
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -180,14 +180,14 @@ public static string GetQuotedValue(object value, DataBaseType type)
                 case DataBaseType.Oracle:
                     command = database.GetNewCommand(commandText, connection, dbTransaction);
                     break;
-                
+
                     throw new ArgumentOutOfRangeException(nameof(database.DBTYPE), database.DBTYPE, null);
                 case DataBaseType.Oledb:
 #if NETFRAMEWORK
                     command = new OleDbCommand();
                     break;
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
 
                 case DataBaseType.Access95:
@@ -195,7 +195,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
                     command = new OleDbCommand();
                     break;
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
 
                 case DataBaseType.Odbc:
@@ -203,7 +203,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
                     command = new OdbcCommand();
                     break;
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
                 default:
                     throw new ArgumentOutOfRangeException(nameof(database.DBTYPE), database.DBTYPE, null);
@@ -229,10 +229,10 @@ public static string GetQuotedValue(object value, DataBaseType type)
             return connection?.BeginTransaction(level);
         }
 
-#endregion
+        #endregion
 
 
-#region  BuildConnection String
+        #region  BuildConnection String
 
 
         /// <summary>
@@ -253,7 +253,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
                 //   return GetSqliteConnectionString(datasource);;
                 case DataBaseType.Oracle:
                     throw new NotImplementedException("You must reference the nuget package dotnethelper-OracleDB to use this ");
-       
+
                 case DataBaseType.Oledb:
 
                     break;
@@ -452,9 +452,9 @@ public static string GetQuotedValue(object value, DataBaseType type)
 
 
 
-#endregion
+        #endregion
 
-#region Bulk Insert Logic
+        #region Bulk Insert Logic
 
         public static int BulkInsert<T>(IDataSourceDb database, IEnumerable<T> listPoco, string tableName) where T : class
         {
@@ -511,7 +511,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
 
 
                 var array = new List<string>() { };
-                var advances = ExtFastMember.GetAdvanceMembers(listPoco.FirstOrDefault()).Where(m => m.SqlCustomAttritube.AutoIncrementBy == null && m.SqlCustomAttritube.StartIncrementAt  == null && m.SqlCustomAttritube.Ignore != true).ToList(); // EXECLUDES IDENTITY FEILDS
+                var advances = ExtFastMember.GetAdvanceMembers(listPoco.FirstOrDefault()).Where(m => m.SqlCustomAttritube.AutoIncrementBy == null && m.SqlCustomAttritube.StartIncrementAt == null && m.SqlCustomAttritube.Ignore != true).ToList(); // EXECLUDES IDENTITY FEILDS
                 advances.ForEach(delegate (AdvanceMember member)
                 {
                     var columnName = member.SqlCustomAttritube.MapTo ?? member.Member.Name;
@@ -543,7 +543,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
         /// <param name="listPoco">The list poco.</param>
         /// <param name="buildSqlString">The build SQL string.</param>
         /// <returns>Numbers Of Rows Affected</returns>
-        public static int ExecuteNonQueryOnList<T>(IDataSourceDb database, string tableName, IEnumerable<T> listPoco, Action<StringBuilder, string, T, Expression<Func<T, object>>> buildSqlString, Expression<Func<T, object>> overrideKeys ) where T : class
+        public static int ExecuteNonQueryOnList<T>(IDataSourceDb database, string tableName, IEnumerable<T> listPoco, Action<StringBuilder, string, T, Expression<Func<T, object>>> buildSqlString, Expression<Func<T, object>> overrideKeys) where T : class
         {
             switch (database.DBTYPE)
             {
@@ -595,13 +595,13 @@ public static string GetQuotedValue(object value, DataBaseType type)
                         try
                         {
                             var sqlBuilder = new StringBuilder();
-                            buildSqlString(sqlBuilder, tableName, poco,overrideKeys);
+                            buildSqlString(sqlBuilder, tableName, poco, overrideKeys);
                             var query = sqlBuilder.ToString();
-                            using (var cmd = database.GetNewCommand(query, conn,  trans))
+                            using (var cmd = database.GetNewCommand(query, conn, trans))
                             {
                                 var bucket = database.LogConnectionTime(conn, query);
 
-                                var DbParameters = new ObjectToSqlHelper(database.DBTYPE).BuildDbParameterList(poco,database.GetNewParameter,database.XmlSerializer,database.JsonSerializer,database.CsvSerializer);
+                                var DbParameters = new ObjectToSqlHelper(database.DBTYPE).BuildDbParameterList(poco, database.GetNewParameter, database.XmlSerializer, database.JsonSerializer, database.CsvSerializer);
                                 cmd.Parameters.AddRange(DbParameters.ToArray());
                                 if (database.QueryBucketManager.IncludeReadableQuery)
                                     bucket.ReadableQuery = cmd.Parameters.ParamToSql(sqlBuilder.ToString());
@@ -670,7 +670,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
                         try
                         {
                             var sqlBuilder = new StringBuilder();
-                            buildSqlString(sqlBuilder, tableName, poco,overrideKeys);
+                            buildSqlString(sqlBuilder, tableName, poco, overrideKeys);
                             var query = sqlBuilder.ToString();
                             using (var cmd = database.GetNewCommand(query, conn, trans))
                             {
@@ -721,7 +721,7 @@ public static string GetQuotedValue(object value, DataBaseType type)
 
 
 
-#endregion
+        #endregion
 
 
         public static QueryBucket LogConnectionTime(IDataSourceDb database, IDbConnection connection, string query)
@@ -744,8 +744,8 @@ public static string GetQuotedValue(object value, DataBaseType type)
                 case DataBaseType.Sqlite:
 
                     bucket.ConnectionDisposeTime = null;
-                   
-      
+
+
                     break;
                 case DataBaseType.Oracle:
                     break;
@@ -757,14 +757,14 @@ public static string GetQuotedValue(object value, DataBaseType type)
                         oledb.Disposed += delegate (object sender, EventArgs args)
                         {
                             bucket.ConnectionDisposeTime = DateTime.Now;
-     
+
                         };
                     }
                     break;
 #else
-                  throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
+                    throw new NotImplementedException($@".Net Standard haven't implemented this functionality yet.");
 #endif
-                  
+
                 case DataBaseType.Odbc:
 #if NETFRAMEWORK
                     if (connection is OdbcConnection odbc)
@@ -793,10 +793,10 @@ public static string GetQuotedValue(object value, DataBaseType type)
 
 
 
-    
 
 
 
-    
+
+
     }
 }

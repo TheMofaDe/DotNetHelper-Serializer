@@ -103,12 +103,12 @@ namespace DotNetHelper_Serializer.DataSource
         /// <summary>
         ///  Only Used By OLEDB Connections  
         /// </summary>
-        public string JetOledbSystemDatabase { get; set; } 
+        public string JetOledbSystemDatabase { get; set; }
 
         /// <summary> 
         /// Only Used BY OLEDB Connections 
         /// </summary>
-        public string Provider { get; set; } 
+        public string Provider { get; set; }
 
         /// <summary>
         /// Create Table If It Doesn't Exist When Excuting Queries Only Works For Dynamic Execute Methods
@@ -149,7 +149,7 @@ namespace DotNetHelper_Serializer.DataSource
         /// Gets or sets the dbtype.
         /// </summary>
         /// <value>The dbtype.</value>
-        public DataBaseType DBTYPE { get;  } 
+        public DataBaseType DBTYPE { get; }
 
         /// <summary>
         /// Gets or sets the properties.
@@ -173,11 +173,11 @@ namespace DotNetHelper_Serializer.DataSource
 
         public ObjectToSqlHelper ObjectSqlHelper { get; }
 
-        public SqlSyntaxHelper SqlSyntaxHelper { get; } 
+        public SqlSyntaxHelper SqlSyntaxHelper { get; }
 
 
         public DateTime? LastConnectionOpenTime { get; set; }
-        
+
 
         public delegate void SqlExceptionEventHandler(object sender, SqlExceptionEventArgs e);
         public event EventHandler OnSqlException;
@@ -199,7 +199,7 @@ namespace DotNetHelper_Serializer.DataSource
             DBTYPE = dbType;
             //if (dbType == DataBaseType.Sqlite)
             //    throw new NotImplementedException("Please Use This Code For All Sqlite Usage : var db = new DataSourceSqlite(); ");
-            
+
 
             ObjectSqlHelper = new ObjectToSqlHelper(dbType);
             SqlSyntaxHelper = new SqlSyntaxHelper(dbType);
@@ -208,7 +208,7 @@ namespace DotNetHelper_Serializer.DataSource
 
 
 
-   
+
 
         #region Dynamically Build Connection String
 
@@ -236,7 +236,7 @@ namespace DotNetHelper_Serializer.DataSource
 
         private string AddBrackets(string content)
         {
-          
+
             if (!content.StartsWith(SqlSyntaxHelper.GetTableOpenChar()))
             {
                 content = $"{SqlSyntaxHelper.GetTableOpenChar()}{content}";
@@ -251,7 +251,7 @@ namespace DotNetHelper_Serializer.DataSource
 
         private string RemoveBrackets(string content)
         {
-     
+
             if (content.StartsWith(SqlSyntaxHelper.GetTableOpenChar()))
             {
                 content = content.ReplaceFirstOccurrance(SqlSyntaxHelper.GetTableOpenChar(), string.Empty, StringComparison.Ordinal);
@@ -265,7 +265,7 @@ namespace DotNetHelper_Serializer.DataSource
         }
 
 
-        internal  TableNameParseObject GetParseObject(string table, bool includeBrackets)
+        internal TableNameParseObject GetParseObject(string table, bool includeBrackets)
         {
             var tableNameParseObject = new TableNameParseObject();
             if (table.Contains("."))
@@ -274,13 +274,13 @@ namespace DotNetHelper_Serializer.DataSource
                 if (splits.Length == 3) // database.schema.table
                 {
                     tableNameParseObject.DatabaseName = includeBrackets ? AddBrackets(splits[0]) : RemoveBrackets(splits[0]);
-                    tableNameParseObject.SchemaName = includeBrackets ? AddBrackets(splits[1]) :   RemoveBrackets(splits[1]);
-                    tableNameParseObject.TableName = includeBrackets ? AddBrackets(splits[2]) :    RemoveBrackets(splits[2]);
+                    tableNameParseObject.SchemaName = includeBrackets ? AddBrackets(splits[1]) : RemoveBrackets(splits[1]);
+                    tableNameParseObject.TableName = includeBrackets ? AddBrackets(splits[2]) : RemoveBrackets(splits[2]);
                 }
                 else if (splits.Length == 2) // schema.table
                 {
                     tableNameParseObject.SchemaName = includeBrackets ? AddBrackets(splits[0]) : RemoveBrackets(splits[0]);
-                    tableNameParseObject.TableName =  includeBrackets ? AddBrackets(splits[1]) : RemoveBrackets(splits[1]);
+                    tableNameParseObject.TableName = includeBrackets ? AddBrackets(splits[1]) : RemoveBrackets(splits[1]);
 
                 }
                 else if (splits.Length == 1) // .table
@@ -337,7 +337,7 @@ namespace DotNetHelper_Serializer.DataSource
 
         public virtual string GetDefaultTableName<T>(string tableName, bool includeDatabase = true, bool includeSchema = true, bool includeBrackets = true)
         {
-       
+
             if (!string.IsNullOrEmpty(tableName)) // developer passed in table name
             {
                 return FormatTableNameString(tableName, includeDatabase, includeSchema, includeBrackets);
@@ -347,24 +347,24 @@ namespace DotNetHelper_Serializer.DataSource
             {
                 type = type.GetEnumerableItemType();
             }
-            
+
 
             var attr = type.CustomAttributes.Where(data => data.AttributeType == typeof(SqlTableAttritube));
             if (!attr.IsNullOrEmpty())
             {
 
-                var value =  attr.First().NamedArguments.First(arg => arg.MemberName == "TableName").TypedValue.Value.ToString();
+                var value = attr.First().NamedArguments.First(arg => arg.MemberName == "TableName").TypedValue.Value.ToString();
                 return FormatTableNameString(value, includeDatabase, includeSchema, includeBrackets);
             }
             else
             {
-              //  return typeof(T).Name;
-                
+                //  return typeof(T).Name;
+
                 return FormatTableNameString(typeof(T).Name, includeDatabase, includeSchema, includeBrackets);
             }
         }
 
-        public virtual string GetDefaultTableName(Type type, string tableName,bool includeDatabase = true, bool includeSchema = true, bool includeBrackets = true)
+        public virtual string GetDefaultTableName(Type type, string tableName, bool includeDatabase = true, bool includeSchema = true, bool includeBrackets = true)
         {
 
             if (!string.IsNullOrEmpty(tableName)) // developer passed in table name
@@ -383,7 +383,7 @@ namespace DotNetHelper_Serializer.DataSource
             {
 
                 var value = attr.First().NamedArguments.First(arg => arg.MemberName == "TableName").TypedValue.Value?.ToString();
-                if(string.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                     return FormatTableNameString(type.Name, includeDatabase, includeSchema, includeBrackets);
                 return FormatTableNameString(value, includeDatabase, includeSchema, includeBrackets);
             }
@@ -396,7 +396,7 @@ namespace DotNetHelper_Serializer.DataSource
 
         public virtual string GetDefaultTableName(string tableName, bool includeDatabase = true, bool includeSchema = true, bool includeBrackets = true)
         {
-           
+
             if (!string.IsNullOrEmpty(tableName)) // developer passed in table name
             {
                 return FormatTableNameString(tableName, includeDatabase, includeSchema, includeBrackets);
@@ -438,7 +438,7 @@ namespace DotNetHelper_Serializer.DataSource
                 LastConnectionOpenTime = DateTime.Now;
                 return conn;
             }
-            catch (Exception )
+            catch (Exception)
             {
                 // callback for failed to open connection to sql
                 return null;
@@ -449,7 +449,7 @@ namespace DotNetHelper_Serializer.DataSource
             return DBHelper.GetDbCommand(this, cmdText, connection, dbTransaction);
         }
 
-        public  Tuple<string, string, string> GetDataSourceMetaDataQueries()
+        public Tuple<string, string, string> GetDataSourceMetaDataQueries()
         {
             switch (DBTYPE)
             {
@@ -504,19 +504,19 @@ namespace DotNetHelper_Serializer.DataSource
                     var bucket2 = LogConnectionTime(connection, getDbSchemasQuery);
                     using (var cmd = GetNewCommand(getDBsQuery, connection))
                     {
-                        var reader = cmd.ExecuteReader(); 
+                        var reader = cmd.ExecuteReader();
                         bucket.ExecutedSuccesfully = true;
                         Properties.DataBases = reader.MapToList<Db>();
                     }
                     using (var cmd = GetNewCommand(getDbTablesQuery, connection))
                     {
-                        var reader = cmd.ExecuteReader(); 
+                        var reader = cmd.ExecuteReader();
                         bucket1.ExecutedSuccesfully = true;
                         Properties.Tables = reader.MapToList<DbTable>();
                     }
                     using (var cmd = GetNewCommand(getDbTablesQuery, connection))
                     {
-                        var reader = cmd.ExecuteReader(); 
+                        var reader = cmd.ExecuteReader();
                         bucket2.ExecutedSuccesfully = true;
                         Properties.Schemas = reader.MapToList<DbSchema>();
                     }
@@ -556,13 +556,13 @@ namespace DotNetHelper_Serializer.DataSource
             var keyFields = ObjectSqlHelper.GetKeyFields<T>(obj);
             // Build If Exists statement
             sqlBuilder.Append($"IF EXISTS ( SELECT * FROM {tableName} ");
-            ObjectSqlHelper.BuildWhereClause(sqlBuilder, keyFields,true);
+            ObjectSqlHelper.BuildWhereClause(sqlBuilder, keyFields, true);
             sqlBuilder.Append(" ) BEGIN SELECT TRUE ");
 
             // Build Update or Insert statement
-            ObjectSqlHelper.BuildUpdateQuery(sqlBuilder, tableName, obj,overrideKey);
+            ObjectSqlHelper.BuildUpdateQuery(sqlBuilder, tableName, obj, overrideKey);
             sqlBuilder.Append(" END ELSE BEGIN SELECT FALSE ");
-          
+
             sqlBuilder.Append(" END");
             var reader = ExecuteManualQuery(sqlBuilder.ToString());
             if (reader.HasRows().HasValue)
@@ -580,18 +580,18 @@ namespace DotNetHelper_Serializer.DataSource
                     return reader.GetBoolean(0);
                 }
             }
-             
+
 
         }
 
 
-       
 
 
 
 
 
-       
+
+
 
 
 
@@ -627,7 +627,7 @@ namespace DotNetHelper_Serializer.DataSource
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <returns>List&lt;AdvanceMember&gt;.</returns>
-        private List<AdvanceMember> GetSubTables(Type type) 
+        private List<AdvanceMember> GetSubTables(Type type)
         {
             if (typeof(IDynamicMetaObjectProvider).IsAssignableFrom(type))
             {
@@ -643,7 +643,7 @@ namespace DotNetHelper_Serializer.DataSource
         }
 
 
-       
+
 
         #endregion
 
@@ -695,9 +695,9 @@ namespace DotNetHelper_Serializer.DataSource
                 CreateTableFromClass<T>(tableName);
             var keysFields = ObjectSqlHelper.GetKeyFields(obj).Where(b => b.SqlCustomAttritube.PrimaryKey == true).ToList();
             var sb = new StringBuilder();
-            var parameters = ObjectSqlHelper.BuildWhereClauseAndGeDbParameters(GetNewParameter, sb, keysFields,true);
+            var parameters = ObjectSqlHelper.BuildWhereClauseAndGeDbParameters(GetNewParameter, sb, keysFields, true);
 
-           return ExecuteManualQuery($"SELECT TOP 1 * FROM {tableName} {sb}",parameters).MapToList<T>().FirstOrDefault();
+            return ExecuteManualQuery($"SELECT TOP 1 * FROM {tableName} {sb}", parameters).MapToList<T>().FirstOrDefault();
         }
 
 
@@ -705,90 +705,90 @@ namespace DotNetHelper_Serializer.DataSource
 
         #region WORK IN PROGRESS
 
-            /// <summary>
-            /// Gets the specified table name.
-            /// </summary>
-            /// <typeparam name="T"></typeparam>
-            /// <param name="tableName">Name of the table.</param>
-            /// <param name="whereClause">The where clause.</param>
-            /// <returns>List&lt;T&gt;.</returns>
-            public List<T> Get<T>(string tableName = null, string whereClause = null) where T : class
+        /// <summary>
+        /// Gets the specified table name.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="tableName">Name of the table.</param>
+        /// <param name="whereClause">The where clause.</param>
+        /// <returns>List&lt;T&gt;.</returns>
+        public List<T> Get<T>(string tableName = null, string whereClause = null) where T : class
         {
             tableName = GetDefaultTableName<T>(tableName);
             if (CreateTablesIfNotExist)
                 CreateTableFromClass<T>(tableName);  // Create Table If Doesn't Exist 
-                                                    //// TODO :: COME BACK THEMOFADE AND IMPLEMENT THIS
-                                                    //     var advanceMembers = ExtFastMember.GetAdvanceMembers<T>();
-                                                    //     
-                                                    //     var R = BuildJoinString<T>(tableName).ToString();
-                                                    //     // Logic to populate a property that is actually a SQL Table
-                                                    //     if (!advanceMembers.Where(a => a.SqlTableAttritube != null).IsNullOrEmpty()) // We have secondary Tables
-                                                    //     {
-                                                    //         var preData = ExecuteQuery(tableName, whereClause, BuildGetQuery<T>).MapToList<T>();
-                                                    //     
-                                                    //         try
-                                                    //         {
-                                                    //     
-                                                    //             var keysToJoinOn = advanceMembers.Where(mm => !mm.SqlCustomAttritube.MappingIds.IsNullOrEmpty()).ToList(); // Keys For Main Table Join
-                                                    //             if (keysToJoinOn.IsNullOrEmpty()) throw new BadCodeException($"Alright Buddy, For The Type {typeof(T).FullName} You have properties with [SQLTableAttribute] but no other properties" +
-                                                    //                                                                                           $" have the [SQLColumnAttribute] with MappingIds Set You need to the set mappings Ids");
-                                                    //             //secondKeysToJoinOn
-                                                    //             advanceMembers.Where(b => b.SqlTableAttritube != null).ToList().ForEach(delegate (AdvanceMember classAsAPropertyType)
-                                                    //             {
-                                                    //                 var type = classAsAPropertyType.Member.Type;
-                                                    //                 if (type.IsTypeIEnumerable())
-                                                    //                 {
-                                                    //                     type = type.GetIEnumerableRealType();
-                                                    //                 }
-                                                    //                 else
-                                                    //                 {
-                                                    //     
-                                                    //                 }
-                                                    //                 var secondMembers = ExtFastMember.GetAdvanceMembers(type);
-                                                    //                 var sb = new StringBuilder($"SELECT B.* FROM {tableName} A INNER JOIN {classAsAPropertyType.SqlTableAttritube.TableName ?? type.Name} B ON ");
-                                                    //                 var sbWhereClause = new StringBuilder($" WHERE ");
-                                                    //                 var safeKeyword = "";
-                                                    //                 var WheresafeKeyword = "";
-                                                    //                 var safeLetter = 'B';
-                                                    //                 keysToJoinOn.ForEach(delegate (AdvanceMember temp1) // Now need to a married couple 
-                                                    //                 {
-                                                    //                     var result = secondMembers.Where(z1 => z1.SqlCustomAttritube.MappingIds.ContainAnySameItem(temp1.SqlCustomAttritube.MappingIds)).ToList();
-                                                    //                     result.ForEach(delegate (AdvanceMember z2)
-                                                    //                     {
-                                                    //                         sb.Append($" A.{temp1.SqlCustomAttritube.MapTo ?? temp1.Member.Name} = {safeLetter}.{z2.SqlCustomAttritube.MapTo ?? z2.Member.Name} ");
-                                                    //                         sb.Append(safeKeyword);
-                                                    //                         safeKeyword = (" AND ");
-                                                    //     
-                                                    //                     });
-                                                    //     
-                                                    //                     if (string.IsNullOrEmpty(safeKeyword)) throw new BadCodeException($"DFA... Your're Missing MappingIds For The Type {type.FullName} To Join With the SQL Table {tableName}");
-                                                    //     
-                                                    //                     if (temp1.Member.Type == typeof(int) || temp1.Member.Type == typeof(bool)) // THIS IS KINDA BAD BUT I DONT SEE A KEY WHERE JOINING ON NOT BEING A DAMN INTERGER
-                                                    //                 {
-                                                    //                         sbWhereClause.Append($"A.{temp1.SqlCustomAttritube.MapTo ?? temp1.Member.Name} = {temp1.Value}{safeKeyword}");
-                                                    //                     }
-                                                    //                     else
-                                                    //                     {
-                                                    //                         sbWhereClause.Append($"A.{temp1.SqlCustomAttritube.MapTo ?? temp1.Member.Name} = '{temp1.Value}'{safeKeyword}");
-                                                    //                     }
-                                                    //                     safeLetter = Alphabet.GetNextLetter(safeLetter);
-                                                    //     
-                                                    //                 });
-                                                    //     
-                                                    //                 var secondaryDataSql = sb.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
-                                                    //                 secondaryDataSql += sbWhereClause.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
-                                                    //                 var NWMI = ExecuteManualQuery(secondaryDataSql).MapToList(type);
-                                                    //     
-                                                    //                 var accessor = TypeAccessor.Create(type, true);
-                                                    //     
-                                                    //             });
-                                                    //     
-                                                    //     
-                                                    //     
-                                                    //         }
-                                                    //         catch (Exception error) { Logger?.LogError(error); return preData; }
-                                                    //         //var secondaryData = ExecuteManualQuery($"SELECT * FROM {type.Name} WHERE {classAsAPropertyType.SqlCustomAttritube}")
-                                                    //     }
+                                                     //// TODO :: COME BACK THEMOFADE AND IMPLEMENT THIS
+                                                     //     var advanceMembers = ExtFastMember.GetAdvanceMembers<T>();
+                                                     //     
+                                                     //     var R = BuildJoinString<T>(tableName).ToString();
+                                                     //     // Logic to populate a property that is actually a SQL Table
+                                                     //     if (!advanceMembers.Where(a => a.SqlTableAttritube != null).IsNullOrEmpty()) // We have secondary Tables
+                                                     //     {
+                                                     //         var preData = ExecuteQuery(tableName, whereClause, BuildGetQuery<T>).MapToList<T>();
+                                                     //     
+                                                     //         try
+                                                     //         {
+                                                     //     
+                                                     //             var keysToJoinOn = advanceMembers.Where(mm => !mm.SqlCustomAttritube.MappingIds.IsNullOrEmpty()).ToList(); // Keys For Main Table Join
+                                                     //             if (keysToJoinOn.IsNullOrEmpty()) throw new BadCodeException($"Alright Buddy, For The Type {typeof(T).FullName} You have properties with [SQLTableAttribute] but no other properties" +
+                                                     //                                                                                           $" have the [SQLColumnAttribute] with MappingIds Set You need to the set mappings Ids");
+                                                     //             //secondKeysToJoinOn
+                                                     //             advanceMembers.Where(b => b.SqlTableAttritube != null).ToList().ForEach(delegate (AdvanceMember classAsAPropertyType)
+                                                     //             {
+                                                     //                 var type = classAsAPropertyType.Member.Type;
+                                                     //                 if (type.IsTypeIEnumerable())
+                                                     //                 {
+                                                     //                     type = type.GetIEnumerableRealType();
+                                                     //                 }
+                                                     //                 else
+                                                     //                 {
+                                                     //     
+                                                     //                 }
+                                                     //                 var secondMembers = ExtFastMember.GetAdvanceMembers(type);
+                                                     //                 var sb = new StringBuilder($"SELECT B.* FROM {tableName} A INNER JOIN {classAsAPropertyType.SqlTableAttritube.TableName ?? type.Name} B ON ");
+                                                     //                 var sbWhereClause = new StringBuilder($" WHERE ");
+                                                     //                 var safeKeyword = "";
+                                                     //                 var WheresafeKeyword = "";
+                                                     //                 var safeLetter = 'B';
+                                                     //                 keysToJoinOn.ForEach(delegate (AdvanceMember temp1) // Now need to a married couple 
+                                                     //                 {
+                                                     //                     var result = secondMembers.Where(z1 => z1.SqlCustomAttritube.MappingIds.ContainAnySameItem(temp1.SqlCustomAttritube.MappingIds)).ToList();
+                                                     //                     result.ForEach(delegate (AdvanceMember z2)
+                                                     //                     {
+                                                     //                         sb.Append($" A.{temp1.SqlCustomAttritube.MapTo ?? temp1.Member.Name} = {safeLetter}.{z2.SqlCustomAttritube.MapTo ?? z2.Member.Name} ");
+                                                     //                         sb.Append(safeKeyword);
+                                                     //                         safeKeyword = (" AND ");
+                                                     //     
+                                                     //                     });
+                                                     //     
+                                                     //                     if (string.IsNullOrEmpty(safeKeyword)) throw new BadCodeException($"DFA... Your're Missing MappingIds For The Type {type.FullName} To Join With the SQL Table {tableName}");
+                                                     //     
+                                                     //                     if (temp1.Member.Type == typeof(int) || temp1.Member.Type == typeof(bool)) // THIS IS KINDA BAD BUT I DONT SEE A KEY WHERE JOINING ON NOT BEING A DAMN INTERGER
+                                                     //                 {
+                                                     //                         sbWhereClause.Append($"A.{temp1.SqlCustomAttritube.MapTo ?? temp1.Member.Name} = {temp1.Value}{safeKeyword}");
+                                                     //                     }
+                                                     //                     else
+                                                     //                     {
+                                                     //                         sbWhereClause.Append($"A.{temp1.SqlCustomAttritube.MapTo ?? temp1.Member.Name} = '{temp1.Value}'{safeKeyword}");
+                                                     //                     }
+                                                     //                     safeLetter = Alphabet.GetNextLetter(safeLetter);
+                                                     //     
+                                                     //                 });
+                                                     //     
+                                                     //                 var secondaryDataSql = sb.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
+                                                     //                 secondaryDataSql += sbWhereClause.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
+                                                     //                 var NWMI = ExecuteManualQuery(secondaryDataSql).MapToList(type);
+                                                     //     
+                                                     //                 var accessor = TypeAccessor.Create(type, true);
+                                                     //     
+                                                     //             });
+                                                     //     
+                                                     //     
+                                                     //     
+                                                     //         }
+                                                     //         catch (Exception error) { Logger?.LogError(error); return preData; }
+                                                     //         //var secondaryData = ExecuteManualQuery($"SELECT * FROM {type.Name} WHERE {classAsAPropertyType.SqlCustomAttritube}")
+                                                     //     }
             var datareader = ExecuteQuery(tableName, whereClause, ObjectSqlHelper.BuildGetQuery);
             return datareader.MapToList<T>(JsonSerializer, XmlSerializer, CsvSerializer);
         }
@@ -803,7 +803,7 @@ namespace DotNetHelper_Serializer.DataSource
         public (string sql, string splitOn) BuildJoinString<T>() where T : class
         {
 
-            void ThrowIfAttributesIsMissing(List<AdvanceMember> keys,Type type)
+            void ThrowIfAttributesIsMissing(List<AdvanceMember> keys, Type type)
             {
                 if (keys.IsNullOrEmpty())
                 {
@@ -812,7 +812,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             // var safetly = $@"_TEMP_";
             var tableName = GetDefaultTableName<T>(null);
-         
+
             var columnIndexMappingForDataReader = new Dictionary<int, Tuple<string, string>>();
             var sqlBuilder = new StringBuilder("SELECT ");
             var sqlFromBuilder = new StringBuilder();
@@ -825,7 +825,7 @@ namespace DotNetHelper_Serializer.DataSource
 #endif
             var currentTableAlias = mainTableAlias;
             var index = 0;
-            var splitOn = new List<string>(){};
+            var splitOn = new List<string>() { };
             var openChar = SqlSyntaxHelper.GetTableOpenChar();
             var closeChar = SqlSyntaxHelper.GetTableClosedChar();
 
@@ -842,7 +842,7 @@ namespace DotNetHelper_Serializer.DataSource
 
             var list = advanceMembers.Where(a1 => a1.SqlTableAttritube != null).ToList();
             var i = 1;
-           list.ForEach(delegate (AdvanceMember tableMember) // BUILD SECONDARY COLUMNS
+            list.ForEach(delegate (AdvanceMember tableMember) // BUILD SECONDARY COLUMNS
             {
                 canThrow = true;
                 currentTableAlias = Alphabet.GetNextLetter(currentTableAlias); // Every Member For Now On Is Actually A Table
@@ -854,10 +854,10 @@ namespace DotNetHelper_Serializer.DataSource
                 }
 
                 var tableAdvanceMember = ExtFastMember.GetAdvanceMembers(tableType); // Columns For SECOND TABLE 
-                
+
                 // SAFE COMMENT START
                 var xRefType = tableMember.SqlTableAttritube.XReferenceTable;
-                
+
                 if (xRefType != null)
                 {
 
@@ -865,7 +865,7 @@ namespace DotNetHelper_Serializer.DataSource
                     // TODO :: QUESTION ?? DO WE ALWAYS WANT TO MAKE THE XREF JOIN THE SAME AS THE TABLE 
                     sqlFromBuilder.AppendLine($"{tableMember.SqlTableAttritube.JoinType} JOIN {GetDefaultTableName(xRefType, null)} {currentTableAlias} ON "); // build from clause
                     ThrowIfAttributesIsMissing(keysToJoinOn, xRefType);
-                    ObjectSqlHelper.BuildJoinOnStatement(keysToJoinOn, Alphabet.GetPreviousLetter(currentTableAlias),xRefMembers, currentTableAlias, sqlFromBuilder);
+                    ObjectSqlHelper.BuildJoinOnStatement(keysToJoinOn, Alphabet.GetPreviousLetter(currentTableAlias), xRefMembers, currentTableAlias, sqlFromBuilder);
 
                     currentTableAlias = Alphabet.GetNextLetter(currentTableAlias); // FAST FORWARD BECAUSE OF XREF TABLE
 
@@ -887,7 +887,7 @@ namespace DotNetHelper_Serializer.DataSource
 
                 columnsAndSplitOnTuple = ObjectSqlHelper.BulidSelectColumnStatement(currentTableAlias, tableAdvanceMember, SqlSyntaxHelper);
                 splitOn.Add(columnsAndSplitOnTuple.Item2);
-           
+
                 if (i < list.Count)
                 {
 
@@ -899,7 +899,7 @@ namespace DotNetHelper_Serializer.DataSource
                     sqlBuilder.Append(columnsAndSplitOnTuple.Item1.ReplaceLastOccurrance(",", "", StringComparison.OrdinalIgnoreCase));
                     Console.WriteLine(currentTableAlias);
                 }
-  
+
                 i++;
             });
 
@@ -915,7 +915,7 @@ namespace DotNetHelper_Serializer.DataSource
 
 
             sqlBuilder.Append(sqlFromBuilder);
-            return (sqlBuilder.ToString(), string.Join(",",splitOn));
+            return (sqlBuilder.ToString(), string.Join(",", splitOn));
         }
 
 
@@ -939,13 +939,13 @@ namespace DotNetHelper_Serializer.DataSource
                     CreateTableFromClass<T>(tableName); // Create Table If Doesn't Exist 
 
 
-                var tuple = ObjectSqlHelper.BuildWhereClause(GetNewParameter,dynamicParameters, whereClause);
+                var tuple = ObjectSqlHelper.BuildWhereClause(GetNewParameter, dynamicParameters, whereClause);
                 var datareader = ExecuteQuery(tableName, tuple.Item2, ObjectSqlHelper.BuildGetQuery, tuple.Item1);
                 return datareader.MapToList<T>(JsonSerializer, XmlSerializer, CsvSerializer);
             }
             catch (Exception error)
             {
-              throw   ErrorHandling(error);
+                throw ErrorHandling(error);
             }
 
         }
@@ -953,7 +953,7 @@ namespace DotNetHelper_Serializer.DataSource
 
 
 
-       
+
 
 
         ///// <summary>
@@ -994,15 +994,16 @@ namespace DotNetHelper_Serializer.DataSource
         /// <returns>List&lt;T&gt;.</returns>
         public List<T> GetLinq<T>(Expression<Func<T, bool>> whereExpression, string tableName = null) where T : class
         {
-            try { 
-            tableName = GetDefaultTableName<T>(tableName);
-            if (CreateTablesIfNotExist)
-                CreateTableFromClass<T>(tableName);  // Create Table If Doesn't Exist 
+            try
+            {
+                tableName = GetDefaultTableName<T>(tableName);
+                if (CreateTablesIfNotExist)
+                    CreateTableFromClass<T>(tableName);  // Create Table If Doesn't Exist 
 
 
 
-            var whereClause = Generator.WhereSql(whereExpression).Sql;
-            return ExecuteQuery(tableName, whereClause, ObjectSqlHelper.BuildGetQuery).MapToList<T>();
+                var whereClause = Generator.WhereSql(whereExpression).Sql;
+                return ExecuteQuery(tableName, whereClause, ObjectSqlHelper.BuildGetQuery).MapToList<T>();
             }
             catch (Exception error)
             {
@@ -1039,7 +1040,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,$"EXEC {procedureName}");
+                throw ErrorHandling(error, $"EXEC {procedureName}");
             }
         }
 
@@ -1054,7 +1055,7 @@ namespace DotNetHelper_Serializer.DataSource
         public int CreateLocalDatabaseFile(string fullFilePath, string databaseName, bool overwrite = false)
         {
             var file = new FileObject(fullFilePath);
-            if (string.IsNullOrEmpty(databaseName)) databaseName.IsNullThrow(nameof(databaseName),new ArgumentNullException(nameof(databaseName)));
+            if (string.IsNullOrEmpty(databaseName)) databaseName.IsNullThrow(nameof(databaseName), new ArgumentNullException(nameof(databaseName)));
             var sql = $@"
                                    CREATE DATABASE
                                        [{databaseName}]
@@ -1084,7 +1085,7 @@ namespace DotNetHelper_Serializer.DataSource
                 {
                     // TODO :: only if on the same server var folderObject = new FolderObject(file.FilePathOnly).Create();
                     connection.Open();
-                
+
                     using (var command = GetNewCommand(sql, connection))
                     {
                         return command.ExecuteNonQuery();
@@ -1094,7 +1095,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,sql);
+                throw ErrorHandling(error, sql);
             }
         }
 
@@ -1107,24 +1108,24 @@ namespace DotNetHelper_Serializer.DataSource
         /// <param name="poco">The poco.</param>
         /// <param name="buildSqlString">The build SQL string.</param>
         /// <returns>System.Int32.</returns>
-        private int ExecuteNonQuery<T>(string tableName, T poco ,Action<StringBuilder, string, T, Expression<Func<T, object>>> buildSqlString, Expression<Func<T, object>> overrideKeys) where T : class
+        private int ExecuteNonQuery<T>(string tableName, T poco, Action<StringBuilder, string, T, Expression<Func<T, object>>> buildSqlString, Expression<Func<T, object>> overrideKeys) where T : class
         {
             var query = "";
             try
             {
                 tableName = GetDefaultTableName<T>(tableName);
-  
+
                 var sqlBuilder = new StringBuilder();
                 buildSqlString(sqlBuilder, tableName, poco, overrideKeys);
                 using (var conn = GetNewConnection(false, true))
                 {
                     conn.Open();
-                     query = sqlBuilder.ToString();
+                    query = sqlBuilder.ToString();
                     var bucket = LogConnectionTime(conn, query);
                     using (var cmd = GetNewCommand(query, conn))
                     {
                         cmd.CommandTimeout = (int)Timeout.TotalSeconds;
-                        var dbParameters = ObjectSqlHelper.BuildDbParameterList(poco,GetNewParameter,XmlSerializer,JsonSerializer,CsvSerializer);
+                        var dbParameters = ObjectSqlHelper.BuildDbParameterList(poco, GetNewParameter, XmlSerializer, JsonSerializer, CsvSerializer);
                         cmd.AddParameters(dbParameters);
                         if (QueryBucketManager.IncludeReadableQuery)
                             bucket.ReadableQuery = cmd.Parameters.ParamToSql(sqlBuilder.ToString());
@@ -1150,7 +1151,7 @@ namespace DotNetHelper_Serializer.DataSource
                     //  Logger?.ConsoleAndLog("Don't Feel To Bad This Library Can Handle Foreign Keys For You But You Need The Following Code To Get Started"
                     //      + $"var db = new DataSourceSqlServer() {{ ConnectionString = {BuildConnectionString()} }}");
                 }
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
         }
 
@@ -1180,7 +1181,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,sql);
+                throw ErrorHandling(error, sql);
             }
 
         }
@@ -1204,12 +1205,12 @@ namespace DotNetHelper_Serializer.DataSource
 
 
             tableName = GetDefaultTableName<T>(tableName);
-   
-           
+
+
             foreach (var poco in listPoco)
             {
                 var sqlBuilder = new StringBuilder();
-                buildSqlString(sqlBuilder, tableName, poco,overrideKeys);
+                buildSqlString(sqlBuilder, tableName, poco, overrideKeys);
                 var query = sqlBuilder.ToString();
                 var cmd = GetNewCommand();
                 var dbParameters = ObjectSqlHelper.BuildDbParameterList(poco, GetNewParameter, XmlSerializer, JsonSerializer, CsvSerializer);
@@ -1257,7 +1258,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
             throw new NotImplementedException("Sorry Haven't implemented this yet");
         }
@@ -1274,20 +1275,20 @@ namespace DotNetHelper_Serializer.DataSource
             try
             {
                 // DO NOT WRAP THIS IN A USING STATEMENT DATAREADER CAN NOT BE RETURN IF THE CONNECTION IS CLOSE
-             
-                    connection.OpenSafely();
-                    var bucket = LogConnectionTime(connection, query);
-                   // using
-                    var cmd = GetNewCommand(query, connection);
-                    {
-                        if (QueryBucketManager.IncludeReadableQuery)
-                            bucket.ReadableQuery = cmd.Parameters.ParamToSql(query);
-                        var reader = cmd.ExecuteReader(behavior); // Connection Will Close With The Datareader Is Closed
-                        bucket.ExecutedSuccesfully = true;
-                        return reader;
-                    }
-               
-                
+
+                connection.OpenSafely();
+                var bucket = LogConnectionTime(connection, query);
+                // using
+                var cmd = GetNewCommand(query, connection);
+                {
+                    if (QueryBucketManager.IncludeReadableQuery)
+                        bucket.ReadableQuery = cmd.Parameters.ParamToSql(query);
+                    var reader = cmd.ExecuteReader(behavior); // Connection Will Close With The Datareader Is Closed
+                    bucket.ExecutedSuccesfully = true;
+                    return reader;
+                }
+
+
             }
             catch (Exception error)
             {
@@ -1303,14 +1304,14 @@ namespace DotNetHelper_Serializer.DataSource
             try
             {
                 tableName = GetDefaultTableName<T>(tableName);
-           
+
                 var sqlBuilder = new StringBuilder();
                 buildSqlString(sqlBuilder, tableName, overrideKeys);
                 // DO NOT WRAP THIS IN A USING STATEMENT DATAREADER CAN NOT BE RETURN IF THE CONNECTION IS CLOSE
                 var conn = GetNewConnection(false, true);
                 {
                     conn.Open();
-                     query = sqlBuilder.ToString();
+                    query = sqlBuilder.ToString();
                     var bucket = LogConnectionTime(conn, query);
                     using (var cmd = GetNewCommand(query, conn))
                     {
@@ -1327,12 +1328,12 @@ namespace DotNetHelper_Serializer.DataSource
 
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
         }
 
 
-        
+
 
 
         private T ExecuteNonQuery<T>(string tableName, T poco, Action<StringBuilder, string> buildSqlString) where T : class
@@ -1340,8 +1341,8 @@ namespace DotNetHelper_Serializer.DataSource
             var query = "";
             try
             {
-                 tableName = GetDefaultTableName<T>(tableName);
-       
+                tableName = GetDefaultTableName<T>(tableName);
+
                 var propertyName = ExtFastMember.GetAdvanceMembers<T>().First(a => a.SqlCustomAttritube.AutoIncrementBy != null && a.SqlCustomAttritube.AutoIncrementBy > 0).Member.Name;
                 var sqlBuilder = new StringBuilder();
                 buildSqlString(sqlBuilder, tableName);
@@ -1359,7 +1360,7 @@ namespace DotNetHelper_Serializer.DataSource
                         if (QueryBucketManager.IncludeReadableQuery)
                             bucket.ReadableQuery = cmd.Parameters.ParamToSql(query);
                         var reader = cmd.ExecuteReader();
-                       
+
                         bucket.ExecutedSuccesfully = true;
                         while (reader.Read())
                         {
@@ -1393,11 +1394,11 @@ namespace DotNetHelper_Serializer.DataSource
                 var sqlBuilder = new StringBuilder();
                 buildSqlString(sqlBuilder, tableName);
 
-                
+
                 query = sqlBuilder.ToString();
                 connection.OpenSafely();
                 var bucket = LogConnectionTime(connection, query);
-                 
+
                 using (var cmd = GetNewCommand(query, connection))
                 {
                     var DbParameters = ObjectSqlHelper.BuildDbParameterList(poco, GetNewParameter, XmlSerializer, JsonSerializer, CsvSerializer);
@@ -1414,7 +1415,7 @@ namespace DotNetHelper_Serializer.DataSource
                     }
 
                 }
-                
+
             }
 
             catch (Exception error)
@@ -1438,7 +1439,7 @@ namespace DotNetHelper_Serializer.DataSource
             try
             {
                 tableName = GetDefaultTableName<T>(tableName);
-    
+
                 var propertyName = ExtFastMember.GetAdvanceMembers<T>().First(a => a.SqlCustomAttritube.AutoIncrementBy != null && a.SqlCustomAttritube.AutoIncrementBy > 0).Member.Name;
                 var sqlBuilder = new StringBuilder();
                 buildSqlString(sqlBuilder, tableName, overrideKeys);
@@ -1447,7 +1448,7 @@ namespace DotNetHelper_Serializer.DataSource
                 using (var conn = GetNewConnection(false, true))
                 {
                     conn.Open();
-                     query = sqlBuilder.ToString();
+                    query = sqlBuilder.ToString();
                     var bucket = LogConnectionTime(conn, query);
                     using (var cmd = GetNewCommand(query, conn))
                     {
@@ -1469,7 +1470,7 @@ namespace DotNetHelper_Serializer.DataSource
 
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
             return poco;
         }
@@ -1503,9 +1504,9 @@ namespace DotNetHelper_Serializer.DataSource
                 var conn = GetNewConnection(false, true);
                 {
                     conn.Open();
-                     query = sqlBuilder.ToString();
+                    query = sqlBuilder.ToString();
                     var bucket = LogConnectionTime(conn, query);
-                   // if (DBTYPE == DataBaseType.Sqlite) // https://github.com/aspnet/Microsoft.Data.Sqlite/issues/484
+                    // if (DBTYPE == DataBaseType.Sqlite) // https://github.com/aspnet/Microsoft.Data.Sqlite/issues/484
                     {
                         var cmd = GetNewCommand(query, conn);
                         {
@@ -1531,7 +1532,7 @@ namespace DotNetHelper_Serializer.DataSource
 
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
         }
 
@@ -1568,7 +1569,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
         }
 
@@ -1600,16 +1601,16 @@ namespace DotNetHelper_Serializer.DataSource
         /// <param name="listPoco">The list poco.</param>
         /// <param name="buildSqlString">The build SQL string.</param>
         /// <returns>Numbers Of Rows Affected</returns>
-        private int ExecuteNonQueryOnList<T>(string tableName, IEnumerable<T> listPoco,  Action<StringBuilder, string, T, Expression<Func<T, object>>> buildSqlString, ActionType type,  Expression<Func<T, object>> overrideKeys = null) where T : class
+        private int ExecuteNonQueryOnList<T>(string tableName, IEnumerable<T> listPoco, Action<StringBuilder, string, T, Expression<Func<T, object>>> buildSqlString, ActionType type, Expression<Func<T, object>> overrideKeys = null) where T : class
         {
             try
             {
-                if ( AlwaysUseBulkInsert.Item1 && listPoco.Count() > AlwaysUseBulkInsert.Item2 && type == ActionType.Insert)
+                if (AlwaysUseBulkInsert.Item1 && listPoco.Count() > AlwaysUseBulkInsert.Item2 && type == ActionType.Insert)
                 {
                     return BulkInsert(listPoco, tableName);
                 }
-              
-                return DBHelper.ExecuteNonQueryOnList(this, tableName, listPoco, buildSqlString,overrideKeys);
+
+                return DBHelper.ExecuteNonQueryOnList(this, tableName, listPoco, buildSqlString, overrideKeys);
             }
             catch (Exception)
             {
@@ -1647,7 +1648,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
 
         }
@@ -1675,7 +1676,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
 
         }
@@ -1698,12 +1699,12 @@ namespace DotNetHelper_Serializer.DataSource
             try
             {
                 var subTables = GetSubTables<T>();
-                subTables.ForEach(delegate(AdvanceMember member)
+                subTables.ForEach(delegate (AdvanceMember member)
                     {
                         CreateTableFromClass(member.Member.Type, null, dropIfExist);
                     });
                 tableName = GetDefaultTableName<T>(tableName);
-       
+
                 var sqlBuilder = new StringBuilder();
 
                 sqlBuilder.Append($"Create Table {tableName} ( ");
@@ -1742,7 +1743,7 @@ namespace DotNetHelper_Serializer.DataSource
                     if (DropTable(tableName))
                         ExecuteNonQuery(sqlBuilder.ToString());
                 }
-          
+
                 return true;
             }
             catch (BadCodeException badCodeException)
@@ -1774,7 +1775,7 @@ namespace DotNetHelper_Serializer.DataSource
         /// <param name="tableName">Name of the table.</param>
         /// <param name="dropIfExist">if set to <c>true</c> [drop if exist].</param>
         /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
-        public bool CreateTableFromClass(Type type, string tableName, bool dropIfExist = false) 
+        public bool CreateTableFromClass(Type type, string tableName, bool dropIfExist = false)
         {
 
             try
@@ -1785,7 +1786,7 @@ namespace DotNetHelper_Serializer.DataSource
                     CreateTableFromClass(member.Member.Type, null, dropIfExist);
                 });
 
-                tableName = GetDefaultTableName(type,tableName);
+                tableName = GetDefaultTableName(type, tableName);
 
                 var sqlBuilder = new StringBuilder();
 
@@ -1824,7 +1825,7 @@ namespace DotNetHelper_Serializer.DataSource
                     if (DropTable(tableName))
                         ExecuteNonQuery(sqlBuilder.ToString());
                 }
-            
+
                 return true;
             }
             catch (BadCodeException badCodeException)
@@ -1861,7 +1862,7 @@ namespace DotNetHelper_Serializer.DataSource
             try
             {
                 if (string.IsNullOrEmpty(tableName)) throw new BadCodeException("Look Here. I Could Create A SQL Table For you based on your dynamic object but the very least you can do is provide me a table name smh..");
-                var sqlBuilder = new StringBuilder(); 
+                var sqlBuilder = new StringBuilder();
 
                 sqlBuilder.Append($"Create Table {GetDefaultTableName<T>(tableName, true, true, true)} ( ");
                 var list = ExtFastMember.GetAdvanceMembersForDynamic(dynamicObject);
@@ -1886,7 +1887,7 @@ namespace DotNetHelper_Serializer.DataSource
                     if (DropTable(tableName))
                         ExecuteNonQuery(sqlBuilder.ToString());
                 }
-               
+
                 return true;
             }
             catch (Exception error)
@@ -1942,7 +1943,7 @@ namespace DotNetHelper_Serializer.DataSource
             {
                 if (string.IsNullOrEmpty(schema)) return true;
                 var realSchema = schema.Replace("[", "").Replace("]", "");
-                 query = $"IF NOT EXISTS ( SELECT * FROM sys.schemas WHERE name = N'{realSchema}') ";
+                query = $"IF NOT EXISTS ( SELECT * FROM sys.schemas WHERE name = N'{realSchema}') ";
                 if (!createIfFalse)
                 {
                     query += $"select 'FALSE' else select 'TRUE'";
@@ -1975,7 +1976,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
 
         }
@@ -1991,15 +1992,15 @@ namespace DotNetHelper_Serializer.DataSource
         {
             var query = "";
             try
-            {         
+            {
                 switch (DBTYPE)
                 {
-                    case DataBaseType.SqlServer:                
+                    case DataBaseType.SqlServer:
                         query = $"IF OBJECT_ID(N'{GetDefaultTableName(tableName, true, true, true)}', N'U') IS NOT NULL SELECT 'TRUE' ELSE SELECT 'FALSE'";  // SQL SERVER DOESN'T CARE IF BRACKETS ARE INCLUDED OR NOT
                         break;
                     case DataBaseType.MySql:
                         query = $"SELECT CASE WHEN COUNT(*) > 0 THEN 'TRUE' ELSE 'FALSE' END FROM information_schema.tables " +
-                                $" WHERE table_schema = '{GetParseObject(tableName,false).SchemaName}'" +
+                                $" WHERE table_schema = '{GetParseObject(tableName, false).SchemaName}'" +
                                 $" AND table_name = '{GetParseObject(tableName, false).TableName}' " +
                                 $" LIMIT 1;";
                         break;
@@ -2043,7 +2044,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception error)
             {
-                throw ErrorHandling(error,query);
+                throw ErrorHandling(error, query);
             }
             return false;
         }
@@ -2066,9 +2067,9 @@ namespace DotNetHelper_Serializer.DataSource
         /// </summary>
         /// <param name="error">The error.</param>
         /// <returns>Exception.</returns>
-        public Exception ErrorHandling(Exception error,string sql)
+        public Exception ErrorHandling(Exception error, string sql)
         {
-            OnSqlException?.Invoke(this,new SqlExceptionEventArgs(error,sql));
+            OnSqlException?.Invoke(this, new SqlExceptionEventArgs(error, sql));
             return ThrowCustomExceptions ? new Exception("An Internal Error Has Occur.") : error;
         }
 
@@ -2086,7 +2087,7 @@ namespace DotNetHelper_Serializer.DataSource
 
 
 
-        
+
 
 
 
@@ -2107,7 +2108,7 @@ namespace DotNetHelper_Serializer.DataSource
         /// <param name="tableName">Name of the table.</param>
         /// <returns>Returns Record Affected</returns>
         /// <exception cref="ArgumentOutOfRangeException">type - null</exception>
-        public int ExecuteDynamicQuery<T>(ActionType type, IEnumerable<T> poco, string tableName = null,Expression<Func<T, object>> overrideKeys = null) where T : class
+        public int ExecuteDynamicQuery<T>(ActionType type, IEnumerable<T> poco, string tableName = null, Expression<Func<T, object>> overrideKeys = null) where T : class
         {
             if (poco == null) return 0;
             var listPoco = poco as IList<T> ?? poco.ToList();  // Need To Test List Of List <T> here and see where the exeception gets throwned
@@ -2134,8 +2135,8 @@ namespace DotNetHelper_Serializer.DataSource
             }
             if (CreateTablesIfNotExist)
                 CreateTableFromClass<T>(tableName);  // Create Table If Doesn't Exist 
-         
-            var first =  listPoco.Count() == 1 ? ExecuteNonQuery(tableName, listPoco.First(), action, overrideKeys) : ExecuteNonQueryOnList(tableName, listPoco, action, type);
+
+            var first = listPoco.Count() == 1 ? ExecuteNonQuery(tableName, listPoco.First(), action, overrideKeys) : ExecuteNonQueryOnList(tableName, listPoco, action, type);
 
             return first;
 
@@ -2185,7 +2186,7 @@ namespace DotNetHelper_Serializer.DataSource
                         default:
                             throw new ArgumentOutOfRangeException(nameof(type), type, null);
                     }
-                    return ExecuteNonQuery(tableName, poco, action,overrideKeys);
+                    return ExecuteNonQuery(tableName, poco, action, overrideKeys);
                 }
                 else
                 {
@@ -2213,7 +2214,7 @@ namespace DotNetHelper_Serializer.DataSource
 
             if (CreateTablesIfNotExist)
                 if (!CreateTableFromClass<T>(tableName)) ErrorHandling(new Exception($"Failed To Create Table {tableName}"));  // Create Table If Doesn't Exist 
-            return ExecuteNonQuery(tableName, poco, action,overrideKeys);
+            return ExecuteNonQuery(tableName, poco, action, overrideKeys);
         }
 
 
@@ -2323,7 +2324,7 @@ namespace DotNetHelper_Serializer.DataSource
 
             if (CreateTablesIfNotExist)
                 if (!CreateTableFromClass<T>(tableName)) ErrorHandling(new Exception($"Failed To Create Table {tableName}"));  // Create Table If Doesn't Exist 
-           
+
             if (DBTYPE == DataBaseType.Sqlite)
             {
                 // TODO :: DBConnection THIS WILL ONLY WORK INTEGERS 
@@ -2331,12 +2332,12 @@ namespace DotNetHelper_Serializer.DataSource
                 var identityFields = ExtFastMember.GetAdvanceMembers(poco).First(m => m.SqlCustomAttritube.PrimaryKey == true && m.SqlCustomAttritube.Ignore != true &&
                     m.SqlTableAttritube == null);
 
-                var t = ExecuteNonQuery<T>(sharedConnection,tableName, poco, action);
-                
+                var t = ExecuteNonQuery<T>(sharedConnection, tableName, poco, action);
+
 
                 var sql = $"SELECT last_insert_rowid();";
-                var value = ExecuteManualQuery(sharedConnection,sql).MapToList<string>().First();
-                ExtFastMember.SetMemberValue(poco,identityFields.FastMember.Name,value);
+                var value = ExecuteManualQuery(sharedConnection, sql).MapToList<string>().First();
+                ExtFastMember.SetMemberValue(poco, identityFields.FastMember.Name, value);
                 return poco;
             }
             else
@@ -2344,41 +2345,41 @@ namespace DotNetHelper_Serializer.DataSource
                 var t = ExecuteNonQuery<T>(tableName, poco, action);
                 return t;
             }
-         
+
         }
 
 
-        public void BulkInsertDataTable(DataTable table, SqlBulkCopyOptions options,string destinationTableName = null,Action<SqlRowsCopiedEventArgs> callback = null)
+        public void BulkInsertDataTable(DataTable table, SqlBulkCopyOptions options, string destinationTableName = null, Action<SqlRowsCopiedEventArgs> callback = null)
         {
 
-            if (table != null && table.Rows.Count > 0) 
-            try
-            {
-                 using (var bulkCopy = new SqlBulkCopy(BuildConnectionString(), options))
-                 {                     
-                     bulkCopy.BatchSize = (int) table.Rows.Count;
-                     bulkCopy.DestinationTableName = destinationTableName ?? table.TableName;
-                     bulkCopy.ColumnMappings.Clear();
-                     foreach (var column in table.Columns)
-                     {
-                         bulkCopy.ColumnMappings.Add(column.ToString(), column.ToString());
-                     }
-                     bulkCopy.SqlRowsCopied += delegate(object sender, SqlRowsCopiedEventArgs args)
-                     {                          
-                         callback?.Invoke(args);
-                     };
+            if (table != null && table.Rows.Count > 0)
+                try
+                {
+                    using (var bulkCopy = new SqlBulkCopy(BuildConnectionString(), options))
+                    {
+                        bulkCopy.BatchSize = (int)table.Rows.Count;
+                        bulkCopy.DestinationTableName = destinationTableName ?? table.TableName;
+                        bulkCopy.ColumnMappings.Clear();
+                        foreach (var column in table.Columns)
+                        {
+                            bulkCopy.ColumnMappings.Add(column.ToString(), column.ToString());
+                        }
+                        bulkCopy.SqlRowsCopied += delegate (object sender, SqlRowsCopiedEventArgs args)
+                        {
+                            callback?.Invoke(args);
+                        };
 #if NETFRAMEWORK
                         bulkCopy.WriteToServer(table);
 #else
-                  
+
                         bulkCopy.WriteToServer(table.CreateDataReader());
 #endif
                     }
                 }
-            catch (Exception e)
-            {
-                throw ErrorHandling(e);
-            }
+                catch (Exception e)
+                {
+                    throw ErrorHandling(e);
+                }
 
         }
 
@@ -2436,7 +2437,7 @@ namespace DotNetHelper_Serializer.DataSource
 
             if (dataReader.IsClosed)
             {
-              //  Logger?.Log("Couldn't Dump Table To File Beacuse Its Has No Records");
+                //  Logger?.Log("Couldn't Dump Table To File Beacuse Its Has No Records");
                 return false;
             }
 
@@ -2528,7 +2529,7 @@ namespace DotNetHelper_Serializer.DataSource
                         }
                         else
                         {
-                           // Logger?.Log("break");
+                            // Logger?.Log("break");
                         }
                     }
                     streamWriter.Write(" ) VALUES (");
@@ -2559,12 +2560,12 @@ namespace DotNetHelper_Serializer.DataSource
         {
             if (!TableExist(tableName))
             {
-    
+
             }
             var list = ExecuteStoredProcedure("sp_columns", new List<DbParameter>() { GetNewParameter("@table_name", tableName) }).MapToList<TableDefinition>(JsonSerializer, XmlSerializer, CsvSerializer);
             if (!list.Any())
             {
-           
+
                 return null;
             }
             var sb = new StringBuilder();
@@ -2610,7 +2611,7 @@ namespace DotNetHelper_Serializer.DataSource
         {
             if (string.IsNullOrEmpty(query))
             {
-               // Logger?.Log("Couldn't Convert Query To C# Class Because The Query Was Invalid");
+                // Logger?.Log("Couldn't Convert Query To C# Class Because The Query Was Invalid");
                 return null;
             }
             var reader = ExecuteManualQuery(query);
@@ -2702,7 +2703,7 @@ namespace DotNetHelper_Serializer.DataSource
                 return typeof(double);
             }
 
-          //  Logger?.Log($".Net Doesn't Support The Database Type {type} So I Couldn't Convert It");
+            //  Logger?.Log($".Net Doesn't Support The Database Type {type} So I Couldn't Convert It");
             return null;
 
         }
@@ -2721,7 +2722,7 @@ namespace DotNetHelper_Serializer.DataSource
             Properties?.Schemas?.Clear();
         }
 
-    
+
     }
 
 }

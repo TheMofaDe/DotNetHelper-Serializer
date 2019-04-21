@@ -52,7 +52,7 @@ namespace DotNetHelper_Contracts.Xml
             return GetDefaultConstructor(type) != null;
         }
 
-       
+
 
         public static bool IsNullable(this Type type)
         {

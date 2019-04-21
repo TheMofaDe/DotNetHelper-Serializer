@@ -170,7 +170,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             catch (Exception)
             {
-              
+
                 return result;
             }
 
@@ -212,7 +212,7 @@ namespace DotNetHelper_Serializer.DataSource
             }
             writer.Flush();
 
-            
+
         }
         /// <summary>
         /// Serializes to XML writer.
@@ -249,7 +249,7 @@ namespace DotNetHelper_Serializer.DataSource
             var canSerialize = CanSerialize(valueType, true);
             var writer = XmlWriter.Create(output, Settings.GetWriterSettings());
             SerializeToXmlWriter(writer, valueType, value);
-          
+
         }
         /// <summary>
         /// Serializes to text writer.
@@ -263,7 +263,7 @@ namespace DotNetHelper_Serializer.DataSource
             SerializeToTextWriter(output, value.GetType(), value);
         }
 
-  
+
 
         /// <summary>
         /// Serializes to json.
@@ -551,14 +551,14 @@ namespace DotNetHelper_Serializer.DataSource
             CanDeserialize(typeof(T), true);
             var a = new FileObject(fullFilePath);
             var data = DeserializeFromStream(a.ReadFileToStream(), typeof(List<T>));
-            return (IEnumerable<T>) data;
-        //  var data2 = DeserializeFromFile(typeof(T), fullFilePath);
-        //    var data3 = DeserializeFromFile(typeof(List<T>), fullFilePath);
+            return (IEnumerable<T>)data;
+            //  var data2 = DeserializeFromFile(typeof(T), fullFilePath);
+            //    var data3 = DeserializeFromFile(typeof(List<T>), fullFilePath);
 
 
-           
 
-           // return data as IEnumerable<T>;
+
+            // return data as IEnumerable<T>;
             //var t = typeof(T);
             //if(t.IsInterface)
             //    t = t.GetType();
@@ -690,15 +690,15 @@ namespace DotNetHelper_Serializer.DataSource
             var props = (IDictionary<string, object>)dyn;
 
             var sb = new StringBuilder();
-      
-                className = string.IsNullOrEmpty(className) ? "DynamicClass" : className;
-                sb.AppendLine($"public class {className} {{ ");
-                for (var i = 0; i < props.Count; i++)
-                {
-                    sb.AppendLine($"public {props.Values.ToList()[i].GetType().Name} {props.Keys.ToList()[i]} {{ get; set; }} ");
-                }
-                sb.AppendLine($"}}");
-          
+
+            className = string.IsNullOrEmpty(className) ? "DynamicClass" : className;
+            sb.AppendLine($"public class {className} {{ ");
+            for (var i = 0; i < props.Count; i++)
+            {
+                sb.AppendLine($"public {props.Values.ToList()[i].GetType().Name} {props.Keys.ToList()[i]} {{ get; set; }} ");
+            }
+            sb.AppendLine($"}}");
+
             return sb.ToString();
         }
 

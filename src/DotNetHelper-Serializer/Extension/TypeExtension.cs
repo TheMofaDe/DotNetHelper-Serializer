@@ -26,10 +26,10 @@ namespace DotNetHelper_Serializer.Extension
     {
 
 
-     //   public static IList<T> ToDummyList<T>(this T a , int count)
-     //   {
-     //      return  Builder<T>.CreateListOfSize(count).All().Build();
-     //   }
+        //   public static IList<T> ToDummyList<T>(this T a , int count)
+        //   {
+        //      return  Builder<T>.CreateListOfSize(count).All().Build();
+        //   }
 
         // Shamelessly stolen from StackOverflow titled:
         // Fast creation of objects instead of Activator.CreateInstance(type)
@@ -37,7 +37,7 @@ namespace DotNetHelper_Serializer.Extension
         public static class New<T>
         {
             public static readonly Func<T> Instance = Creator();
-          
+
 
             private static Func<T> Creator()
             {
@@ -57,7 +57,7 @@ namespace DotNetHelper_Serializer.Extension
                     //      return Expression.Lambda<Func<T>>(Expression.Constant(oh.Unwrap())).Compile();
 
                     var c = typeof(T).GetTypeInfo().DeclaredConstructors.Single(ci => ci.GetParameters().Length == 0);
-                    if (Type.EmptyTypes != null) return (Func<T>) c.Invoke(Type.EmptyTypes);
+                    if (Type.EmptyTypes != null) return (Func<T>)c.Invoke(Type.EmptyTypes);
 
                     return Activator.CreateInstance<Func<T>>();
 
@@ -66,9 +66,9 @@ namespace DotNetHelper_Serializer.Extension
                 }
                 catch (Exception)
                 {
-               
-                    
-                    return () => (T) FormatterServices.GetUninitializedObject(t);
+
+
+                    return () => (T)FormatterServices.GetUninitializedObject(t);
                 }
 
 
@@ -110,14 +110,14 @@ namespace DotNetHelper_Serializer.Extension
             }
             catch (Exception)
             {
-           
+
                 return () => (object)FormatterServices.GetUninitializedObject(t);
             }
         }
 
         public static bool HasDefaultConstructor(this Type t) => t.IsValueType ||
                                                                  t.GetConstructor(Type.EmptyTypes) != null;
-      
+
 
 
         //..........................................................................................................................................................//
@@ -129,7 +129,7 @@ namespace DotNetHelper_Serializer.Extension
 
         public static void OnProgressChange<T>(this IProgress<T> progress, Action<T> action, T value)
         {
-                action?.Invoke(value);
+            action?.Invoke(value);
         }
 
 
@@ -147,7 +147,7 @@ namespace DotNetHelper_Serializer.Extension
         /// </summary>
         /// <param name="type"></param>
         /// <returns></returns>
-        public static Tuple<bool,Type> IsNullable(this Type type)
+        public static Tuple<bool, Type> IsNullable(this Type type)
         {
             if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof(Nullable<>))
             {
@@ -161,7 +161,7 @@ namespace DotNetHelper_Serializer.Extension
         public static bool IsCSharpClass(this Type type)
         {
 
-            return    type != typeof(DateTime)
+            return type != typeof(DateTime)
                    && type != typeof(DateTimeOffset)
                    && type != typeof(string)
                    && type != typeof(bool)
@@ -180,7 +180,7 @@ namespace DotNetHelper_Serializer.Extension
                    && type != typeof(ushort)
                    && type != typeof(uint)
                    ;
-            
+
 
         }
 
@@ -196,7 +196,7 @@ namespace DotNetHelper_Serializer.Extension
             return list;
         }
 
-       
+
 
 
         public static List<T> EnumToList<T>()
@@ -329,9 +329,9 @@ namespace DotNetHelper_Serializer.Extension
         }
 
 
-    
 
-    private static readonly Dictionary<Type, string> ShortNames = new Dictionary<Type, string>
+
+        private static readonly Dictionary<Type, string> ShortNames = new Dictionary<Type, string>
         {
             {typeof(string), "String" },
             {typeof(byte), "Byte" },

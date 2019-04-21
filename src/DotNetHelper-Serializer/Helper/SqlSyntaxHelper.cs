@@ -131,7 +131,7 @@ namespace DotNetHelper_Serializer.Helper
                 case DataBaseType.Oledb:
                     return sqlserver.GetValueOrDefault(type, string.Empty);
                 case DataBaseType.Access95:
-         
+
                     sqlserver.AddOrUpdate(typeof(DateTime), "#");
                     sqlserver.AddOrUpdate(typeof(DateTimeOffset), "#");
                     return sqlserver.GetValueOrDefault(type, string.Empty);
@@ -168,7 +168,7 @@ namespace DotNetHelper_Serializer.Helper
 
 
 
-        public string BuildIfExistStatement(string selectStatement,string onTrueSql,string onFalseSql)
+        public string BuildIfExistStatement(string selectStatement, string onTrueSql, string onFalseSql)
         {
             switch (DataBaseType)
             {
@@ -197,7 +197,7 @@ namespace DotNetHelper_Serializer.Helper
 
 
 
-   
+
 
     }
 

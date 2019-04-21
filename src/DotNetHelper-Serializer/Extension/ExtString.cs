@@ -8,7 +8,7 @@ using Newtonsoft.Json.Linq;
 
 namespace DotNetHelper_Serializer.Extension
 {
-   public static class ExtString
+    public static class ExtString
     {
         /// <summary>
         /// Maps Json to a list of T 
@@ -37,8 +37,8 @@ namespace DotNetHelper_Serializer.Extension
 
                                 if (jToken[m.Member.Name] == null)
                                 {
-                                    if(m.SqlCustomAttritube.AutoIncrementBy == null && m.SqlCustomAttritube.StartIncrementAt == null && m.SqlCustomAttritube.TSQLDefaultValue == null) // IDENTITY SHOULDN'T MATTER IF THEY EXIST BECAUSE THE DATABASE CREATES THEM
-                                    throw new InvalidDataException($"The Field {m.Member.Name} Is Missing");
+                                    if (m.SqlCustomAttritube.AutoIncrementBy == null && m.SqlCustomAttritube.StartIncrementAt == null && m.SqlCustomAttritube.TSQLDefaultValue == null) // IDENTITY SHOULDN'T MATTER IF THEY EXIST BECAUSE THE DATABASE CREATES THEM
+                                        throw new InvalidDataException($"The Field {m.Member.Name} Is Missing");
                                 }
 
                             });
@@ -60,7 +60,7 @@ namespace DotNetHelper_Serializer.Extension
                         {
                             if (token[m.Member.Name] == null)
                             {
-                                if (m.SqlCustomAttritube.AutoIncrementBy == null && m.SqlCustomAttritube.StartIncrementAt == null && m.SqlCustomAttritube.TSQLDefaultValue == null ) // IDENTITY SHOULDN'T MATTER IF THEY EXIST BECAUSE THE DATABASE CREATES THEM
+                                if (m.SqlCustomAttritube.AutoIncrementBy == null && m.SqlCustomAttritube.StartIncrementAt == null && m.SqlCustomAttritube.TSQLDefaultValue == null) // IDENTITY SHOULDN'T MATTER IF THEY EXIST BECAUSE THE DATABASE CREATES THEM
                                     throw new InvalidDataException($"The Field {m.Member.Name} Is Missing");
                             }
 

@@ -14,9 +14,9 @@ namespace DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
         }
 
         public static TBuilder SetProperty<TBuilder>(
-            this TBuilder builder, 
-            string propertyName, 
-            XmlName name = null, 
+            this TBuilder builder,
+            string propertyName,
+            XmlName name = null,
             XmlMappingType mappingType = XmlMappingType.Element)
             where TBuilder : XmlObjectContractBuilder
         {
@@ -24,8 +24,8 @@ namespace DotNetHelper_Serializer.DataSource.Xml.Contracts.Builders
         }
 
         public static TBuilder SetProperty<TBuilder>(
-            this TBuilder builder, 
-            string propertyName, 
+            this TBuilder builder,
+            string propertyName,
             Action<XmlPropertyBuilder> build)
             where TBuilder : XmlObjectContractBuilder
         {

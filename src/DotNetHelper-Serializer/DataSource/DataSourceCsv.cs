@@ -70,7 +70,7 @@ namespace DotNetHelper_Serializer.DataSource
                     using (var csv = new CsvWriter(sw, Configuration)) //new StreamWriter(stream, Encoding), Configuration))
                     {
                         csv.WriteRecords(p);
-                       // csv.NextRecord();
+                        // csv.NextRecord();
                     }
                 }
                 return;
@@ -93,7 +93,7 @@ namespace DotNetHelper_Serializer.DataSource
                 {
                     PreCheck(csv, type);
                     csv.WriteRecord(obj);
-                  //  csv.NextRecord();
+                    //  csv.NextRecord();
                 }
             }
         }
@@ -160,7 +160,7 @@ namespace DotNetHelper_Serializer.DataSource
             {
                 if (file.Exist == true) return;
             }
-       //     file.PrepareForStreamUse(option);
+            //     file.PrepareForStreamUse(option);
             var stream = file.GetFileStream(option);
 
             SerializeToStream(obj, stream);
@@ -174,14 +174,14 @@ namespace DotNetHelper_Serializer.DataSource
             {
                 if (file.Exist == true) return;
             }
-          //  file.PrepareForStreamUse(option);
+            //  file.PrepareForStreamUse(option);
             var stream = file.GetFileStream(option);
             using (var sw = new StreamWriter(stream, Encoding))
             {
                 using (var csv = new CsvWriter(sw, Configuration)) //new StreamWriter(stream, Encoding), Configuration))
                 {
                     csv.WriteRecord(obj);
-                  //  csv.NextRecord();
+                    //  csv.NextRecord();
                 }
             }
         }
@@ -200,7 +200,7 @@ namespace DotNetHelper_Serializer.DataSource
                 {
                     PreCheck(csv, obj.GetType());
                     csv.WriteRecord(obj);
-                 //   csv.NextRecord();
+                    //   csv.NextRecord();
                 }
             }
             return sb.ToString();
@@ -222,7 +222,7 @@ namespace DotNetHelper_Serializer.DataSource
                 {
                     PreCheck(csv, typeof(T));
                     csv.WriteRecord<T>(obj);
-                  //  csv.NextRecord();
+                    //  csv.NextRecord();
                 }
             }
             return sb.ToString();
@@ -273,7 +273,7 @@ namespace DotNetHelper_Serializer.DataSource
         {
             if (typeof(T).IsTypeIEnumerable())
             {
-             //   var realType = typeof(T).GetEnumerableItemType();
+                //   var realType = typeof(T).GetEnumerableItemType();
                 var list = DeserializeListFromFile(fullFilePath);
                 return list as T;
             }
@@ -288,16 +288,16 @@ namespace DotNetHelper_Serializer.DataSource
             if (file.Exist != true) throw new FileNotFoundException(fullFilePath);
             using (TextReader fileReader = file.GetStreamReader())
             {
-                using (var csv = new CsvReader(fileReader, Configuration,true))
+                using (var csv = new CsvReader(fileReader, Configuration, true))
                 {
-                    return csv.GetRecords<dynamic>().ToList(); 
+                    return csv.GetRecords<dynamic>().ToList();
                 }
             }
         }
 
         public IEnumerable<dynamic> DeserializeToList(string content)
         {
-           content.IsNullThrow(nameof(content));
+            content.IsNullThrow(nameof(content));
             using (TextReader fileReader = new StringReader(content))
             {
                 using (var csv = new CsvReader(fileReader, Configuration, true))

@@ -7,7 +7,7 @@ namespace DotNetHelper_Serializer.Extension
 {
     public static class ExtDictonary
     {
-  
+
 
 
 
@@ -38,10 +38,10 @@ namespace DotNetHelper_Serializer.Extension
         }
 
 
-        
 
-       
 
-       
+
+
+
     }
 }

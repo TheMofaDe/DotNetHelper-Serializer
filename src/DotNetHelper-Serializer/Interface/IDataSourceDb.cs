@@ -194,7 +194,7 @@ namespace DotNetHelper_Serializer.Interface
 
         bool RecordExist<T>(T obj, string tableName, Expression<Func<T, object>> overrideKey = null) where T : class;
 
-      
+
 
         /// <summary>
         /// Gets the specified table name.
@@ -480,8 +480,8 @@ namespace DotNetHelper_Serializer.Interface
         /// <returns>Type.</returns>
         Type DBTypeToDotNetType(string type);
 
-       
 
-    
+
+
     }
 }

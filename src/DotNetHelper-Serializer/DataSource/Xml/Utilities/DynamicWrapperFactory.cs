@@ -22,9 +22,9 @@ namespace DotNetHelper_Serializer.DataSource.Xml.Utilities
                 typeof(object),
                 Type.EmptyTypes,
                 Module)
-                {
-                    InitLocals = true
-                };
+            {
+                InitLocals = true
+            };
 
             var generator = dynamicMethod.GetILGenerator();
 
@@ -40,14 +40,14 @@ namespace DotNetHelper_Serializer.DataSource.Xml.Utilities
 
                 if (constructor == null)
                 {
-                  //  throw new ArgumentException($"Type \"{valueType}\" hasn't default constructor.");
+                    //  throw new ArgumentException($"Type \"{valueType}\" hasn't default constructor.");
                 }
                 else
                 {
                     generator.Emit(OpCodes.Newobj, constructor);
                 }
 
-             
+
             }
 
             generator.Emit(OpCodes.Ret);

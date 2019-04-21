@@ -35,7 +35,7 @@ namespace DotNetHelper_Serializer.Model
                 if (Bucket.Count >= MaxBucketSize)
                 {
                     Bucket.Add(bucket);
-                    OnFullBucket(new FullQueryBucketEventArgs(Bucket) { });                  
+                    OnFullBucket(new FullQueryBucketEventArgs(Bucket) { });
                     Bucket.Clear();
                 }
                 else

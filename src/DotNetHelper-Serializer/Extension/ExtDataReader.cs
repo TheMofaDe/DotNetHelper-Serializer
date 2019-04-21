@@ -51,7 +51,7 @@ namespace DotNetHelper_Serializer.Extension
             var dataRows = new List<Dictionary<string, object>>();
             if (datareader == null || datareader.IsClosed)
             {
-              
+
                 return new List<Dictionary<string, object>>() { };
             }
 
@@ -135,7 +135,7 @@ namespace DotNetHelper_Serializer.Extension
                 });
         }
 
-  
+
 
 
         /// <summary>
@@ -150,11 +150,11 @@ namespace DotNetHelper_Serializer.Extension
 
             if (reader == null || reader.IsClosed)
             {
-              
+
                 return new List<T>() { };
             }
 
-          
+
 
             var accessor = TypeAccessor.Create(typeof(T), true);
 
@@ -208,7 +208,7 @@ namespace DotNetHelper_Serializer.Extension
         {
 
             if (reader == null || reader.IsClosed)
-            {  
+            {
                 return new List<object>() { };
             }
             var accessor = TypeAccessor.Create(mapToType, true);
@@ -279,7 +279,7 @@ namespace DotNetHelper_Serializer.Extension
                         }
                         try
                         {
-                            accessor[clonedPoco, p.Name] = value is DBNull ? null : value; 
+                            accessor[clonedPoco, p.Name] = value is DBNull ? null : value;
                         }
                         catch (Exception error)
                         {
@@ -344,7 +344,7 @@ namespace DotNetHelper_Serializer.Extension
                 }
                 else
                 {
-                    value = !type.IsEnum ? Convert.ChangeType(value, type, null) : Enum.Parse(type,value.ToString(),true);
+                    value = !type.IsEnum ? Convert.ChangeType(value, type, null) : Enum.Parse(type, value.ToString(), true);
                 }
             }
             try
@@ -354,7 +354,7 @@ namespace DotNetHelper_Serializer.Extension
             catch (Exception error)
             {
                 // this property may not be settable
-                     Console.WriteLine(error.Message);
+                Console.WriteLine(error.Message);
             }
         }
 

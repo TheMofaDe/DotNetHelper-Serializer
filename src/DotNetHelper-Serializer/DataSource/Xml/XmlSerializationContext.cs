@@ -131,7 +131,7 @@ namespace DotNetHelper_Serializer.DataSource.Xml
                 writer.WriteEndElement();
             }
         }
-        
+
         internal bool ReadValueType(XmlReader reader, ref Type valueType)
         {
             if (reader.AttributeCount > 0)
@@ -303,7 +303,7 @@ namespace DotNetHelper_Serializer.DataSource.Xml
                     throw new ArgumentOutOfRangeException();
             }
         }
-                
+
         private object Deserialize(XmlReader reader, Type valueType, XmlMember member)
         {
             if (reader == null)

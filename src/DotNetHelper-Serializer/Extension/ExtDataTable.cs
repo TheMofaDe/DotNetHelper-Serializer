@@ -3,7 +3,7 @@ using System.Linq;
 using FastMember;
 namespace DotNetHelper_Serializer.Extension
 {
-   public static class ExtDataTable
+    public static class ExtDataTable
     {
 
         /// <summary>
@@ -47,7 +47,7 @@ namespace DotNetHelper_Serializer.Extension
             table.Columns[columnName].SetOrdinal(position);
             return true;
         }
-       
+
 
 
 

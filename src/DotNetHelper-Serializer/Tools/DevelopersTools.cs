@@ -36,7 +36,7 @@ namespace DotNetHelper_Serializer.Tools
             }
             catch (Exception e)
             {
-           
+
                 reader.Close();
                 reader.Dispose();
                 throw e;
@@ -70,7 +70,7 @@ namespace DotNetHelper_Serializer.Tools
             }
             return sb.ToString();
         }
-    
+
 
 
 
@@ -113,7 +113,7 @@ namespace DotNetHelper_Serializer.Tools
                         {
                             if (advance.SqlCustomAttritube.AutoIncrementBy != null ||
                                 advance.SqlCustomAttritube.StartIncrementAt != null)
-                                str +=  $" IDENTITY({advance.SqlCustomAttritube.StartIncrementAt.GetValueOrDefault(1)},{advance.SqlCustomAttritube.AutoIncrementBy.GetValueOrDefault(1)})";
+                                str += $" IDENTITY({advance.SqlCustomAttritube.StartIncrementAt.GetValueOrDefault(1)},{advance.SqlCustomAttritube.AutoIncrementBy.GetValueOrDefault(1)})";
                         }
 
                         allowIdentity = false;
@@ -142,8 +142,8 @@ namespace DotNetHelper_Serializer.Tools
                         break;
                     case SqlColumnAttritubeMembers.TSQLDefaultValue:
 
-                        if(!string.IsNullOrEmpty(advance.SqlCustomAttritube.TSQLDefaultValue))
-                        str += ($" DEFAULT {advance.SqlCustomAttritube.TSQLDefaultValue} ");
+                        if (!string.IsNullOrEmpty(advance.SqlCustomAttritube.TSQLDefaultValue))
+                            str += ($" DEFAULT {advance.SqlCustomAttritube.TSQLDefaultValue} ");
                         break;
                     case SqlColumnAttritubeMembers.SetxRefTableType:
                         break;
@@ -515,7 +515,7 @@ namespace DotNetHelper_Serializer.Tools
 
 
 
-       
+
 
 
 

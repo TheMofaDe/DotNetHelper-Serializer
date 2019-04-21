@@ -55,14 +55,14 @@ namespace DotNetHelper_Serializer.Helper
 
         }
 
-//        Func<string, object, DbParameter> GetNewParameter
+        //        Func<string, object, DbParameter> GetNewParameter
         /// <summary>
         /// Builds the where clause.
         /// </summary>
         /// <param name="sqlBuilder">The SQL builder.</param>
         /// <param name="keyFields">The key fields.</param>
         /// <exception cref="YouSuckAtBeingADeveloperException">Can't Bulid Where Clause Or Perform Upsert And Update Statements Without Having At Least One Property That Inherits The SqlCustomAttritube & Have The PRIMARY KEY SET TO TRUE OR The Foreign Key Set Up</exception>
-        public List<DbParameter> BuildWhereClauseAndGeDbParameters(Func<string,object, DbParameter>  GetNewParameter, StringBuilder sqlBuilder, List<AdvanceMember> keyFields, bool throwOnNoAttributes)
+        public List<DbParameter> BuildWhereClauseAndGeDbParameters(Func<string, object, DbParameter> GetNewParameter, StringBuilder sqlBuilder, List<AdvanceMember> keyFields, bool throwOnNoAttributes)
         {
             var list = new List<DbParameter>() { };
             if (throwOnNoAttributes && !keyFields.Where(m => m.SqlCustomAttritube.PrimaryKey == true || !string.IsNullOrEmpty(m.SqlCustomAttritube.xRefTableName)).ToList().Any())
@@ -274,7 +274,7 @@ namespace DotNetHelper_Serializer.Helper
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <returns>List&lt;AdvanceMember&gt;.</returns>
-        public  List<AdvanceMember> GetAllNonIgnoreFields<T>() where T : class
+        public List<AdvanceMember> GetAllNonIgnoreFields<T>() where T : class
         {
             // Get the primary key fields - The properties in the class decorated with PrimaryKey attribute.
             var temp = ExtFastMember.GetAdvanceMembers<T>().Where(m => m.SqlCustomAttritube.Ignore != true && m.SqlTableAttritube == null).ToList();
@@ -362,7 +362,8 @@ namespace DotNetHelper_Serializer.Helper
             //    sqlBuilder.Append($" INSERTED.[{s}] ,");
             //});
             var members = ExtFastMember.GetAdvanceMembers<T>();
-            outputFields.ForEach(delegate (string s) {
+            outputFields.ForEach(delegate (string s)
+            {
                 sqlBuilder.Append($" INSERTED.[{members.FirstOrDefault(av => av.Member.Name == s)?.GetActualMemberName() ?? s}] ,");
             });
             if (!outputFields.IsNullOrEmpty())
@@ -459,7 +460,8 @@ namespace DotNetHelper_Serializer.Helper
             if (DatabaseType != DataBaseType.Sqlite) // SQLITE DOESN'T SUPPORT THIS SYNTAX
             {
                 sqlBuilder.Append($" OUTPUT ");
-                outputFields.ForEach(delegate (string s) {
+                outputFields.ForEach(delegate (string s)
+                {
                     sqlBuilder.Append($" INSERTED.[{members.FirstOrDefault(av => av.Member.Name == s)?.GetActualMemberName() ?? s}] ,");
                 });
             }
@@ -732,7 +734,7 @@ namespace DotNetHelper_Serializer.Helper
         }
 
 
-       
+
 
 
 
@@ -744,7 +746,7 @@ namespace DotNetHelper_Serializer.Helper
         /// <param name="sqlSyntax"></param>
         /// <returns>item 1 is the actual columns being selected
         ///          item 2 is the split on column</returns>
-        internal Tuple<string,string> BulidSelectColumnStatement(char tableAlias,List<AdvanceMember> advanceMembers, SqlSyntaxHelper sqlSyntax)
+        internal Tuple<string, string> BulidSelectColumnStatement(char tableAlias, List<AdvanceMember> advanceMembers, SqlSyntaxHelper sqlSyntax)
         {
             var sb = new StringBuilder();
             var isFirstTime = true;
@@ -759,7 +761,7 @@ namespace DotNetHelper_Serializer.Helper
                     isFirstTime = false;
                 }
             });
-            return new Tuple<string, string>(sb.ToString(),splitOn); 
+            return new Tuple<string, string>(sb.ToString(), splitOn);
         }
 
         internal void BuildJoinOnStatement(List<AdvanceMember> members, char mainTableAlias, List<AdvanceMember> members1, char secondTableAlias, StringBuilder sqlFromBuilder)
@@ -768,27 +770,27 @@ namespace DotNetHelper_Serializer.Helper
             members.Where(a => !a.SqlCustomAttritube.MappingIds.IsNullOrEmpty() && a.SqlTableAttritube == null).ToList().ForEach(delegate (AdvanceMember mainTableColumn) // LOOP THRU MAIN TABLE PROPERTIES 
             {
 
-                members1.Where(a => !a.SqlCustomAttritube.MappingIds.IsNullOrEmpty()).ToList().ForEach(delegate(AdvanceMember secondTableColumn)
+                members1.Where(a => !a.SqlCustomAttritube.MappingIds.IsNullOrEmpty()).ToList().ForEach(delegate (AdvanceMember secondTableColumn)
                 {
 
                     if (mainTableColumn.SqlCustomAttritube.MappingIds.ContainAnySameItem(secondTableColumn.SqlCustomAttritube.MappingIds))
                     {
-                      
-                      
-                            sqlFromBuilder.Append($" {mainTableAlias}.{mainTableColumn.Member.Name} " +
-                                                  $"= {secondTableAlias}.{secondTableColumn.Member.Name} ");
-                            sqlFromBuilder.Append(safeKeyword);
-                        
-                       // var iHateThis = sqlFromBuilder.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
-                       // sqlFromBuilder.Clear();
-                       //  sqlFromBuilder.Append(sqlFromBuilder.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal));
-                       // sqlFromBuilder.Clear();
+
+
+                        sqlFromBuilder.Append($" {mainTableAlias}.{mainTableColumn.Member.Name} " +
+                                              $"= {secondTableAlias}.{secondTableColumn.Member.Name} ");
+                        sqlFromBuilder.Append(safeKeyword);
+
+                        // var iHateThis = sqlFromBuilder.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
+                        // sqlFromBuilder.Clear();
+                        //  sqlFromBuilder.Append(sqlFromBuilder.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal));
+                        // sqlFromBuilder.Clear();
                     }
                 });
- 
+
             });
 
-                sqlFromBuilder = sqlFromBuilder.ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
+            sqlFromBuilder = sqlFromBuilder.ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
 
         }
 
@@ -814,10 +816,10 @@ namespace DotNetHelper_Serializer.Helper
                     currentAlias = Alphabet.GetNextLetter(currentAlias);
                     lookup.Add(m.FastMember.Type, currentAlias);
                 }
-               
+
             }
 
-            
+
 
             void getTableMembers(Type type)
             {
@@ -828,8 +830,8 @@ namespace DotNetHelper_Serializer.Helper
                 });
             }
 
-            
-      
+
+
             getTableMembers(typeof(T));
 
 

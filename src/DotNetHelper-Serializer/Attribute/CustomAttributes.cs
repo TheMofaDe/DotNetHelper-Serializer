@@ -45,7 +45,7 @@ namespace DotNetHelper_Serializer.Attribute
         /// Gets or sets a value indicating whether [x reference on delete cascade].
         /// </summary>
         /// <value><c>null</c> if [x reference on delete cascade] contains no value, <c>true</c> if [x reference on delete cascade]; otherwise, <c>false</c>.</value>
-        public SQLJoinType JoinType { get; set; } 
+        public SQLJoinType JoinType { get; set; }
         /// <summary>
         /// Gets or sets a value indicating whether [setx reference on delete cascade].
         /// </summary>
@@ -57,7 +57,7 @@ namespace DotNetHelper_Serializer.Attribute
             set => JoinType = value;
         }
 
-        
+
 
     }
 
@@ -68,7 +68,7 @@ namespace DotNetHelper_Serializer.Attribute
     public enum SqlTableAttritubeMembers
     {
 
-          JoinType
+        JoinType
         , TableName
         , XReferenceTable
     }
@@ -134,7 +134,7 @@ namespace DotNetHelper_Serializer.Attribute
         /// Gets or sets the start increment at.
         /// </summary>
         /// <value>The start increment at.</value>
-        public int? StartIncrementAt { get; set; } 
+        public int? StartIncrementAt { get; set; }
         /// <summary>
         /// Gets or sets the set start increment at.
         /// </summary>
@@ -159,7 +159,7 @@ namespace DotNetHelper_Serializer.Attribute
         public bool SetUtcDateTime
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
-             set => UtcDateTime = value;
+            set => UtcDateTime = value;
         }
         /// <summary>
         /// Gets or sets a value indicating whether [primary key].
@@ -174,7 +174,7 @@ namespace DotNetHelper_Serializer.Attribute
         public bool SetPrimaryKey
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
-             set => PrimaryKey = value;
+            set => PrimaryKey = value;
         }
 
 
@@ -191,7 +191,7 @@ namespace DotNetHelper_Serializer.Attribute
         public Type SetxRefTableType
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
-             set => xRefTableType = value;
+            set => xRefTableType = value;
         }
 
 
@@ -236,17 +236,17 @@ namespace DotNetHelper_Serializer.Attribute
         public string xRefJoinOnColumn { get; set; } = null;
 
 
-                               /// <summary>
-                               /// Gets or sets a value indicating whether [x reference on update cascade].
-                               /// </summary>
-                               /// <value><c>null</c> if [x reference on update cascade] contains no value, <c>true</c> if [x reference on update cascade]; otherwise, <c>false</c>.</value>
+        /// <summary>
+        /// Gets or sets a value indicating whether [x reference on update cascade].
+        /// </summary>
+        /// <value><c>null</c> if [x reference on update cascade] contains no value, <c>true</c> if [x reference on update cascade]; otherwise, <c>false</c>.</value>
         public bool? xRefOnUpdateCascade { get; set; } = null;
 
-                               /// <summary>
-                               /// Gets or sets a value indicating whether [setx reference on update cascade].
-                               /// </summary>
-                               /// <value><c>true</c> if [setx reference on update cascade]; otherwise, <c>false</c>.</value>
-                               /// <exception cref="Exception">Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial</exception>
+        /// <summary>
+        /// Gets or sets a value indicating whether [setx reference on update cascade].
+        /// </summary>
+        /// <value><c>true</c> if [setx reference on update cascade]; otherwise, <c>false</c>.</value>
+        /// <exception cref="Exception">Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial</exception>
         public bool SetxRefOnUpdateCascade
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
@@ -275,7 +275,7 @@ namespace DotNetHelper_Serializer.Attribute
         /// Gets or sets a value indicating whether this <see cref="SqlColumnAttritube"/> is nullable.
         /// </summary>
         /// <value><c>null</c> if [nullable] contains no value, <c>true</c> if [nullable]; otherwise, <c>false</c>.</value>
-        public bool? Nullable { get;  set; } = null;
+        public bool? Nullable { get; set; } = null;
         /// <summary>
         /// Gets or sets a value indicating whether [set nullable].
         /// </summary>
@@ -284,7 +284,7 @@ namespace DotNetHelper_Serializer.Attribute
         public bool SetNullable
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
-             set => Nullable = value;
+            set => Nullable = value;
         }
         /// <summary>
         /// Gets or sets a value indicating whether [API identifier].
@@ -299,7 +299,7 @@ namespace DotNetHelper_Serializer.Attribute
         public bool SetApiId
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
-             set => ApiId = value;
+            set => ApiId = value;
         }
         /// <summary>
         /// When A Record Is Be Inserted Or Updated This Column Value Will Be DateTime.Now
@@ -314,14 +314,14 @@ namespace DotNetHelper_Serializer.Attribute
         public bool SetSyncTime
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
-             set => SyncTime = value;
+            set => SyncTime = value;
         }
 
         /// <summary>
         /// If true property will be use when the class is being used by a DATASOURCE Object
         /// </summary>
         /// <value><c>null</c> if [ignore] contains no value, <c>true</c> if [ignore]; otherwise, <c>false</c>.</value>
-        public bool? Ignore { get;   set; } = null;
+        public bool? Ignore { get; set; } = null;
         /// <summary>
         /// Gets or sets a value indicating whether [set ignore].
         /// </summary>
@@ -330,14 +330,14 @@ namespace DotNetHelper_Serializer.Attribute
         public bool SetIgnore
         {
             get => throw new Exception("Nooo...  Your Using SqlColumnAttritube wrong do not try to get from the Set Property use the orignial ");
-             set => Ignore = value;
+            set => Ignore = value;
         }
 
         /// <summary>
         /// Gets or sets the default value.
         /// </summary>
         /// <value>The default value.</value>
-        public object DefaultValue { get;  set; }
+        public object DefaultValue { get; set; }
 
         /// <summary>
         /// Gets or sets the default value THIS IS ONLY WHEN THIS LIBRARY IS CREATING A TABLE SCRIPT 
@@ -349,7 +349,7 @@ namespace DotNetHelper_Serializer.Attribute
         /// If true property will be use when the class is being used by a DATASOURCE Object
         /// </summary>
         /// <value>The map to.</value>
-        public string MapTo { get;  set; } = null;
+        public string MapTo { get; set; } = null;
 
 
 
@@ -365,7 +365,7 @@ namespace DotNetHelper_Serializer.Attribute
 
 
 
-    
+
 
 
     /// <summary>
@@ -377,8 +377,8 @@ namespace DotNetHelper_Serializer.Attribute
         /// The set maximum column size
         /// </summary>
         SetMaxColumnSize
-       
-        ,SetStartIncrementAt
+
+        , SetStartIncrementAt
         /// <summary>
         /// The set automatic increment by
         /// </summary>
@@ -411,7 +411,7 @@ namespace DotNetHelper_Serializer.Attribute
         /// The map to
         /// </summary>
         , MapTo
-       
+
         , MappingIds
         /// <summary>
         /// The set default value

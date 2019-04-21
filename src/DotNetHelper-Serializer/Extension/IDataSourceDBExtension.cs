@@ -23,7 +23,7 @@ namespace DotNetHelper_Serializer.Extension
         public static List<DbParameter> BuildDbParameterList<T>(this IDataSourceDb database, T poco) where T : class
         {
             DataSourceDb db = database is DataSourceDb sourceDb ? sourceDb : new DataSourceDb(database.DBTYPE);
-           
+
             var list = new List<DbParameter>() { };
 
             ExtFastMember.GetAdvanceMembers(poco).ForEach(delegate (AdvanceMember p)
