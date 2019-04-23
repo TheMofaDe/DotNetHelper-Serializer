@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SqlSyntaxHelper
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DataBaseType
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetTableOpenChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetTableClosedChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: RemoveBracketsChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
@@ -232,7 +232,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetEnclosedValueChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
@@ -267,7 +267,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: BuildIfExistStatement
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs

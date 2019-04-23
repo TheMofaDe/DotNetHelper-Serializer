@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlMappingType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Element
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Attribute
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
@@ -115,7 +115,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: InnerText
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMappingType.cs

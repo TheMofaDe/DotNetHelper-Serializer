@@ -35,7 +35,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SqlColumnAttritubeMembers
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetMaxColumnSize
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetStartIncrementAt
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetAutoIncrementBy
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetUtcDateTime
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -200,7 +200,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetPrimaryKey
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -232,7 +232,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetNullable
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -264,7 +264,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetApiId
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetSyncTime
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -328,7 +328,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetIgnore
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -360,7 +360,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MapTo
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -392,7 +392,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MappingIds
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -424,7 +424,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DefaultValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -456,7 +456,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TSQLDefaultValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -488,7 +488,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetxRefTableType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -520,7 +520,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: xRefTableSchema
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -552,7 +552,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: xRefTableName
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -584,7 +584,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: xRefJoinOnColumn
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -616,7 +616,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetxRefOnUpdateCascade
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -648,7 +648,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetxRefOnDeleteCascade
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -680,7 +680,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializableType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs

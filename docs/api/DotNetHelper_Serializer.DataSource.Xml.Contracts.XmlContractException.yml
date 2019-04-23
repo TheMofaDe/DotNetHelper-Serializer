@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractException.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlContractException
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractException.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractException.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractException.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractException.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractException.cs

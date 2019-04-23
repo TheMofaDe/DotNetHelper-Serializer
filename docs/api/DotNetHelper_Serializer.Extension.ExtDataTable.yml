@@ -18,11 +18,11 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ExtDataTable
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 6
+    startLine: 5
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -61,11 +61,11 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetColumnsOrder
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 21
+    startLine: 14
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -110,11 +110,11 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetColumnPosition
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 47
+    startLine: 40
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -159,11 +159,11 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MapToType
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 73
+    startLine: 61
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension

@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DynamicMember
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Name
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Type
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanWrite
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanRead
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
@@ -206,7 +206,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetAttribute
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
@@ -243,7 +243,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsDefined
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs

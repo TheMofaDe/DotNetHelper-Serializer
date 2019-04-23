@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlByteArrayConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs
@@ -73,7 +73,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ChunkSize
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlByteArrayConverter.cs

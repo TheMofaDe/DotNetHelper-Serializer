@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TypeExtension
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -87,7 +87,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CreateDefaultConstructor
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -125,7 +125,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: HasDefaultConstructor
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: OnProgressChange
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -214,7 +214,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanHaveNullValue
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -260,7 +260,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsNullable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -301,7 +301,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsCSharpClass
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -341,7 +341,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToDefaultList
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -383,7 +383,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: EnumToList
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -422,7 +422,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CommonTypeDictionary
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -458,7 +458,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetDefaultValue
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -499,7 +499,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: UnwrapNullableType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -540,7 +540,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsNullableType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -581,7 +581,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsUnderlyingTypeNullable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -622,7 +622,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MakeNullable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -663,7 +663,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsInteger
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -704,7 +704,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsStruct
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -745,7 +745,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsInstantiable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -786,7 +786,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsTypeIEnumerable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -827,7 +827,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CopyObject
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -875,7 +875,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsBasicType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -916,7 +916,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsFinalType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -957,7 +957,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsActivable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -998,7 +998,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetDefaultConstructor
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -1039,7 +1039,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetEnumerableItemType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -1080,7 +1080,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetUnderlyingNullableType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -1121,7 +1121,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsGenericTypeOf
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -1164,7 +1164,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsGenericTypeOf
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -1210,7 +1210,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetShortName
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -1251,7 +1251,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetStaticMethod
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -1299,7 +1299,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetInstanceMethod
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs

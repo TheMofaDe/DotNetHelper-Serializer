@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlTypeContext
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Contract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
@@ -136,7 +136,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ReadConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: WriteConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
@@ -206,7 +206,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
@@ -241,7 +241,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs

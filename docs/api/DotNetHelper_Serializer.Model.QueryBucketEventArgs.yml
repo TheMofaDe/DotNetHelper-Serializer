@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: QueryBucketEventArgs
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: QueryBucket
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/Model/Database.cs

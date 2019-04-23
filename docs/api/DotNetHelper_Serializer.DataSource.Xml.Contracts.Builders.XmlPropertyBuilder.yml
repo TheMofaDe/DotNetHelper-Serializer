@@ -29,7 +29,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlPropertyBuilder
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -109,7 +109,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: PropertyInfo
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MappingType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: NullValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -249,7 +249,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DefaultValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -286,7 +286,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DefaultValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -323,7 +323,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Order
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -358,7 +358,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Item
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -395,7 +395,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsCollection
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -430,7 +430,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsRequired
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -465,7 +465,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -504,7 +504,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -547,7 +547,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
@@ -584,7 +584,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Build
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs

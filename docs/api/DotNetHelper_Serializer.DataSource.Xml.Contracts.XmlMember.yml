@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlMember
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ValueType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Name
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MappingType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TypeHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: NullValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -246,7 +246,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DefaultValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -281,7 +281,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DefaultValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -316,7 +316,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Item
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
@@ -351,7 +351,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: KnownTypes
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlMember.cs

@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ExtDataReader
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetBytes
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -115,7 +115,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToDictionary
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MapToDataTable
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MapToDataTable
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -258,7 +258,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: HasRows
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -299,7 +299,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: AddParameters
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -343,7 +343,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: AddParameters
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -387,7 +387,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MapToList
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
@@ -446,7 +446,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MapToList
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs

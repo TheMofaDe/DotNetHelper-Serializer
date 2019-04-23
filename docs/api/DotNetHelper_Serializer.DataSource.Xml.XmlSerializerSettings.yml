@@ -33,7 +33,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlSerializerSettings
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TypeHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -143,7 +143,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: NullValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -178,7 +178,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DefaultValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: OmitXmlDeclaration
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -248,7 +248,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Indent
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -283,7 +283,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IndentChars
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -318,7 +318,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TypeAttributeName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -353,7 +353,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: NullAttributeName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -388,7 +388,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Culture
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -423,7 +423,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TypeResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -458,7 +458,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ContractResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -493,7 +493,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Encoding
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -528,7 +528,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Namespaces
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -563,7 +563,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Converters
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -598,7 +598,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetWriterSettings
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -630,7 +630,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetReaderSettings
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
@@ -662,7 +662,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetTypeContext
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializerSettings.cs

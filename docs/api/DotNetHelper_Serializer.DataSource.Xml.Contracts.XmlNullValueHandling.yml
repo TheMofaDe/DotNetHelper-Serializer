@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlNullValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
@@ -50,7 +50,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Ignore
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
@@ -82,7 +82,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Include
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlNullValueHandling.cs

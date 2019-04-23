@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ICollectionProxy
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
@@ -50,7 +50,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Add
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
@@ -79,7 +79,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetResult
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/ICollectionProxy.cs

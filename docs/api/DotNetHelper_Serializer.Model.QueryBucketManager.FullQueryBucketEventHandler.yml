@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: FullQueryBucketEventHandler
     path: ../src/DotNetHelper-Serializer/Model/Database.cs

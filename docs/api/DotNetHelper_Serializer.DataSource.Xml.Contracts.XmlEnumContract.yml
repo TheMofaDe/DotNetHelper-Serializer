@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlEnumContract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
@@ -110,7 +110,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: UnderlyingType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Items
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
@@ -180,7 +180,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsFlag
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlEnumContract.cs

@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDecimalConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlDecimalConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDecimalConverter.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDecimalConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Parse
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDecimalConverter.cs
@@ -114,7 +114,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDecimalConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToString
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlDecimalConverter.cs

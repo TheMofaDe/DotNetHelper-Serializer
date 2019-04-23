@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: QueryBucket
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ConnectionStartTime
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ConnectionDisposeTime
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Query
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ReadableQuery
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -205,7 +205,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Server
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -240,7 +240,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DatabaseType
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -275,7 +275,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ExecutedSuccesfully
     path: ../src/DotNetHelper-Serializer/Model/Database.cs

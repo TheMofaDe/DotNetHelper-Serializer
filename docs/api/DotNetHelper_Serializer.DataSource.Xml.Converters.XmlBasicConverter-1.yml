@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlBasicConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
@@ -125,7 +125,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Parse
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToString
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlBasicConverter.cs

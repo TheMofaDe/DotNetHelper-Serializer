@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DataTypes
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs

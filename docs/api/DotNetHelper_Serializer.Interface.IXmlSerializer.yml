@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IXmlSerializer
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Settings
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanSerialize
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanDeserialize
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -198,7 +198,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToXmlWriter
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToXmlWriter
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -269,7 +269,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToTextWriter
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -302,7 +302,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToTextWriter
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -340,7 +340,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToJson
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -373,7 +373,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlStringToXDocument
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -404,7 +404,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlStringToXmlDocument
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -435,7 +435,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetXmlFromDocument
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
@@ -466,7 +466,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetXmlFromDocument
     path: ../src/DotNetHelper-Serializer/Interface/IXmlSerializer.cs

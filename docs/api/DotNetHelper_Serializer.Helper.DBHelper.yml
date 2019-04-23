@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DBHelper
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TypeToSqlTypeMap
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetQuotedValue
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetDbConnection
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetNewParameter
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -217,7 +217,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetDbCommand
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -260,7 +260,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetDbTransaction
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -299,7 +299,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: BuildConnectionString
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -339,7 +339,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: BulkInsert
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -387,7 +387,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ExecuteNonQueryOnList
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs
@@ -446,7 +446,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DBHelper.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: LogConnectionTime
     path: ../src/DotNetHelper-Serializer/Helper/DBHelper.cs

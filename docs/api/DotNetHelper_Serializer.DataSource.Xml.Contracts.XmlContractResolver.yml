@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlContractResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -107,7 +107,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ResolveContract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -184,7 +184,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ResolveName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -221,7 +221,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ResolveName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -260,7 +260,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ResolveContractName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -297,7 +297,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetLocalName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -334,7 +334,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetEnumItemName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -373,7 +373,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetProperties
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -410,7 +410,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ResolveItem
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -447,7 +447,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ResolveEnumItems
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
@@ -484,7 +484,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ResolveProperty
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContractResolver.cs

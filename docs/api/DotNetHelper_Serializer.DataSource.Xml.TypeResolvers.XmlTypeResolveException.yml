@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolveException.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlTypeResolveException
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolveException.cs
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolveException.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolveException.cs

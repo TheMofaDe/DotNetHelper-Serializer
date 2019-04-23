@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DataSourceJson
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Settings
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Encoding
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -180,7 +180,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -248,7 +248,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -292,7 +292,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -338,7 +338,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -376,7 +376,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -421,7 +421,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -470,7 +470,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -517,7 +517,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -564,7 +564,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -606,7 +606,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -646,7 +646,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -691,7 +691,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -729,7 +729,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeListFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -766,7 +766,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeToList
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -803,7 +803,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeListFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -847,7 +847,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeFromStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -890,7 +890,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeFromString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -935,7 +935,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeToList
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -980,7 +980,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeFromStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1020,7 +1020,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeFromString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1060,7 +1060,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeserializeToCSharpClass
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1099,7 +1099,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToXml
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1138,7 +1138,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetTypeCode
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1172,7 +1172,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToBoolean
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1209,7 +1209,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToChar
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1246,7 +1246,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToSByte
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1283,7 +1283,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToByte
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1320,7 +1320,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToInt16
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1357,7 +1357,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToUInt16
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1394,7 +1394,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToInt32
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1431,7 +1431,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToUInt32
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1468,7 +1468,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToInt64
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1505,7 +1505,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToUInt64
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1542,7 +1542,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToSingle
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1579,7 +1579,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToDouble
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1616,7 +1616,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToDecimal
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1653,7 +1653,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToDateTime
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1690,7 +1690,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
@@ -1727,7 +1727,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ToType
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceJson.cs

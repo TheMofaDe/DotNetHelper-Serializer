@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: New
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Instance
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs

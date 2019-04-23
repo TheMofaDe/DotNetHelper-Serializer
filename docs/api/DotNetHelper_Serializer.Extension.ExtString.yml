@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ExtString
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: JsonToList
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsValidJson
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IsValidJson
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetJsonType
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs

@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IXmlConverterFactory
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs
@@ -49,7 +49,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CreateConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/IXmlConverterFactory.cs

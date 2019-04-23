@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DataValidationAttritube
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MaxLengthSize
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -169,7 +169,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetMaxLengthSize
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: RequireValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -249,7 +249,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetRequireValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -291,7 +291,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DataType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -329,7 +329,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetDataType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -371,7 +371,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanContainNumbers
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -409,7 +409,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetCanContainNumbers
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -451,7 +451,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanContainLetter
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -489,7 +489,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetCanContainLetter
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -531,7 +531,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Ignore
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -569,7 +569,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetIgnore
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs

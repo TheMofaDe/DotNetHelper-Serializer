@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: LogObject
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Id
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ApplicationName
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: LogTime
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -172,7 +172,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ExceptionType
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: LogTimeUtc
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -238,7 +238,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Message
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -273,7 +273,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeviceModel
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -308,7 +308,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Platform
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -343,7 +343,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Version
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -378,7 +378,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: DeviceId
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
@@ -413,7 +413,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs

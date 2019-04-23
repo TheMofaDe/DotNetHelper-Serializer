@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlListConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlListConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlListConverter.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlListConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: AcceptType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlListConverter.cs
@@ -112,7 +112,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlListConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetConverterType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlListConverter.cs

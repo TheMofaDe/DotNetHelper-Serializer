@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/IDataSourceDBExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IDataSourceDBExtension
     path: ../src/DotNetHelper-Serializer/Extension/IDataSourceDBExtension.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Extension/IDataSourceDBExtension.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: BuildDbParameterList
     path: ../src/DotNetHelper-Serializer/Extension/IDataSourceDBExtension.cs

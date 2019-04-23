@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IJsonSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IJsonSerializer
     path: ../src/DotNetHelper-Serializer/Interface/IJsonSerializer.cs
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IJsonSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Settings
     path: ../src/DotNetHelper-Serializer/Interface/IJsonSerializer.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Interface/IJsonSerializer.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SerializeToXml
     path: ../src/DotNetHelper-Serializer/Interface/IJsonSerializer.cs

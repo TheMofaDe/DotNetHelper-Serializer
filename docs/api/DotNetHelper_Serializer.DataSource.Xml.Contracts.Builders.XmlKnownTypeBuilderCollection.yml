@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlKnownTypeBuilderCollection
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Count
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Add
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Add
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -245,7 +245,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Set
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -278,7 +278,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Contains
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -313,7 +313,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Remove
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -348,7 +348,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Build
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -380,7 +380,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetEnumerator
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
@@ -415,7 +415,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: System.Collections.IEnumerable.GetEnumerator
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilderCollection.cs

@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SqlTableAttritubeMembers
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: JoinType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: TableName
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XReferenceTable
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs

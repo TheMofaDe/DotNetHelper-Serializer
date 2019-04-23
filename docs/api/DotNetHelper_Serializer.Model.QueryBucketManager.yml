@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: QueryBucketManager
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: MaxBucketSize
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: IncludeReadableQuery
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -140,7 +140,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: FullBucketReached
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: BeforeAddToBucket
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -202,7 +202,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: AddBucket
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -235,7 +235,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: OnFullBucket
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -270,7 +270,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: OnBeforeAdd
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
@@ -305,7 +305,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: Dispose
     path: ../src/DotNetHelper-Serializer/Model/Database.cs

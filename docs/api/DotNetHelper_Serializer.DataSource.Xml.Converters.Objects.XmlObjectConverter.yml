@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: XmlObjectConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -72,7 +72,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanRead
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -111,7 +111,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanWrite
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -189,7 +189,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -228,7 +228,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CanWriteProperty
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -265,7 +265,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: OnUnknownProperty
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -304,7 +304,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: CreateTarget
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -341,7 +341,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -380,7 +380,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: SetValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
@@ -419,7 +419,7 @@ items:
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-      branch: master
+      branch: UnitTest
       repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
     id: GetResult
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
