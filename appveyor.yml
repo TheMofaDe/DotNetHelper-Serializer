@@ -15,3 +15,5 @@ dotnet_csproj:
 build_script:
 - ps: .\build.ps1 --target="AppVeyor"
 test: off
+services:
+  - mssql2012sp1
