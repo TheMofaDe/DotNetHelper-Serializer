@@ -22,7 +22,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlEnumConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
     startLine: 7
@@ -71,7 +71,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
     startLine: 11
@@ -101,7 +101,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
     startLine: 16
@@ -134,7 +134,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanRead
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
     startLine: 21
@@ -171,7 +171,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanWrite
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
     startLine: 26
@@ -208,7 +208,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
     startLine: 31
@@ -247,7 +247,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlEnumConverter.cs
     startLine: 80

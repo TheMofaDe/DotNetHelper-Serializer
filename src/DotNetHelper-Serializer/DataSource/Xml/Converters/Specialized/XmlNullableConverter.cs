@@ -9,12 +9,12 @@ namespace DotNetHelper_Serializer.DataSource.Xml.Converters.Specialized
     {
         public bool CanRead(Type valueType)
         {
-            return valueType.IsNullable().Item1;
+            return valueType.IsNullable();
         }
 
         public bool CanWrite(Type valueType)
         {
-            return valueType.IsNullable().Item1;
+            return valueType.IsNullable();
         }
 
         public void WriteXml(XmlWriter writer, object value, XmlSerializationContext context)

@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
     startLine: 5
@@ -77,7 +77,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanRead
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
     startLine: 7
@@ -116,7 +116,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanWrite
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
     startLine: 12
@@ -155,7 +155,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
     startLine: 17
@@ -198,7 +198,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/XmlConverter.cs
     startLine: 19

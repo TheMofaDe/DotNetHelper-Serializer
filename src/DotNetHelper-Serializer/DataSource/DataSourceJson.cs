@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Xml;
-using DotNetHelper_Contracts.Enum.IO;
+
 using DotNetHelper_Contracts.Extension;
 using DotNetHelper_IO;
+using DotNetHelper_IO.Enum;
 using DotNetHelper_Serializer.Interface;
 using Newtonsoft.Json;
 

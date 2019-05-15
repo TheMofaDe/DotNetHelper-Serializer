@@ -21,7 +21,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlCollectionConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
     startLine: 8
@@ -70,7 +70,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanRead
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
     startLine: 10
@@ -109,7 +109,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanWrite
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
     startLine: 12
@@ -148,7 +148,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateProxy
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
     startLine: 17
@@ -185,7 +185,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
     startLine: 19
@@ -224,7 +224,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Collections/XmlCollectionConverter.cs
     startLine: 68

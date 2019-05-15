@@ -7,9 +7,10 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Xml;
 using System.Xml.Linq;
-using DotNetHelper_Contracts.Enum.IO;
+
 using DotNetHelper_Contracts.Extension;
 using DotNetHelper_IO;
+using DotNetHelper_IO.Enum;
 using DotNetHelper_Serializer.DataSource.Xml;
 using DotNetHelper_Serializer.DataSource.Xml.Contracts;
 using DotNetHelper_Serializer.Interface;

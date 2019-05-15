@@ -23,7 +23,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ObjectMapper
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
     startLine: 12
@@ -65,7 +65,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapProperties
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
     startLine: 74
@@ -116,7 +116,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapPropertiesDontThrow
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
     startLine: 88
@@ -167,7 +167,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapExcept
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
     startLine: 112
@@ -220,7 +220,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapExceptDontThrow
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
     startLine: 129
@@ -273,10 +273,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapOnly
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
-    startLine: 153
+    startLine: 154
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -326,10 +326,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DoesAllPropertiesMatchExact
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
-    startLine: 177
+    startLine: 178
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -370,10 +370,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsSqlColumnsKeysMatchingValues
     path: ../src/DotNetHelper-Serializer/Helper/ObjectMapper.cs
-    startLine: 198
+    startLine: 199
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper

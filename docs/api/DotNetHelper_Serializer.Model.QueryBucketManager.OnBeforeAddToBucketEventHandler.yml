@@ -16,7 +16,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: OnBeforeAddToBucketEventHandler
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 26

@@ -48,10 +48,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SqlColumnAttritube
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 81
+    startLine: 83
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -152,10 +152,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MaxColumnSize
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 88
+    startLine: 90
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -190,10 +190,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetMaxColumnSize
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 94
+    startLine: 96
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -232,10 +232,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializableType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 104
+    startLine: 106
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -245,7 +245,7 @@ items:
     content: public SerializableType SerializableType { get; set; }
     parameters: []
     return:
-      type: DotNetHelper_Contracts.Enum.SerializableType
+      type: DotNetHelper_Serializer.Enum.SerializableType
       description: The maximum size of the column.
     content.vb: Public Property SerializableType As SerializableType
   overload: DotNetHelper_Serializer.Attribute.SqlColumnAttritube.SerializableType*
@@ -270,10 +270,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: AutoIncrementBy
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 120
+    startLine: 122
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -308,10 +308,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetAutoIncrementBy
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 126
+    startLine: 128
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -350,10 +350,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: StartIncrementAt
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 136
+    startLine: 138
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -388,10 +388,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetStartIncrementAt
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 142
+    startLine: 144
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -430,10 +430,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: UtcDateTime
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 152
+    startLine: 154
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -468,10 +468,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetUtcDateTime
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 158
+    startLine: 160
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -510,10 +510,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: PrimaryKey
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 167
+    startLine: 169
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -548,10 +548,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetPrimaryKey
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 173
+    startLine: 175
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -590,10 +590,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: xRefTableType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 184
+    startLine: 186
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -628,10 +628,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetxRefTableType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 190
+    startLine: 192
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -670,10 +670,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: xRefTableSchema
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 221
+    startLine: 223
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -708,10 +708,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: xRefTableName
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 228
+    startLine: 230
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -746,10 +746,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: xRefJoinOnColumn
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 235
+    startLine: 237
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -784,10 +784,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: xRefOnUpdateCascade
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 242
+    startLine: 244
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -822,10 +822,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetxRefOnUpdateCascade
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 249
+    startLine: 251
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -864,10 +864,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: xRefOnDeleteCascade
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 260
+    startLine: 262
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -902,10 +902,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetxRefOnDeleteCascade
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 266
+    startLine: 268
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -944,10 +944,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Nullable
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 277
+    startLine: 279
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -982,10 +982,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetNullable
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 283
+    startLine: 285
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1024,10 +1024,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ApiId
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 292
+    startLine: 294
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1062,10 +1062,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetApiId
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 298
+    startLine: 300
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1104,10 +1104,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SyncTime
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 307
+    startLine: 309
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1142,10 +1142,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetSyncTime
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 313
+    startLine: 315
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1184,10 +1184,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Ignore
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 323
+    startLine: 325
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1222,10 +1222,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetIgnore
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 329
+    startLine: 331
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1264,10 +1264,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DefaultValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 339
+    startLine: 341
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1302,10 +1302,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: TSQLDefaultValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 345
+    startLine: 347
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1340,10 +1340,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapTo
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 351
+    startLine: 353
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -1378,10 +1378,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MappingIds
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 359
+    startLine: 361
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -4317,19 +4317,17 @@ references:
   name: SerializableType
   nameWithType: SqlColumnAttritube.SerializableType
   fullName: DotNetHelper_Serializer.Attribute.SqlColumnAttritube.SerializableType
-- uid: DotNetHelper_Contracts.Enum.SerializableType
-  commentId: T:DotNetHelper_Contracts.Enum.SerializableType
-  parent: DotNetHelper_Contracts.Enum
-  isExternal: true
+- uid: DotNetHelper_Serializer.Enum.SerializableType
+  commentId: T:DotNetHelper_Serializer.Enum.SerializableType
+  parent: DotNetHelper_Serializer.Enum
   name: SerializableType
   nameWithType: SerializableType
-  fullName: DotNetHelper_Contracts.Enum.SerializableType
-- uid: DotNetHelper_Contracts.Enum
-  commentId: N:DotNetHelper_Contracts.Enum
-  isExternal: true
-  name: DotNetHelper_Contracts.Enum
-  nameWithType: DotNetHelper_Contracts.Enum
-  fullName: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Serializer.Enum.SerializableType
+- uid: DotNetHelper_Serializer.Enum
+  commentId: N:DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum
 - uid: DotNetHelper_Serializer.Attribute.SqlColumnAttritube.AutoIncrementBy*
   commentId: Overload:DotNetHelper_Serializer.Attribute.SqlColumnAttritube.AutoIncrementBy
   name: AutoIncrementBy

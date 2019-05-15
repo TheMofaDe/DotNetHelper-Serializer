@@ -26,10 +26,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlObjectConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 7
+    startLine: 8
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -73,10 +73,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanRead
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 9
+    startLine: 10
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -112,10 +112,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanWrite
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 15
+    startLine: 16
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -151,10 +151,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 20
+    startLine: 21
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -190,10 +190,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 53
+    startLine: 54
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -229,10 +229,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanWriteProperty
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 112
+    startLine: 113
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -266,10 +266,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: OnUnknownProperty
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 117
+    startLine: 118
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -305,10 +305,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateTarget
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 125
+    startLine: 126
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -342,10 +342,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 130
+    startLine: 131
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -381,10 +381,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 135
+    startLine: 136
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
@@ -420,10 +420,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetResult
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Objects/XmlObjectConverter.cs
-    startLine: 140
+    startLine: 141
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource.Xml.Converters.Objects

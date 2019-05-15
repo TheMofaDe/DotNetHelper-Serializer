@@ -23,7 +23,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SqlSyntaxHelper
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 7
@@ -66,7 +66,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataBaseType
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 11
@@ -101,7 +101,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 12
@@ -134,7 +134,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetTableOpenChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 20
@@ -166,7 +166,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetTableClosedChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 44
@@ -198,7 +198,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: RemoveBracketsChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 67
@@ -233,7 +233,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetEnclosedValueChar
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 75
@@ -268,7 +268,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildIfExistStatement
     path: ../src/DotNetHelper-Serializer/Helper/SqlSyntaxHelper.cs
     startLine: 170

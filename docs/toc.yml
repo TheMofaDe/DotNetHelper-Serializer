@@ -2,6 +2,6 @@
   href: index.md
 - name: Articles
   href: articles/
-  homepage: articles/gettingstarted.md
+  homepage: articles/sample.md
 - name: API Documentation
-  href: api/DotNetHelper_IO.html
+  href: api/DotNetHelper_Serializer.html  # if project name have a dash you need to replace it with a underscore 

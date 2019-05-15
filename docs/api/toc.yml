@@ -229,6 +229,20 @@
     name: XmlTypeResolveException
   - uid: DotNetHelper_Serializer.DataSource.Xml.TypeResolvers.XmlTypeResolver
     name: XmlTypeResolver
+- uid: DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  items:
+  - uid: DotNetHelper_Serializer.Enum.DataType
+    name: DataType
+  - uid: DotNetHelper_Serializer.Enum.SerializableType
+    name: SerializableType
+  - uid: DotNetHelper_Serializer.Enum.SQLType
+    name: SQLType
+- uid: DotNetHelper_Serializer.EventHandler
+  name: DotNetHelper_Serializer.EventHandler
+  items:
+  - uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+    name: SqlExceptionEventArgs
 - uid: DotNetHelper_Serializer.Extension
   name: DotNetHelper_Serializer.Extension
   items:
@@ -236,6 +250,8 @@
     name: AdvanceMember
   - uid: DotNetHelper_Serializer.Extension.DataTypes
     name: DataTypes
+  - uid: DotNetHelper_Serializer.Extension.DBConnectionExtension
+    name: DBConnectionExtension
   - uid: DotNetHelper_Serializer.Extension.DynamicMember
     name: DynamicMember
   - uid: DotNetHelper_Serializer.Extension.ExtDataReader

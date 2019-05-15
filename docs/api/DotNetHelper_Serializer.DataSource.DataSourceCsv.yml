@@ -22,10 +22,10 @@ items:
   - DotNetHelper_Serializer.DataSource.DataSourceCsv.DeserializeToList``1(System.String)
   - DotNetHelper_Serializer.DataSource.DataSourceCsv.Encoding
   - DotNetHelper_Serializer.DataSource.DataSourceCsv.GetTypeCode
-  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
+  - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
   - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToStream``1(``0,System.IO.Stream,System.Int32,System.Boolean)
   - DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToString(System.Object)
@@ -57,7 +57,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataSourceCsv
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 21
@@ -115,7 +115,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Configuration
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 27
@@ -153,7 +153,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Encoding
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 32
@@ -191,7 +191,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 38
@@ -227,7 +227,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 48
@@ -266,7 +266,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 61
@@ -319,7 +319,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 87
@@ -352,22 +352,22 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  id: SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
+  id: SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_Serializer.DataSource.DataSourceCsv
   langs:
   - csharp
   - vb
   name: SerializeToFile<T>(T, String, FileOption)
   nameWithType: DataSourceCsv.SerializeToFile<T>(T, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
   type: Method
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 108
@@ -388,7 +388,7 @@ items:
       type: System.String
       description: The file.
     - id: mode
-      type: DotNetHelper_Contracts.Enum.IO.FileOption
+      type: DotNetHelper_IO.Enum.FileOption
       description: The mode.
     typeParameters:
     - id: T
@@ -396,30 +396,30 @@ items:
     content.vb: Public Sub SerializeToFile(Of T As Class)(obj As T, file As String, mode As FileOption)
   overload: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile*
   implements:
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: DataSourceCsv.SerializeToFile(Of T)(T, String, FileOption)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  id: SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
+  id: SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_Serializer.DataSource.DataSourceCsv
   langs:
   - csharp
   - vb
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType: DataSourceCsv.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
   type: Method
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 121
@@ -440,37 +440,37 @@ items:
       type: System.String
       description: The full file path.
     - id: option
-      type: DotNetHelper_Contracts.Enum.IO.FileOption
+      type: DotNetHelper_IO.Enum.FileOption
     typeParameters:
     - id: T
       description: ''
     content.vb: Public Sub SerializeToFile(Of T As Class)(list As IEnumerable(Of T), fullFilePath As String, option As FileOption)
   overload: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile*
   implements:
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: DataSourceCsv.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  id: SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  id: SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_Serializer.DataSource.DataSourceCsv
   langs:
   - csharp
   - vb
   name: SerializeToFile(Object, Type, String, FileOption)
   nameWithType: DataSourceCsv.SerializeToFile(Object, Type, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_IO.Enum.FileOption)
   type: Method
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 155
@@ -492,7 +492,7 @@ items:
       type: System.String
       description: The full file path.
     - id: option
-      type: DotNetHelper_Contracts.Enum.IO.FileOption
+      type: DotNetHelper_IO.Enum.FileOption
     content.vb: Public Sub SerializeToFile(obj As Object, type As Type, fullFilePath As String, option As FileOption)
   overload: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile*
   exceptions:
@@ -503,27 +503,27 @@ items:
     commentId: T:System.ArgumentOutOfRangeException
     description: mode - null
   implements:
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  id: SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  id: SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_Serializer.DataSource.DataSourceCsv
   langs:
   - csharp
   - vb
   name: SerializeToFile(Object, String, FileOption)
   nameWithType: DataSourceCsv.SerializeToFile(Object, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.String, DotNetHelper_IO.Enum.FileOption)
   type: Method
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 168
@@ -538,11 +538,11 @@ items:
     - id: fullFilePath
       type: System.String
     - id: option
-      type: DotNetHelper_Contracts.Enum.IO.FileOption
+      type: DotNetHelper_IO.Enum.FileOption
     content.vb: Public Sub SerializeToFile(obj As Object, fullFilePath As String, option As FileOption)
   overload: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile*
   implements:
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -562,7 +562,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 193
@@ -603,7 +603,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeToString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 214
@@ -652,7 +652,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 238
@@ -695,7 +695,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 271
@@ -743,7 +743,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeListFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 284
@@ -781,7 +781,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeToList
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 297
@@ -818,7 +818,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeListFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 309
@@ -862,7 +862,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeFromFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 323
@@ -900,7 +900,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeFromStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 343
@@ -947,7 +947,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeFromStream
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 354
@@ -991,7 +991,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeFromString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 371
@@ -1040,7 +1040,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeToList
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 382
@@ -1089,7 +1089,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeFromString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 393
@@ -1133,7 +1133,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeserializeToCSharpClass
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 412
@@ -1182,7 +1182,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetTypeCode
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 460
@@ -1216,7 +1216,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToBoolean
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 465
@@ -1253,7 +1253,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToChar
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 470
@@ -1290,7 +1290,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToSByte
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 475
@@ -1327,7 +1327,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToByte
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 480
@@ -1364,7 +1364,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToInt16
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 485
@@ -1401,7 +1401,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToUInt16
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 490
@@ -1438,7 +1438,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToInt32
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 495
@@ -1475,7 +1475,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToUInt32
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 500
@@ -1512,7 +1512,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToInt64
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 505
@@ -1549,7 +1549,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToUInt64
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 510
@@ -1586,7 +1586,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToSingle
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 515
@@ -1623,7 +1623,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToDouble
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 520
@@ -1660,7 +1660,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToDecimal
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 525
@@ -1697,7 +1697,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToDateTime
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 530
@@ -1734,7 +1734,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 535
@@ -1771,7 +1771,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToType
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceCsv.cs
     startLine: 540
@@ -2583,18 +2583,18 @@ references:
   name: SerializeToFile
   nameWithType: DataSourceCsv.SerializeToFile
   fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
-  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(T, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(T, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(T, String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -2616,16 +2616,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -2647,10 +2647,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
@@ -2662,24 +2662,24 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: DotNetHelper_Contracts.Enum.IO.FileOption
-  commentId: T:DotNetHelper_Contracts.Enum.IO.FileOption
-  parent: DotNetHelper_Contracts.Enum.IO
+- uid: DotNetHelper_IO.Enum.FileOption
+  commentId: T:DotNetHelper_IO.Enum.FileOption
+  parent: DotNetHelper_IO.Enum
   isExternal: true
   name: FileOption
   nameWithType: FileOption
-  fullName: DotNetHelper_Contracts.Enum.IO.FileOption
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Enum.FileOption
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   isExternal: true
   name: SerializeToFile<T>(T, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(T, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(T, String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -2701,16 +2701,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -2732,32 +2732,32 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_Contracts.Enum.IO
-  commentId: N:DotNetHelper_Contracts.Enum.IO
+- uid: DotNetHelper_IO.Enum
+  commentId: N:DotNetHelper_IO.Enum
   isExternal: true
-  name: DotNetHelper_Contracts.Enum.IO
-  nameWithType: DotNetHelper_Contracts.Enum.IO
-  fullName: DotNetHelper_Contracts.Enum.IO
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  name: DotNetHelper_IO.Enum
+  nameWithType: DotNetHelper_IO.Enum
+  fullName: DotNetHelper_IO.Enum
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
-  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -2790,16 +2790,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -2832,10 +2832,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
@@ -2880,17 +2880,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   isExternal: true
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -2923,16 +2923,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -2965,10 +2965,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
@@ -3021,15 +3021,15 @@ references:
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   isExternal: true
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
   isExternal: true
   name: SerializeToFile(Object, Type, String, FileOption)
   nameWithType: ISerializer.SerializeToFile(Object, Type, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_IO.Enum.FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -3061,16 +3061,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -3102,26 +3102,26 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
   isExternal: true
   name: SerializeToFile(Object, String, FileOption)
   nameWithType: ISerializer.SerializeToFile(Object, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(, String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(, System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(, String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -3144,16 +3144,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -3172,10 +3172,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )

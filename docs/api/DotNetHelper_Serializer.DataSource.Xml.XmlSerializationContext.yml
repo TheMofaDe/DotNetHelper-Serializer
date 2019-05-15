@@ -29,7 +29,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlSerializationContext
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 7
@@ -74,7 +74,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 15
@@ -107,7 +107,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ValueType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 29
@@ -142,7 +142,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Contract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 31
@@ -177,7 +177,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Member
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 33
@@ -212,7 +212,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Properties
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 35
@@ -247,7 +247,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Settings
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 37
@@ -282,7 +282,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetTypeContract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 39
@@ -317,7 +317,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Serialize
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 44
@@ -354,7 +354,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Serialize
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 54
@@ -391,7 +391,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Deserialize
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 64
@@ -428,7 +428,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Deserialize
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 69
@@ -465,7 +465,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeBody
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 74
@@ -502,7 +502,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SerializeBody
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlSerializationContext.cs
     startLine: 84

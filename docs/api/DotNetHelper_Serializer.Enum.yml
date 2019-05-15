@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Enum
+  commentId: N:DotNetHelper_Serializer.Enum
+  id: DotNetHelper_Serializer.Enum
+  children:
+  - DotNetHelper_Serializer.Enum.DataType
+  - DotNetHelper_Serializer.Enum.SerializableType
+  - DotNetHelper_Serializer.Enum.SQLType
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.Enum.SQLType
+  commentId: T:DotNetHelper_Serializer.Enum.SQLType
+  parent: DotNetHelper_Serializer.Enum
+  name: SQLType
+  nameWithType: SQLType
+  fullName: DotNetHelper_Serializer.Enum.SQLType
+- uid: DotNetHelper_Serializer.Enum.DataType
+  commentId: T:DotNetHelper_Serializer.Enum.DataType
+  parent: DotNetHelper_Serializer.Enum
+  name: DataType
+  nameWithType: DataType
+  fullName: DotNetHelper_Serializer.Enum.DataType
+- uid: DotNetHelper_Serializer.Enum.SerializableType
+  commentId: T:DotNetHelper_Serializer.Enum.SerializableType
+  parent: DotNetHelper_Serializer.Enum
+  name: SerializableType
+  nameWithType: SerializableType
+  fullName: DotNetHelper_Serializer.Enum.SerializableType
+- uid: DotNetHelper_Serializer.Enum
+  commentId: N:DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum

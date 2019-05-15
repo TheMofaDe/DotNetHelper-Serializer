@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IXmlContractResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
     startLine: 4
@@ -50,7 +50,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ResolveContract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/IXmlContractResolver.cs
     startLine: 6

@@ -46,7 +46,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: TypeExtension
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 24
@@ -88,7 +88,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateDefaultConstructor
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 84
@@ -126,7 +126,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: HasDefaultConstructor
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 117
@@ -167,7 +167,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: OnProgressChange
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 129
@@ -215,7 +215,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanHaveNullValue
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 135
@@ -261,7 +261,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsNullable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 149
@@ -302,7 +302,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsCSharpClass
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 160
@@ -342,7 +342,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToDefaultList
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 187
@@ -384,7 +384,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: EnumToList
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 201
@@ -423,7 +423,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CommonTypeDictionary
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 210
@@ -459,7 +459,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetDefaultValue
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 231
@@ -500,7 +500,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: UnwrapNullableType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 244
@@ -541,7 +541,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsNullableType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 246
@@ -582,7 +582,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsUnderlyingTypeNullable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 255
@@ -623,7 +623,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MakeNullable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 261
@@ -664,7 +664,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsInteger
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 266
@@ -705,7 +705,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsStruct
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 281
@@ -746,7 +746,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsInstantiable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 286
@@ -787,7 +787,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsTypeIEnumerable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 295
@@ -828,7 +828,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CopyObject
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 325
@@ -876,7 +876,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsBasicType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 347
@@ -917,7 +917,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsFinalType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 357
@@ -958,7 +958,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsActivable
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 362
@@ -999,7 +999,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetDefaultConstructor
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 367
@@ -1040,7 +1040,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetEnumerableItemType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 378
@@ -1081,7 +1081,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetUnderlyingNullableType
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 421
@@ -1122,7 +1122,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsGenericTypeOf
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 431
@@ -1165,7 +1165,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsGenericTypeOf
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 438
@@ -1211,7 +1211,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetShortName
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 456
@@ -1252,7 +1252,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetStaticMethod
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 484
@@ -1300,7 +1300,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/TypeExtension.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetInstanceMethod
     path: ../src/DotNetHelper-Serializer/Extension/TypeExtension.cs
     startLine: 490

@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataSourceProperties
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 127
@@ -63,7 +63,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Tables
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 129
@@ -98,7 +98,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Schemas
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 130
@@ -133,7 +133,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataBases
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 131
@@ -168,7 +168,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: LastSyncTime
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 132

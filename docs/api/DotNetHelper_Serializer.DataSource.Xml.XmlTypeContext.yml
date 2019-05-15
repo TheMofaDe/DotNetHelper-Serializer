@@ -22,7 +22,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlTypeContext
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
     startLine: 7
@@ -65,7 +65,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
     startLine: 9
@@ -102,7 +102,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Contract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
     startLine: 18
@@ -137,7 +137,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ReadConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
     startLine: 20
@@ -172,7 +172,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: WriteConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
     startLine: 22
@@ -207,7 +207,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ReadXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
     startLine: 24
@@ -242,7 +242,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: WriteXml
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/XmlTypeContext.cs
     startLine: 26

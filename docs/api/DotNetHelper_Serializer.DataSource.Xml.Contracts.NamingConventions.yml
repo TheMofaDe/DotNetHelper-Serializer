@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: NamingConventions
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
     startLine: 5
@@ -62,7 +62,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Ignore
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
     startLine: 7
@@ -99,7 +99,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CamelCase
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
     startLine: 12
@@ -136,7 +136,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Dashed
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
     startLine: 32
@@ -173,7 +173,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Underscore
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/NamingConventions.cs
     startLine: 37

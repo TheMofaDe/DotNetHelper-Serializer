@@ -8,11 +8,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using DotNetHelper_Contracts.CustomException;
-using DotNetHelper_Contracts.Enum;
 using DotNetHelper_Contracts.Enum.DataSource;
 using DotNetHelper_Contracts.Extension;
 using DotNetHelper_Contracts.Helpers;
 using DotNetHelper_Contracts.Helpers.OneOffs;
+using DotNetHelper_Serializer.Enum;
 using DotNetHelper_Serializer.Extension;
 using DotNetHelper_Serializer.Interface;
 using Newtonsoft.Json;
@@ -114,7 +114,7 @@ namespace DotNetHelper_Serializer.Helper
                         //{
                         //      if (dates.IsNullOrEmpty())
                         //      {
-                        //          whereClause = whereClause.ReplaceLastOccurrance($@" {pair.Key} IN (", string.Empty, StringComparison.OrdinalIgnoreCase);
+                        //          whereClause = whereClause.ReplaceLastOccurrence($@" {pair.Key} IN (", string.Empty, StringComparison.OrdinalIgnoreCase);
                         //      }
                         //      else
                         //      {
@@ -124,14 +124,14 @@ namespace DotNetHelper_Serializer.Helper
                         //              list.Add(GetNewParameter(pair.Key + i, dates.ToList()[i]));
 
                         //          }
-                        //          whereClause = whereClause.ReplaceLastOccurrance(",", ") AND ", StringComparison.OrdinalIgnoreCase);
+                        //          whereClause = whereClause.ReplaceLastOccurrence(",", ") AND ", StringComparison.OrdinalIgnoreCase);
                         //      }
                         //}
 
                         var tempList = pair.Value as IEnumerable<object>;
                         if (tempList.IsNullOrEmpty())
                         {
-                            whereClause = whereClause.ReplaceLastOccurrance($@" {pair.Key} IN (", string.Empty, StringComparison.OrdinalIgnoreCase);
+                            whereClause = whereClause.ReplaceLastOccurrence($@" {pair.Key} IN (", string.Empty, StringComparison.OrdinalIgnoreCase);
                         }
                         else
                         {
@@ -141,7 +141,7 @@ namespace DotNetHelper_Serializer.Helper
                                 list.Add(GetNewParameter(pair.Key + i, tempList.ToList()[i]));
 
                             }
-                            whereClause = whereClause.ReplaceLastOccurrance(",", ") AND ", StringComparison.OrdinalIgnoreCase);
+                            whereClause = whereClause.ReplaceLastOccurrence(",", ") AND ", StringComparison.OrdinalIgnoreCase);
                         }
 
 
@@ -156,19 +156,19 @@ namespace DotNetHelper_Serializer.Helper
 
 
                 });
-                whereClause = whereClause.ReplaceLastOccurrance("AND", "", StringComparison.OrdinalIgnoreCase);
+                whereClause = whereClause.ReplaceLastOccurrence("AND", "", StringComparison.OrdinalIgnoreCase);
 
                 if (startsWithWhere)
                 {
-                    additionalWhere = additionalWhere.ReplaceFirstOccurrance("WHERE", " ", StringComparison.OrdinalIgnoreCase);
+                    additionalWhere = additionalWhere.ReplaceFirstOccurrence("WHERE", " ", StringComparison.OrdinalIgnoreCase);
                 }
                 if (endWithAnd)
                 {
-                    additionalWhere = additionalWhere.ReplaceLastOccurrance("AND", "", StringComparison.OrdinalIgnoreCase);
+                    additionalWhere = additionalWhere.ReplaceLastOccurrence("AND", "", StringComparison.OrdinalIgnoreCase);
                 }
                 if (startsWithAnd)
                 {
-                    // additionalWhere = additionalWhere.ReplaceLastOccurrance("AND", "", StringComparison.OrdinalIgnoreCase);
+                    // additionalWhere = additionalWhere.ReplaceLastOccurrence("AND", "", StringComparison.OrdinalIgnoreCase);
                 }
                 else
                 {
@@ -781,16 +781,16 @@ namespace DotNetHelper_Serializer.Helper
                                               $"= {secondTableAlias}.{secondTableColumn.Member.Name} ");
                         sqlFromBuilder.Append(safeKeyword);
 
-                        // var iHateThis = sqlFromBuilder.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
+                        // var iHateThis = sqlFromBuilder.ToString().ReplaceLastOccurrence(safeKeyword, string.Empty, StringComparison.Ordinal);
                         // sqlFromBuilder.Clear();
-                        //  sqlFromBuilder.Append(sqlFromBuilder.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal));
+                        //  sqlFromBuilder.Append(sqlFromBuilder.ToString().ReplaceLastOccurrence(safeKeyword, string.Empty, StringComparison.Ordinal));
                         // sqlFromBuilder.Clear();
                     }
                 });
 
             });
 
-            sqlFromBuilder = sqlFromBuilder.ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
+            sqlFromBuilder = sqlFromBuilder.ReplaceLastOccurrence(safeKeyword, string.Empty, StringComparison.Ordinal);
 
         }
 

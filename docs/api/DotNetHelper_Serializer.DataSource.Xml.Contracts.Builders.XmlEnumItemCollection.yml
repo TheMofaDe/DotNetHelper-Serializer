@@ -26,7 +26,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlEnumItemCollection
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 5
@@ -76,7 +76,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 9
@@ -106,7 +106,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 14
@@ -142,7 +142,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Count
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 24
@@ -177,7 +177,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Add
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 26
@@ -212,7 +212,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Add
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 32
@@ -245,7 +245,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Set
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 49
@@ -278,7 +278,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Contains
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 68
@@ -313,7 +313,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Remove
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 73
@@ -348,7 +348,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetEnumerator
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 86
@@ -383,7 +383,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: System.Collections.IEnumerable.GetEnumerator
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlEnumItemCollection.cs
     startLine: 91

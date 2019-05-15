@@ -18,7 +18,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlTypeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlTypeConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlTypeConverter.cs
     startLine: 4
@@ -74,7 +74,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlTypeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Parse
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlTypeConverter.cs
     startLine: 6
@@ -114,7 +114,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlTypeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToString
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Specialized/XmlTypeConverter.cs
     startLine: 11

@@ -30,7 +30,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlPropertyBuilder
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 6
@@ -110,7 +110,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 8
@@ -143,7 +143,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: PropertyInfo
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 16
@@ -178,7 +178,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MappingType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 18
@@ -213,7 +213,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: NullValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 20
@@ -250,7 +250,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DefaultValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 22
@@ -287,7 +287,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DefaultValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 24
@@ -324,7 +324,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Order
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 26
@@ -359,7 +359,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Item
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 28
@@ -396,7 +396,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsCollection
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 30
@@ -431,7 +431,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsRequired
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 32
@@ -466,7 +466,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 34
@@ -505,7 +505,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 40
@@ -548,7 +548,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 46
@@ -585,7 +585,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Build
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlPropertyBuilder.cs
     startLine: 69

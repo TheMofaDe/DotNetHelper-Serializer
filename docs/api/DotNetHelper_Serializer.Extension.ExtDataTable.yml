@@ -19,10 +19,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExtDataTable
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 6
+    startLine: 5
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -62,10 +62,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetColumnsOrder
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 21
+    startLine: 14
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -111,10 +111,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetColumnPosition
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 47
+    startLine: 40
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -160,10 +160,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapToType
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataTable.cs
-    startLine: 73
+    startLine: 61
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension

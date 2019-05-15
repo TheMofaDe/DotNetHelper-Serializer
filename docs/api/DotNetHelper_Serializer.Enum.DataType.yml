@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Enum.DataType
+  commentId: T:DotNetHelper_Serializer.Enum.DataType
+  id: DataType
+  parent: DotNetHelper_Serializer.Enum
+  children:
+  - DotNetHelper_Serializer.Enum.DataType.CreditCard
+  - DotNetHelper_Serializer.Enum.DataType.Currency
+  - DotNetHelper_Serializer.Enum.DataType.Custom
+  - DotNetHelper_Serializer.Enum.DataType.Date
+  - DotNetHelper_Serializer.Enum.DataType.DateTime
+  - DotNetHelper_Serializer.Enum.DataType.Duration
+  - DotNetHelper_Serializer.Enum.DataType.EmailAddress
+  - DotNetHelper_Serializer.Enum.DataType.Html
+  - DotNetHelper_Serializer.Enum.DataType.ImageUrl
+  - DotNetHelper_Serializer.Enum.DataType.MultilineText
+  - DotNetHelper_Serializer.Enum.DataType.Password
+  - DotNetHelper_Serializer.Enum.DataType.PhoneNumber
+  - DotNetHelper_Serializer.Enum.DataType.PostalCode
+  - DotNetHelper_Serializer.Enum.DataType.Text
+  - DotNetHelper_Serializer.Enum.DataType.Time
+  - DotNetHelper_Serializer.Enum.DataType.Unknown
+  - DotNetHelper_Serializer.Enum.DataType.Upload
+  - DotNetHelper_Serializer.Enum.DataType.Url
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: DataType
+  fullName: DotNetHelper_Serializer.Enum.DataType
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: DataType
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 28
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nEnumeration of logical data types that may appear in <see cref=\"!:DataTypeAttribute\"></see>\n"
+  example: []
+  syntax:
+    content: public enum DataType
+    content.vb: Public Enum DataType
+  extensionMethods:
+  - DotNetHelper_Serializer.Enum.DataType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.Enum.DataType.Custom
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Custom
+  id: Custom
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: DataType.Custom
+  fullName: DotNetHelper_Serializer.Enum.DataType.Custom
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Custom
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 33
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nCustom data type, not one of the static data types we know\n"
+  example: []
+  syntax:
+    content: Custom = 0
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.DateTime
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.DateTime
+  id: DateTime
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: DataType.DateTime
+  fullName: DotNetHelper_Serializer.Enum.DataType.DateTime
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: DateTime
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 38
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nDateTime data type\n"
+  example: []
+  syntax:
+    content: DateTime = 1
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Date
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Date
+  id: Date
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: DataType.Date
+  fullName: DotNetHelper_Serializer.Enum.DataType.Date
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Date
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 43
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nDate data type\n"
+  example: []
+  syntax:
+    content: Date = 2
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Time
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Time
+  id: Time
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: DataType.Time
+  fullName: DotNetHelper_Serializer.Enum.DataType.Time
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Time
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 48
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nTime data type\n"
+  example: []
+  syntax:
+    content: Time = 3
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Duration
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Duration
+  id: Duration
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: DataType.Duration
+  fullName: DotNetHelper_Serializer.Enum.DataType.Duration
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Duration
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 53
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nDuration data type\n"
+  example: []
+  syntax:
+    content: Duration = 4
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.PhoneNumber
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.PhoneNumber
+  id: PhoneNumber
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: DataType.PhoneNumber
+  fullName: DotNetHelper_Serializer.Enum.DataType.PhoneNumber
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: PhoneNumber
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 58
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nPhone number data type\n"
+  example: []
+  syntax:
+    content: PhoneNumber = 5
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Currency
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Currency
+  id: Currency
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: DataType.Currency
+  fullName: DotNetHelper_Serializer.Enum.DataType.Currency
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Currency
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 63
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nCurrency data type\n"
+  example: []
+  syntax:
+    content: Currency = 6
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Text
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Text
+  id: Text
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: DataType.Text
+  fullName: DotNetHelper_Serializer.Enum.DataType.Text
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Text
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 68
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nPlain text data type\n"
+  example: []
+  syntax:
+    content: Text = 7
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Html
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Html
+  id: Html
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: DataType.Html
+  fullName: DotNetHelper_Serializer.Enum.DataType.Html
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Html
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 73
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nHtml data type\n"
+  example: []
+  syntax:
+    content: Html = 8
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.MultilineText
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.MultilineText
+  id: MultilineText
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: MultilineText
+  nameWithType: DataType.MultilineText
+  fullName: DotNetHelper_Serializer.Enum.DataType.MultilineText
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: MultilineText
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 78
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nMultiline text data type\n"
+  example: []
+  syntax:
+    content: MultilineText = 9
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.EmailAddress
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.EmailAddress
+  id: EmailAddress
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: DataType.EmailAddress
+  fullName: DotNetHelper_Serializer.Enum.DataType.EmailAddress
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: EmailAddress
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 83
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nEmail address data type\n"
+  example: []
+  syntax:
+    content: EmailAddress = 10
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Password
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Password
+  id: Password
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: DataType.Password
+  fullName: DotNetHelper_Serializer.Enum.DataType.Password
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Password
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 88
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nPassword data type -- do not echo in UI\n"
+  example: []
+  syntax:
+    content: Password = 11
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Url
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Url
+  id: Url
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: DataType.Url
+  fullName: DotNetHelper_Serializer.Enum.DataType.Url
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Url
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 93
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nURL data type\n"
+  example: []
+  syntax:
+    content: Url = 12
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.ImageUrl
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.ImageUrl
+  id: ImageUrl
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: DataType.ImageUrl
+  fullName: DotNetHelper_Serializer.Enum.DataType.ImageUrl
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: ImageUrl
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 98
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nURL to an Image -- to be displayed as an image instead of text\n"
+  example: []
+  syntax:
+    content: ImageUrl = 13
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.CreditCard
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.CreditCard
+  id: CreditCard
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: CreditCard
+  nameWithType: DataType.CreditCard
+  fullName: DotNetHelper_Serializer.Enum.DataType.CreditCard
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: CreditCard
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 103
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nCredit card data type\n"
+  example: []
+  syntax:
+    content: CreditCard = 14
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.PostalCode
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.PostalCode
+  id: PostalCode
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: PostalCode
+  nameWithType: DataType.PostalCode
+  fullName: DotNetHelper_Serializer.Enum.DataType.PostalCode
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: PostalCode
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 108
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nPostal code data type\n"
+  example: []
+  syntax:
+    content: PostalCode = 15
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Upload
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Upload
+  id: Upload
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Upload
+  nameWithType: DataType.Upload
+  fullName: DotNetHelper_Serializer.Enum.DataType.Upload
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Upload
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 113
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nFile upload data type\n"
+  example: []
+  syntax:
+    content: Upload = 16
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.DataType.Unknown
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Unknown
+  id: Unknown
+  parent: DotNetHelper_Serializer.Enum.DataType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DataType.Unknown
+  fullName: DotNetHelper_Serializer.Enum.DataType.Unknown
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Unknown
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 118
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  summary: "\nUnknown data type\n"
+  example: []
+  syntax:
+    content: Unknown = 17
+    return:
+      type: DotNetHelper_Serializer.Enum.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.Enum
+  commentId: N:DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum
+- uid: DotNetHelper_Serializer.Enum.DataType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<DataType>()
+  nameWithType: TypeExtension.CanHaveNullValue<DataType>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Enum.DataType>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of DataType)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Enum.DataType)()
+  name.vb: CanHaveNullValue(Of DataType)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<DataType>
+    nameWithType: TypeExtension.CanHaveNullValue<DataType>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Enum.DataType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of DataType)
+    nameWithType: TypeExtension.CanHaveNullValue(Of DataType)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Enum.DataType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Enum.DataType
+  commentId: T:DotNetHelper_Serializer.Enum.DataType
+  parent: DotNetHelper_Serializer.Enum
+  name: DataType
+  nameWithType: DataType
+  fullName: DotNetHelper_Serializer.Enum.DataType

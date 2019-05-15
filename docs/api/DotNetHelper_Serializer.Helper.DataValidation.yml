@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DataValidation.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataValidation
     path: ../src/DotNetHelper-Serializer/Helper/DataValidation.cs
     startLine: 6
@@ -59,10 +59,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/DataValidation.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsValidBasedOnSqlColumnAttributes
     path: ../src/DotNetHelper-Serializer/Helper/DataValidation.cs
-    startLine: 9
+    startLine: 10
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper

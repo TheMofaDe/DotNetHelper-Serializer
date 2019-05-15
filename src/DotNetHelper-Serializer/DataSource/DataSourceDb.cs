@@ -11,13 +11,13 @@ using System.Linq.Expressions;
 using System.Text;
 using DotNetHelper_Contracts.CustomException;
 using DotNetHelper_Contracts.Enum.DataSource;
-using DotNetHelper_Contracts.Enum.IO;
-using DotNetHelper_Contracts.EventHandler;
 using DotNetHelper_Contracts.Extension;
 using DotNetHelper_Contracts.Helpers.LinqToSQL;
 using DotNetHelper_Contracts.Helpers.OneOffs;
-using DotNetHelper_Contracts.Xml;
 using DotNetHelper_IO;
+using DotNetHelper_IO.Enum;
+using DotNetHelper_Serializer.DataSource.Xml;
+using DotNetHelper_Serializer.EventHandler;
 using DotNetHelper_Serializer.Extension;
 using DotNetHelper_Serializer.Helper;
 using DotNetHelper_Serializer.Interface;
@@ -180,7 +180,7 @@ namespace DotNetHelper_Serializer.DataSource
 
 
         public delegate void SqlExceptionEventHandler(object sender, SqlExceptionEventArgs e);
-        public event EventHandler OnSqlException;
+        public event System.EventHandler OnSqlException;
         protected virtual void OnSqlExeception(SqlExceptionEventArgs e)
         {
             OnSqlException?.Invoke(this, e);
@@ -254,11 +254,11 @@ namespace DotNetHelper_Serializer.DataSource
 
             if (content.StartsWith(SqlSyntaxHelper.GetTableOpenChar()))
             {
-                content = content.ReplaceFirstOccurrance(SqlSyntaxHelper.GetTableOpenChar(), string.Empty, StringComparison.Ordinal);
+                content = content.ReplaceFirstOccurrence(SqlSyntaxHelper.GetTableOpenChar(), string.Empty, StringComparison.Ordinal);
             }
             if (content.EndsWith(SqlSyntaxHelper.GetTableClosedChar()))
             {
-                content = content.ReplaceLastOccurrance(SqlSyntaxHelper.GetTableClosedChar(), string.Empty, StringComparison.Ordinal);
+                content = content.ReplaceLastOccurrence(SqlSyntaxHelper.GetTableClosedChar(), string.Empty, StringComparison.Ordinal);
             }
 
             return content;
@@ -775,8 +775,8 @@ namespace DotNetHelper_Serializer.DataSource
                                                      //     
                                                      //                 });
                                                      //     
-                                                     //                 var secondaryDataSql = sb.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
-                                                     //                 secondaryDataSql += sbWhereClause.ToString().ReplaceLastOccurrance(safeKeyword, string.Empty, StringComparison.Ordinal);
+                                                     //                 var secondaryDataSql = sb.ToString().ReplaceLastOccurrence(safeKeyword, string.Empty, StringComparison.Ordinal);
+                                                     //                 secondaryDataSql += sbWhereClause.ToString().ReplaceLastOccurrence(safeKeyword, string.Empty, StringComparison.Ordinal);
                                                      //                 var NWMI = ExecuteManualQuery(secondaryDataSql).MapToList(type);
                                                      //     
                                                      //                 var accessor = TypeAccessor.Create(type, true);
@@ -824,7 +824,7 @@ namespace DotNetHelper_Serializer.DataSource
             var mainTableAlias = tableAliasLookup.GetValueOrDefaultValue(typeof(T));
 #endif
             var currentTableAlias = mainTableAlias;
-            var index = 0;
+            //var index = 0;
             var splitOn = new List<string>() { };
             var openChar = SqlSyntaxHelper.GetTableOpenChar();
             var closeChar = SqlSyntaxHelper.GetTableClosedChar();
@@ -891,12 +891,12 @@ namespace DotNetHelper_Serializer.DataSource
                 if (i < list.Count)
                 {
 
-                    // sqlBuilder.ReplaceLastOccurrance(",", "", StringComparison.OrdinalIgnoreCase);
+                    // sqlBuilder.ReplaceLastOccurrence(",", "", StringComparison.OrdinalIgnoreCase);
                     sqlBuilder.Append(columnsAndSplitOnTuple.Item1);
                 }
                 else
                 {
-                    sqlBuilder.Append(columnsAndSplitOnTuple.Item1.ReplaceLastOccurrance(",", "", StringComparison.OrdinalIgnoreCase));
+                    sqlBuilder.Append(columnsAndSplitOnTuple.Item1.ReplaceLastOccurrence(",", "", StringComparison.OrdinalIgnoreCase));
                     Console.WriteLine(currentTableAlias);
                 }
 

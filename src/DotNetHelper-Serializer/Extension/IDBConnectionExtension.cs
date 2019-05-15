@@ -1,30 +1,33 @@
 ﻿using System.Data;
 
-public static class DBConnectionExtension
+namespace DotNetHelper_Serializer.Extension
 {
-    public static void OpenSafely(this IDbConnection connection)
+    public static class DBConnectionExtension
     {
-        if (connection.State == ConnectionState.Open || connection.State == ConnectionState.Connecting)
+        public static void OpenSafely(this IDbConnection connection)
         {
+            if (connection.State == ConnectionState.Open || connection.State == ConnectionState.Connecting)
+            {
+
+            }
+            else
+            {
+                connection.Open();
+            }
 
         }
-        else
+
+        public static void CloseSafely(this IDbConnection connection)
         {
-            connection.Open();
+            if (connection.State != ConnectionState.Closed)
+            {
+                connection.Close();
+            }
+            else
+            {
+
+            }
         }
 
     }
-
-    public static void CloseSafely(this IDbConnection connection)
-    {
-        if (connection.State != ConnectionState.Closed)
-        {
-            connection.Close();
-        }
-        else
-        {
-
-        }
-    }
-
 }

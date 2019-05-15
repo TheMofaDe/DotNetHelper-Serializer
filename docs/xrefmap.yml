@@ -1051,17 +1051,17 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.GetTypeCode
   nameWithType: DataSourceBinary.GetTypeCode
-- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile_System_Object_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile_System_Object_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceBinary.SerializeToFile(Object, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, Type, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceBinary.SerializeToFile(Object, Type, String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile*
   name: SerializeToFile
@@ -1070,22 +1070,22 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile
   nameWithType: DataSourceBinary.SerializeToFile
-- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(T, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile__1___0_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile__1___0_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceBinary.SerializeToFile<T>(T, String, FileOption)
   nameWithType.vb: DataSourceBinary.SerializeToFile(Of T)(T, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceBinary.html#DotNetHelper_Serializer_DataSource_DataSourceBinary_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceBinary.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType.vb: DataSourceBinary.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceBinary.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
@@ -1533,17 +1533,17 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.GetTypeCode
   nameWithType: DataSourceCsv.GetTypeCode
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile_System_Object_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile_System_Object_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceCsv.SerializeToFile(Object, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, Type, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceCsv.SerializeToFile(Object, Type, String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile*
   name: SerializeToFile
@@ -1552,22 +1552,22 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile
   nameWithType: DataSourceCsv.SerializeToFile
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(T, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile__1___0_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile__1___0_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceCsv.SerializeToFile<T>(T, String, FileOption)
   nameWithType.vb: DataSourceCsv.SerializeToFile(Of T)(T, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceCsv.html#DotNetHelper_Serializer_DataSource_DataSourceCsv_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceCsv.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType.vb: DataSourceCsv.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceCsv.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
@@ -2112,11 +2112,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.DropTable
   nameWithType: DataSourceDb.DropTable
-- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
   name: DumpTableDataToFile(String, String, FileOption, String)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceDb.html#DotNetHelper_Serializer_DataSource_DataSourceDb_DumpTableDataToFile_System_String_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_System_String_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_Contracts.Enum.IO.FileOption, System.String)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceDb.html#DotNetHelper_Serializer_DataSource_DataSourceDb_DumpTableDataToFile_System_String_System_String_DotNetHelper_IO_Enum_FileOption_System_String_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_IO.Enum.FileOption, System.String)
   nameWithType: DataSourceDb.DumpTableDataToFile(String, String, FileOption, String)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile*
   name: DumpTableDataToFile
@@ -2547,11 +2547,11 @@ references:
   commentId: E:DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlException
   fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlException
   nameWithType: DataSourceDb.OnSqlException
-- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
   name: OnSqlExeception(SqlExceptionEventArgs)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceDb.html#DotNetHelper_Serializer_DataSource_DataSourceDb_OnSqlExeception_DotNetHelper_Contracts_EventHandler_SqlExceptionEventArgs_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceDb.html#DotNetHelper_Serializer_DataSource_DataSourceDb_OnSqlExeception_DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
   nameWithType: DataSourceDb.OnSqlExeception(SqlExceptionEventArgs)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception*
   name: OnSqlExeception
@@ -3012,17 +3012,17 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.GetTypeCode
   nameWithType: DataSourceJson.GetTypeCode
-- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile_System_Object_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile_System_Object_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceJson.SerializeToFile(Object, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, Type, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceJson.SerializeToFile(Object, Type, String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile*
   name: SerializeToFile
@@ -3031,22 +3031,22 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile
   nameWithType: DataSourceJson.SerializeToFile
-- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(T, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile__1___0_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile__1___0_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceJson.SerializeToFile<T>(T, String, FileOption)
   nameWithType.vb: DataSourceJson.SerializeToFile(Of T)(T, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceJson.html#DotNetHelper_Serializer_DataSource_DataSourceJson_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceJson.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType.vb: DataSourceJson.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceJson.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
@@ -3539,17 +3539,17 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.GetXmlFromDocument
   nameWithType: DataSourceXml.GetXmlFromDocument
-- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile_System_Object_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile_System_Object_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceXml.SerializeToFile(Object, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile(Object, Type, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile_System_Object_System_Type_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceXml.SerializeToFile(Object, Type, String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile*
   name: SerializeToFile
@@ -3558,22 +3558,22 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile
   nameWithType: DataSourceXml.SerializeToFile
-- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(T, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile__1___0_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile__1___0_System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceXml.SerializeToFile<T>(T, String, FileOption)
   nameWithType.vb: DataSourceXml.SerializeToFile(Of T)(T, String, FileOption)
-- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_Contracts_Enum_IO_FileOption_
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  href: api/DotNetHelper_Serializer.DataSource.DataSourceXml.html#DotNetHelper_Serializer_DataSource_DataSourceXml_SerializeToFile__1_System_Collections_Generic_IEnumerable___0__System_String_DotNetHelper_IO_Enum_FileOption_
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
-  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
+  fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType: DataSourceXml.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType.vb: DataSourceXml.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
 - uid: DotNetHelper_Serializer.DataSource.DataSourceXml.SerializeToJson(System.String,DotNetHelper_Serializer.Interface.IJsonSerializer)
@@ -8947,6 +8947,249 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.DataSource.Xml.XmlTypeContext.WriteXml
   nameWithType: XmlTypeContext.WriteXml
+- uid: DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  href: api/DotNetHelper_Serializer.Enum.html
+  commentId: N:DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+- uid: DotNetHelper_Serializer.Enum.DataType
+  name: DataType
+  href: api/DotNetHelper_Serializer.Enum.DataType.html
+  commentId: T:DotNetHelper_Serializer.Enum.DataType
+  fullName: DotNetHelper_Serializer.Enum.DataType
+  nameWithType: DataType
+- uid: DotNetHelper_Serializer.Enum.DataType.CreditCard
+  name: CreditCard
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_CreditCard
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.CreditCard
+  fullName: DotNetHelper_Serializer.Enum.DataType.CreditCard
+  nameWithType: DataType.CreditCard
+- uid: DotNetHelper_Serializer.Enum.DataType.Currency
+  name: Currency
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Currency
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Currency
+  fullName: DotNetHelper_Serializer.Enum.DataType.Currency
+  nameWithType: DataType.Currency
+- uid: DotNetHelper_Serializer.Enum.DataType.Custom
+  name: Custom
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Custom
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Custom
+  fullName: DotNetHelper_Serializer.Enum.DataType.Custom
+  nameWithType: DataType.Custom
+- uid: DotNetHelper_Serializer.Enum.DataType.Date
+  name: Date
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Date
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Date
+  fullName: DotNetHelper_Serializer.Enum.DataType.Date
+  nameWithType: DataType.Date
+- uid: DotNetHelper_Serializer.Enum.DataType.DateTime
+  name: DateTime
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_DateTime
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.DateTime
+  fullName: DotNetHelper_Serializer.Enum.DataType.DateTime
+  nameWithType: DataType.DateTime
+- uid: DotNetHelper_Serializer.Enum.DataType.Duration
+  name: Duration
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Duration
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Duration
+  fullName: DotNetHelper_Serializer.Enum.DataType.Duration
+  nameWithType: DataType.Duration
+- uid: DotNetHelper_Serializer.Enum.DataType.EmailAddress
+  name: EmailAddress
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_EmailAddress
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.EmailAddress
+  fullName: DotNetHelper_Serializer.Enum.DataType.EmailAddress
+  nameWithType: DataType.EmailAddress
+- uid: DotNetHelper_Serializer.Enum.DataType.Html
+  name: Html
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Html
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Html
+  fullName: DotNetHelper_Serializer.Enum.DataType.Html
+  nameWithType: DataType.Html
+- uid: DotNetHelper_Serializer.Enum.DataType.ImageUrl
+  name: ImageUrl
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_ImageUrl
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.ImageUrl
+  fullName: DotNetHelper_Serializer.Enum.DataType.ImageUrl
+  nameWithType: DataType.ImageUrl
+- uid: DotNetHelper_Serializer.Enum.DataType.MultilineText
+  name: MultilineText
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_MultilineText
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.MultilineText
+  fullName: DotNetHelper_Serializer.Enum.DataType.MultilineText
+  nameWithType: DataType.MultilineText
+- uid: DotNetHelper_Serializer.Enum.DataType.Password
+  name: Password
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Password
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Password
+  fullName: DotNetHelper_Serializer.Enum.DataType.Password
+  nameWithType: DataType.Password
+- uid: DotNetHelper_Serializer.Enum.DataType.PhoneNumber
+  name: PhoneNumber
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_PhoneNumber
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.PhoneNumber
+  fullName: DotNetHelper_Serializer.Enum.DataType.PhoneNumber
+  nameWithType: DataType.PhoneNumber
+- uid: DotNetHelper_Serializer.Enum.DataType.PostalCode
+  name: PostalCode
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_PostalCode
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.PostalCode
+  fullName: DotNetHelper_Serializer.Enum.DataType.PostalCode
+  nameWithType: DataType.PostalCode
+- uid: DotNetHelper_Serializer.Enum.DataType.Text
+  name: Text
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Text
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Text
+  fullName: DotNetHelper_Serializer.Enum.DataType.Text
+  nameWithType: DataType.Text
+- uid: DotNetHelper_Serializer.Enum.DataType.Time
+  name: Time
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Time
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Time
+  fullName: DotNetHelper_Serializer.Enum.DataType.Time
+  nameWithType: DataType.Time
+- uid: DotNetHelper_Serializer.Enum.DataType.Unknown
+  name: Unknown
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Unknown
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Unknown
+  fullName: DotNetHelper_Serializer.Enum.DataType.Unknown
+  nameWithType: DataType.Unknown
+- uid: DotNetHelper_Serializer.Enum.DataType.Upload
+  name: Upload
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Upload
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Upload
+  fullName: DotNetHelper_Serializer.Enum.DataType.Upload
+  nameWithType: DataType.Upload
+- uid: DotNetHelper_Serializer.Enum.DataType.Url
+  name: Url
+  href: api/DotNetHelper_Serializer.Enum.DataType.html#DotNetHelper_Serializer_Enum_DataType_Url
+  commentId: F:DotNetHelper_Serializer.Enum.DataType.Url
+  fullName: DotNetHelper_Serializer.Enum.DataType.Url
+  nameWithType: DataType.Url
+- uid: DotNetHelper_Serializer.Enum.SerializableType
+  name: SerializableType
+  href: api/DotNetHelper_Serializer.Enum.SerializableType.html
+  commentId: T:DotNetHelper_Serializer.Enum.SerializableType
+  fullName: DotNetHelper_Serializer.Enum.SerializableType
+  nameWithType: SerializableType
+- uid: DotNetHelper_Serializer.Enum.SerializableType.CSV
+  name: CSV
+  href: api/DotNetHelper_Serializer.Enum.SerializableType.html#DotNetHelper_Serializer_Enum_SerializableType_CSV
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.CSV
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.CSV
+  nameWithType: SerializableType.CSV
+- uid: DotNetHelper_Serializer.Enum.SerializableType.JSON
+  name: JSON
+  href: api/DotNetHelper_Serializer.Enum.SerializableType.html#DotNetHelper_Serializer_Enum_SerializableType_JSON
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.JSON
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.JSON
+  nameWithType: SerializableType.JSON
+- uid: DotNetHelper_Serializer.Enum.SerializableType.NONE
+  name: NONE
+  href: api/DotNetHelper_Serializer.Enum.SerializableType.html#DotNetHelper_Serializer_Enum_SerializableType_NONE
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.NONE
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.NONE
+  nameWithType: SerializableType.NONE
+- uid: DotNetHelper_Serializer.Enum.SerializableType.XML
+  name: XML
+  href: api/DotNetHelper_Serializer.Enum.SerializableType.html#DotNetHelper_Serializer_Enum_SerializableType_XML
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.XML
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.XML
+  nameWithType: SerializableType.XML
+- uid: DotNetHelper_Serializer.Enum.SQLType
+  name: SQLType
+  href: api/DotNetHelper_Serializer.Enum.SQLType.html
+  commentId: T:DotNetHelper_Serializer.Enum.SQLType
+  fullName: DotNetHelper_Serializer.Enum.SQLType
+  nameWithType: SQLType
+- uid: DotNetHelper_Serializer.Enum.SQLType.MYSql
+  name: MYSql
+  href: api/DotNetHelper_Serializer.Enum.SQLType.html#DotNetHelper_Serializer_Enum_SQLType_MYSql
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.MYSql
+  fullName: DotNetHelper_Serializer.Enum.SQLType.MYSql
+  nameWithType: SQLType.MYSql
+- uid: DotNetHelper_Serializer.Enum.SQLType.Oledb
+  name: Oledb
+  href: api/DotNetHelper_Serializer.Enum.SQLType.html#DotNetHelper_Serializer_Enum_SQLType_Oledb
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.Oledb
+  fullName: DotNetHelper_Serializer.Enum.SQLType.Oledb
+  nameWithType: SQLType.Oledb
+- uid: DotNetHelper_Serializer.Enum.SQLType.Oracle
+  name: Oracle
+  href: api/DotNetHelper_Serializer.Enum.SQLType.html#DotNetHelper_Serializer_Enum_SQLType_Oracle
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.Oracle
+  fullName: DotNetHelper_Serializer.Enum.SQLType.Oracle
+  nameWithType: SQLType.Oracle
+- uid: DotNetHelper_Serializer.Enum.SQLType.SQLLite
+  name: SQLLite
+  href: api/DotNetHelper_Serializer.Enum.SQLType.html#DotNetHelper_Serializer_Enum_SQLType_SQLLite
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.SQLLite
+  fullName: DotNetHelper_Serializer.Enum.SQLType.SQLLite
+  nameWithType: SQLType.SQLLite
+- uid: DotNetHelper_Serializer.Enum.SQLType.SQLServer
+  name: SQLServer
+  href: api/DotNetHelper_Serializer.Enum.SQLType.html#DotNetHelper_Serializer_Enum_SQLType_SQLServer
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.SQLServer
+  fullName: DotNetHelper_Serializer.Enum.SQLType.SQLServer
+  nameWithType: SQLType.SQLServer
+- uid: DotNetHelper_Serializer.EventHandler
+  name: DotNetHelper_Serializer.EventHandler
+  href: api/DotNetHelper_Serializer.EventHandler.html
+  commentId: N:DotNetHelper_Serializer.EventHandler
+  fullName: DotNetHelper_Serializer.EventHandler
+  nameWithType: DotNetHelper_Serializer.EventHandler
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  name: SqlExceptionEventArgs
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html
+  commentId: T:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  nameWithType: SqlExceptionEventArgs
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.#ctor(System.Exception)
+  name: SqlExceptionEventArgs(Exception)
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html#DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs__ctor_System_Exception_
+  commentId: M:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.#ctor(System.Exception)
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.SqlExceptionEventArgs(System.Exception)
+  nameWithType: SqlExceptionEventArgs.SqlExceptionEventArgs(Exception)
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.#ctor(System.Exception,System.String)
+  name: SqlExceptionEventArgs(Exception, String)
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html#DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs__ctor_System_Exception_System_String_
+  commentId: M:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.#ctor(System.Exception,System.String)
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.SqlExceptionEventArgs(System.Exception, System.String)
+  nameWithType: SqlExceptionEventArgs.SqlExceptionEventArgs(Exception, String)
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.#ctor*
+  name: SqlExceptionEventArgs
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html#DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs__ctor_
+  commentId: Overload:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.#ctor
+  isSpec: "True"
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.SqlExceptionEventArgs
+  nameWithType: SqlExceptionEventArgs.SqlExceptionEventArgs
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Exception
+  name: Exception
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html#DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs_Exception
+  commentId: P:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Exception
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Exception
+  nameWithType: SqlExceptionEventArgs.Exception
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Exception*
+  name: Exception
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html#DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs_Exception_
+  commentId: Overload:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Exception
+  isSpec: "True"
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Exception
+  nameWithType: SqlExceptionEventArgs.Exception
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Sql
+  name: Sql
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html#DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs_Sql
+  commentId: P:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Sql
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Sql
+  nameWithType: SqlExceptionEventArgs.Sql
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Sql*
+  name: Sql
+  href: api/DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.html#DotNetHelper_Serializer_EventHandler_SqlExceptionEventArgs_Sql_
+  commentId: Overload:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Sql
+  isSpec: "True"
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs.Sql
+  nameWithType: SqlExceptionEventArgs.Sql
 - uid: DotNetHelper_Serializer.Extension
   name: DotNetHelper_Serializer.Extension
   href: api/DotNetHelper_Serializer.Extension.html
@@ -9043,6 +9286,38 @@ references:
   commentId: T:DotNetHelper_Serializer.Extension.DataTypes
   fullName: DotNetHelper_Serializer.Extension.DataTypes
   nameWithType: DataTypes
+- uid: DotNetHelper_Serializer.Extension.DBConnectionExtension
+  name: DBConnectionExtension
+  href: api/DotNetHelper_Serializer.Extension.DBConnectionExtension.html
+  commentId: T:DotNetHelper_Serializer.Extension.DBConnectionExtension
+  fullName: DotNetHelper_Serializer.Extension.DBConnectionExtension
+  nameWithType: DBConnectionExtension
+- uid: DotNetHelper_Serializer.Extension.DBConnectionExtension.CloseSafely(System.Data.IDbConnection)
+  name: CloseSafely(IDbConnection)
+  href: api/DotNetHelper_Serializer.Extension.DBConnectionExtension.html#DotNetHelper_Serializer_Extension_DBConnectionExtension_CloseSafely_System_Data_IDbConnection_
+  commentId: M:DotNetHelper_Serializer.Extension.DBConnectionExtension.CloseSafely(System.Data.IDbConnection)
+  fullName: DotNetHelper_Serializer.Extension.DBConnectionExtension.CloseSafely(System.Data.IDbConnection)
+  nameWithType: DBConnectionExtension.CloseSafely(IDbConnection)
+- uid: DotNetHelper_Serializer.Extension.DBConnectionExtension.CloseSafely*
+  name: CloseSafely
+  href: api/DotNetHelper_Serializer.Extension.DBConnectionExtension.html#DotNetHelper_Serializer_Extension_DBConnectionExtension_CloseSafely_
+  commentId: Overload:DotNetHelper_Serializer.Extension.DBConnectionExtension.CloseSafely
+  isSpec: "True"
+  fullName: DotNetHelper_Serializer.Extension.DBConnectionExtension.CloseSafely
+  nameWithType: DBConnectionExtension.CloseSafely
+- uid: DotNetHelper_Serializer.Extension.DBConnectionExtension.OpenSafely(System.Data.IDbConnection)
+  name: OpenSafely(IDbConnection)
+  href: api/DotNetHelper_Serializer.Extension.DBConnectionExtension.html#DotNetHelper_Serializer_Extension_DBConnectionExtension_OpenSafely_System_Data_IDbConnection_
+  commentId: M:DotNetHelper_Serializer.Extension.DBConnectionExtension.OpenSafely(System.Data.IDbConnection)
+  fullName: DotNetHelper_Serializer.Extension.DBConnectionExtension.OpenSafely(System.Data.IDbConnection)
+  nameWithType: DBConnectionExtension.OpenSafely(IDbConnection)
+- uid: DotNetHelper_Serializer.Extension.DBConnectionExtension.OpenSafely*
+  name: OpenSafely
+  href: api/DotNetHelper_Serializer.Extension.DBConnectionExtension.html#DotNetHelper_Serializer_Extension_DBConnectionExtension_OpenSafely_
+  commentId: Overload:DotNetHelper_Serializer.Extension.DBConnectionExtension.OpenSafely
+  isSpec: "True"
+  fullName: DotNetHelper_Serializer.Extension.DBConnectionExtension.OpenSafely
+  nameWithType: DBConnectionExtension.OpenSafely
 - uid: DotNetHelper_Serializer.Extension.DynamicMember
   name: DynamicMember
   href: api/DotNetHelper_Serializer.Extension.DynamicMember.html
@@ -10845,11 +11120,11 @@ references:
   isSpec: "True"
   fullName: DotNetHelper_Serializer.Interface.IDataSourceDb.DropTable
   nameWithType: IDataSourceDb.DropTable
-- uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+- uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
   name: DumpTableDataToFile(String, String, FileOption, String)
-  href: api/DotNetHelper_Serializer.Interface.IDataSourceDb.html#DotNetHelper_Serializer_Interface_IDataSourceDb_DumpTableDataToFile_System_String_System_String_DotNetHelper_Contracts_Enum_IO_FileOption_System_String_
-  commentId: M:DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
-  fullName: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_Contracts.Enum.IO.FileOption, System.String)
+  href: api/DotNetHelper_Serializer.Interface.IDataSourceDb.html#DotNetHelper_Serializer_Interface_IDataSourceDb_DumpTableDataToFile_System_String_System_String_DotNetHelper_IO_Enum_FileOption_System_String_
+  commentId: M:DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
+  fullName: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_IO.Enum.FileOption, System.String)
   nameWithType: IDataSourceDb.DumpTableDataToFile(String, String, FileOption, String)
 - uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile*
   name: DumpTableDataToFile

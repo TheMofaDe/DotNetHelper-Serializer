@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExtString
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
     startLine: 10
@@ -63,7 +63,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: JsonToList
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
     startLine: 19
@@ -123,7 +123,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsValidJson
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
     startLine: 87
@@ -169,7 +169,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsValidJson
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
     startLine: 108
@@ -212,7 +212,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtString.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetJsonType
     path: ../src/DotNetHelper-Serializer/Extension/ExtString.cs
     startLine: 130

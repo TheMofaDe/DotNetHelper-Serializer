@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Enum.SQLType
+  commentId: T:DotNetHelper_Serializer.Enum.SQLType
+  id: SQLType
+  parent: DotNetHelper_Serializer.Enum
+  children:
+  - DotNetHelper_Serializer.Enum.SQLType.MYSql
+  - DotNetHelper_Serializer.Enum.SQLType.Oledb
+  - DotNetHelper_Serializer.Enum.SQLType.Oracle
+  - DotNetHelper_Serializer.Enum.SQLType.SQLLite
+  - DotNetHelper_Serializer.Enum.SQLType.SQLServer
+  langs:
+  - csharp
+  - vb
+  name: SQLType
+  nameWithType: SQLType
+  fullName: DotNetHelper_Serializer.Enum.SQLType
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: SQLType
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: public enum SQLType
+    content.vb: Public Enum SQLType
+  extensionMethods:
+  - DotNetHelper_Serializer.Enum.SQLType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.Enum.SQLType.SQLServer
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.SQLServer
+  id: SQLServer
+  parent: DotNetHelper_Serializer.Enum.SQLType
+  langs:
+  - csharp
+  - vb
+  name: SQLServer
+  nameWithType: SQLType.SQLServer
+  fullName: DotNetHelper_Serializer.Enum.SQLType.SQLServer
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: SQLServer
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 7
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: SQLServer = 0
+    return:
+      type: DotNetHelper_Serializer.Enum.SQLType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.SQLType.MYSql
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.MYSql
+  id: MYSql
+  parent: DotNetHelper_Serializer.Enum.SQLType
+  langs:
+  - csharp
+  - vb
+  name: MYSql
+  nameWithType: SQLType.MYSql
+  fullName: DotNetHelper_Serializer.Enum.SQLType.MYSql
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: MYSql
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 8
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: MYSql = 1
+    return:
+      type: DotNetHelper_Serializer.Enum.SQLType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.SQLType.SQLLite
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.SQLLite
+  id: SQLLite
+  parent: DotNetHelper_Serializer.Enum.SQLType
+  langs:
+  - csharp
+  - vb
+  name: SQLLite
+  nameWithType: SQLType.SQLLite
+  fullName: DotNetHelper_Serializer.Enum.SQLType.SQLLite
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: SQLLite
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 9
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: SQLLite = 2
+    return:
+      type: DotNetHelper_Serializer.Enum.SQLType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.SQLType.Oledb
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.Oledb
+  id: Oledb
+  parent: DotNetHelper_Serializer.Enum.SQLType
+  langs:
+  - csharp
+  - vb
+  name: Oledb
+  nameWithType: SQLType.Oledb
+  fullName: DotNetHelper_Serializer.Enum.SQLType.Oledb
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Oledb
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 10
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: Oledb = 3
+    return:
+      type: DotNetHelper_Serializer.Enum.SQLType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.SQLType.Oracle
+  commentId: F:DotNetHelper_Serializer.Enum.SQLType.Oracle
+  id: Oracle
+  parent: DotNetHelper_Serializer.Enum.SQLType
+  langs:
+  - csharp
+  - vb
+  name: Oracle
+  nameWithType: SQLType.Oracle
+  fullName: DotNetHelper_Serializer.Enum.SQLType.Oracle
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/DataTypes.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: Oracle
+    path: ../src/DotNetHelper-Serializer/Enum/DataTypes.cs
+    startLine: 11
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: Oracle = 4
+    return:
+      type: DotNetHelper_Serializer.Enum.SQLType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.Enum
+  commentId: N:DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum
+- uid: DotNetHelper_Serializer.Enum.SQLType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<SQLType>()
+  nameWithType: TypeExtension.CanHaveNullValue<SQLType>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Enum.SQLType>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of SQLType)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Enum.SQLType)()
+  name.vb: CanHaveNullValue(Of SQLType)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<SQLType>
+    nameWithType: TypeExtension.CanHaveNullValue<SQLType>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Enum.SQLType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of SQLType)
+    nameWithType: TypeExtension.CanHaveNullValue(Of SQLType)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Enum.SQLType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Enum.SQLType
+  commentId: T:DotNetHelper_Serializer.Enum.SQLType
+  parent: DotNetHelper_Serializer.Enum
+  name: SQLType
+  nameWithType: SQLType
+  fullName: DotNetHelper_Serializer.Enum.SQLType

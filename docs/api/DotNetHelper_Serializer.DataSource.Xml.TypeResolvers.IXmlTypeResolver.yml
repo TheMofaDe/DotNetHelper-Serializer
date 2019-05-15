@@ -18,7 +18,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IXmlTypeResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
     startLine: 4
@@ -51,7 +51,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetTypeName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
     startLine: 6
@@ -82,7 +82,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ResolveTypeName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/IXmlTypeResolver.cs
     startLine: 8

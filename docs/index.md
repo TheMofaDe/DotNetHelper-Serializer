@@ -21,4 +21,3 @@ Supports working with files, streams, & objects
 ## Targeted .NET Frameworks
     NET452
     NETSTANDARD2.0
-

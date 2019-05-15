@@ -27,7 +27,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: LogObject
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 81
@@ -72,7 +72,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Id
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 84
@@ -107,7 +107,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ApplicationName
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 86
@@ -142,7 +142,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: LogTime
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 87
@@ -173,7 +173,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExceptionType
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 88
@@ -208,7 +208,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: LogTimeUtc
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 89
@@ -239,7 +239,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Message
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 90
@@ -274,7 +274,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeviceModel
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 91
@@ -309,7 +309,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Platform
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 92
@@ -344,7 +344,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Version
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 93
@@ -379,7 +379,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DeviceId
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 94
@@ -414,7 +414,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/ErrorObject.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/Model/ErrorObject.cs
     startLine: 97

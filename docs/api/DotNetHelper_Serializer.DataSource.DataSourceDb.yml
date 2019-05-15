@@ -26,7 +26,7 @@ items:
   - DotNetHelper_Serializer.DataSource.DataSourceDb.DBTypeToDotNetType(System.String)
   - DotNetHelper_Serializer.DataSource.DataSourceDb.Dispose
   - DotNetHelper_Serializer.DataSource.DataSourceDb.DropTable(System.String)
-  - DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+  - DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
   - DotNetHelper_Serializer.DataSource.DataSourceDb.EnableTransactionRollback
   - DotNetHelper_Serializer.DataSource.DataSourceDb.ErrorHandling(System.Exception)
   - DotNetHelper_Serializer.DataSource.DataSourceDb.ErrorHandling(System.Exception,System.String)
@@ -61,7 +61,7 @@ items:
   - DotNetHelper_Serializer.DataSource.DataSourceDb.LogConnectionTime(System.Data.IDbConnection,System.String)
   - DotNetHelper_Serializer.DataSource.DataSourceDb.ObjectSqlHelper
   - DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlException
-  - DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
+  - DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
   - DotNetHelper_Serializer.DataSource.DataSourceDb.Password
   - DotNetHelper_Serializer.DataSource.DataSourceDb.PersistSecurityInfo
   - DotNetHelper_Serializer.DataSource.DataSourceDb.Port
@@ -93,7 +93,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataSourceDb
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 36
@@ -142,7 +142,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ThrowCustomExceptions
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 43
@@ -182,7 +182,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Timeout
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 48
@@ -222,7 +222,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Database
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 53
@@ -262,7 +262,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ConnectionString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 58
@@ -302,7 +302,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Server
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 63
@@ -342,7 +342,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IntegratedSecurity
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 68
@@ -382,7 +382,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: AlwaysUseBulkInsert
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 73
@@ -421,7 +421,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: UserName
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 79
@@ -461,7 +461,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Password
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 84
@@ -501,7 +501,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IsSqlExpress
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 89
@@ -541,7 +541,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: TableSchema
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 94
@@ -581,7 +581,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: PersistSecurityInfo
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 100
@@ -620,7 +620,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: JetOledbSystemDatabase
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 105
@@ -659,7 +659,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Provider
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 110
@@ -698,7 +698,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateTablesIfNotExist
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 116
@@ -738,7 +738,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateSchemaIfNotExist
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 121
@@ -778,7 +778,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: EnableTransactionRollback
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 126
@@ -818,7 +818,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Port
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 131
@@ -858,7 +858,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: QueryBucketManager
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 140
@@ -898,7 +898,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: FullFileName
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 146
@@ -938,7 +938,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DBTYPE
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 151
@@ -978,7 +978,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Properties
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 157
@@ -1018,7 +1018,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: JsonSerializer
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 162
@@ -1057,7 +1057,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlSerializer
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 166
@@ -1096,7 +1096,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CsvSerializer
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 170
@@ -1135,7 +1135,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ObjectSqlHelper
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 173
@@ -1170,7 +1170,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SqlSyntaxHelper
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 175
@@ -1205,7 +1205,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: LastConnectionOpenTime
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 178
@@ -1242,7 +1242,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: OnSqlException
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 182
@@ -1260,22 +1260,22 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
-  id: OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
+  id: OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
   parent: DotNetHelper_Serializer.DataSource.DataSourceDb
   langs:
   - csharp
   - vb
   name: OnSqlExeception(SqlExceptionEventArgs)
   nameWithType: DataSourceDb.OnSqlExeception(SqlExceptionEventArgs)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception(DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs)
   type: Method
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: OnSqlExeception
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 183
@@ -1286,7 +1286,7 @@ items:
     content: protected virtual void OnSqlExeception(SqlExceptionEventArgs e)
     parameters:
     - id: e
-      type: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
+      type: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
     content.vb: Protected Overridable Sub OnSqlExeception(e As SqlExceptionEventArgs)
   overload: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception*
   modifiers.csharp:
@@ -1310,7 +1310,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 194
@@ -1348,7 +1348,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildConnectionString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 218
@@ -1387,7 +1387,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetDefaultTableName
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 337
@@ -1435,7 +1435,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetDefaultTableName
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 366
@@ -1480,7 +1480,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetDefaultTableName
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 396
@@ -1523,7 +1523,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetNewParameter
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 413
@@ -1564,7 +1564,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetNewConnection
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 419
@@ -1605,7 +1605,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetNewCommand
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 446
@@ -1648,7 +1648,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetDataSourceMetaDataQueries
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 451
@@ -1680,7 +1680,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: RefreshDataSourceProperties
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 489
@@ -1717,7 +1717,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanConnect
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 544
@@ -1754,7 +1754,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: RecordExist
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 552
@@ -1802,7 +1802,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Get
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 660
@@ -1846,7 +1846,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetTopOne
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 690
@@ -1898,7 +1898,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Get
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 714
@@ -1950,7 +1950,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildJoinString
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 802
@@ -1991,7 +1991,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetWithParameters
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 931
@@ -2045,7 +2045,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetLinq
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 994
@@ -2097,10 +2097,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteStoredProcedure
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1020
+    startLine: 1021
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2144,10 +2144,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateLocalDatabaseFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1053
+    startLine: 1054
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2191,10 +2191,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteManualQuery
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1238
+    startLine: 1239
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2236,10 +2236,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteManualQuery
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1271
+    startLine: 1272
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2283,10 +2283,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteManualQuery
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1543
+    startLine: 1544
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2330,10 +2330,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BulkInsert
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1582
+    startLine: 1583
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2382,10 +2382,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteManualSql
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1627
+    startLine: 1628
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2431,10 +2431,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteManualNonQuerySql
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1659
+    startLine: 1660
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2472,10 +2472,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateTableFromClass
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1694
+    startLine: 1695
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2524,10 +2524,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateTableFromClass
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1776
+    startLine: 1777
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2570,10 +2570,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateTableFromDynamicObject
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1858
+    startLine: 1859
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2624,10 +2624,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DropTable
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1912
+    startLine: 1913
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2665,10 +2665,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SchemaExist
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1937
+    startLine: 1938
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2709,10 +2709,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: TableExist
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 1989
+    startLine: 1990
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2750,10 +2750,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ErrorHandling
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2057
+    startLine: 2058
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2791,10 +2791,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ErrorHandling
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2068
+    startLine: 2069
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2834,10 +2834,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: LogConnectionTime
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2081
+    startLine: 2082
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2880,10 +2880,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteDynamicQuery
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2109
+    startLine: 2110
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2941,10 +2941,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteDynamicQuery
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2160
+    startLine: 2161
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -2991,10 +2991,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteDynamicQueryWithOutputs
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2261
+    startLine: 2262
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3041,10 +3041,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecuteDynamicQueryReturnIdentity
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2302
+    startLine: 2303
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3089,10 +3089,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BulkInsertDataTable
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2350
+    startLine: 2351
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3133,10 +3133,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CreateScripts
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2396
+    startLine: 2397
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3182,25 +3182,25 @@ items:
   - Public
   fullName.vb: DotNetHelper_Serializer.DataSource.DataSourceDb.CreateScripts(Of T)(DotNetHelper_Contracts.Enum.DataSource.ActionType, System.Collections.Generic.List(Of T), System.String, DotNetHelper_Contracts.Enum.DataSource.ScriptType, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object)))
   name.vb: CreateScripts(Of T)(ActionType, List(Of T), String, ScriptType, Expression(Of Func(Of T, Object)))
-- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
-  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
-  id: DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+- uid: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
+  commentId: M:DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
+  id: DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
   parent: DotNetHelper_Serializer.DataSource.DataSourceDb
   langs:
   - csharp
   - vb
   name: DumpTableDataToFile(String, String, FileOption, String)
   nameWithType: DataSourceDb.DumpTableDataToFile(String, String, FileOption, String)
-  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_Contracts.Enum.IO.FileOption, System.String)
+  fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_IO.Enum.FileOption, System.String)
   type: Method
   source:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DumpTableDataToFile
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2430
+    startLine: 2431
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3216,7 +3216,7 @@ items:
       type: System.String
       description: Name of the table.
     - id: option
-      type: DotNetHelper_Contracts.Enum.IO.FileOption
+      type: DotNetHelper_IO.Enum.FileOption
       description: The option.
     - id: whereClause
       type: System.String
@@ -3227,7 +3227,7 @@ items:
     content.vb: Public Function DumpTableDataToFile(fullFilePath As String, tableName As String, option As FileOption, whereClause As String = Nothing) As Boolean
   overload: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile*
   implements:
-  - DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+  - DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3247,10 +3247,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ScriptTableToCSharpClass
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2557
+    startLine: 2558
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3288,10 +3288,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ScriptQueryToCSharpClass
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2608
+    startLine: 2609
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3332,10 +3332,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ScriptCSharpClassToTsql
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2627
+    startLine: 2628
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3381,10 +3381,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DBTypeToDotNetType
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2652
+    startLine: 2653
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -3422,10 +3422,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Dispose
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
-    startLine: 2715
+    startLine: 2716
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -4517,19 +4517,17 @@ references:
   name: OnSqlExeception
   nameWithType: DataSourceDb.OnSqlExeception
   fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.OnSqlExeception
-- uid: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
-  commentId: T:DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
-  parent: DotNetHelper_Contracts.EventHandler
-  isExternal: true
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  commentId: T:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  parent: DotNetHelper_Serializer.EventHandler
   name: SqlExceptionEventArgs
   nameWithType: SqlExceptionEventArgs
-  fullName: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
-- uid: DotNetHelper_Contracts.EventHandler
-  commentId: N:DotNetHelper_Contracts.EventHandler
-  isExternal: true
-  name: DotNetHelper_Contracts.EventHandler
-  nameWithType: DotNetHelper_Contracts.EventHandler
-  fullName: DotNetHelper_Contracts.EventHandler
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+- uid: DotNetHelper_Serializer.EventHandler
+  commentId: N:DotNetHelper_Serializer.EventHandler
+  name: DotNetHelper_Serializer.EventHandler
+  nameWithType: DotNetHelper_Serializer.EventHandler
+  fullName: DotNetHelper_Serializer.EventHandler
 - uid: DotNetHelper_Serializer.DataSource.DataSourceDb.#ctor*
   commentId: Overload:DotNetHelper_Serializer.DataSource.DataSourceDb.#ctor
   name: DataSourceDb
@@ -9202,15 +9200,15 @@ references:
   name: DumpTableDataToFile
   nameWithType: DataSourceDb.DumpTableDataToFile
   fullName: DotNetHelper_Serializer.DataSource.DataSourceDb.DumpTableDataToFile
-- uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
-  commentId: M:DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+- uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
+  commentId: M:DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
   parent: DotNetHelper_Serializer.Interface.IDataSourceDb
   isExternal: true
   name: DumpTableDataToFile(String, String, FileOption, String)
   nameWithType: IDataSourceDb.DumpTableDataToFile(String, String, FileOption, String)
-  fullName: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_Contracts.Enum.IO.FileOption, System.String)
+  fullName: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String, System.String, DotNetHelper_IO.Enum.FileOption, System.String)
   spec.csharp:
-  - uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+  - uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
     name: DumpTableDataToFile
     nameWithType: IDataSourceDb.DumpTableDataToFile
     fullName: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile
@@ -9233,10 +9231,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -9250,7 +9248,7 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_Contracts.Enum.IO.FileOption,System.String)
+  - uid: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile(System.String,System.String,DotNetHelper_IO.Enum.FileOption,System.String)
     name: DumpTableDataToFile
     nameWithType: IDataSourceDb.DumpTableDataToFile
     fullName: DotNetHelper_Serializer.Interface.IDataSourceDb.DumpTableDataToFile
@@ -9273,10 +9271,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -9289,19 +9287,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_Contracts.Enum.IO.FileOption
-  commentId: T:DotNetHelper_Contracts.Enum.IO.FileOption
-  parent: DotNetHelper_Contracts.Enum.IO
+- uid: DotNetHelper_IO.Enum.FileOption
+  commentId: T:DotNetHelper_IO.Enum.FileOption
+  parent: DotNetHelper_IO.Enum
   isExternal: true
   name: FileOption
   nameWithType: FileOption
-  fullName: DotNetHelper_Contracts.Enum.IO.FileOption
-- uid: DotNetHelper_Contracts.Enum.IO
-  commentId: N:DotNetHelper_Contracts.Enum.IO
+  fullName: DotNetHelper_IO.Enum.FileOption
+- uid: DotNetHelper_IO.Enum
+  commentId: N:DotNetHelper_IO.Enum
   isExternal: true
-  name: DotNetHelper_Contracts.Enum.IO
-  nameWithType: DotNetHelper_Contracts.Enum.IO
-  fullName: DotNetHelper_Contracts.Enum.IO
+  name: DotNetHelper_IO.Enum
+  nameWithType: DotNetHelper_IO.Enum
+  fullName: DotNetHelper_IO.Enum
 - uid: DotNetHelper_Serializer.DataSource.DataSourceDb.ScriptTableToCSharpClass*
   commentId: Overload:DotNetHelper_Serializer.DataSource.DataSourceDb.ScriptTableToCSharpClass
   name: ScriptTableToCSharpClass

@@ -1,5 +1,7 @@
 ﻿using System;
 using DotNetHelper_Contracts.Enum;
+using DataType = DotNetHelper_Serializer.Enum.DataType;
+using SerializableType = DotNetHelper_Serializer.Enum.SerializableType;
 
 
 #pragma warning disable IDE1006 // Naming Styless
@@ -513,7 +515,7 @@ namespace DotNetHelper_Serializer.Attribute
         /// Gets or sets the type of the data.
         /// </summary>
         /// <value>The type of the data.</value>
-        public DataType? DataType { get; set; } = DotNetHelper_Contracts.Enum.DataType.Unknown;
+        public DataType? DataType { get; set; } = Enum.DataType.Unknown;
         /// <summary>
         /// Gets or sets the type of the set data.
         /// </summary>

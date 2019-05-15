@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DevelopersTools
     path: ../src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
     startLine: 14
@@ -62,7 +62,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToCSharpClass
     path: ../src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
     startLine: 16
@@ -103,7 +103,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlTCSharpClass
     path: ../src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
     startLine: 47
@@ -140,7 +140,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: AdvanceTypeToSqlType
     path: ../src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
     startLine: 76
@@ -181,7 +181,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: TypeToSqlType
     path: ../src/DotNetHelper-Serializer/Tools/DevelopersTools.cs
     startLine: 185

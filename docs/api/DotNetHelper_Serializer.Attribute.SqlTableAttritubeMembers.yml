@@ -19,10 +19,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SqlTableAttritubeMembers
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 67
+    startLine: 69
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -54,10 +54,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: JoinType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 70
+    startLine: 72
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -86,10 +86,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: TableName
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 71
+    startLine: 73
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -118,10 +118,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XReferenceTable
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 72
+    startLine: 74
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute

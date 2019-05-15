@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Xml;
 using DotNetHelper_Serializer.DataSource.Xml.Contracts;
+using DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.Generators;
 using DotNetHelper_Serializer.Extension;
 
 namespace DotNetHelper_Serializer.DataSource.Xml.Converters.Objects

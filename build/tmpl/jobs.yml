@@ -19,12 +19,12 @@ jobs:
         addToPath: true # Optional
   - powershell: ./build.ps1 -script build.cake -target Default
     displayName: 'Cake build'
-    env:
+    env: # https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch
       GITHUB_TOKEN: $(GITHUB_TOKEN)
       DOCKER_USERNAME: $(DOCKER_USERNAME)
       DOCKER_PASSWORD: $(DOCKER_PASSWORD)
       NUGET_API_KEY: $(NUGET_API_KEY)
-      NUGET_API_URL: $(NUGET_API_URL)
+      NUGET_API_URL: $env:NUGET_API_URL
       CHOCOLATEY_API_KEY: $(CHOCOLATEY_API_KEY)
       CHOCOLATEY_API_URL: $(CHOCOLATEY_API_URL)
       RUBY_GEM_API_KEY: $(RUBY_GEM_API_KEY)

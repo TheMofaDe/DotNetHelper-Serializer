@@ -25,10 +25,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExtDataReader
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 16
+    startLine: 17
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -68,10 +68,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetBytes
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 27
+    startLine: 28
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -116,10 +116,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToDictionary
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 48
+    startLine: 49
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -157,10 +157,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapToDataTable
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 83
+    startLine: 84
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -212,10 +212,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapToDataTable
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 99
+    startLine: 100
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -259,10 +259,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: HasRows
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 109
+    startLine: 110
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -300,10 +300,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: AddParameters
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 119
+    startLine: 120
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -344,10 +344,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: AddParameters
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 128
+    startLine: 129
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -388,10 +388,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapToList
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 147
+    startLine: 148
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -447,10 +447,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MapToList
     path: ../src/DotNetHelper-Serializer/Extension/ExtDataReader.cs
-    startLine: 206
+    startLine: 207
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension

@@ -11,6 +11,7 @@ using DotNetHelper_Contracts.Helpers;
 using DotNetHelper_Serializer.Interface;
 using FastMember;
 using Newtonsoft.Json;
+using SerializableType = DotNetHelper_Serializer.Enum.SerializableType;
 
 namespace DotNetHelper_Serializer.Extension
 {
@@ -273,7 +274,7 @@ namespace DotNetHelper_Serializer.Extension
                             }
                             else
                             {
-                                value = !type.IsEnum ? Convert.ChangeType(value, type, null) : Enum.Parse(type, value.ToString(), true);
+                                value = !type.IsEnum ? Convert.ChangeType(value, type, null) : System.Enum.Parse(type, value.ToString(), true);
 
                             }
                         }
@@ -336,7 +337,7 @@ namespace DotNetHelper_Serializer.Extension
                             value = csvSerializer?.DeserializeFromString(value.ToString(), type);
                             break;
                         case SerializableType.NONE:
-                            value = !type.IsEnum ? Convert.ChangeType(value, type, null) : Enum.Parse(type, value.ToString(), true);
+                            value = !type.IsEnum ? Convert.ChangeType(value, type, null) : System.Enum.Parse(type, value.ToString(), true);
                             break;
                         default:
                             break;
@@ -344,7 +345,7 @@ namespace DotNetHelper_Serializer.Extension
                 }
                 else
                 {
-                    value = !type.IsEnum ? Convert.ChangeType(value, type, null) : Enum.Parse(type, value.ToString(), true);
+                    value = !type.IsEnum ? Convert.ChangeType(value, type, null) : System.Enum.Parse(type, value.ToString(), true);
                 }
             }
             try

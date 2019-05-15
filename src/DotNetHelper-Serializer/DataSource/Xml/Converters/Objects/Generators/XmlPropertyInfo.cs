@@ -2,7 +2,7 @@
 using DotNetHelper_Serializer.DataSource.Xml.Contracts;
 using DotNetHelper_Serializer.DataSource.Xml.Converters.Collections;
 
-namespace DotNetHelper_Serializer.DataSource.Xml.Converters.Objects
+namespace DotNetHelper_Serializer.DataSource.Xml.Converters.Objects.Generators
 {
     internal struct XmlPropertyInfo
     {

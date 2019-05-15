@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.EventHandler
+  commentId: N:DotNetHelper_Serializer.EventHandler
+  id: DotNetHelper_Serializer.EventHandler
+  children:
+  - DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  langs:
+  - csharp
+  - vb
+  name: DotNetHelper_Serializer.EventHandler
+  nameWithType: DotNetHelper_Serializer.EventHandler
+  fullName: DotNetHelper_Serializer.EventHandler
+  type: Namespace
+  assemblies:
+  - DotNetHelper-Serializer
+references:
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  commentId: T:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  parent: DotNetHelper_Serializer.EventHandler
+  name: SqlExceptionEventArgs
+  nameWithType: SqlExceptionEventArgs
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+- uid: DotNetHelper_Serializer.EventHandler
+  commentId: N:DotNetHelper_Serializer.EventHandler
+  name: DotNetHelper_Serializer.EventHandler
+  nameWithType: DotNetHelper_Serializer.EventHandler
+  fullName: DotNetHelper_Serializer.EventHandler

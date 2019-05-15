@@ -22,7 +22,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlKnownTypeBuilder
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
     startLine: 5
@@ -81,7 +81,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
     startLine: 7
@@ -114,7 +114,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: NullValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
     startLine: 12
@@ -151,7 +151,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DefaultValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
     startLine: 14
@@ -188,7 +188,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DefaultValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
     startLine: 16
@@ -225,7 +225,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
     startLine: 18
@@ -262,7 +262,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Build
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlKnownTypeBuilder.cs
     startLine: 35

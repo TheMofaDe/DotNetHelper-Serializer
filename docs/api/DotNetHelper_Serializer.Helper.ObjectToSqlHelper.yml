@@ -37,7 +37,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ObjectToSqlHelper
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 21
@@ -80,7 +80,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DatabaseType
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 26
@@ -115,7 +115,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 28
@@ -148,7 +148,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildWhereClause
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 40
@@ -188,7 +188,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildWhereClauseAndGeDbParameters
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 64
@@ -232,7 +232,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildWhereClause
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 88
@@ -274,7 +274,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetNonKeyFields
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 193
@@ -320,7 +320,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetKeyFields
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 217
@@ -366,7 +366,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetKeyFields
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 240
@@ -404,7 +404,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetNonIdentityFields
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 256
@@ -452,7 +452,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetAllNonIgnoreFields
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 276
@@ -495,7 +495,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetAllNonIgnoreFields
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 288
@@ -533,7 +533,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildInsertQuery
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 305
@@ -585,7 +585,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildInsertQueryWithOutputs
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
     startLine: 343
@@ -635,10 +635,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildInsertQueryWithOutputs
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 435
+    startLine: 436
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -682,10 +682,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildUpdateQuery
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 487
+    startLine: 489
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -734,10 +734,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildDeleteQuery
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 525
+    startLine: 527
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -786,10 +786,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildGetQuery
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 552
+    startLine: 554
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -828,10 +828,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildGetQuery
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 572
+    startLine: 574
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -877,10 +877,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildUpsertQuery
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 592
+    startLine: 594
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -929,10 +929,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ConvertToDatabaseValue
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 628
+    startLine: 630
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper
@@ -971,10 +971,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: BuildDbParameterList
     path: ../src/DotNetHelper-Serializer/Helper/ObjectToSqlHelper.cs
-    startLine: 663
+    startLine: 665
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Helper

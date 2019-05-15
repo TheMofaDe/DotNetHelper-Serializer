@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlContract
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
     startLine: 5
@@ -66,7 +66,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
     startLine: 10
@@ -101,7 +101,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ValueType
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
     startLine: 21
@@ -136,7 +136,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Name
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
     startLine: 23
@@ -171,7 +171,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetDefaultMember
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlContract.cs
     startLine: 37

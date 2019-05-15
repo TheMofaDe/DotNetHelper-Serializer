@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IXmlObjectBuilder
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
     startLine: 2
@@ -62,7 +62,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: NullValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
     startLine: 4
@@ -94,7 +94,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DefaultValueHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
     startLine: 6
@@ -126,7 +126,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DefaultValue
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlObjectBuilder.cs
     startLine: 8

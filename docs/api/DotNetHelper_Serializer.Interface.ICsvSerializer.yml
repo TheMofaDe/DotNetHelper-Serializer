@@ -16,7 +16,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Interface/ICsvSerializer.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ICsvSerializer
     path: ../src/DotNetHelper-Serializer/Interface/ICsvSerializer.cs
     startLine: 4
@@ -31,10 +31,10 @@ items:
   inheritedMembers:
   - DotNetHelper_IO.Interface.ISerializer.SerializeToStream``1({T},System.IO.Stream,System.Int32,System.Boolean)
   - DotNetHelper_IO.Interface.ISerializer.SerializeToStream(System.Object,System.Type,System.IO.Stream,System.Int32,System.Boolean)
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_IO.Enum.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_IO.Enum.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  - DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   - DotNetHelper_IO.Interface.ISerializer.SerializeToString(System.Object)
   - DotNetHelper_IO.Interface.ISerializer.SerializeToString``1({T})
   - DotNetHelper_IO.Interface.ISerializer.DeserializeFromFile(System.Type,System.String)
@@ -273,18 +273,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1({T},System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
-  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(T, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(T, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(T, String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -306,16 +306,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -337,26 +337,26 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{{T}},System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
-  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  definition: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -389,16 +389,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -431,23 +431,23 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
   isExternal: true
   name: SerializeToFile(Object, Type, String, FileOption)
   nameWithType: ISerializer.SerializeToFile(Object, Type, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.Type, System.String, DotNetHelper_IO.Enum.FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -479,16 +479,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.Type,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -520,26 +520,26 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
   parent: DotNetHelper_IO.Interface.ISerializer
   isExternal: true
   name: SerializeToFile(Object, String, FileOption)
   nameWithType: ISerializer.SerializeToFile(Object, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(, String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(, System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(, String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -562,16 +562,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(System.Object,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile
     nameWithType: ISerializer.SerializeToFile
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile
@@ -590,10 +590,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
@@ -2079,17 +2079,17 @@ references:
   name: ISerializer
   nameWithType: ISerializer
   fullName: DotNetHelper_IO.Interface.ISerializer
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
   isExternal: true
   name: SerializeToFile<T>(T, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(T, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(T, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(T, String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(T, System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(T, String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -2111,16 +2111,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(``0,System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -2142,25 +2142,25 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
-  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+- uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
+  commentId: M:DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
   isExternal: true
   name: SerializeToFile<T>(IEnumerable<T>, String, FileOption)
   nameWithType: ISerializer.SerializeToFile<T>(IEnumerable<T>, String, FileOption)
-  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>(System.Collections.Generic.IEnumerable<T>, System.String, DotNetHelper_IO.Enum.FileOption)
   nameWithType.vb: ISerializer.SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
-  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_Contracts.Enum.IO.FileOption)
+  fullName.vb: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, DotNetHelper_IO.Enum.FileOption)
   name.vb: SerializeToFile(Of T)(IEnumerable(Of T), String, FileOption)
   spec.csharp:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile<T>
     nameWithType: ISerializer.SerializeToFile<T>
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile<T>
@@ -2193,16 +2193,16 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_Contracts.Enum.IO.FileOption)
+  - uid: DotNetHelper_IO.Interface.ISerializer.SerializeToFile``1(System.Collections.Generic.IEnumerable{``0},System.String,DotNetHelper_IO.Enum.FileOption)
     name: SerializeToFile(Of T)
     nameWithType: ISerializer.SerializeToFile(Of T)
     fullName: DotNetHelper_IO.Interface.ISerializer.SerializeToFile(Of T)
@@ -2235,10 +2235,10 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: DotNetHelper_Contracts.Enum.IO.FileOption
+  - uid: DotNetHelper_IO.Enum.FileOption
     name: FileOption
     nameWithType: FileOption
-    fullName: DotNetHelper_Contracts.Enum.IO.FileOption
+    fullName: DotNetHelper_IO.Enum.FileOption
     isExternal: true
   - name: )
     nameWithType: )

@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlItemBuilder
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
     startLine: 5
@@ -81,7 +81,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
     startLine: 7
@@ -114,7 +114,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: KnownTypes
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
     startLine: 12
@@ -149,7 +149,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Create
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
     startLine: 14
@@ -186,7 +186,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Build
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/XmlItemBuilder.cs
     startLine: 29

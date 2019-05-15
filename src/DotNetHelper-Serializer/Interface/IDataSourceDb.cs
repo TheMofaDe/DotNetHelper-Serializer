@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Dynamic;
 using System.Linq.Expressions;
 using DotNetHelper_Contracts.Enum.DataSource;
-using DotNetHelper_Contracts.Enum.IO;
+using DotNetHelper_IO.Enum;
 using DotNetHelper_Serializer.Model;
 
 
@@ -167,7 +167,7 @@ namespace DotNetHelper_Serializer.Interface
 
 
         DateTime? LastConnectionOpenTime { get; set; }
-        event EventHandler OnSqlException;
+        event System.EventHandler OnSqlException;
 
         /// <summary>
         /// Build a SqlConnection String Based On DataSource Properties Will AutoBuild A Connection String If An Connection String Is Not Already Defined

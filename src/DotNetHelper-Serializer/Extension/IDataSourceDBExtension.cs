@@ -9,6 +9,7 @@ using DotNetHelper_Serializer.DataSource;
 using DotNetHelper_Serializer.Helper;
 using DotNetHelper_Serializer.Interface;
 using Newtonsoft.Json;
+using SerializableType = DotNetHelper_Serializer.Enum.SerializableType;
 
 namespace DotNetHelper_Serializer.Extension
 {

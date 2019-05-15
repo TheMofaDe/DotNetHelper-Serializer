@@ -19,7 +19,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlTypeHandling
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
     startLine: 2
@@ -52,7 +52,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: None
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
     startLine: 4
@@ -84,7 +84,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Always
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
     startLine: 5
@@ -116,7 +116,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Auto
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/XmlTypeHandling.cs
     startLine: 6

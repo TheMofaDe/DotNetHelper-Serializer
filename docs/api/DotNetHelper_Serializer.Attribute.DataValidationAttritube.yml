@@ -28,10 +28,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataValidationAttritube
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 466
+    startLine: 468
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -132,10 +132,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: MaxLengthSize
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 474
+    startLine: 476
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -170,10 +170,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetMaxLengthSize
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 480
+    startLine: 482
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -212,10 +212,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: RequireValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 495
+    startLine: 497
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -250,10 +250,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetRequireValue
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 501
+    startLine: 503
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -292,10 +292,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DataType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 515
+    startLine: 517
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -305,7 +305,7 @@ items:
     content: public DataType? DataType { get; set; }
     parameters: []
     return:
-      type: System.Nullable{DotNetHelper_Contracts.Enum.DataType}
+      type: System.Nullable{DotNetHelper_Serializer.Enum.DataType}
       description: The type of the data.
     content.vb: Public Property DataType As DataType?
   overload: DotNetHelper_Serializer.Attribute.DataValidationAttritube.DataType*
@@ -330,10 +330,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetDataType
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 521
+    startLine: 523
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -343,7 +343,7 @@ items:
     content: public DataType SetDataType { get; set; }
     parameters: []
     return:
-      type: DotNetHelper_Contracts.Enum.DataType
+      type: DotNetHelper_Serializer.Enum.DataType
       description: The type of the set data.
     content.vb: Public Property SetDataType As DataType
   overload: DotNetHelper_Serializer.Attribute.DataValidationAttritube.SetDataType*
@@ -372,10 +372,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanContainNumbers
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 535
+    startLine: 537
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -410,10 +410,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetCanContainNumbers
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 541
+    startLine: 543
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -452,10 +452,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: CanContainLetter
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 555
+    startLine: 557
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -490,10 +490,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetCanContainLetter
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 561
+    startLine: 563
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -532,10 +532,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Ignore
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 574
+    startLine: 576
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -570,10 +570,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetIgnore
     path: ../src/DotNetHelper-Serializer/Attribute/CustomAttributes.cs
-    startLine: 580
+    startLine: 582
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Attribute
@@ -3578,15 +3578,15 @@ references:
   name: DataType
   nameWithType: DataValidationAttritube.DataType
   fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritube.DataType
-- uid: System.Nullable{DotNetHelper_Contracts.Enum.DataType}
-  commentId: T:System.Nullable{DotNetHelper_Contracts.Enum.DataType}
+- uid: System.Nullable{DotNetHelper_Serializer.Enum.DataType}
+  commentId: T:System.Nullable{DotNetHelper_Serializer.Enum.DataType}
   parent: System
   definition: System.Nullable`1
   name: Nullable<DataType>
   nameWithType: Nullable<DataType>
-  fullName: System.Nullable<DotNetHelper_Contracts.Enum.DataType>
+  fullName: System.Nullable<DotNetHelper_Serializer.Enum.DataType>
   nameWithType.vb: Nullable(Of DataType)
-  fullName.vb: System.Nullable(Of DotNetHelper_Contracts.Enum.DataType)
+  fullName.vb: System.Nullable(Of DotNetHelper_Serializer.Enum.DataType)
   name.vb: Nullable(Of DataType)
   spec.csharp:
   - uid: System.Nullable`1
@@ -3597,11 +3597,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: DotNetHelper_Contracts.Enum.DataType
+  - uid: DotNetHelper_Serializer.Enum.DataType
     name: DataType
     nameWithType: DataType
-    fullName: DotNetHelper_Contracts.Enum.DataType
-    isExternal: true
+    fullName: DotNetHelper_Serializer.Enum.DataType
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3614,11 +3613,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: DotNetHelper_Contracts.Enum.DataType
+  - uid: DotNetHelper_Serializer.Enum.DataType
     name: DataType
     nameWithType: DataType
-    fullName: DotNetHelper_Contracts.Enum.DataType
-    isExternal: true
+    fullName: DotNetHelper_Serializer.Enum.DataType
   - name: )
     nameWithType: )
     fullName: )
@@ -3627,19 +3625,17 @@ references:
   name: SetDataType
   nameWithType: DataValidationAttritube.SetDataType
   fullName: DotNetHelper_Serializer.Attribute.DataValidationAttritube.SetDataType
-- uid: DotNetHelper_Contracts.Enum.DataType
-  commentId: T:DotNetHelper_Contracts.Enum.DataType
-  parent: DotNetHelper_Contracts.Enum
-  isExternal: true
+- uid: DotNetHelper_Serializer.Enum.DataType
+  commentId: T:DotNetHelper_Serializer.Enum.DataType
+  parent: DotNetHelper_Serializer.Enum
   name: DataType
   nameWithType: DataType
-  fullName: DotNetHelper_Contracts.Enum.DataType
-- uid: DotNetHelper_Contracts.Enum
-  commentId: N:DotNetHelper_Contracts.Enum
-  isExternal: true
-  name: DotNetHelper_Contracts.Enum
-  nameWithType: DotNetHelper_Contracts.Enum
-  fullName: DotNetHelper_Contracts.Enum
+  fullName: DotNetHelper_Serializer.Enum.DataType
+- uid: DotNetHelper_Serializer.Enum
+  commentId: N:DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum
 - uid: DotNetHelper_Serializer.Attribute.DataValidationAttritube.CanContainNumbers*
   commentId: Overload:DotNetHelper_Serializer.Attribute.DataValidationAttritube.CanContainNumbers
   name: CanContainNumbers

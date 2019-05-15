@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExtDictonary
     path: ../src/DotNetHelper-Serializer/Extension/ExtDictonary.cs
     startLine: 7
@@ -60,7 +60,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtDictonary.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DictionaryToObject
     path: ../src/DotNetHelper-Serializer/Extension/ExtDictonary.cs
     startLine: 14

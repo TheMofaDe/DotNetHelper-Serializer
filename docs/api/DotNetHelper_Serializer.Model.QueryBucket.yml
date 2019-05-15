@@ -23,7 +23,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: QueryBucket
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 6
@@ -66,7 +66,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ConnectionStartTime
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 8
@@ -101,7 +101,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ConnectionDisposeTime
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 9
@@ -136,7 +136,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Query
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 10
@@ -171,7 +171,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ReadableQuery
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 11
@@ -206,7 +206,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Server
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 12
@@ -241,7 +241,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: DatabaseType
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 13
@@ -276,7 +276,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Model/Database.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExecutedSuccesfully
     path: ../src/DotNetHelper-Serializer/Model/Database.cs
     startLine: 14

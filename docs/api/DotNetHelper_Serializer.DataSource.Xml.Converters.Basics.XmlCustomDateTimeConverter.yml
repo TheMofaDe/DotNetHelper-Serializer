@@ -20,7 +20,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlCustomDateTimeConverter
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
     startLine: 4
@@ -76,7 +76,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: .ctor
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
     startLine: 6
@@ -109,7 +109,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Format
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
     startLine: 11
@@ -144,7 +144,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Parse
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
     startLine: 13
@@ -184,7 +184,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ToString
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Converters/Basics/XmlCustomDateTimeConverter.cs
     startLine: 18

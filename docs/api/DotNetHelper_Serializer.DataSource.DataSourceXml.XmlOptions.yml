@@ -19,10 +19,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlOptions
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
-    startLine: 29
+    startLine: 30
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -54,10 +54,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlDeclaration
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
-    startLine: 34
+    startLine: 35
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -88,10 +88,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Namespaces
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
-    startLine: 38
+    startLine: 39
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource
@@ -122,10 +122,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: AttributeName
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceXml.cs
-    startLine: 42
+    startLine: 43
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.DataSource

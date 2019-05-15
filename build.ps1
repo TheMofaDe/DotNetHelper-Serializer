@@ -113,12 +113,18 @@ if($FoundDotNetCliVersion -ne $DotNetVersion) {
         New-Item -Path $InstallPath -ItemType Directory -Force | Out-Null;
     }
 
+	$proxy = [System.Net.WebRequest]::GetSystemWebProxy()
+	$proxy.Credentials = [System.Net.CredentialCache]::DefaultCredentials
+	$wc = new-object system.net.WebClient
+	$wc.proxy = $proxy
+
+
     if ($IsMacOS -or $IsLinux) {
-        (New-Object System.Net.WebClient).DownloadFile($DotNetUnixInstallerUri, "$InstallPath\dotnet-install.sh");
+        $wc.DownloadFile($DotNetUnixInstallerUri, "$InstallPath\dotnet-install.sh");
         & bash $InstallPath\dotnet-install.sh --version "$DotNetVersion" --install-dir "$InstallPath" --channel "$DotNetChannel" --no-path
     }
     else {
-        (New-Object System.Net.WebClient).DownloadFile($DotNetInstallerUri, "$InstallPath\dotnet-install.ps1");
+        $wc.DownloadFile($DotNetInstallerUri, "$InstallPath\dotnet-install.ps1");
         & $InstallPath\dotnet-install.ps1 -Channel $DotNetChannel -Version $DotNetVersion -InstallDir $InstallPath;
     }
 

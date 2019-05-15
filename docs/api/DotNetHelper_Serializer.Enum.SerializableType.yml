@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: DotNetHelper_Serializer.Enum.SerializableType
+  commentId: T:DotNetHelper_Serializer.Enum.SerializableType
+  id: SerializableType
+  parent: DotNetHelper_Serializer.Enum
+  children:
+  - DotNetHelper_Serializer.Enum.SerializableType.CSV
+  - DotNetHelper_Serializer.Enum.SerializableType.JSON
+  - DotNetHelper_Serializer.Enum.SerializableType.NONE
+  - DotNetHelper_Serializer.Enum.SerializableType.XML
+  langs:
+  - csharp
+  - vb
+  name: SerializableType
+  nameWithType: SerializableType
+  fullName: DotNetHelper_Serializer.Enum.SerializableType
+  type: Enum
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/SerializableType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: SerializableType
+    path: ../src/DotNetHelper-Serializer/Enum/SerializableType.cs
+    startLine: 2
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: public enum SerializableType
+    content.vb: Public Enum SerializableType
+  extensionMethods:
+  - DotNetHelper_Serializer.Enum.SerializableType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DotNetHelper_Serializer.Enum.SerializableType.NONE
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.NONE
+  id: NONE
+  parent: DotNetHelper_Serializer.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: NONE
+  nameWithType: SerializableType.NONE
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.NONE
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/SerializableType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: NONE
+    path: ../src/DotNetHelper-Serializer/Enum/SerializableType.cs
+    startLine: 5
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: NONE = 0
+    return:
+      type: DotNetHelper_Serializer.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.SerializableType.XML
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.XML
+  id: XML
+  parent: DotNetHelper_Serializer.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: XML
+  nameWithType: SerializableType.XML
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.XML
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/SerializableType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: XML
+    path: ../src/DotNetHelper-Serializer/Enum/SerializableType.cs
+    startLine: 6
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: XML = 1
+    return:
+      type: DotNetHelper_Serializer.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.SerializableType.JSON
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.JSON
+  id: JSON
+  parent: DotNetHelper_Serializer.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: JSON
+  nameWithType: SerializableType.JSON
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.JSON
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/SerializableType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: JSON
+    path: ../src/DotNetHelper-Serializer/Enum/SerializableType.cs
+    startLine: 7
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: JSON = 2
+    return:
+      type: DotNetHelper_Serializer.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DotNetHelper_Serializer.Enum.SerializableType.CSV
+  commentId: F:DotNetHelper_Serializer.Enum.SerializableType.CSV
+  id: CSV
+  parent: DotNetHelper_Serializer.Enum.SerializableType
+  langs:
+  - csharp
+  - vb
+  name: CSV
+  nameWithType: SerializableType.CSV
+  fullName: DotNetHelper_Serializer.Enum.SerializableType.CSV
+  type: Field
+  source:
+    remote:
+      path: src/DotNetHelper-Serializer/Enum/SerializableType.cs
+      branch: master
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
+    id: CSV
+    path: ../src/DotNetHelper-Serializer/Enum/SerializableType.cs
+    startLine: 8
+  assemblies:
+  - DotNetHelper-Serializer
+  namespace: DotNetHelper_Serializer.Enum
+  syntax:
+    content: CSV = 3
+    return:
+      type: DotNetHelper_Serializer.Enum.SerializableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DotNetHelper_Serializer.Enum
+  commentId: N:DotNetHelper_Serializer.Enum
+  name: DotNetHelper_Serializer.Enum
+  nameWithType: DotNetHelper_Serializer.Enum
+  fullName: DotNetHelper_Serializer.Enum
+- uid: DotNetHelper_Serializer.Enum.SerializableType.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  parent: DotNetHelper_Serializer.Extension.TypeExtension
+  definition: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<SerializableType>()
+  nameWithType: TypeExtension.CanHaveNullValue<SerializableType>()
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Enum.SerializableType>()
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of SerializableType)()
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Enum.SerializableType)()
+  name.vb: CanHaveNullValue(Of SerializableType)()
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue<SerializableType>
+    nameWithType: TypeExtension.CanHaveNullValue<SerializableType>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<DotNetHelper_Serializer.Enum.SerializableType>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
+    name: CanHaveNullValue(Of SerializableType)
+    nameWithType: TypeExtension.CanHaveNullValue(Of SerializableType)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of DotNetHelper_Serializer.Enum.SerializableType)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+  name: CanHaveNullValue<T>(T)
+  nameWithType: TypeExtension.CanHaveNullValue<T>(T)
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>(T)
+  nameWithType.vb: TypeExtension.CanHaveNullValue(Of T)(T)
+  fullName.vb: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)(T)
+  name.vb: CanHaveNullValue(Of T)(T)
+  spec.csharp:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue<T>
+    nameWithType: TypeExtension.CanHaveNullValue<T>
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
+    name: CanHaveNullValue(Of T)
+    nameWithType: TypeExtension.CanHaveNullValue(Of T)
+    fullName: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DotNetHelper_Serializer.Extension.TypeExtension
+  commentId: T:DotNetHelper_Serializer.Extension.TypeExtension
+  parent: DotNetHelper_Serializer.Extension
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: DotNetHelper_Serializer.Extension.TypeExtension
+- uid: DotNetHelper_Serializer.Extension
+  commentId: N:DotNetHelper_Serializer.Extension
+  name: DotNetHelper_Serializer.Extension
+  nameWithType: DotNetHelper_Serializer.Extension
+  fullName: DotNetHelper_Serializer.Extension
+- uid: DotNetHelper_Serializer.Enum.SerializableType
+  commentId: T:DotNetHelper_Serializer.Enum.SerializableType
+  parent: DotNetHelper_Serializer.Enum
+  name: SerializableType
+  nameWithType: SerializableType
+  fullName: DotNetHelper_Serializer.Enum.SerializableType

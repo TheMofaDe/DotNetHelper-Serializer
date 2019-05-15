@@ -22,10 +22,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ExtFastMember
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-    startLine: 70
+    startLine: 72
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -65,10 +65,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetActualMemberName
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-    startLine: 78
+    startLine: 80
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -105,10 +105,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetAdvanceMembers
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-    startLine: 90
+    startLine: 92
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -145,10 +145,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetAdvanceMembersForDynamic
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-    startLine: 311
+    startLine: 313
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -194,10 +194,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetAdvanceMembers
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-    startLine: 353
+    startLine: 355
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -243,10 +243,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetMemberValue
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-    startLine: 601
+    startLine: 607
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension
@@ -289,10 +289,10 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SetMemberValue
     path: ../src/DotNetHelper-Serializer/Extension/ExtFastMember.cs
-    startLine: 614
+    startLine: 620
   assemblies:
   - DotNetHelper-Serializer
   namespace: DotNetHelper_Serializer.Extension

@@ -21,7 +21,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: XmlTypeResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
     startLine: 5
@@ -68,7 +68,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: AssemblyResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
     startLine: 7
@@ -103,7 +103,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: TypeResolver
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
     startLine: 9
@@ -138,7 +138,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: GetTypeName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
     startLine: 11
@@ -177,7 +177,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ResolveTypeName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
     startLine: 21
@@ -216,7 +216,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: ResolveTypeName
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/TypeResolvers/XmlTypeResolver.cs
     startLine: 54

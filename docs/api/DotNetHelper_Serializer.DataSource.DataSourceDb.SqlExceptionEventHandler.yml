@@ -16,7 +16,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: SqlExceptionEventHandler
     path: ../src/DotNetHelper-Serializer/DataSource/DataSourceDb.cs
     startLine: 181
@@ -29,7 +29,7 @@ items:
     - id: sender
       type: System.Object
     - id: e
-      type: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
+      type: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
     content.vb: Public Delegate Sub SqlExceptionEventHandler(sender As Object, e As SqlExceptionEventArgs)
   extensionMethods:
   - DotNetHelper_Serializer.DataSource.DataSourceDb.SqlExceptionEventHandler.DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1
@@ -117,13 +117,12 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
-  commentId: T:DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
-  parent: DotNetHelper_Contracts.EventHandler
-  isExternal: true
+- uid: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  commentId: T:DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
+  parent: DotNetHelper_Serializer.EventHandler
   name: SqlExceptionEventArgs
   nameWithType: SqlExceptionEventArgs
-  fullName: DotNetHelper_Contracts.EventHandler.SqlExceptionEventArgs
+  fullName: DotNetHelper_Serializer.EventHandler.SqlExceptionEventArgs
 - uid: DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
   commentId: M:DotNetHelper_Serializer.Extension.TypeExtension.CanHaveNullValue``1(``0)
   name: CanHaveNullValue<T>(T)
@@ -208,12 +207,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: DotNetHelper_Contracts.EventHandler
-  commentId: N:DotNetHelper_Contracts.EventHandler
-  isExternal: true
-  name: DotNetHelper_Contracts.EventHandler
-  nameWithType: DotNetHelper_Contracts.EventHandler
-  fullName: DotNetHelper_Contracts.EventHandler
+- uid: DotNetHelper_Serializer.EventHandler
+  commentId: N:DotNetHelper_Serializer.EventHandler
+  name: DotNetHelper_Serializer.EventHandler
+  nameWithType: DotNetHelper_Serializer.EventHandler
+  fullName: DotNetHelper_Serializer.EventHandler
 - uid: DotNetHelper_Serializer.Extension
   commentId: N:DotNetHelper_Serializer.Extension
   name: DotNetHelper_Serializer.Extension

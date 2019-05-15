@@ -10,8 +10,10 @@ using DotNetHelper_Contracts.Extension;
 using DotNetHelper_Contracts.Helpers;
 
 using FastMember;
+using DataType = DotNetHelper_Serializer.Enum.DataType;
 using DataValidationAttritube = DotNetHelper_Serializer.Attribute.DataValidationAttritube;
 using DataValidationAttritubeMembers = DotNetHelper_Serializer.Attribute.DataValidationAttritubeMembers;
+using SerializableType = DotNetHelper_Serializer.Enum.SerializableType;
 using SqlColumnAttritube = DotNetHelper_Serializer.Attribute.SqlColumnAttritube;
 using SqlColumnAttritubeMembers = DotNetHelper_Serializer.Attribute.SqlColumnAttritubeMembers;
 using SqlTableAttritube = DotNetHelper_Serializer.Attribute.SqlTableAttritube;
@@ -230,7 +232,7 @@ namespace DotNetHelper_Serializer.Extension
                                     case SqlColumnAttritubeMembers.MappingIds:
                                         var a = value as ICollection<System.Reflection.CustomAttributeTypedArgument>;
                                         var b = new List<string>() { };
-                                        b.AddRange(a.Select(c => c.ToString().ReplaceFirstOccurrance("\"", string.Empty, StringComparison.Ordinal).ReplaceLastOccurrance("\"", string.Empty, StringComparison.Ordinal)));
+                                        b.AddRange(a.Select(c => c.ToString().ReplaceFirstOccurrence("\"", string.Empty, StringComparison.Ordinal).ReplaceLastOccurrence("\"", string.Empty, StringComparison.Ordinal)));
                                         advance.SqlCustomAttritube.MappingIds = b.ToArray();
                                         break;
 
@@ -542,7 +544,7 @@ namespace DotNetHelper_Serializer.Extension
                                     case SqlColumnAttritubeMembers.MappingIds:
                                         var a = value as ICollection<System.Reflection.CustomAttributeTypedArgument>;
                                         var b = new List<string>() { };
-                                        b.AddRange(a.Select(c => c.ToString().ReplaceFirstOccurrance("\"", string.Empty, StringComparison.Ordinal).ReplaceLastOccurrance("\"", string.Empty, StringComparison.Ordinal)));
+                                        b.AddRange(a.Select(c => c.ToString().ReplaceFirstOccurrence("\"", string.Empty, StringComparison.Ordinal).ReplaceLastOccurrence("\"", string.Empty, StringComparison.Ordinal)));
                                         advance.SqlCustomAttritube.MappingIds = b.ToArray();
                                         break;
                                     case SqlColumnAttritubeMembers.SerializableType:
@@ -639,7 +641,7 @@ namespace DotNetHelper_Serializer.Extension
                 else
                 {
                     value = needToBeType.IsEnum
-                  ? Enum.Parse(needToBeType.GetUnderlyingNullableType(), value.ToString(), true)
+                  ? System.Enum.Parse(needToBeType.GetUnderlyingNullableType(), value.ToString(), true)
                   : Convert.ChangeType(value, needToBeType.GetUnderlyingNullableType(), null);
                 }
 

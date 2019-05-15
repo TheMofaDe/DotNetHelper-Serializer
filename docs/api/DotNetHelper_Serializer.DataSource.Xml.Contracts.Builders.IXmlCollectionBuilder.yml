@@ -17,7 +17,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: IXmlCollectionBuilder
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
     startLine: 2
@@ -60,7 +60,7 @@ items:
     remote:
       path: src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
       branch: master
-      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer.git
+      repo: https://github.com/TheMofaDe/DotNetHelper-Serializer
     id: Item
     path: ../src/DotNetHelper-Serializer/DataSource/Xml/Contracts/Builders/IXmlCollectionBuilder.cs
     startLine: 4

@@ -2,10 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
-using DotNetHelper_Serializer.DataSource.Xml;
 using DotNetHelper_Serializer.DataSource.Xml.Contracts;
 
-namespace DotNetHelper_Contracts.Xml
+namespace DotNetHelper_Serializer.DataSource.Xml
 {
     internal static class Types
     {

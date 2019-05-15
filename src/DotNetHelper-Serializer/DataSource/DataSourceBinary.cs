@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
-using DotNetHelper_Contracts.Enum.IO;
 using DotNetHelper_Contracts.Extension;
 using DotNetHelper_IO;
+using DotNetHelper_IO.Enum;
 using DotNetHelper_IO.Interface;
 
 namespace DotNetHelper_Serializer.DataSource

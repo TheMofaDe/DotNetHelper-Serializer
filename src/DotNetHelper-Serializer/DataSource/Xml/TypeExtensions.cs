@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace DotNetHelper_Contracts.Xml
+namespace DotNetHelper_Serializer.DataSource.Xml
 {
     internal static class TypeExtensions
     {
